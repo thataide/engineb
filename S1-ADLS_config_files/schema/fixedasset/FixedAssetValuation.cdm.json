@@ -1,0 +1,83 @@
+{
+    "$schema": "../schema.cdm.json",
+	"jsonSchemaSemanticVersion": "1.0.0",
+    "imports": [
+        {
+            "corpusPath": "_allImports.cdm.json"
+        }
+    ],
+    "definitions": [
+        {
+            "entityName": "FixedAssetValuation",
+            "description": "The Fixed Asset Valuation.",
+            "hasAttributes": [
+                {
+                    "attributeGroupReference": "general"
+                },
+			    {
+                    "attributeGroupReference": "approval"
+                },
+			    {
+                    "attributeGroupReference": "enter"
+                },				
+			    {
+                    "attributeGroupReference": "lastmodify"
+                },
+			    {
+                    "attributeGroupReference": "FixedAssetRealizedGainLossAccount"
+                },
+			    {
+                    "attributeGroupReference": "FixedAssetRealizedGainLossAmount"
+                },
+			    {
+                    "attributeGroupReference": "FixedAssetUnrealizedGainLossAccount"
+                },
+			    {
+                    "attributeGroupReference": "FixedAssetUnrealizedGainLossAmount"
+                },
+			    {
+                    "attributeGroupReference": "GL Account"
+                },
+			    {
+                    "attributeGroupReference": "GL TransactionID"
+                },
+			    {
+                    "attributeGroupReference": "LotNumber"
+                },
+			    {
+                    "attributeGroupReference": "UniqueID"
+                },
+				{
+					"name": "RevaluationDescription",	
+					"description":"Description of the revaluation (e.g. property revaluation)",
+					"dataType": "string"
+				},	
+				{
+					"name": "RevaluationAmount",	
+					"description":"Revalued amount of asset",
+					"dataType": "double"
+				},
+				{
+					"name": "RevaluationDate",	
+					"description":"Date of revaluation",
+					"dataType": "date"
+				},
+				{
+					"name": "ValuerID",	
+					"description":"ID of the organisation that performed the revaluation",
+					"dataType": "string"
+				},
+				{
+					"name": "ValuerName",	
+					"description":"Name of the organisation that performed the revaluation",
+					"dataType": "string"
+				},
+				{
+					"name": "ValuerDocumnetReference",	
+					"description":"Document reference of the revaluation (e.g. valuation report)",
+					"dataType": "string"
+				}
+            ]
+        }
+    ]
+}

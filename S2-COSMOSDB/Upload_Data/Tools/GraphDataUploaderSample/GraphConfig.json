@@ -1,0 +1,28 @@
+﻿{
+  "nodes": [
+    {
+      "Name": "FixedAsset",
+      "PathToData": "..\\..\\..\\..\\GraphData\\Nodes\\FixedAsset\\",
+      "Attributes": [ "FixedAssetId", "FixedAssetDescription" ],
+      "PrimaryAttributes": [ "FixedAssetId" ],
+      "NodeIdAttribute": "FixedAssetId"
+    },
+    {
+      "Name": "Location",
+      "PathToData": "..\\..\\..\\..\\GraphData\\Nodes\\Location\\",
+      "Attributes": [ "LocationId", "LocationDescription" ],
+      "PrimaryAttributes": [ "LocationId" ],
+      "NodeIdAttribute": "LocationId"
+    }
+  ],
+  "edges": [
+    {
+      "Name": "FixedAssetLocation",
+      "PathToData": "..\\..\\..\\..\\GraphData\\Edges\\FixedAssetLocation\\",
+      "SourceNode": "FixedAsset",
+      "DestinationNode": "Location",
+      "Attributes": [ "FixedAssetId", "LocationId" ],
+      "PrimaryAttributes": [ "FixedAssetId", "LocationId" ]
+    }
+  ]
+}

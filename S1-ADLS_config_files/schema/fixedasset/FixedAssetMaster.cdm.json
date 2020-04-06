@@ -1,0 +1,208 @@
+{
+    "$schema": "../schema.cdm.json",
+	  "jsonSchemaSemanticVersion": "1.0.0",
+    "imports": [
+        {
+            "corpusPath": "_allImports.cdm.json"
+        }
+	  ],
+    "definitions": [
+        {
+            "entityName": "FixedAssetMaster",
+            "extendsEntity": "CdmEntity",			
+            "description": "The Fixed Asset Master.",
+            "hasAttributes": [
+                {
+                    "name": "BusinessUnitCode",
+                    "dataType": "string",
+                    "description": "Used to identify the business unit, region, branch, and so on at the level that financial statements are being audited. Must match a Business_Unit_Code in the Business_Unit_Listing file."
+                },
+                {
+                    "name": "FixedAssetID",
+                    "dataType": "string",
+                    "description": "Unique identifier; may require a concatenation, such as Business_Unit_Code + Fixed_Asset_Code."
+                },
+                {
+                    "name": "SerialNumber",
+                    "dataType": "boolean",
+                    "description": "Tracked by serial number. True or false."
+                },
+                {
+                    "name": "DepreciationRate",
+                    "dataType": "double",
+                    "description": "Depreciation rate (e.g. percentage)."
+                },
+                {
+                    "name": "FixedAssetDepreciableBasis",
+                    "dataType": "double",
+                    "description": "Depreciable basis of the fixed asset."
+                },
+                {
+                    "name": "FixedAssetReplacementCost",
+                    "dataType": "double",
+                    "description": "Replacement cost of the fixed asset."
+                },				
+                {
+                    "name": "FixedAssetUnrealizedGainLossAccount",
+                    "dataType": "string",
+                    "description": "GL account number on which Balance Sheet amount is recorded for unrealized gain/loss."
+                },				
+                {
+                    "name": "LotNumber",
+                    "dataType": "boolean",
+                    "description": "Tracked by lot number. True or false."
+                },
+                {
+                    "name": "FixedAssetFairValue",
+                    "dataType": "double",
+                    "description": "Fair value of the fixed asset."
+                },
+                {
+                    "name": "SupplierID",
+                    "dataType": "string",
+                    "description": "Supplier ID"
+                },				
+				        {
+                    "name": "LocationID",
+					          "description":"Unique identifier for organizations. May require a concatenation of items such as Business_Unit_Code and Location_Code.",
+                    "dataType": "string"
+                },
+				        {
+                    "name": "LocationCode",
+					          "description":"Code used to identify fixed asset location at local, rather than organizational, level.",
+                    "dataType": "string"
+                },
+				        {
+                    "name": "LocationDescription",
+				          	"description":"Textual description of location identified by Location_Code.",
+                    "dataType": "string"
+                },					
+				        {
+                    "name": "FixedAssetCode",
+				          	"description":"An internal ID at the local level for tracking this fixed asset.",
+                    "dataType": "string"
+                },				
+				        {
+                    "name": "ProjectID",
+				          	"description":"ID where an asset is part of a larger project",
+                    "dataType": "string"
+                },				
+				        {
+                    "name": "FixedAssetDescription",
+					          "description":"Description of fixed asset.",
+                    "dataType": "string"
+                },
+				        {
+                    "name": "FixedAssetBarCode",
+					          "description":"UPC or other external identifier, such as the product code from a primary vendor.",
+                    "dataType": "string"
+                },
+				        {
+                    "name": "ManufacturerID",
+				          	"description":"Manufacturer of fixed asset.",
+                    "dataType": "string"
+                },
+				        {
+                    "name": "VendorID",
+				          	"description":"Unique identifier for the primary vendor of the fixed asset.  Must match a Vendor_ID in the Vendors file.",
+                    "dataType": "string"
+                },
+				        {
+                    "name": "FixedAssetClass",
+				          	"description":"Class of fixed asset, e.g. Land, Buildings, Machinery, etc.",
+                    "dataType": "string"
+                },
+				        {
+                    "name": "FixedAssetQuantityOnHand",
+			          		"description":"Quantity of fixed asset items on hand.",
+                    "dataType": "double"
+                },
+				        {
+                    "name": "FixedAssetOriginalCost",
+			          		"description":"Original cost of the fixed asset.",
+                    "dataType": "double"
+                },
+				        {
+                    "name": "FixedAssetNetBookValue",
+			          		"description":"Net book value of the fixed asset.",
+                    "dataType": "double"
+                },
+				        {
+                    "name": "FixedAssetAccumulatedDepreciation",
+				          	"description":"Accumulated dpreciation for asset (Life to date)",
+                    "dataType": "double"
+                },
+				        {
+                    "name": "FixedAssetUsefulLifeRemaining",
+			          		"description":"Remaining useful life of the fixed asset in months.",
+                    "dataType": "double"
+                },
+				        {
+                    "name": "CurrencyID",
+			          		"description":"Identification of the currency used in this report.",
+                    "dataType": "string"
+                },
+				        {
+                    "name": "FixedAssetAcquisitionDate",
+			          		"description":"Date that fixed asset is purchased or acquired.",
+                    "dataType": "date"
+                },
+				        {
+                    "name": "FixedAssetInactiveFlag",
+			          		"description":"Flag indicating whether the fixed asset is inactive, (e.g. idle), or that the fixed asset account is inactive, (i.e. no other activity should be posted to the account).",
+                    "dataType": "boolean"
+                },
+				        {
+                    "name": "FixedAssetInServiceDate",
+				          	"description":"Date that fixed asset is placed in service.",
+                    "dataType": "date"
+                },
+				        {
+                    "name": "FixedAssetRetirementDate",
+				          	"description":"Date that fixed asset is taken out of service.",
+                    "dataType": "date"
+                },
+				        {
+                    "name": "FixedAssetDisposalDate",
+			          		"description":"Date that fixed asset is disposed.",
+                    "dataType": "date"
+                },
+				        {
+                    "name": "FixedAssetAvailableforSaleDate",
+			          		"description":"Date that fixed asset is available for sale.",
+                    "dataType": "date"
+                },
+				        {
+                    "name": "FixedAssettobeAbandonedorDisposedofOtherthanbyforSaleDate",
+					          "description":"Date that fixed asset is abandoned, disposed of, or retired.",
+                    "dataType": "date"
+                },
+				        {
+                    "name": "FixedAssetAssetAccount",
+					          "description":"GL account number on which Balance Sheet amount is recognized after asset is placed in service.",
+                    "dataType": "string"
+                },
+			        	{
+                    "name": "FixedAssetCIPAccount",
+				          	"description":"GL account number on which Balance Sheet amount is recognized before asset is placed in service.  Asset in construction",
+                    "dataType": "string"
+                },
+				        {
+                    "name": "FixedAssetCIPFlag",
+					        "description":"Flag indicating whether the fixed asset is recorded as CIP as of the report date.",
+                    "dataType": "boolean"
+                },
+				        {
+                    "name": "FixedAssetDepreciationAccount",
+					          "description":"GL account number on which Income Statement amount is recognized for depreciation.",
+                    "dataType": "string"
+                },
+				        {
+                    "name": "FixedAssetAccumulatedDepreciationAccount",
+					          "description":"GL account number on which Balance Sheet amount is recognized for accumulated depreciation.",
+                    "dataType": "string"
+                }			
+            ]
+        }
+    ]
+}

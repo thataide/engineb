@@ -1,0 +1,36 @@
+{
+    "$schema": "CdmManifest.cdm.json",
+    "jsonSchemaSemanticVersion": "1.0.0",
+    "imports": [],
+    "manifestName": "fixedasset",
+    "explanation": "CDM standard entities",
+    "entities": [
+        {
+            "type": "LocalEntity",
+            "entityName": "FixedAssetMaster",
+            "entityPath": "FixedAssetMaster.cdm.json/FixedAssetMaster"
+        },
+        {
+            "type": "LocalEntity",
+            "entityName": "FixedAssetRemovals",
+            "entityPath": "FixedAssetRemovals.cdm.json/FixedAssetRemovals"
+        },
+        {
+            "type": "LocalEntity",
+            "entityName": "FixedAssetAdditions",
+            "entityPath": "FixedAssetAdditions.cdm.json/FixedAssetAdditions"
+        },
+        {
+            "type": "LocalEntity",
+            "entityName": "FixedAssetDepreciation",
+            "entityPath": "FixedAssetDepreciation.cdm.json/FixedAssetDepreciation"
+        },
+        {
+            "type": "LocalEntity",
+            "entityName": "FixedAssetValuation",
+            "entityPath": "FixedAssetValuation.cdm.json/FixedAssetValuation"
+        }
+    ]
+
+}
+

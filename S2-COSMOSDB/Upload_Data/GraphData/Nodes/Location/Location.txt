@@ -1,0 +1,2 @@
+L0001	New York Campus
+L0002	Redmond Campus

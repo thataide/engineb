@@ -1,0 +1,77 @@
+{
+    "$schema": "../schema.cdm.json",
+	"jsonSchemaSemanticVersion": "1.0.0",
+    "imports": [
+        {
+            "corpusPath": "_allImports.cdm.json"
+        }
+    ],
+    "definitions": [
+        {
+            "entityName": "FixedAssetAdditions",
+            "extendsEntity": "CdmEntity",	
+            "description": "The Fixed Asset Additions.",
+            "hasAttributes": [
+                {
+                    "attributeGroupReference": "general"
+                },
+			    {
+                    "attributeGroupReference": "approval"
+                },
+			    {
+                    "attributeGroupReference": "GL TransactionID"
+                },	
+			    {
+                    "attributeGroupReference": "enter"
+                },				
+			    {
+                    "attributeGroupReference": "lastmodify"
+                },
+			    {
+                    "attributeGroupReference": "PurchaseOrderID"
+                },
+			    {
+                    "attributeGroupReference": "SupplierID"
+                },				
+			    {
+                    "attributeGroupReference": "SupplierName"
+                },
+                {
+                    "name": "PurchaseOrderDate",
+                    "dataType": "date",
+                    "description": "Date of the purcahse order for the addition"
+                },
+				{
+					"name": "FixedAssetUniqueID",	
+					"description":"Unique identifier for the addition entry.",
+					"dataType": "string"
+				},	
+				{
+					"name": "AdditionType",
+					"description":"Description of the type of fixed asset addition (i.e. purchase, transfer, etc.).",
+					"dataType": "string"
+				},							
+				{
+					"name": "FixedAssetAdditionDate",
+					"description":"Date that fixed asset is purchased or acquired.",
+					"dataType": "date"
+				},
+				{
+					"name": "PlacedInService",
+					"description":"True/false flag indicating whether the fixed asset was placed in service and began depreciating on the addition date.",
+					"dataType": "boolean"
+				},	
+				{
+					"name": "VATCode",
+					"description":"VATCode",
+					"dataType": "string"
+				},
+				{
+					"name": "PurchaseOrderRaisedDate",
+					"description":"Date purchase order was raised for the addition",
+					"dataType": "date"
+				}					
+            ]
+        }
+    ]
+}

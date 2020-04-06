@@ -1,0 +1,143 @@
+{
+    "$schema": "../schema.cdm.json",
+	"jsonSchemaSemanticVersion": "1.0.0",
+    "imports": [
+        {
+            "corpusPath": "_allImports.cdm.json"
+        }
+    ],
+    "definitions": [
+      {
+        "entityName": "FixedAssetDepreciation",
+        "extendsEntity": "CdmEntity",
+        "description": "The Fixed Asset Deprecation.",
+        "hasAttributes": [
+          {
+            "name": "ApprovedBy",
+            "dataType": "string",
+            "description": "User_ID (from User_Listing file (for person who approved the entry)."
+          },
+          {
+            "name": "ApprovedByDate",
+            "dataType": "date",
+            "description": "The date the entry was approved."
+          },
+          {
+            "name": "ApprovedByTime",
+            "dataType": "time",
+            "description": "The time this transaction was entered into the system. ISO 8601 representing time in 24- hour time (hhmm) (for example, 1:00 PM = 1300)."
+          },
+          {
+            "name": "EnteredBy",
+            "dataType": "string",
+            "description": "User_ID (User_Listing file) for person who created the record."
+          },
+          {
+            "name": "EnteredDate",
+            "dataType": "date",
+            "description": "The date the transaction was entered into the system. This is sometimes referred to as the creation date. This should be a system-generated date (rather than user-entered date), when possible. This date does not necessarily correspond with the date of the transaction itself."
+          },
+          {
+            "name": "EnteredTime",
+            "dataType": "time",
+            "description": "The time this transaction was entered into the system. ISO 8601 representing time in 24- hour time (hhmm) (for example, 1:00 PM = 1300)."
+          },
+          {
+            "name": "BusinessUnitCode",
+            "dataType": "string",
+            "description": "Used to identify the business unit, region, branch, and so on at the level that financial statements are being audited. Must match a Business_Unit_Code in the Business_Unit_Listing file."
+          },
+          {
+            "name": "FixedAssetID",
+            "dataType": "string",
+            "description": "Unique identifier; may require a concatenation, such as Business_Unit_Code + Fixed_Asset_Code."
+          },
+          {
+            "name": "SerialNumber",
+            "dataType": "boolean",
+            "description": "Tracked by serial number. True or false."
+          },
+          {
+            "name": "LastModifiedBy",
+            "dataType": "string",
+            "description": "User_ID (from User_Listing file (for person who approved the entry)."
+          },
+          {
+            "name": "LastModifiedDate",
+            "dataType": "date",
+            "description": "The date the entry was last modified."
+          },
+          {
+            "name": "LastModifiedTime",
+            "dataType": "time",
+            "description": "The time the last entry was modified. ISO 8601 representing time in 24-hour time (hhmm) (for example, 1:00 PM = 1300)."
+          },
+          {
+            "name": "FixedAssetDepreciableBasis",
+            "dataType": "double",
+            "description": "Depreciable basis of the fixed asset."
+          },
+          {
+            "name": "FixedAssetFairValue",
+            "dataType": "double",
+            "description": "Fair value of the fixed asset."
+          },
+          {
+            "name": "FixedAssetReplacementCost",
+            "dataType": "double",
+            "description": "Replacement cost of the fixed asset."
+          },
+          {
+            "name": "GL Account",
+            "dataType": "string",
+            "description": "GL Account for the depreciation posting."
+          },
+          {
+            "name": "GL TransactionID",
+            "dataType": "string",
+            "description": "Transaction ID in GL."
+          },
+          {
+            "name": "LotNumber",
+            "dataType": "boolean",
+            "description": "Tracked by lot number. True or false."
+          },
+          {
+            "name": "UniqueID",
+            "dataType": "string",
+            "description": "Unique identifier for the removal entry."
+          },
+          {
+            "name": "FixedAssetDepreciationMethod",
+            "description": "Method used to calculate depreciation.",
+            "dataType": "string"
+          },
+          {
+            "name": "FixedAssetDepreciationAmount",
+            "description": "Amount of depreciation recognized during the period.",
+            "dataType": "double"
+          },
+          {
+            "name": "DepreciationEffectiveDate",
+            "description": "Accounting date of the depreciation",
+            "dataType": "date"
+          },
+          {
+            "name": "DepreciationForPeriod",
+            "description": "Depreciation on asset in the period",
+            "dataType": "double"
+          },
+          {
+            "name": "FixedAssetSalvageValue",
+            "description": "Salvage value of the fixed asset.  At the point depreciatoin was calculated",
+            "dataType": "double"
+          },
+          {
+            "name": "FixedAssetUsefulLife",
+            "description": "Total useful life of the fixed asset in months.  At the point depreciatoin was calculated",
+            "dataType": "double"
+          }
+        ]
+      }
+    ]
+}

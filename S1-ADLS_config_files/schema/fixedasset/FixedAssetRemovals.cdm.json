@@ -1,0 +1,83 @@
+{
+    "$schema": "../schema.cdm.json",
+	"jsonSchemaSemanticVersion": "1.0.0",
+    "imports": [
+        {
+            "corpusPath": "_allImports.cdm.json"
+        }
+    ],
+    "definitions": [
+        {
+            "entityName": "FixedAssetRemovals",
+            "description": "The Fixed Asset Removals.",
+            "hasAttributes": [
+                {
+                    "attributeGroupReference": "general"
+                },
+								{
+                    "attributeGroupReference": "approval"
+                },
+								{
+                    "attributeGroupReference": "enter"
+                },				
+								{
+                    "attributeGroupReference": "lastmodify"
+                },
+								{
+                    "attributeGroupReference": "GL TransactionID"
+                },
+								{
+                    "attributeGroupReference": "FixedAssetRealizedGainLossAccount"
+                },	
+								{
+                    "attributeGroupReference": "FixedAssetRealizedGainLossAmount"
+                },	
+								{
+                    "attributeGroupReference": "FixedAssetUnrealizedGainLossAccount"
+                },	
+								{
+                    "attributeGroupReference": "FixedAssetUnrealizedGainLossAmount"
+                },	
+								{
+                    "attributeGroupReference": "TaxCode"
+                },					
+								{
+                    "attributeGroupReference": "LotNumber"
+                },	
+								{
+                    "attributeGroupReference": "UniqueID"
+                },	
+								{
+									"name": "RemovalType",	
+									"description":"Description of the type of fixed asset removal (i.e. retirement, disposal, transfer, write-off, etc.)",
+									"dataType": "string"
+								},
+								{
+									"name": "FixedAssetRemovalDate",	
+									"description":"Date that fixed asset is removed.",
+									"dataType": "date"
+								},
+								{
+									"name": "FixedAssetRemovalCashProceedsAmount",	
+									"description":"Book value Disposal of asset in audit period",
+									"dataType": "double"
+								},
+								{
+									"name": "FixedAssetRemovalNonCashProceedsAmount",	
+									"description":"Amount of non-cash proceeds received for the fixed asset removal.",
+									"dataType": "double"
+								},
+								{
+									"name": "AcquirerID",	
+									"description":"Reference to the purchaser of the asset",
+									"dataType": "string"
+								},
+								{
+									"name": "TransactionFees",	
+									"description":"Fees incurred in the sale of the asset",
+									"dataType": "double"
+								}
+            ]
+        }
+    ]
+}
