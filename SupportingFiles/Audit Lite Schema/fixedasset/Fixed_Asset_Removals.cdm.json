@@ -1,0 +1,20 @@
+{
+  "jsonSchemaSemanticVersion": "1.0.0",
+  "imports": [
+    {
+      "corpusPath": "cdm:/foundations.cdm.json"
+    }
+  ],
+  "definitions": [
+    {
+      "entityName": "Fixed_Asset_Removals",
+      "hasAttributes": [
+        {
+          "name": "fixedAssetRemovalCashProceedsAmount",
+          "purpose": "hasA",
+          "dataType": "decimal"
+        }
+      ]
+    }
+  ]
+}

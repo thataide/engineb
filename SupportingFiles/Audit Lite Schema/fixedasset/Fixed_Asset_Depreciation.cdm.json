@@ -1,0 +1,25 @@
+{
+  "jsonSchemaSemanticVersion": "1.0.0",
+  "imports": [
+    {
+      "corpusPath": "cdm:/foundations.cdm.json"
+    }
+  ],
+  "definitions": [
+    {
+      "entityName": "Fixed_Asset_Depreciation",
+      "hasAttributes": [
+        {
+          "name": "depreciationForPeriod",
+          "purpose": "hasA",
+          "dataType": "decimal"
+        },
+        {
+          "name": "depreciationRate",
+          "purpose": "hasA",
+          "dataType": "decimal"
+        }
+      ]
+    }
+  ]
+}

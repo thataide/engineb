@@ -1,0 +1,90 @@
+{
+  "jsonSchemaSemanticVersion": "1.0.0",
+  "imports": [
+    {
+      "corpusPath": "cdm:/foundations.cdm.json"
+    }
+  ],
+  "definitions": [
+    {
+      "entityName": "Purchase Invoice Data",
+      "hasAttributes": [
+        {
+          "name": "lineAccountId",
+          "purpose": "hasA",
+          "dataType": "string"
+        },
+        {
+          "name": "supplierInfoName",
+          "purpose": "hasA",
+          "dataType": "string"
+        },
+        {
+          "name": "lineInvoiceLineAmountCurrencyCode",
+          "purpose": "hasA",
+          "dataType": "string"
+        },
+        {
+          "name": "lineDescription",
+          "purpose": "hasA",
+          "dataType": "string"
+        },
+        {
+          "name": "invoiceDuedate",
+          "purpose": "hasA",
+          "dataType": "date"
+        },
+        {
+          "name": "lineProductCode",
+          "purpose": "hasA",
+          "dataType": "string"
+        },
+        {
+          "name": "documentTotalsPaymentAmountTotalsAmount",
+          "purpose": "hasA",
+          "dataType": "decimal"
+        },
+        {
+          "name": "invoicedate",
+          "purpose": "hasA",
+          "dataType": "date"
+        },
+        {
+          "name": "invoiceNo",
+          "purpose": "hasA",
+          "dataType": "string"
+        },
+        {
+          "name": "lineInvoiceLineAmountAmount",
+          "purpose": "hasA",
+          "dataType": "decimal"
+        },
+        {
+          "name": "lineQuantity",
+          "purpose": "hasA",
+          "dataType": "decimal"
+        },
+        {
+          "name": "lineTaxInformationTaxAmount",
+          "purpose": "hasA",
+          "dataType": "decimal"
+        },
+        {
+          "name": "lineTaxInformationTaxCode",
+          "purpose": "hasA",
+          "dataType": "string"
+        },
+        {
+          "name": "invoiceType",
+          "purpose": "hasA",
+          "dataType": "string"
+        },
+        {
+          "name": "lineUnitPrice",
+          "purpose": "hasA",
+          "dataType": "decimal"
+        }
+      ]
+    }
+  ]
+}

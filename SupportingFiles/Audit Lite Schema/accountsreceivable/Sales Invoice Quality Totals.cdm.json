@@ -1,0 +1,25 @@
+{
+  "jsonSchemaSemanticVersion": "1.0.0",
+  "imports": [
+    {
+      "corpusPath": "cdm:/foundations.cdm.json"
+    }
+  ],
+  "definitions": [
+    {
+      "entityName": "Sales Invoice Quality Totals",
+      "hasAttributes": [
+        {
+          "name": "documentTotalsGrossTotal",
+          "purpose": "hasA",
+          "dataType": "decimal"
+        },
+        {
+          "name": "documentTotalsTaxInformationTotalsTaxAmount",
+          "purpose": "hasA",
+          "dataType": "decimal"
+        }
+      ]
+    }
+  ]
+}

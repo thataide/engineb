@@ -1,0 +1,65 @@
+{
+  "manifestName": "default",
+  "entities": [
+    {
+      "type": "LocalEntity",
+      "entityName": "Purchase Invoice Data",
+      "entityPath": "resolved/Purchase Invoice Data.cdm.json/Purchase Invoice Data",
+      "dataPartitions": [
+        {
+          "name": "Purchase Invoice Data-data-description",
+          "location": "local:/Purchase Invoice Data/partition-data.csv",
+          "exhibitsTraits": [
+            {
+              "traitReference": "is.partition.format.CSV",
+              "arguments": [
+                {
+                  "name": "columnHeaders",
+                  "value": "true"
+                },
+                {
+                  "name": "delimiter",
+                  "value": ","
+                }
+              ]
+            }
+          ],
+          "arguments": []
+        }
+      ]
+    },
+    {
+      "type": "LocalEntity",
+      "entityName": "Purchase Invoice Quality Totals",
+      "entityPath": "resolved/Purchase Invoice Quality Totals.cdm.json/Purchase Invoice Quality Totals",
+      "dataPartitions": [
+        {
+          "name": "Purchase Invoice Quality Totals-data-description",
+          "location": "local:/Purchase Invoice Quality Totals/partition-data.csv",
+          "exhibitsTraits": [
+            {
+              "traitReference": "is.partition.format.CSV",
+              "arguments": [
+                {
+                  "name": "columnHeaders",
+                  "value": "true"
+                },
+                {
+                  "name": "delimiter",
+                  "value": ","
+                }
+              ]
+            }
+          ],
+          "arguments": []
+        }
+      ]
+    }
+  ],
+  "jsonSchemaSemanticVersion": "1.0.0",
+  "imports": [
+    {
+      "corpusPath": "cdm:/foundations.cdm.json"
+    }
+  ]
+}

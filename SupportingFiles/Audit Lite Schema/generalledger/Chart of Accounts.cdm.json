@@ -1,0 +1,35 @@
+{
+  "jsonSchemaSemanticVersion": "1.0.0",
+  "imports": [
+    {
+      "corpusPath": "cdm:/foundations.cdm.json"
+    }
+  ],
+  "definitions": [
+    {
+      "entityName": "Chart of Accounts",
+      "hasAttributes": [
+        {
+          "name": "accountDescription",
+          "purpose": "hasA",
+          "dataType": "string"
+        },
+        {
+          "name": "accountName",
+          "purpose": "hasA",
+          "dataType": "string"
+        },
+        {
+          "name": "accountNumber",
+          "purpose": "hasA",
+          "dataType": "string"
+        },
+        {
+          "name": "accountType",
+          "purpose": "hasA",
+          "dataType": "string"
+        }
+      ]
+    }
+  ]
+}

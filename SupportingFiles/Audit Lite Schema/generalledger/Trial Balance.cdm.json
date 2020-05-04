@@ -1,0 +1,35 @@
+{
+  "jsonSchemaSemanticVersion": "1.0.0",
+  "imports": [
+    {
+      "corpusPath": "cdm:/foundations.cdm.json"
+    }
+  ],
+  "definitions": [
+    {
+      "entityName": "Trial Balance",
+      "hasAttributes": [
+        {
+          "name": "accountNumber",
+          "purpose": "hasA",
+          "dataType": "string"
+        },
+        {
+          "name": "amountBeginning",
+          "purpose": "hasA",
+          "dataType": "decimal"
+        },
+        {
+          "name": "amountEnding",
+          "purpose": "hasA",
+          "dataType": "decimal"
+        },
+        {
+          "name": "fiscalYear",
+          "purpose": "hasA",
+          "dataType": "string"
+        }
+      ]
+    }
+  ]
+}

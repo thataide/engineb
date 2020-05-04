@@ -1,0 +1,50 @@
+{
+  "jsonSchemaSemanticVersion": "1.0.0",
+  "imports": [
+    {
+      "corpusPath": "cdm:/foundations.cdm.json"
+    }
+  ],
+  "definitions": [
+    {
+      "entityName": "General Ledger Transactions",
+      "hasAttributes": [
+        {
+          "name": "accountNumber",
+          "purpose": "hasA",
+          "dataType": "string"
+        },
+        {
+          "name": "createddateTime",
+          "purpose": "hasA",
+          "dataType": "date"
+        },
+        {
+          "name": "journalAmount",
+          "purpose": "hasA",
+          "dataType": "decimal"
+        },
+        {
+          "name": "journalId",
+          "purpose": "hasA",
+          "dataType": "string"
+        },
+        {
+          "name": "journalLineDesc",
+          "purpose": "hasA",
+          "dataType": "string"
+        },
+        {
+          "name": "taxAmount",
+          "purpose": "hasA",
+          "dataType": "decimal"
+        },
+        {
+          "name": "taxCode",
+          "purpose": "hasA",
+          "dataType": "string"
+        }
+      ]
+    }
+  ]
+}

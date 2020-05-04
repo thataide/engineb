@@ -1,0 +1,45 @@
+{
+  "jsonSchemaSemanticVersion": "1.0.0",
+  "imports": [
+    {
+      "corpusPath": "cdm:/foundations.cdm.json"
+    }
+  ],
+  "definitions": [
+    {
+      "entityName": "InventoryList",
+      "hasAttributes": [
+        {
+          "name": "closingStockQuantity",
+          "purpose": "hasA",
+          "dataType": "decimal"
+        },
+        {
+          "name": "closingStockValue",
+          "purpose": "hasA",
+          "dataType": "decimal"
+        },
+        {
+          "name": "inventoryDescription",
+          "purpose": "hasA",
+          "dataType": "string"
+        },
+        {
+          "name": "inventoryItemCode",
+          "purpose": "hasA",
+          "dataType": "string"
+        },
+        {
+          "name": "unitPrice",
+          "purpose": "hasA",
+          "dataType": "decimal"
+        },
+        {
+          "name": "unitSalesPrice",
+          "purpose": "hasA",
+          "dataType": "decimal"
+        }
+      ]
+    }
+  ]
+}
