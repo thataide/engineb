@@ -1,0 +1,110 @@
+{
+  "jsonSchemaSemanticVersion": "1.0.0",
+  "imports": [
+    {
+      "corpusPath": "cdm:/foundations.cdm.json"
+    }
+  ],
+  "definitions": [
+    {
+      "entityName": "Trial Balance",
+      "hasAttributes": [
+        {
+          "name": "Amount Beginning Local",
+          "purpose": "hasA",
+          "dataType": "decimal"
+        },
+        {
+          "name": "Amount Beginning Reporting",
+          "purpose": "hasA",
+          "dataType": "decimal"
+        },
+        {
+          "name": "Amount Currency",
+          "purpose": "hasA",
+          "dataType": "string"
+        },
+        {
+          "name": "Amount Ending Local",
+          "purpose": "hasA",
+          "dataType": "decimal"
+        },
+        {
+          "name": "Amount Ending Reporting",
+          "purpose": "hasA",
+          "dataType": "decimal"
+        },
+        {
+          "name": "Amount Local Currency",
+          "purpose": "hasA",
+          "dataType": "string"
+        },
+        {
+          "name": "Amount Reporting Currency",
+          "purpose": "hasA",
+          "dataType": "string"
+        },
+        {
+          "name": "Balance ",
+          "purpose": "hasA",
+          "dataType": "decimal"
+        },
+        {
+          "name": "Business Unit",
+          "purpose": "hasA",
+          "dataType": "string"
+        },
+        {
+          "name": "Period",
+          "purpose": "hasA",
+          "dataType": "string"
+        },
+        {
+          "name": "Segment01",
+          "purpose": "hasA",
+          "dataType": "string"
+        },
+        {
+          "name": "Segment02",
+          "purpose": "hasA",
+          "dataType": "string"
+        },
+        {
+          "name": "Segment03",
+          "purpose": "hasA",
+          "dataType": "string"
+        },
+        {
+          "name": "Segment04",
+          "purpose": "hasA",
+          "dataType": "string"
+        },
+        {
+          "name": "Segment05",
+          "purpose": "hasA",
+          "dataType": "string"
+        },
+        {
+          "name": "Account Number",
+          "purpose": "hasA",
+          "dataType": "string"
+        },
+        {
+          "name": "Amount Beginning",
+          "purpose": "hasA",
+          "dataType": "decimal"
+        },
+        {
+          "name": "Amount Ending",
+          "purpose": "hasA",
+          "dataType": "decimal"
+        },
+        {
+          "name": "Fiscal Year",
+          "purpose": "hasA",
+          "dataType": "string"
+        }
+      ]
+    }
+  ]
+}

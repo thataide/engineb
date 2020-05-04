@@ -1,0 +1,986 @@
+{
+  "jsonSchemaSemanticVersion": "1.0.0",
+  "imports": [
+    {
+      "corpusPath": "/Goods Received Data.cdm.json",
+      "moniker": "resolvedFrom"
+    }
+  ],
+  "definitions": [
+    {
+      "entityName": "Goods Received Data",
+      "attributeContext": {
+        "type": "entity",
+        "name": "Goods Received Data",
+        "definition": "resolvedFrom/Goods Received Data",
+        "contents": [
+          {
+            "type": "attributeDefinition",
+            "name": "Adjustment Amount",
+            "parent": "Goods Received Data/attributeContext/Goods Received Data",
+            "definition": "resolvedFrom/Goods Received Data/hasAttributes/Adjustment Amount",
+            "contents": [
+              "Goods Received Data/hasAttributes/Adjustment Amount"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Adjustment Description",
+            "parent": "Goods Received Data/attributeContext/Goods Received Data",
+            "definition": "resolvedFrom/Goods Received Data/hasAttributes/Adjustment Description",
+            "contents": [
+              "Goods Received Data/hasAttributes/Adjustment Description"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Adjustment Indicator",
+            "parent": "Goods Received Data/attributeContext/Goods Received Data",
+            "definition": "resolvedFrom/Goods Received Data/hasAttributes/Adjustment Indicator",
+            "contents": [
+              "Goods Received Data/hasAttributes/Adjustment Indicator"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Approved By",
+            "parent": "Goods Received Data/attributeContext/Goods Received Data",
+            "definition": "resolvedFrom/Goods Received Data/hasAttributes/Approved By",
+            "contents": [
+              "Goods Received Data/hasAttributes/Approved By"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Approved By Date Time",
+            "parent": "Goods Received Data/attributeContext/Goods Received Data",
+            "definition": "resolvedFrom/Goods Received Data/hasAttributes/Approved By Date Time",
+            "contents": [
+              "Goods Received Data/hasAttributes/Approved By Date Time"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Business Unit Code",
+            "parent": "Goods Received Data/attributeContext/Goods Received Data",
+            "definition": "resolvedFrom/Goods Received Data/hasAttributes/Business Unit Code",
+            "contents": [
+              "Goods Received Data/hasAttributes/Business Unit Code"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Entered By",
+            "parent": "Goods Received Data/attributeContext/Goods Received Data",
+            "definition": "resolvedFrom/Goods Received Data/hasAttributes/Entered By",
+            "contents": [
+              "Goods Received Data/hasAttributes/Entered By"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Entered Date Time",
+            "parent": "Goods Received Data/attributeContext/Goods Received Data",
+            "definition": "resolvedFrom/Goods Received Data/hasAttributes/Entered Date Time",
+            "contents": [
+              "Goods Received Data/hasAttributes/Entered Date Time"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Goods Received Amount",
+            "parent": "Goods Received Data/attributeContext/Goods Received Data",
+            "definition": "resolvedFrom/Goods Received Data/hasAttributes/Goods Received Amount",
+            "contents": [
+              "Goods Received Data/hasAttributes/Goods Received Amount"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Goods Received Currency Amount",
+            "parent": "Goods Received Data/attributeContext/Goods Received Data",
+            "definition": "resolvedFrom/Goods Received Data/hasAttributes/Goods Received Currency Amount",
+            "contents": [
+              "Goods Received Data/hasAttributes/Goods Received Currency Amount"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Goods Received Currency Code",
+            "parent": "Goods Received Data/attributeContext/Goods Received Data",
+            "definition": "resolvedFrom/Goods Received Data/hasAttributes/Goods Received Currency Code",
+            "contents": [
+              "Goods Received Data/hasAttributes/Goods Received Currency Code"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Goods Received Exchange Rate",
+            "parent": "Goods Received Data/attributeContext/Goods Received Data",
+            "definition": "resolvedFrom/Goods Received Data/hasAttributes/Goods Received Exchange Rate",
+            "contents": [
+              "Goods Received Data/hasAttributes/Goods Received Exchange Rate"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Last Modified By",
+            "parent": "Goods Received Data/attributeContext/Goods Received Data",
+            "definition": "resolvedFrom/Goods Received Data/hasAttributes/Last Modified By",
+            "contents": [
+              "Goods Received Data/hasAttributes/Last Modified By"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Last Modified Date Time",
+            "parent": "Goods Received Data/attributeContext/Goods Received Data",
+            "definition": "resolvedFrom/Goods Received Data/hasAttributes/Last Modified Date Time",
+            "contents": [
+              "Goods Received Data/hasAttributes/Last Modified Date Time"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Line Adjustment Amount",
+            "parent": "Goods Received Data/attributeContext/Goods Received Data",
+            "definition": "resolvedFrom/Goods Received Data/hasAttributes/Line Adjustment Amount",
+            "contents": [
+              "Goods Received Data/hasAttributes/Line Adjustment Amount"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Line Adjustment Description",
+            "parent": "Goods Received Data/attributeContext/Goods Received Data",
+            "definition": "resolvedFrom/Goods Received Data/hasAttributes/Line Adjustment Description",
+            "contents": [
+              "Goods Received Data/hasAttributes/Line Adjustment Description"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Line Amount",
+            "parent": "Goods Received Data/attributeContext/Goods Received Data",
+            "definition": "resolvedFrom/Goods Received Data/hasAttributes/Line Amount",
+            "contents": [
+              "Goods Received Data/hasAttributes/Line Amount"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Line Currency Amount",
+            "parent": "Goods Received Data/attributeContext/Goods Received Data",
+            "definition": "resolvedFrom/Goods Received Data/hasAttributes/Line Currency Amount",
+            "contents": [
+              "Goods Received Data/hasAttributes/Line Currency Amount"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Line Currency Code",
+            "parent": "Goods Received Data/attributeContext/Goods Received Data",
+            "definition": "resolvedFrom/Goods Received Data/hasAttributes/Line Currency Code",
+            "contents": [
+              "Goods Received Data/hasAttributes/Line Currency Code"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Line Exchange Rate",
+            "parent": "Goods Received Data/attributeContext/Goods Received Data",
+            "definition": "resolvedFrom/Goods Received Data/hasAttributes/Line Exchange Rate",
+            "contents": [
+              "Goods Received Data/hasAttributes/Line Exchange Rate"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Line Purchase Order Amount",
+            "parent": "Goods Received Data/attributeContext/Goods Received Data",
+            "definition": "resolvedFrom/Goods Received Data/hasAttributes/Line Purchase Order Amount",
+            "contents": [
+              "Goods Received Data/hasAttributes/Line Purchase Order Amount"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Line Purchase Order Currency Amount",
+            "parent": "Goods Received Data/attributeContext/Goods Received Data",
+            "definition": "resolvedFrom/Goods Received Data/hasAttributes/Line Purchase Order Currency Amount",
+            "contents": [
+              "Goods Received Data/hasAttributes/Line Purchase Order Currency Amount"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Line Purchase Order Currency Code",
+            "parent": "Goods Received Data/attributeContext/Goods Received Data",
+            "definition": "resolvedFrom/Goods Received Data/hasAttributes/Line Purchase Order Currency Code",
+            "contents": [
+              "Goods Received Data/hasAttributes/Line Purchase Order Currency Code"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Line Purchase Order Exchange Rate",
+            "parent": "Goods Received Data/attributeContext/Goods Received Data",
+            "definition": "resolvedFrom/Goods Received Data/hasAttributes/Line Purchase Order Exchange Rate",
+            "contents": [
+              "Goods Received Data/hasAttributes/Line Purchase Order Exchange Rate"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Line Purchase Order Line ID",
+            "parent": "Goods Received Data/attributeContext/Goods Received Data",
+            "definition": "resolvedFrom/Goods Received Data/hasAttributes/Line Purchase Order Line ID",
+            "contents": [
+              "Goods Received Data/hasAttributes/Line Purchase Order Line ID"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Line Purchase Order Quantity",
+            "parent": "Goods Received Data/attributeContext/Goods Received Data",
+            "definition": "resolvedFrom/Goods Received Data/hasAttributes/Line Purchase Order Quantity",
+            "contents": [
+              "Goods Received Data/hasAttributes/Line Purchase Order Quantity"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Line Purchase Order Unitof Measure",
+            "parent": "Goods Received Data/attributeContext/Goods Received Data",
+            "definition": "resolvedFrom/Goods Received Data/hasAttributes/Line Purchase Order Unitof Measure",
+            "contents": [
+              "Goods Received Data/hasAttributes/Line Purchase Order Unitof Measure"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Line Purchase Order Unit Price",
+            "parent": "Goods Received Data/attributeContext/Goods Received Data",
+            "definition": "resolvedFrom/Goods Received Data/hasAttributes/Line Purchase Order Unit Price",
+            "contents": [
+              "Goods Received Data/hasAttributes/Line Purchase Order Unit Price"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Line Receipt ID",
+            "parent": "Goods Received Data/attributeContext/Goods Received Data",
+            "definition": "resolvedFrom/Goods Received Data/hasAttributes/Line Receipt ID",
+            "contents": [
+              "Goods Received Data/hasAttributes/Line Receipt ID"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Line Receipt Document Line ID",
+            "parent": "Goods Received Data/attributeContext/Goods Received Data",
+            "definition": "resolvedFrom/Goods Received Data/hasAttributes/Line Receipt Document Line ID",
+            "contents": [
+              "Goods Received Data/hasAttributes/Line Receipt Document Line ID"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Line Receipt Product ID",
+            "parent": "Goods Received Data/attributeContext/Goods Received Data",
+            "definition": "resolvedFrom/Goods Received Data/hasAttributes/Line Receipt Product ID",
+            "contents": [
+              "Goods Received Data/hasAttributes/Line Receipt Product ID"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Line Receipt Product Bar Code",
+            "parent": "Goods Received Data/attributeContext/Goods Received Data",
+            "definition": "resolvedFrom/Goods Received Data/hasAttributes/Line Receipt Product Bar Code",
+            "contents": [
+              "Goods Received Data/hasAttributes/Line Receipt Product Bar Code"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Line Receipt Product Description",
+            "parent": "Goods Received Data/attributeContext/Goods Received Data",
+            "definition": "resolvedFrom/Goods Received Data/hasAttributes/Line Receipt Product Description",
+            "contents": [
+              "Goods Received Data/hasAttributes/Line Receipt Product Description"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Line Receipt Product Group01",
+            "parent": "Goods Received Data/attributeContext/Goods Received Data",
+            "definition": "resolvedFrom/Goods Received Data/hasAttributes/Line Receipt Product Group01",
+            "contents": [
+              "Goods Received Data/hasAttributes/Line Receipt Product Group01"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Line Receipt Product Group02",
+            "parent": "Goods Received Data/attributeContext/Goods Received Data",
+            "definition": "resolvedFrom/Goods Received Data/hasAttributes/Line Receipt Product Group02",
+            "contents": [
+              "Goods Received Data/hasAttributes/Line Receipt Product Group02"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Line Receipt Quantity",
+            "parent": "Goods Received Data/attributeContext/Goods Received Data",
+            "definition": "resolvedFrom/Goods Received Data/hasAttributes/Line Receipt Quantity",
+            "contents": [
+              "Goods Received Data/hasAttributes/Line Receipt Quantity"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Line Receipt Unitof Measure",
+            "parent": "Goods Received Data/attributeContext/Goods Received Data",
+            "definition": "resolvedFrom/Goods Received Data/hasAttributes/Line Receipt Unitof Measure",
+            "contents": [
+              "Goods Received Data/hasAttributes/Line Receipt Unitof Measure"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Line Receipt Unit Price",
+            "parent": "Goods Received Data/attributeContext/Goods Received Data",
+            "definition": "resolvedFrom/Goods Received Data/hasAttributes/Line Receipt Unit Price",
+            "contents": [
+              "Goods Received Data/hasAttributes/Line Receipt Unit Price"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Posting Status",
+            "parent": "Goods Received Data/attributeContext/Goods Received Data",
+            "definition": "resolvedFrom/Goods Received Data/hasAttributes/Posting Status",
+            "contents": [
+              "Goods Received Data/hasAttributes/Posting Status"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Purchase Order ID",
+            "parent": "Goods Received Data/attributeContext/Goods Received Data",
+            "definition": "resolvedFrom/Goods Received Data/hasAttributes/Purchase Order ID",
+            "contents": [
+              "Goods Received Data/hasAttributes/Purchase Order ID"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Purchase Order Amount",
+            "parent": "Goods Received Data/attributeContext/Goods Received Data",
+            "definition": "resolvedFrom/Goods Received Data/hasAttributes/Purchase Order Amount",
+            "contents": [
+              "Goods Received Data/hasAttributes/Purchase Order Amount"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Purchase Order Currency Amount",
+            "parent": "Goods Received Data/attributeContext/Goods Received Data",
+            "definition": "resolvedFrom/Goods Received Data/hasAttributes/Purchase Order Currency Amount",
+            "contents": [
+              "Goods Received Data/hasAttributes/Purchase Order Currency Amount"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Purchase Order Currency Code",
+            "parent": "Goods Received Data/attributeContext/Goods Received Data",
+            "definition": "resolvedFrom/Goods Received Data/hasAttributes/Purchase Order Currency Code",
+            "contents": [
+              "Goods Received Data/hasAttributes/Purchase Order Currency Code"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Purchase Order Exchange Rate",
+            "parent": "Goods Received Data/attributeContext/Goods Received Data",
+            "definition": "resolvedFrom/Goods Received Data/hasAttributes/Purchase Order Exchange Rate",
+            "contents": [
+              "Goods Received Data/hasAttributes/Purchase Order Exchange Rate"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Purchase Order Date",
+            "parent": "Goods Received Data/attributeContext/Goods Received Data",
+            "definition": "resolvedFrom/Goods Received Data/hasAttributes/Purchase Order Date",
+            "contents": [
+              "Goods Received Data/hasAttributes/Purchase Order Date"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Receipt ID",
+            "parent": "Goods Received Data/attributeContext/Goods Received Data",
+            "definition": "resolvedFrom/Goods Received Data/hasAttributes/Receipt ID",
+            "contents": [
+              "Goods Received Data/hasAttributes/Receipt ID"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Receipt Date",
+            "parent": "Goods Received Data/attributeContext/Goods Received Data",
+            "definition": "resolvedFrom/Goods Received Data/hasAttributes/Receipt Date",
+            "contents": [
+              "Goods Received Data/hasAttributes/Receipt Date"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Receipt Document ID",
+            "parent": "Goods Received Data/attributeContext/Goods Received Data",
+            "definition": "resolvedFrom/Goods Received Data/hasAttributes/Receipt Document ID",
+            "contents": [
+              "Goods Received Data/hasAttributes/Receipt Document ID"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Receipt Fiscal Year",
+            "parent": "Goods Received Data/attributeContext/Goods Received Data",
+            "definition": "resolvedFrom/Goods Received Data/hasAttributes/Receipt Fiscal Year",
+            "contents": [
+              "Goods Received Data/hasAttributes/Receipt Fiscal Year"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Receipt Period",
+            "parent": "Goods Received Data/attributeContext/Goods Received Data",
+            "definition": "resolvedFrom/Goods Received Data/hasAttributes/Receipt Period",
+            "contents": [
+              "Goods Received Data/hasAttributes/Receipt Period"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Supplier Account ID",
+            "parent": "Goods Received Data/attributeContext/Goods Received Data",
+            "definition": "resolvedFrom/Goods Received Data/hasAttributes/Supplier Account ID",
+            "contents": [
+              "Goods Received Data/hasAttributes/Supplier Account ID"
+            ]
+          }
+        ]
+      },
+      "hasAttributes": [
+        {
+          "name": "Adjustment Amount",
+          "appliedTraits": [
+            {
+              "traitReference": "is.dataFormat.numeric.shaped"
+            }
+          ],
+          "attributeContext": "Goods Received Data/attributeContext/Goods Received Data/Adjustment Amount",
+          "dataFormat": "Decimal"
+        },
+        {
+          "name": "Adjustment Description",
+          "appliedTraits": [
+            "is.dataFormat.character",
+            "is.dataFormat.big",
+            "is.dataFormat.array"
+          ],
+          "attributeContext": "Goods Received Data/attributeContext/Goods Received Data/Adjustment Description",
+          "dataFormat": "String"
+        },
+        {
+          "name": "Adjustment Indicator",
+          "appliedTraits": [
+            "is.dataFormat.character",
+            "is.dataFormat.big",
+            "is.dataFormat.array"
+          ],
+          "attributeContext": "Goods Received Data/attributeContext/Goods Received Data/Adjustment Indicator",
+          "dataFormat": "String"
+        },
+        {
+          "name": "Approved By",
+          "appliedTraits": [
+            "is.dataFormat.character",
+            "is.dataFormat.big",
+            "is.dataFormat.array"
+          ],
+          "attributeContext": "Goods Received Data/attributeContext/Goods Received Data/Approved By",
+          "dataFormat": "String"
+        },
+        {
+          "name": "Approved By Date Time",
+          "appliedTraits": [
+            "is.dataFormat.date",
+            "means.measurement.date"
+          ],
+          "attributeContext": "Goods Received Data/attributeContext/Goods Received Data/Approved By Date Time",
+          "dataFormat": "Date"
+        },
+        {
+          "name": "Business Unit Code",
+          "appliedTraits": [
+            "is.dataFormat.character",
+            "is.dataFormat.big",
+            "is.dataFormat.array"
+          ],
+          "attributeContext": "Goods Received Data/attributeContext/Goods Received Data/Business Unit Code",
+          "dataFormat": "String"
+        },
+        {
+          "name": "Entered By",
+          "appliedTraits": [
+            "is.dataFormat.character",
+            "is.dataFormat.big",
+            "is.dataFormat.array"
+          ],
+          "attributeContext": "Goods Received Data/attributeContext/Goods Received Data/Entered By",
+          "dataFormat": "String"
+        },
+        {
+          "name": "Entered Date Time",
+          "appliedTraits": [
+            "is.dataFormat.date",
+            "means.measurement.date"
+          ],
+          "attributeContext": "Goods Received Data/attributeContext/Goods Received Data/Entered Date Time",
+          "dataFormat": "Date"
+        },
+        {
+          "name": "Goods Received Amount",
+          "appliedTraits": [
+            {
+              "traitReference": "is.dataFormat.numeric.shaped"
+            }
+          ],
+          "attributeContext": "Goods Received Data/attributeContext/Goods Received Data/Goods Received Amount",
+          "dataFormat": "Decimal"
+        },
+        {
+          "name": "Goods Received Currency Amount",
+          "appliedTraits": [
+            {
+              "traitReference": "is.dataFormat.numeric.shaped"
+            }
+          ],
+          "attributeContext": "Goods Received Data/attributeContext/Goods Received Data/Goods Received Currency Amount",
+          "dataFormat": "Decimal"
+        },
+        {
+          "name": "Goods Received Currency Code",
+          "appliedTraits": [
+            "is.dataFormat.character",
+            "is.dataFormat.big",
+            "is.dataFormat.array"
+          ],
+          "attributeContext": "Goods Received Data/attributeContext/Goods Received Data/Goods Received Currency Code",
+          "dataFormat": "String"
+        },
+        {
+          "name": "Goods Received Exchange Rate",
+          "appliedTraits": [
+            {
+              "traitReference": "is.dataFormat.numeric.shaped"
+            }
+          ],
+          "attributeContext": "Goods Received Data/attributeContext/Goods Received Data/Goods Received Exchange Rate",
+          "dataFormat": "Decimal"
+        },
+        {
+          "name": "Last Modified By",
+          "appliedTraits": [
+            "is.dataFormat.character",
+            "is.dataFormat.big",
+            "is.dataFormat.array"
+          ],
+          "attributeContext": "Goods Received Data/attributeContext/Goods Received Data/Last Modified By",
+          "dataFormat": "String"
+        },
+        {
+          "name": "Last Modified Date Time",
+          "appliedTraits": [
+            "is.dataFormat.date",
+            "means.measurement.date"
+          ],
+          "attributeContext": "Goods Received Data/attributeContext/Goods Received Data/Last Modified Date Time",
+          "dataFormat": "Date"
+        },
+        {
+          "name": "Line Adjustment Amount",
+          "appliedTraits": [
+            {
+              "traitReference": "is.dataFormat.numeric.shaped"
+            }
+          ],
+          "attributeContext": "Goods Received Data/attributeContext/Goods Received Data/Line Adjustment Amount",
+          "dataFormat": "Decimal"
+        },
+        {
+          "name": "Line Adjustment Description",
+          "appliedTraits": [
+            "is.dataFormat.character",
+            "is.dataFormat.big",
+            "is.dataFormat.array"
+          ],
+          "attributeContext": "Goods Received Data/attributeContext/Goods Received Data/Line Adjustment Description",
+          "dataFormat": "String"
+        },
+        {
+          "name": "Line Amount",
+          "appliedTraits": [
+            {
+              "traitReference": "is.dataFormat.numeric.shaped"
+            }
+          ],
+          "attributeContext": "Goods Received Data/attributeContext/Goods Received Data/Line Amount",
+          "dataFormat": "Decimal"
+        },
+        {
+          "name": "Line Currency Amount",
+          "appliedTraits": [
+            {
+              "traitReference": "is.dataFormat.numeric.shaped"
+            }
+          ],
+          "attributeContext": "Goods Received Data/attributeContext/Goods Received Data/Line Currency Amount",
+          "dataFormat": "Decimal"
+        },
+        {
+          "name": "Line Currency Code",
+          "appliedTraits": [
+            "is.dataFormat.character",
+            "is.dataFormat.big",
+            "is.dataFormat.array"
+          ],
+          "attributeContext": "Goods Received Data/attributeContext/Goods Received Data/Line Currency Code",
+          "dataFormat": "String"
+        },
+        {
+          "name": "Line Exchange Rate",
+          "appliedTraits": [
+            {
+              "traitReference": "is.dataFormat.numeric.shaped"
+            }
+          ],
+          "attributeContext": "Goods Received Data/attributeContext/Goods Received Data/Line Exchange Rate",
+          "dataFormat": "Decimal"
+        },
+        {
+          "name": "Line Purchase Order Amount",
+          "appliedTraits": [
+            {
+              "traitReference": "is.dataFormat.numeric.shaped"
+            }
+          ],
+          "attributeContext": "Goods Received Data/attributeContext/Goods Received Data/Line Purchase Order Amount",
+          "dataFormat": "Decimal"
+        },
+        {
+          "name": "Line Purchase Order Currency Amount",
+          "appliedTraits": [
+            {
+              "traitReference": "is.dataFormat.numeric.shaped"
+            }
+          ],
+          "attributeContext": "Goods Received Data/attributeContext/Goods Received Data/Line Purchase Order Currency Amount",
+          "dataFormat": "Decimal"
+        },
+        {
+          "name": "Line Purchase Order Currency Code",
+          "appliedTraits": [
+            "is.dataFormat.character",
+            "is.dataFormat.big",
+            "is.dataFormat.array"
+          ],
+          "attributeContext": "Goods Received Data/attributeContext/Goods Received Data/Line Purchase Order Currency Code",
+          "dataFormat": "String"
+        },
+        {
+          "name": "Line Purchase Order Exchange Rate",
+          "appliedTraits": [
+            {
+              "traitReference": "is.dataFormat.numeric.shaped"
+            }
+          ],
+          "attributeContext": "Goods Received Data/attributeContext/Goods Received Data/Line Purchase Order Exchange Rate",
+          "dataFormat": "Decimal"
+        },
+        {
+          "name": "Line Purchase Order Line ID",
+          "appliedTraits": [
+            "is.dataFormat.character",
+            "is.dataFormat.big",
+            "is.dataFormat.array"
+          ],
+          "attributeContext": "Goods Received Data/attributeContext/Goods Received Data/Line Purchase Order Line ID",
+          "dataFormat": "String"
+        },
+        {
+          "name": "Line Purchase Order Quantity",
+          "appliedTraits": [
+            {
+              "traitReference": "is.dataFormat.numeric.shaped"
+            }
+          ],
+          "attributeContext": "Goods Received Data/attributeContext/Goods Received Data/Line Purchase Order Quantity",
+          "dataFormat": "Decimal"
+        },
+        {
+          "name": "Line Purchase Order Unitof Measure",
+          "appliedTraits": [
+            "is.dataFormat.character",
+            "is.dataFormat.big",
+            "is.dataFormat.array"
+          ],
+          "attributeContext": "Goods Received Data/attributeContext/Goods Received Data/Line Purchase Order Unitof Measure",
+          "dataFormat": "String"
+        },
+        {
+          "name": "Line Purchase Order Unit Price",
+          "appliedTraits": [
+            {
+              "traitReference": "is.dataFormat.numeric.shaped"
+            }
+          ],
+          "attributeContext": "Goods Received Data/attributeContext/Goods Received Data/Line Purchase Order Unit Price",
+          "dataFormat": "Decimal"
+        },
+        {
+          "name": "Line Receipt ID",
+          "appliedTraits": [
+            "is.dataFormat.character",
+            "is.dataFormat.big",
+            "is.dataFormat.array"
+          ],
+          "attributeContext": "Goods Received Data/attributeContext/Goods Received Data/Line Receipt ID",
+          "dataFormat": "String"
+        },
+        {
+          "name": "Line Receipt Document Line ID",
+          "appliedTraits": [
+            "is.dataFormat.character",
+            "is.dataFormat.big",
+            "is.dataFormat.array"
+          ],
+          "attributeContext": "Goods Received Data/attributeContext/Goods Received Data/Line Receipt Document Line ID",
+          "dataFormat": "String"
+        },
+        {
+          "name": "Line Receipt Product ID",
+          "appliedTraits": [
+            "is.dataFormat.character",
+            "is.dataFormat.big",
+            "is.dataFormat.array"
+          ],
+          "attributeContext": "Goods Received Data/attributeContext/Goods Received Data/Line Receipt Product ID",
+          "dataFormat": "String"
+        },
+        {
+          "name": "Line Receipt Product Bar Code",
+          "appliedTraits": [
+            "is.dataFormat.character",
+            "is.dataFormat.big",
+            "is.dataFormat.array"
+          ],
+          "attributeContext": "Goods Received Data/attributeContext/Goods Received Data/Line Receipt Product Bar Code",
+          "dataFormat": "String"
+        },
+        {
+          "name": "Line Receipt Product Description",
+          "appliedTraits": [
+            "is.dataFormat.character",
+            "is.dataFormat.big",
+            "is.dataFormat.array"
+          ],
+          "attributeContext": "Goods Received Data/attributeContext/Goods Received Data/Line Receipt Product Description",
+          "dataFormat": "String"
+        },
+        {
+          "name": "Line Receipt Product Group01",
+          "appliedTraits": [
+            "is.dataFormat.character",
+            "is.dataFormat.big",
+            "is.dataFormat.array"
+          ],
+          "attributeContext": "Goods Received Data/attributeContext/Goods Received Data/Line Receipt Product Group01",
+          "dataFormat": "String"
+        },
+        {
+          "name": "Line Receipt Product Group02",
+          "appliedTraits": [
+            "is.dataFormat.character",
+            "is.dataFormat.big",
+            "is.dataFormat.array"
+          ],
+          "attributeContext": "Goods Received Data/attributeContext/Goods Received Data/Line Receipt Product Group02",
+          "dataFormat": "String"
+        },
+        {
+          "name": "Line Receipt Quantity",
+          "appliedTraits": [
+            {
+              "traitReference": "is.dataFormat.numeric.shaped"
+            }
+          ],
+          "attributeContext": "Goods Received Data/attributeContext/Goods Received Data/Line Receipt Quantity",
+          "dataFormat": "Decimal"
+        },
+        {
+          "name": "Line Receipt Unitof Measure",
+          "appliedTraits": [
+            "is.dataFormat.character",
+            "is.dataFormat.big",
+            "is.dataFormat.array"
+          ],
+          "attributeContext": "Goods Received Data/attributeContext/Goods Received Data/Line Receipt Unitof Measure",
+          "dataFormat": "String"
+        },
+        {
+          "name": "Line Receipt Unit Price",
+          "appliedTraits": [
+            {
+              "traitReference": "is.dataFormat.numeric.shaped"
+            }
+          ],
+          "attributeContext": "Goods Received Data/attributeContext/Goods Received Data/Line Receipt Unit Price",
+          "dataFormat": "Decimal"
+        },
+        {
+          "name": "Posting Status",
+          "appliedTraits": [
+            "is.dataFormat.character",
+            "is.dataFormat.big",
+            "is.dataFormat.array"
+          ],
+          "attributeContext": "Goods Received Data/attributeContext/Goods Received Data/Posting Status",
+          "dataFormat": "String"
+        },
+        {
+          "name": "Purchase Order ID",
+          "appliedTraits": [
+            {
+              "traitReference": "is.dataFormat.numeric.shaped"
+            }
+          ],
+          "attributeContext": "Goods Received Data/attributeContext/Goods Received Data/Purchase Order ID",
+          "dataFormat": "Decimal"
+        },
+        {
+          "name": "Purchase Order Amount",
+          "appliedTraits": [
+            {
+              "traitReference": "is.dataFormat.numeric.shaped"
+            }
+          ],
+          "attributeContext": "Goods Received Data/attributeContext/Goods Received Data/Purchase Order Amount",
+          "dataFormat": "Decimal"
+        },
+        {
+          "name": "Purchase Order Currency Amount",
+          "appliedTraits": [
+            "is.dataFormat.character",
+            "is.dataFormat.big",
+            "is.dataFormat.array"
+          ],
+          "attributeContext": "Goods Received Data/attributeContext/Goods Received Data/Purchase Order Currency Amount",
+          "dataFormat": "String"
+        },
+        {
+          "name": "Purchase Order Currency Code",
+          "appliedTraits": [
+            {
+              "traitReference": "is.dataFormat.numeric.shaped"
+            }
+          ],
+          "attributeContext": "Goods Received Data/attributeContext/Goods Received Data/Purchase Order Currency Code",
+          "dataFormat": "Decimal"
+        },
+        {
+          "name": "Purchase Order Exchange Rate",
+          "appliedTraits": [
+            "is.dataFormat.date",
+            "means.measurement.date"
+          ],
+          "attributeContext": "Goods Received Data/attributeContext/Goods Received Data/Purchase Order Exchange Rate",
+          "dataFormat": "Date"
+        },
+        {
+          "name": "Purchase Order Date",
+          "appliedTraits": [
+            "is.dataFormat.character",
+            "is.dataFormat.big",
+            "is.dataFormat.array"
+          ],
+          "attributeContext": "Goods Received Data/attributeContext/Goods Received Data/Purchase Order Date",
+          "dataFormat": "String"
+        },
+        {
+          "name": "Receipt ID",
+          "appliedTraits": [
+            "is.dataFormat.date",
+            "means.measurement.date"
+          ],
+          "attributeContext": "Goods Received Data/attributeContext/Goods Received Data/Receipt ID",
+          "dataFormat": "Date"
+        },
+        {
+          "name": "Receipt Date",
+          "appliedTraits": [
+            "is.dataFormat.character",
+            "is.dataFormat.big",
+            "is.dataFormat.array"
+          ],
+          "attributeContext": "Goods Received Data/attributeContext/Goods Received Data/Receipt Date",
+          "dataFormat": "String"
+        },
+        {
+          "name": "Receipt Document ID",
+          "appliedTraits": [
+            "is.dataFormat.date",
+            "means.measurement.date"
+          ],
+          "attributeContext": "Goods Received Data/attributeContext/Goods Received Data/Receipt Document ID",
+          "dataFormat": "Date"
+        },
+        {
+          "name": "Receipt Fiscal Year",
+          "appliedTraits": [
+            "is.dataFormat.character",
+            "is.dataFormat.big",
+            "is.dataFormat.array"
+          ],
+          "attributeContext": "Goods Received Data/attributeContext/Goods Received Data/Receipt Fiscal Year",
+          "dataFormat": "String"
+        },
+        {
+          "name": "Receipt Period",
+          "appliedTraits": [
+            "is.dataFormat.character",
+            "is.dataFormat.big",
+            "is.dataFormat.array"
+          ],
+          "attributeContext": "Goods Received Data/attributeContext/Goods Received Data/Receipt Period",
+          "dataFormat": "String"
+        },
+        {
+          "name": "Supplier Account ID",
+          "appliedTraits": [
+            "is.dataFormat.character",
+            "is.dataFormat.big",
+            "is.dataFormat.array"
+          ],
+          "attributeContext": "Goods Received Data/attributeContext/Goods Received Data/Supplier Account ID",
+          "dataFormat": "String"
+        }
+      ]
+    }
+  ]
+}

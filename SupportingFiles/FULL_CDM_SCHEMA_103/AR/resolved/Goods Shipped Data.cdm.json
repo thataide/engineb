@@ -1,0 +1,986 @@
+{
+  "jsonSchemaSemanticVersion": "1.0.0",
+  "imports": [
+    {
+      "corpusPath": "/Goods Shipped Data.cdm.json",
+      "moniker": "resolvedFrom"
+    }
+  ],
+  "definitions": [
+    {
+      "entityName": "Goods Shipped Data",
+      "attributeContext": {
+        "type": "entity",
+        "name": "Goods Shipped Data",
+        "definition": "resolvedFrom/Goods Shipped Data",
+        "contents": [
+          {
+            "type": "attributeDefinition",
+            "name": "Adjustment_ Description",
+            "parent": "Goods Shipped Data/attributeContext/Goods Shipped Data",
+            "definition": "resolvedFrom/Goods Shipped Data/hasAttributes/Adjustment_ Description",
+            "contents": [
+              "Goods Shipped Data/hasAttributes/Adjustment_ Description"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Adjustment_ Indicator",
+            "parent": "Goods Shipped Data/attributeContext/Goods Shipped Data",
+            "definition": "resolvedFrom/Goods Shipped Data/hasAttributes/Adjustment_ Indicator",
+            "contents": [
+              "Goods Shipped Data/hasAttributes/Adjustment_ Indicator"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Adjustment Amount",
+            "parent": "Goods Shipped Data/attributeContext/Goods Shipped Data",
+            "definition": "resolvedFrom/Goods Shipped Data/hasAttributes/Adjustment Amount",
+            "contents": [
+              "Goods Shipped Data/hasAttributes/Adjustment Amount"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Approved_ By",
+            "parent": "Goods Shipped Data/attributeContext/Goods Shipped Data",
+            "definition": "resolvedFrom/Goods Shipped Data/hasAttributes/Approved_ By",
+            "contents": [
+              "Goods Shipped Data/hasAttributes/Approved_ By"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Approved_ By_ Date Time",
+            "parent": "Goods Shipped Data/attributeContext/Goods Shipped Data",
+            "definition": "resolvedFrom/Goods Shipped Data/hasAttributes/Approved_ By_ Date Time",
+            "contents": [
+              "Goods Shipped Data/hasAttributes/Approved_ By_ Date Time"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Business_ Unit_ Code",
+            "parent": "Goods Shipped Data/attributeContext/Goods Shipped Data",
+            "definition": "resolvedFrom/Goods Shipped Data/hasAttributes/Business_ Unit_ Code",
+            "contents": [
+              "Goods Shipped Data/hasAttributes/Business_ Unit_ Code"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Entered_ By",
+            "parent": "Goods Shipped Data/attributeContext/Goods Shipped Data",
+            "definition": "resolvedFrom/Goods Shipped Data/hasAttributes/Entered_ By",
+            "contents": [
+              "Goods Shipped Data/hasAttributes/Entered_ By"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Entered_ Date Time",
+            "parent": "Goods Shipped Data/attributeContext/Goods Shipped Data",
+            "definition": "resolvedFrom/Goods Shipped Data/hasAttributes/Entered_ Date Time",
+            "contents": [
+              "Goods Shipped Data/hasAttributes/Entered_ Date Time"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Goods Received Amount",
+            "parent": "Goods Shipped Data/attributeContext/Goods Shipped Data",
+            "definition": "resolvedFrom/Goods Shipped Data/hasAttributes/Goods Received Amount",
+            "contents": [
+              "Goods Shipped Data/hasAttributes/Goods Received Amount"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Goods Received Currency Amount",
+            "parent": "Goods Shipped Data/attributeContext/Goods Shipped Data",
+            "definition": "resolvedFrom/Goods Shipped Data/hasAttributes/Goods Received Currency Amount",
+            "contents": [
+              "Goods Shipped Data/hasAttributes/Goods Received Currency Amount"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Goods Received Currency Code",
+            "parent": "Goods Shipped Data/attributeContext/Goods Shipped Data",
+            "definition": "resolvedFrom/Goods Shipped Data/hasAttributes/Goods Received Currency Code",
+            "contents": [
+              "Goods Shipped Data/hasAttributes/Goods Received Currency Code"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Goods Received Exchange Rate",
+            "parent": "Goods Shipped Data/attributeContext/Goods Shipped Data",
+            "definition": "resolvedFrom/Goods Shipped Data/hasAttributes/Goods Received Exchange Rate",
+            "contents": [
+              "Goods Shipped Data/hasAttributes/Goods Received Exchange Rate"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Last_ Modified_ By",
+            "parent": "Goods Shipped Data/attributeContext/Goods Shipped Data",
+            "definition": "resolvedFrom/Goods Shipped Data/hasAttributes/Last_ Modified_ By",
+            "contents": [
+              "Goods Shipped Data/hasAttributes/Last_ Modified_ By"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Last_ Modified_ Date Time",
+            "parent": "Goods Shipped Data/attributeContext/Goods Shipped Data",
+            "definition": "resolvedFrom/Goods Shipped Data/hasAttributes/Last_ Modified_ Date Time",
+            "contents": [
+              "Goods Shipped Data/hasAttributes/Last_ Modified_ Date Time"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Line Adjustment_ Description",
+            "parent": "Goods Shipped Data/attributeContext/Goods Shipped Data",
+            "definition": "resolvedFrom/Goods Shipped Data/hasAttributes/Line Adjustment_ Description",
+            "contents": [
+              "Goods Shipped Data/hasAttributes/Line Adjustment_ Description"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Line Adjustment Amount",
+            "parent": "Goods Shipped Data/attributeContext/Goods Shipped Data",
+            "definition": "resolvedFrom/Goods Shipped Data/hasAttributes/Line Adjustment Amount",
+            "contents": [
+              "Goods Shipped Data/hasAttributes/Line Adjustment Amount"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Line Amount",
+            "parent": "Goods Shipped Data/attributeContext/Goods Shipped Data",
+            "definition": "resolvedFrom/Goods Shipped Data/hasAttributes/Line Amount",
+            "contents": [
+              "Goods Shipped Data/hasAttributes/Line Amount"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Line Currency Amount",
+            "parent": "Goods Shipped Data/attributeContext/Goods Shipped Data",
+            "definition": "resolvedFrom/Goods Shipped Data/hasAttributes/Line Currency Amount",
+            "contents": [
+              "Goods Shipped Data/hasAttributes/Line Currency Amount"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Line Currency Code",
+            "parent": "Goods Shipped Data/attributeContext/Goods Shipped Data",
+            "definition": "resolvedFrom/Goods Shipped Data/hasAttributes/Line Currency Code",
+            "contents": [
+              "Goods Shipped Data/hasAttributes/Line Currency Code"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Line Exchange Rate",
+            "parent": "Goods Shipped Data/attributeContext/Goods Shipped Data",
+            "definition": "resolvedFrom/Goods Shipped Data/hasAttributes/Line Exchange Rate",
+            "contents": [
+              "Goods Shipped Data/hasAttributes/Line Exchange Rate"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Line Receipt_ ID",
+            "parent": "Goods Shipped Data/attributeContext/Goods Shipped Data",
+            "definition": "resolvedFrom/Goods Shipped Data/hasAttributes/Line Receipt_ ID",
+            "contents": [
+              "Goods Shipped Data/hasAttributes/Line Receipt_ ID"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Line Receipt_ Document_ Line_ ID",
+            "parent": "Goods Shipped Data/attributeContext/Goods Shipped Data",
+            "definition": "resolvedFrom/Goods Shipped Data/hasAttributes/Line Receipt_ Document_ Line_ ID",
+            "contents": [
+              "Goods Shipped Data/hasAttributes/Line Receipt_ Document_ Line_ ID"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Line Receipt_ Product_ ID",
+            "parent": "Goods Shipped Data/attributeContext/Goods Shipped Data",
+            "definition": "resolvedFrom/Goods Shipped Data/hasAttributes/Line Receipt_ Product_ ID",
+            "contents": [
+              "Goods Shipped Data/hasAttributes/Line Receipt_ Product_ ID"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Line Receipt_ Product_ Bar_ Code",
+            "parent": "Goods Shipped Data/attributeContext/Goods Shipped Data",
+            "definition": "resolvedFrom/Goods Shipped Data/hasAttributes/Line Receipt_ Product_ Bar_ Code",
+            "contents": [
+              "Goods Shipped Data/hasAttributes/Line Receipt_ Product_ Bar_ Code"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Line Receipt_ Product_ Description",
+            "parent": "Goods Shipped Data/attributeContext/Goods Shipped Data",
+            "definition": "resolvedFrom/Goods Shipped Data/hasAttributes/Line Receipt_ Product_ Description",
+            "contents": [
+              "Goods Shipped Data/hasAttributes/Line Receipt_ Product_ Description"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Line Receipt_ Product_ Group_01",
+            "parent": "Goods Shipped Data/attributeContext/Goods Shipped Data",
+            "definition": "resolvedFrom/Goods Shipped Data/hasAttributes/Line Receipt_ Product_ Group_01",
+            "contents": [
+              "Goods Shipped Data/hasAttributes/Line Receipt_ Product_ Group_01"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Line Receipt_ Product_ Group_02",
+            "parent": "Goods Shipped Data/attributeContext/Goods Shipped Data",
+            "definition": "resolvedFrom/Goods Shipped Data/hasAttributes/Line Receipt_ Product_ Group_02",
+            "contents": [
+              "Goods Shipped Data/hasAttributes/Line Receipt_ Product_ Group_02"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Line Receipt_ Quantity",
+            "parent": "Goods Shipped Data/attributeContext/Goods Shipped Data",
+            "definition": "resolvedFrom/Goods Shipped Data/hasAttributes/Line Receipt_ Quantity",
+            "contents": [
+              "Goods Shipped Data/hasAttributes/Line Receipt_ Quantity"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Line Receipt_ Unit_of_ Measure",
+            "parent": "Goods Shipped Data/attributeContext/Goods Shipped Data",
+            "definition": "resolvedFrom/Goods Shipped Data/hasAttributes/Line Receipt_ Unit_of_ Measure",
+            "contents": [
+              "Goods Shipped Data/hasAttributes/Line Receipt_ Unit_of_ Measure"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Line Receipt_ Unit_ Price",
+            "parent": "Goods Shipped Data/attributeContext/Goods Shipped Data",
+            "definition": "resolvedFrom/Goods Shipped Data/hasAttributes/Line Receipt_ Unit_ Price",
+            "contents": [
+              "Goods Shipped Data/hasAttributes/Line Receipt_ Unit_ Price"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Line Sales_ Order_ Line_ ID",
+            "parent": "Goods Shipped Data/attributeContext/Goods Shipped Data",
+            "definition": "resolvedFrom/Goods Shipped Data/hasAttributes/Line Sales_ Order_ Line_ ID",
+            "contents": [
+              "Goods Shipped Data/hasAttributes/Line Sales_ Order_ Line_ ID"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Line Sales_ Order_ Quantity",
+            "parent": "Goods Shipped Data/attributeContext/Goods Shipped Data",
+            "definition": "resolvedFrom/Goods Shipped Data/hasAttributes/Line Sales_ Order_ Quantity",
+            "contents": [
+              "Goods Shipped Data/hasAttributes/Line Sales_ Order_ Quantity"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Line Sales_ Order_ Unit_of_ Measure",
+            "parent": "Goods Shipped Data/attributeContext/Goods Shipped Data",
+            "definition": "resolvedFrom/Goods Shipped Data/hasAttributes/Line Sales_ Order_ Unit_of_ Measure",
+            "contents": [
+              "Goods Shipped Data/hasAttributes/Line Sales_ Order_ Unit_of_ Measure"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Line Sales_ Order_ Unit_ Price",
+            "parent": "Goods Shipped Data/attributeContext/Goods Shipped Data",
+            "definition": "resolvedFrom/Goods Shipped Data/hasAttributes/Line Sales_ Order_ Unit_ Price",
+            "contents": [
+              "Goods Shipped Data/hasAttributes/Line Sales_ Order_ Unit_ Price"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Line Sales Order Amount",
+            "parent": "Goods Shipped Data/attributeContext/Goods Shipped Data",
+            "definition": "resolvedFrom/Goods Shipped Data/hasAttributes/Line Sales Order Amount",
+            "contents": [
+              "Goods Shipped Data/hasAttributes/Line Sales Order Amount"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Line Sales Order Currency Amount",
+            "parent": "Goods Shipped Data/attributeContext/Goods Shipped Data",
+            "definition": "resolvedFrom/Goods Shipped Data/hasAttributes/Line Sales Order Currency Amount",
+            "contents": [
+              "Goods Shipped Data/hasAttributes/Line Sales Order Currency Amount"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Line Sales Order Currency Code",
+            "parent": "Goods Shipped Data/attributeContext/Goods Shipped Data",
+            "definition": "resolvedFrom/Goods Shipped Data/hasAttributes/Line Sales Order Currency Code",
+            "contents": [
+              "Goods Shipped Data/hasAttributes/Line Sales Order Currency Code"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Line Sales Order Exchange Rate",
+            "parent": "Goods Shipped Data/attributeContext/Goods Shipped Data",
+            "definition": "resolvedFrom/Goods Shipped Data/hasAttributes/Line Sales Order Exchange Rate",
+            "contents": [
+              "Goods Shipped Data/hasAttributes/Line Sales Order Exchange Rate"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Posting Status",
+            "parent": "Goods Shipped Data/attributeContext/Goods Shipped Data",
+            "definition": "resolvedFrom/Goods Shipped Data/hasAttributes/Posting Status",
+            "contents": [
+              "Goods Shipped Data/hasAttributes/Posting Status"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Receipt_ ID",
+            "parent": "Goods Shipped Data/attributeContext/Goods Shipped Data",
+            "definition": "resolvedFrom/Goods Shipped Data/hasAttributes/Receipt_ ID",
+            "contents": [
+              "Goods Shipped Data/hasAttributes/Receipt_ ID"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Receipt_ Date",
+            "parent": "Goods Shipped Data/attributeContext/Goods Shipped Data",
+            "definition": "resolvedFrom/Goods Shipped Data/hasAttributes/Receipt_ Date",
+            "contents": [
+              "Goods Shipped Data/hasAttributes/Receipt_ Date"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Receipt_ Document_ ID",
+            "parent": "Goods Shipped Data/attributeContext/Goods Shipped Data",
+            "definition": "resolvedFrom/Goods Shipped Data/hasAttributes/Receipt_ Document_ ID",
+            "contents": [
+              "Goods Shipped Data/hasAttributes/Receipt_ Document_ ID"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Receipt_ Fiscal_ Year",
+            "parent": "Goods Shipped Data/attributeContext/Goods Shipped Data",
+            "definition": "resolvedFrom/Goods Shipped Data/hasAttributes/Receipt_ Fiscal_ Year",
+            "contents": [
+              "Goods Shipped Data/hasAttributes/Receipt_ Fiscal_ Year"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Receipt_ Period",
+            "parent": "Goods Shipped Data/attributeContext/Goods Shipped Data",
+            "definition": "resolvedFrom/Goods Shipped Data/hasAttributes/Receipt_ Period",
+            "contents": [
+              "Goods Shipped Data/hasAttributes/Receipt_ Period"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Sales_ Order_ ID",
+            "parent": "Goods Shipped Data/attributeContext/Goods Shipped Data",
+            "definition": "resolvedFrom/Goods Shipped Data/hasAttributes/Sales_ Order_ ID",
+            "contents": [
+              "Goods Shipped Data/hasAttributes/Sales_ Order_ ID"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Sales_ Order_ Date",
+            "parent": "Goods Shipped Data/attributeContext/Goods Shipped Data",
+            "definition": "resolvedFrom/Goods Shipped Data/hasAttributes/Sales_ Order_ Date",
+            "contents": [
+              "Goods Shipped Data/hasAttributes/Sales_ Order_ Date"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Sales Order Amount",
+            "parent": "Goods Shipped Data/attributeContext/Goods Shipped Data",
+            "definition": "resolvedFrom/Goods Shipped Data/hasAttributes/Sales Order Amount",
+            "contents": [
+              "Goods Shipped Data/hasAttributes/Sales Order Amount"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Sales Order Currency Amount",
+            "parent": "Goods Shipped Data/attributeContext/Goods Shipped Data",
+            "definition": "resolvedFrom/Goods Shipped Data/hasAttributes/Sales Order Currency Amount",
+            "contents": [
+              "Goods Shipped Data/hasAttributes/Sales Order Currency Amount"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Sales Order Currency Code",
+            "parent": "Goods Shipped Data/attributeContext/Goods Shipped Data",
+            "definition": "resolvedFrom/Goods Shipped Data/hasAttributes/Sales Order Currency Code",
+            "contents": [
+              "Goods Shipped Data/hasAttributes/Sales Order Currency Code"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Sales Order Exchange Rate",
+            "parent": "Goods Shipped Data/attributeContext/Goods Shipped Data",
+            "definition": "resolvedFrom/Goods Shipped Data/hasAttributes/Sales Order Exchange Rate",
+            "contents": [
+              "Goods Shipped Data/hasAttributes/Sales Order Exchange Rate"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Supplier_ Account_ ID",
+            "parent": "Goods Shipped Data/attributeContext/Goods Shipped Data",
+            "definition": "resolvedFrom/Goods Shipped Data/hasAttributes/Supplier_ Account_ ID",
+            "contents": [
+              "Goods Shipped Data/hasAttributes/Supplier_ Account_ ID"
+            ]
+          }
+        ]
+      },
+      "hasAttributes": [
+        {
+          "name": "Adjustment_ Description",
+          "appliedTraits": [
+            "is.dataFormat.character",
+            "is.dataFormat.big",
+            "is.dataFormat.array"
+          ],
+          "attributeContext": "Goods Shipped Data/attributeContext/Goods Shipped Data/Adjustment_ Description",
+          "dataFormat": "String"
+        },
+        {
+          "name": "Adjustment_ Indicator",
+          "appliedTraits": [
+            "is.dataFormat.character",
+            "is.dataFormat.big",
+            "is.dataFormat.array"
+          ],
+          "attributeContext": "Goods Shipped Data/attributeContext/Goods Shipped Data/Adjustment_ Indicator",
+          "dataFormat": "String"
+        },
+        {
+          "name": "Adjustment Amount",
+          "appliedTraits": [
+            {
+              "traitReference": "is.dataFormat.numeric.shaped"
+            }
+          ],
+          "attributeContext": "Goods Shipped Data/attributeContext/Goods Shipped Data/Adjustment Amount",
+          "dataFormat": "Decimal"
+        },
+        {
+          "name": "Approved_ By",
+          "appliedTraits": [
+            "is.dataFormat.character",
+            "is.dataFormat.big",
+            "is.dataFormat.array"
+          ],
+          "attributeContext": "Goods Shipped Data/attributeContext/Goods Shipped Data/Approved_ By",
+          "dataFormat": "String"
+        },
+        {
+          "name": "Approved_ By_ Date Time",
+          "appliedTraits": [
+            "is.dataFormat.date",
+            "means.measurement.date"
+          ],
+          "attributeContext": "Goods Shipped Data/attributeContext/Goods Shipped Data/Approved_ By_ Date Time",
+          "dataFormat": "Date"
+        },
+        {
+          "name": "Business_ Unit_ Code",
+          "appliedTraits": [
+            "is.dataFormat.character",
+            "is.dataFormat.big",
+            "is.dataFormat.array"
+          ],
+          "attributeContext": "Goods Shipped Data/attributeContext/Goods Shipped Data/Business_ Unit_ Code",
+          "dataFormat": "String"
+        },
+        {
+          "name": "Entered_ By",
+          "appliedTraits": [
+            "is.dataFormat.character",
+            "is.dataFormat.big",
+            "is.dataFormat.array"
+          ],
+          "attributeContext": "Goods Shipped Data/attributeContext/Goods Shipped Data/Entered_ By",
+          "dataFormat": "String"
+        },
+        {
+          "name": "Entered_ Date Time",
+          "appliedTraits": [
+            "is.dataFormat.date",
+            "means.measurement.date"
+          ],
+          "attributeContext": "Goods Shipped Data/attributeContext/Goods Shipped Data/Entered_ Date Time",
+          "dataFormat": "Date"
+        },
+        {
+          "name": "Goods Received Amount",
+          "appliedTraits": [
+            {
+              "traitReference": "is.dataFormat.numeric.shaped"
+            }
+          ],
+          "attributeContext": "Goods Shipped Data/attributeContext/Goods Shipped Data/Goods Received Amount",
+          "dataFormat": "Decimal"
+        },
+        {
+          "name": "Goods Received Currency Amount",
+          "appliedTraits": [
+            {
+              "traitReference": "is.dataFormat.numeric.shaped"
+            }
+          ],
+          "attributeContext": "Goods Shipped Data/attributeContext/Goods Shipped Data/Goods Received Currency Amount",
+          "dataFormat": "Decimal"
+        },
+        {
+          "name": "Goods Received Currency Code",
+          "appliedTraits": [
+            "is.dataFormat.character",
+            "is.dataFormat.big",
+            "is.dataFormat.array"
+          ],
+          "attributeContext": "Goods Shipped Data/attributeContext/Goods Shipped Data/Goods Received Currency Code",
+          "dataFormat": "String"
+        },
+        {
+          "name": "Goods Received Exchange Rate",
+          "appliedTraits": [
+            {
+              "traitReference": "is.dataFormat.numeric.shaped"
+            }
+          ],
+          "attributeContext": "Goods Shipped Data/attributeContext/Goods Shipped Data/Goods Received Exchange Rate",
+          "dataFormat": "Decimal"
+        },
+        {
+          "name": "Last_ Modified_ By",
+          "appliedTraits": [
+            "is.dataFormat.character",
+            "is.dataFormat.big",
+            "is.dataFormat.array"
+          ],
+          "attributeContext": "Goods Shipped Data/attributeContext/Goods Shipped Data/Last_ Modified_ By",
+          "dataFormat": "String"
+        },
+        {
+          "name": "Last_ Modified_ Date Time",
+          "appliedTraits": [
+            "is.dataFormat.date",
+            "means.measurement.date"
+          ],
+          "attributeContext": "Goods Shipped Data/attributeContext/Goods Shipped Data/Last_ Modified_ Date Time",
+          "dataFormat": "Date"
+        },
+        {
+          "name": "Line Adjustment_ Description",
+          "appliedTraits": [
+            "is.dataFormat.character",
+            "is.dataFormat.big",
+            "is.dataFormat.array"
+          ],
+          "attributeContext": "Goods Shipped Data/attributeContext/Goods Shipped Data/Line Adjustment_ Description",
+          "dataFormat": "String"
+        },
+        {
+          "name": "Line Adjustment Amount",
+          "appliedTraits": [
+            {
+              "traitReference": "is.dataFormat.numeric.shaped"
+            }
+          ],
+          "attributeContext": "Goods Shipped Data/attributeContext/Goods Shipped Data/Line Adjustment Amount",
+          "dataFormat": "Decimal"
+        },
+        {
+          "name": "Line Amount",
+          "appliedTraits": [
+            {
+              "traitReference": "is.dataFormat.numeric.shaped"
+            }
+          ],
+          "attributeContext": "Goods Shipped Data/attributeContext/Goods Shipped Data/Line Amount",
+          "dataFormat": "Decimal"
+        },
+        {
+          "name": "Line Currency Amount",
+          "appliedTraits": [
+            {
+              "traitReference": "is.dataFormat.numeric.shaped"
+            }
+          ],
+          "attributeContext": "Goods Shipped Data/attributeContext/Goods Shipped Data/Line Currency Amount",
+          "dataFormat": "Decimal"
+        },
+        {
+          "name": "Line Currency Code",
+          "appliedTraits": [
+            "is.dataFormat.character",
+            "is.dataFormat.big",
+            "is.dataFormat.array"
+          ],
+          "attributeContext": "Goods Shipped Data/attributeContext/Goods Shipped Data/Line Currency Code",
+          "dataFormat": "String"
+        },
+        {
+          "name": "Line Exchange Rate",
+          "appliedTraits": [
+            {
+              "traitReference": "is.dataFormat.numeric.shaped"
+            }
+          ],
+          "attributeContext": "Goods Shipped Data/attributeContext/Goods Shipped Data/Line Exchange Rate",
+          "dataFormat": "Decimal"
+        },
+        {
+          "name": "Line Receipt_ ID",
+          "appliedTraits": [
+            "is.dataFormat.character",
+            "is.dataFormat.big",
+            "is.dataFormat.array"
+          ],
+          "attributeContext": "Goods Shipped Data/attributeContext/Goods Shipped Data/Line Receipt_ ID",
+          "dataFormat": "String"
+        },
+        {
+          "name": "Line Receipt_ Document_ Line_ ID",
+          "appliedTraits": [
+            "is.dataFormat.character",
+            "is.dataFormat.big",
+            "is.dataFormat.array"
+          ],
+          "attributeContext": "Goods Shipped Data/attributeContext/Goods Shipped Data/Line Receipt_ Document_ Line_ ID",
+          "dataFormat": "String"
+        },
+        {
+          "name": "Line Receipt_ Product_ ID",
+          "appliedTraits": [
+            "is.dataFormat.character",
+            "is.dataFormat.big",
+            "is.dataFormat.array"
+          ],
+          "attributeContext": "Goods Shipped Data/attributeContext/Goods Shipped Data/Line Receipt_ Product_ ID",
+          "dataFormat": "String"
+        },
+        {
+          "name": "Line Receipt_ Product_ Bar_ Code",
+          "appliedTraits": [
+            "is.dataFormat.character",
+            "is.dataFormat.big",
+            "is.dataFormat.array"
+          ],
+          "attributeContext": "Goods Shipped Data/attributeContext/Goods Shipped Data/Line Receipt_ Product_ Bar_ Code",
+          "dataFormat": "String"
+        },
+        {
+          "name": "Line Receipt_ Product_ Description",
+          "appliedTraits": [
+            "is.dataFormat.character",
+            "is.dataFormat.big",
+            "is.dataFormat.array"
+          ],
+          "attributeContext": "Goods Shipped Data/attributeContext/Goods Shipped Data/Line Receipt_ Product_ Description",
+          "dataFormat": "String"
+        },
+        {
+          "name": "Line Receipt_ Product_ Group_01",
+          "appliedTraits": [
+            "is.dataFormat.character",
+            "is.dataFormat.big",
+            "is.dataFormat.array"
+          ],
+          "attributeContext": "Goods Shipped Data/attributeContext/Goods Shipped Data/Line Receipt_ Product_ Group_01",
+          "dataFormat": "String"
+        },
+        {
+          "name": "Line Receipt_ Product_ Group_02",
+          "appliedTraits": [
+            "is.dataFormat.character",
+            "is.dataFormat.big",
+            "is.dataFormat.array"
+          ],
+          "attributeContext": "Goods Shipped Data/attributeContext/Goods Shipped Data/Line Receipt_ Product_ Group_02",
+          "dataFormat": "String"
+        },
+        {
+          "name": "Line Receipt_ Quantity",
+          "appliedTraits": [
+            {
+              "traitReference": "is.dataFormat.numeric.shaped"
+            }
+          ],
+          "attributeContext": "Goods Shipped Data/attributeContext/Goods Shipped Data/Line Receipt_ Quantity",
+          "dataFormat": "Decimal"
+        },
+        {
+          "name": "Line Receipt_ Unit_of_ Measure",
+          "appliedTraits": [
+            "is.dataFormat.character",
+            "is.dataFormat.big",
+            "is.dataFormat.array"
+          ],
+          "attributeContext": "Goods Shipped Data/attributeContext/Goods Shipped Data/Line Receipt_ Unit_of_ Measure",
+          "dataFormat": "String"
+        },
+        {
+          "name": "Line Receipt_ Unit_ Price",
+          "appliedTraits": [
+            {
+              "traitReference": "is.dataFormat.numeric.shaped"
+            }
+          ],
+          "attributeContext": "Goods Shipped Data/attributeContext/Goods Shipped Data/Line Receipt_ Unit_ Price",
+          "dataFormat": "Decimal"
+        },
+        {
+          "name": "Line Sales_ Order_ Line_ ID",
+          "appliedTraits": [
+            "is.dataFormat.character",
+            "is.dataFormat.big",
+            "is.dataFormat.array"
+          ],
+          "attributeContext": "Goods Shipped Data/attributeContext/Goods Shipped Data/Line Sales_ Order_ Line_ ID",
+          "dataFormat": "String"
+        },
+        {
+          "name": "Line Sales_ Order_ Quantity",
+          "appliedTraits": [
+            {
+              "traitReference": "is.dataFormat.numeric.shaped"
+            }
+          ],
+          "attributeContext": "Goods Shipped Data/attributeContext/Goods Shipped Data/Line Sales_ Order_ Quantity",
+          "dataFormat": "Decimal"
+        },
+        {
+          "name": "Line Sales_ Order_ Unit_of_ Measure",
+          "appliedTraits": [
+            "is.dataFormat.character",
+            "is.dataFormat.big",
+            "is.dataFormat.array"
+          ],
+          "attributeContext": "Goods Shipped Data/attributeContext/Goods Shipped Data/Line Sales_ Order_ Unit_of_ Measure",
+          "dataFormat": "String"
+        },
+        {
+          "name": "Line Sales_ Order_ Unit_ Price",
+          "appliedTraits": [
+            {
+              "traitReference": "is.dataFormat.numeric.shaped"
+            }
+          ],
+          "attributeContext": "Goods Shipped Data/attributeContext/Goods Shipped Data/Line Sales_ Order_ Unit_ Price",
+          "dataFormat": "Decimal"
+        },
+        {
+          "name": "Line Sales Order Amount",
+          "appliedTraits": [
+            {
+              "traitReference": "is.dataFormat.numeric.shaped"
+            }
+          ],
+          "attributeContext": "Goods Shipped Data/attributeContext/Goods Shipped Data/Line Sales Order Amount",
+          "dataFormat": "Decimal"
+        },
+        {
+          "name": "Line Sales Order Currency Amount",
+          "appliedTraits": [
+            {
+              "traitReference": "is.dataFormat.numeric.shaped"
+            }
+          ],
+          "attributeContext": "Goods Shipped Data/attributeContext/Goods Shipped Data/Line Sales Order Currency Amount",
+          "dataFormat": "Decimal"
+        },
+        {
+          "name": "Line Sales Order Currency Code",
+          "appliedTraits": [
+            "is.dataFormat.character",
+            "is.dataFormat.big",
+            "is.dataFormat.array"
+          ],
+          "attributeContext": "Goods Shipped Data/attributeContext/Goods Shipped Data/Line Sales Order Currency Code",
+          "dataFormat": "String"
+        },
+        {
+          "name": "Line Sales Order Exchange Rate",
+          "appliedTraits": [
+            {
+              "traitReference": "is.dataFormat.numeric.shaped"
+            }
+          ],
+          "attributeContext": "Goods Shipped Data/attributeContext/Goods Shipped Data/Line Sales Order Exchange Rate",
+          "dataFormat": "Decimal"
+        },
+        {
+          "name": "Posting Status",
+          "appliedTraits": [
+            "is.dataFormat.character",
+            "is.dataFormat.big",
+            "is.dataFormat.array"
+          ],
+          "attributeContext": "Goods Shipped Data/attributeContext/Goods Shipped Data/Posting Status",
+          "dataFormat": "String"
+        },
+        {
+          "name": "Receipt_ ID",
+          "appliedTraits": [
+            "is.dataFormat.date",
+            "means.measurement.date"
+          ],
+          "attributeContext": "Goods Shipped Data/attributeContext/Goods Shipped Data/Receipt_ ID",
+          "dataFormat": "Date"
+        },
+        {
+          "name": "Receipt_ Date",
+          "appliedTraits": [
+            "is.dataFormat.character",
+            "is.dataFormat.big",
+            "is.dataFormat.array"
+          ],
+          "attributeContext": "Goods Shipped Data/attributeContext/Goods Shipped Data/Receipt_ Date",
+          "dataFormat": "String"
+        },
+        {
+          "name": "Receipt_ Document_ ID",
+          "appliedTraits": [
+            "is.dataFormat.date",
+            "means.measurement.date"
+          ],
+          "attributeContext": "Goods Shipped Data/attributeContext/Goods Shipped Data/Receipt_ Document_ ID",
+          "dataFormat": "Date"
+        },
+        {
+          "name": "Receipt_ Fiscal_ Year",
+          "appliedTraits": [
+            "is.dataFormat.character",
+            "is.dataFormat.big",
+            "is.dataFormat.array"
+          ],
+          "attributeContext": "Goods Shipped Data/attributeContext/Goods Shipped Data/Receipt_ Fiscal_ Year",
+          "dataFormat": "String"
+        },
+        {
+          "name": "Receipt_ Period",
+          "appliedTraits": [
+            "is.dataFormat.character",
+            "is.dataFormat.big",
+            "is.dataFormat.array"
+          ],
+          "attributeContext": "Goods Shipped Data/attributeContext/Goods Shipped Data/Receipt_ Period",
+          "dataFormat": "String"
+        },
+        {
+          "name": "Sales_ Order_ ID",
+          "appliedTraits": [
+            "is.dataFormat.date",
+            "means.measurement.date"
+          ],
+          "attributeContext": "Goods Shipped Data/attributeContext/Goods Shipped Data/Sales_ Order_ ID",
+          "dataFormat": "Date"
+        },
+        {
+          "name": "Sales_ Order_ Date",
+          "appliedTraits": [
+            "is.dataFormat.character",
+            "is.dataFormat.big",
+            "is.dataFormat.array"
+          ],
+          "attributeContext": "Goods Shipped Data/attributeContext/Goods Shipped Data/Sales_ Order_ Date",
+          "dataFormat": "String"
+        },
+        {
+          "name": "Sales Order Amount",
+          "appliedTraits": [
+            {
+              "traitReference": "is.dataFormat.numeric.shaped"
+            }
+          ],
+          "attributeContext": "Goods Shipped Data/attributeContext/Goods Shipped Data/Sales Order Amount",
+          "dataFormat": "Decimal"
+        },
+        {
+          "name": "Sales Order Currency Amount",
+          "appliedTraits": [
+            {
+              "traitReference": "is.dataFormat.numeric.shaped"
+            }
+          ],
+          "attributeContext": "Goods Shipped Data/attributeContext/Goods Shipped Data/Sales Order Currency Amount",
+          "dataFormat": "Decimal"
+        },
+        {
+          "name": "Sales Order Currency Code",
+          "appliedTraits": [
+            "is.dataFormat.character",
+            "is.dataFormat.big",
+            "is.dataFormat.array"
+          ],
+          "attributeContext": "Goods Shipped Data/attributeContext/Goods Shipped Data/Sales Order Currency Code",
+          "dataFormat": "String"
+        },
+        {
+          "name": "Sales Order Exchange Rate",
+          "appliedTraits": [
+            {
+              "traitReference": "is.dataFormat.numeric.shaped"
+            }
+          ],
+          "attributeContext": "Goods Shipped Data/attributeContext/Goods Shipped Data/Sales Order Exchange Rate",
+          "dataFormat": "Decimal"
+        },
+        {
+          "name": "Supplier_ Account_ ID",
+          "appliedTraits": [
+            "is.dataFormat.character",
+            "is.dataFormat.big",
+            "is.dataFormat.array"
+          ],
+          "attributeContext": "Goods Shipped Data/attributeContext/Goods Shipped Data/Supplier_ Account_ ID",
+          "dataFormat": "String"
+        }
+      ]
+    }
+  ]
+}

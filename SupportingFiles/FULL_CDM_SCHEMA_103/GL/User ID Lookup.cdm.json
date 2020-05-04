@@ -1,0 +1,55 @@
+{
+  "jsonSchemaSemanticVersion": "1.0.0",
+  "imports": [
+    {
+      "corpusPath": "cdm:/foundations.cdm.json"
+    }
+  ],
+  "definitions": [
+    {
+      "entityName": "User ID Lookup",
+      "hasAttributes": [
+        {
+          "name": "Department",
+          "purpose": "hasA",
+          "dataType": "string"
+        },
+        {
+          "name": "First Name",
+          "purpose": "hasA",
+          "dataType": "string"
+        },
+        {
+          "name": "Last Name",
+          "purpose": "hasA",
+          "dataType": "string"
+        },
+        {
+          "name": "Position",
+          "purpose": "hasA",
+          "dataType": "string"
+        },
+        {
+          "name": "Title",
+          "purpose": "hasA",
+          "dataType": "string"
+        },
+        {
+          "name": "User ID",
+          "purpose": "hasA",
+          "dataType": "date"
+        },
+        {
+          "name": "User Active Modified Date",
+          "purpose": "hasA",
+          "dataType": "string"
+        },
+        {
+          "name": "User Active Status",
+          "purpose": "hasA",
+          "dataType": "string"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,80 @@
+{
+  "jsonSchemaSemanticVersion": "1.0.0",
+  "imports": [
+    {
+      "corpusPath": "cdm:/foundations.cdm.json"
+    }
+  ],
+  "definitions": [
+    {
+      "entityName": "Payment Data Quality Totals",
+      "hasAttributes": [
+        {
+          "name": "Line Document Totals Gross Total",
+          "purpose": "hasA",
+          "dataType": "decimal"
+        },
+        {
+          "name": "Line Document Totals Net Total",
+          "purpose": "hasA",
+          "dataType": "decimal"
+        },
+        {
+          "name": "Line Document Totals Tax Information Totals Tax Amount",
+          "purpose": "hasA",
+          "dataType": "decimal"
+        },
+        {
+          "name": "Line Document Totals Tax Information Totals Tax Base",
+          "purpose": "hasA",
+          "dataType": "string"
+        },
+        {
+          "name": "Line Document Totals Tax Information Totals Tax Base Description",
+          "purpose": "hasA",
+          "dataType": "string"
+        },
+        {
+          "name": "Line Document Totals Tax Information Totals Tax Code",
+          "purpose": "hasA",
+          "dataType": "string"
+        },
+        {
+          "name": "Line Document Totals Tax Information Totals Tax Declaration Period",
+          "purpose": "hasA",
+          "dataType": "string"
+        },
+        {
+          "name": "Line Document Totals Tax Information Totals Tax Exemption Reason",
+          "purpose": "hasA",
+          "dataType": "string"
+        },
+        {
+          "name": "Line Document Totals Tax Information Totals Tax Percentage",
+          "purpose": "hasA",
+          "dataType": "decimal"
+        },
+        {
+          "name": "Line Document Totals Tax Information Totals Tax Type",
+          "purpose": "hasA",
+          "dataType": "string"
+        },
+        {
+          "name": "Number Of Entries",
+          "purpose": "hasA",
+          "dataType": "decimal"
+        },
+        {
+          "name": "Total Credit",
+          "purpose": "hasA",
+          "dataType": "decimal"
+        },
+        {
+          "name": "Total Debit",
+          "purpose": "hasA",
+          "dataType": "decimal"
+        }
+      ]
+    }
+  ]
+}

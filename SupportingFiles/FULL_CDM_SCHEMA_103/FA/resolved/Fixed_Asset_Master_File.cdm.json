@@ -1,0 +1,731 @@
+{
+  "jsonSchemaSemanticVersion": "1.0.0",
+  "imports": [
+    {
+      "corpusPath": "/Fixed_Asset_Master_File.cdm.json",
+      "moniker": "resolvedFrom"
+    }
+  ],
+  "definitions": [
+    {
+      "entityName": "Fixed_Asset_Master_File",
+      "attributeContext": {
+        "type": "entity",
+        "name": "Fixed_Asset_Master_File",
+        "definition": "resolvedFrom/Fixed_Asset_Master_File",
+        "contents": [
+          {
+            "type": "attributeDefinition",
+            "name": "Depreciation Rate",
+            "parent": "Fixed_Asset_Master_File/attributeContext/Fixed_Asset_Master_File",
+            "definition": "resolvedFrom/Fixed_Asset_Master_File/hasAttributes/Depreciation Rate",
+            "contents": [
+              "Fixed_Asset_Master_File/hasAttributes/Depreciation Rate"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Fixed Asset ID",
+            "parent": "Fixed_Asset_Master_File/attributeContext/Fixed_Asset_Master_File",
+            "definition": "resolvedFrom/Fixed_Asset_Master_File/hasAttributes/Fixed Asset ID",
+            "contents": [
+              "Fixed_Asset_Master_File/hasAttributes/Fixed Asset ID"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Fixed Asset Accumulated Depreciation Account",
+            "parent": "Fixed_Asset_Master_File/attributeContext/Fixed_Asset_Master_File",
+            "definition": "resolvedFrom/Fixed_Asset_Master_File/hasAttributes/Fixed Asset Accumulated Depreciation Account",
+            "contents": [
+              "Fixed_Asset_Master_File/hasAttributes/Fixed Asset Accumulated Depreciation Account"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Fixed Asset CIP Flag",
+            "parent": "Fixed_Asset_Master_File/attributeContext/Fixed_Asset_Master_File",
+            "definition": "resolvedFrom/Fixed_Asset_Master_File/hasAttributes/Fixed Asset CIP Flag",
+            "contents": [
+              "Fixed_Asset_Master_File/hasAttributes/Fixed Asset CIP Flag"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Fixed Asset Code",
+            "parent": "Fixed_Asset_Master_File/attributeContext/Fixed_Asset_Master_File",
+            "definition": "resolvedFrom/Fixed_Asset_Master_File/hasAttributes/Fixed Asset Code",
+            "contents": [
+              "Fixed_Asset_Master_File/hasAttributes/Fixed Asset Code"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Fixed Asset Depreciation Account",
+            "parent": "Fixed_Asset_Master_File/attributeContext/Fixed_Asset_Master_File",
+            "definition": "resolvedFrom/Fixed_Asset_Master_File/hasAttributes/Fixed Asset Depreciation Account",
+            "contents": [
+              "Fixed_Asset_Master_File/hasAttributes/Fixed Asset Depreciation Account"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Fixed Asset Description",
+            "parent": "Fixed_Asset_Master_File/attributeContext/Fixed_Asset_Master_File",
+            "definition": "resolvedFrom/Fixed_Asset_Master_File/hasAttributes/Fixed Asset Description",
+            "contents": [
+              "Fixed_Asset_Master_File/hasAttributes/Fixed Asset Description"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Fixed Asset Fair Value",
+            "parent": "Fixed_Asset_Master_File/attributeContext/Fixed_Asset_Master_File",
+            "definition": "resolvedFrom/Fixed_Asset_Master_File/hasAttributes/Fixed Asset Fair Value",
+            "contents": [
+              "Fixed_Asset_Master_File/hasAttributes/Fixed Asset Fair Value"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Fixed Asset Net Book Value",
+            "parent": "Fixed_Asset_Master_File/attributeContext/Fixed_Asset_Master_File",
+            "definition": "resolvedFrom/Fixed_Asset_Master_File/hasAttributes/Fixed Asset Net Book Value",
+            "contents": [
+              "Fixed_Asset_Master_File/hasAttributes/Fixed Asset Net Book Value"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Fixed Asset Original Cost",
+            "parent": "Fixed_Asset_Master_File/attributeContext/Fixed_Asset_Master_File",
+            "definition": "resolvedFrom/Fixed_Asset_Master_File/hasAttributes/Fixed Asset Original Cost",
+            "contents": [
+              "Fixed_Asset_Master_File/hasAttributes/Fixed Asset Original Cost"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Business Unit Code",
+            "parent": "Fixed_Asset_Master_File/attributeContext/Fixed_Asset_Master_File",
+            "definition": "resolvedFrom/Fixed_Asset_Master_File/hasAttributes/Business Unit Code",
+            "contents": [
+              "Fixed_Asset_Master_File/hasAttributes/Business Unit Code"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Currency ID",
+            "parent": "Fixed_Asset_Master_File/attributeContext/Fixed_Asset_Master_File",
+            "definition": "resolvedFrom/Fixed_Asset_Master_File/hasAttributes/Currency ID",
+            "contents": [
+              "Fixed_Asset_Master_File/hasAttributes/Currency ID"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Fixed Asset Accumulated Depreciation",
+            "parent": "Fixed_Asset_Master_File/attributeContext/Fixed_Asset_Master_File",
+            "definition": "resolvedFrom/Fixed_Asset_Master_File/hasAttributes/Fixed Asset Accumulated Depreciation",
+            "contents": [
+              "Fixed_Asset_Master_File/hasAttributes/Fixed Asset Accumulated Depreciation"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Fixed Asset Acquisition Date",
+            "parent": "Fixed_Asset_Master_File/attributeContext/Fixed_Asset_Master_File",
+            "definition": "resolvedFrom/Fixed_Asset_Master_File/hasAttributes/Fixed Asset Acquisition Date",
+            "contents": [
+              "Fixed_Asset_Master_File/hasAttributes/Fixed Asset Acquisition Date"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Fixed Asset Asset Account",
+            "parent": "Fixed_Asset_Master_File/attributeContext/Fixed_Asset_Master_File",
+            "definition": "resolvedFrom/Fixed_Asset_Master_File/hasAttributes/Fixed Asset Asset Account",
+            "contents": [
+              "Fixed_Asset_Master_File/hasAttributes/Fixed Asset Asset Account"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Fixed Asset Availablefor Sale Date",
+            "parent": "Fixed_Asset_Master_File/attributeContext/Fixed_Asset_Master_File",
+            "definition": "resolvedFrom/Fixed_Asset_Master_File/hasAttributes/Fixed Asset Availablefor Sale Date",
+            "contents": [
+              "Fixed_Asset_Master_File/hasAttributes/Fixed Asset Availablefor Sale Date"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Fixed Asset Bar Code",
+            "parent": "Fixed_Asset_Master_File/attributeContext/Fixed_Asset_Master_File",
+            "definition": "resolvedFrom/Fixed_Asset_Master_File/hasAttributes/Fixed Asset Bar Code",
+            "contents": [
+              "Fixed_Asset_Master_File/hasAttributes/Fixed Asset Bar Code"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Fixed Asset CIP Account",
+            "parent": "Fixed_Asset_Master_File/attributeContext/Fixed_Asset_Master_File",
+            "definition": "resolvedFrom/Fixed_Asset_Master_File/hasAttributes/Fixed Asset CIP Account",
+            "contents": [
+              "Fixed_Asset_Master_File/hasAttributes/Fixed Asset CIP Account"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Fixed Asset Class",
+            "parent": "Fixed_Asset_Master_File/attributeContext/Fixed_Asset_Master_File",
+            "definition": "resolvedFrom/Fixed_Asset_Master_File/hasAttributes/Fixed Asset Class",
+            "contents": [
+              "Fixed_Asset_Master_File/hasAttributes/Fixed Asset Class"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Fixed Asset Depreciable Basis",
+            "parent": "Fixed_Asset_Master_File/attributeContext/Fixed_Asset_Master_File",
+            "definition": "resolvedFrom/Fixed_Asset_Master_File/hasAttributes/Fixed Asset Depreciable Basis",
+            "contents": [
+              "Fixed_Asset_Master_File/hasAttributes/Fixed Asset Depreciable Basis"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Fixed Asset Disposal Date",
+            "parent": "Fixed_Asset_Master_File/attributeContext/Fixed_Asset_Master_File",
+            "definition": "resolvedFrom/Fixed_Asset_Master_File/hasAttributes/Fixed Asset Disposal Date",
+            "contents": [
+              "Fixed_Asset_Master_File/hasAttributes/Fixed Asset Disposal Date"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Fixed Asset Inactive Flag",
+            "parent": "Fixed_Asset_Master_File/attributeContext/Fixed_Asset_Master_File",
+            "definition": "resolvedFrom/Fixed_Asset_Master_File/hasAttributes/Fixed Asset Inactive Flag",
+            "contents": [
+              "Fixed_Asset_Master_File/hasAttributes/Fixed Asset Inactive Flag"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Fixed Asset In Service Date",
+            "parent": "Fixed_Asset_Master_File/attributeContext/Fixed_Asset_Master_File",
+            "definition": "resolvedFrom/Fixed_Asset_Master_File/hasAttributes/Fixed Asset In Service Date",
+            "contents": [
+              "Fixed_Asset_Master_File/hasAttributes/Fixed Asset In Service Date"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Fixed Asset Quantity On Hand",
+            "parent": "Fixed_Asset_Master_File/attributeContext/Fixed_Asset_Master_File",
+            "definition": "resolvedFrom/Fixed_Asset_Master_File/hasAttributes/Fixed Asset Quantity On Hand",
+            "contents": [
+              "Fixed_Asset_Master_File/hasAttributes/Fixed Asset Quantity On Hand"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Fixed Asset Replacement Cost",
+            "parent": "Fixed_Asset_Master_File/attributeContext/Fixed_Asset_Master_File",
+            "definition": "resolvedFrom/Fixed_Asset_Master_File/hasAttributes/Fixed Asset Replacement Cost",
+            "contents": [
+              "Fixed_Asset_Master_File/hasAttributes/Fixed Asset Replacement Cost"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Fixed Asset Retirement Date",
+            "parent": "Fixed_Asset_Master_File/attributeContext/Fixed_Asset_Master_File",
+            "definition": "resolvedFrom/Fixed_Asset_Master_File/hasAttributes/Fixed Asset Retirement Date",
+            "contents": [
+              "Fixed_Asset_Master_File/hasAttributes/Fixed Asset Retirement Date"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Fixed Assettobe Abandonedor Disposedof Otherthanbyfor Sale Date",
+            "parent": "Fixed_Asset_Master_File/attributeContext/Fixed_Asset_Master_File",
+            "definition": "resolvedFrom/Fixed_Asset_Master_File/hasAttributes/Fixed Assettobe Abandonedor Disposedof Otherthanbyfor Sale Date",
+            "contents": [
+              "Fixed_Asset_Master_File/hasAttributes/Fixed Assettobe Abandonedor Disposedof Otherthanbyfor Sale Date"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Fixed Asset Unrealized Gain Loss Account",
+            "parent": "Fixed_Asset_Master_File/attributeContext/Fixed_Asset_Master_File",
+            "definition": "resolvedFrom/Fixed_Asset_Master_File/hasAttributes/Fixed Asset Unrealized Gain Loss Account",
+            "contents": [
+              "Fixed_Asset_Master_File/hasAttributes/Fixed Asset Unrealized Gain Loss Account"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Fixed Asset Useful Life Remaining",
+            "parent": "Fixed_Asset_Master_File/attributeContext/Fixed_Asset_Master_File",
+            "definition": "resolvedFrom/Fixed_Asset_Master_File/hasAttributes/Fixed Asset Useful Life Remaining",
+            "contents": [
+              "Fixed_Asset_Master_File/hasAttributes/Fixed Asset Useful Life Remaining"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Location ID",
+            "parent": "Fixed_Asset_Master_File/attributeContext/Fixed_Asset_Master_File",
+            "definition": "resolvedFrom/Fixed_Asset_Master_File/hasAttributes/Location ID",
+            "contents": [
+              "Fixed_Asset_Master_File/hasAttributes/Location ID"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Location Code",
+            "parent": "Fixed_Asset_Master_File/attributeContext/Fixed_Asset_Master_File",
+            "definition": "resolvedFrom/Fixed_Asset_Master_File/hasAttributes/Location Code",
+            "contents": [
+              "Fixed_Asset_Master_File/hasAttributes/Location Code"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Location Description",
+            "parent": "Fixed_Asset_Master_File/attributeContext/Fixed_Asset_Master_File",
+            "definition": "resolvedFrom/Fixed_Asset_Master_File/hasAttributes/Location Description",
+            "contents": [
+              "Fixed_Asset_Master_File/hasAttributes/Location Description"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Lot Number",
+            "parent": "Fixed_Asset_Master_File/attributeContext/Fixed_Asset_Master_File",
+            "definition": "resolvedFrom/Fixed_Asset_Master_File/hasAttributes/Lot Number",
+            "contents": [
+              "Fixed_Asset_Master_File/hasAttributes/Lot Number"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Manufacturer ID",
+            "parent": "Fixed_Asset_Master_File/attributeContext/Fixed_Asset_Master_File",
+            "definition": "resolvedFrom/Fixed_Asset_Master_File/hasAttributes/Manufacturer ID",
+            "contents": [
+              "Fixed_Asset_Master_File/hasAttributes/Manufacturer ID"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Project ID",
+            "parent": "Fixed_Asset_Master_File/attributeContext/Fixed_Asset_Master_File",
+            "definition": "resolvedFrom/Fixed_Asset_Master_File/hasAttributes/Project ID",
+            "contents": [
+              "Fixed_Asset_Master_File/hasAttributes/Project ID"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Serial Number",
+            "parent": "Fixed_Asset_Master_File/attributeContext/Fixed_Asset_Master_File",
+            "definition": "resolvedFrom/Fixed_Asset_Master_File/hasAttributes/Serial Number",
+            "contents": [
+              "Fixed_Asset_Master_File/hasAttributes/Serial Number"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Supplier Name",
+            "parent": "Fixed_Asset_Master_File/attributeContext/Fixed_Asset_Master_File",
+            "definition": "resolvedFrom/Fixed_Asset_Master_File/hasAttributes/Supplier Name",
+            "contents": [
+              "Fixed_Asset_Master_File/hasAttributes/Supplier Name"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Vendor ID",
+            "parent": "Fixed_Asset_Master_File/attributeContext/Fixed_Asset_Master_File",
+            "definition": "resolvedFrom/Fixed_Asset_Master_File/hasAttributes/Vendor ID",
+            "contents": [
+              "Fixed_Asset_Master_File/hasAttributes/Vendor ID"
+            ]
+          }
+        ]
+      },
+      "hasAttributes": [
+        {
+          "name": "Depreciation Rate",
+          "appliedTraits": [
+            {
+              "traitReference": "is.dataFormat.numeric.shaped"
+            }
+          ],
+          "attributeContext": "Fixed_Asset_Master_File/attributeContext/Fixed_Asset_Master_File/Depreciation Rate",
+          "dataFormat": "Decimal"
+        },
+        {
+          "name": "Fixed Asset ID",
+          "appliedTraits": [
+            {
+              "traitReference": "is.dataFormat.numeric.shaped"
+            }
+          ],
+          "attributeContext": "Fixed_Asset_Master_File/attributeContext/Fixed_Asset_Master_File/Fixed Asset ID",
+          "dataFormat": "Decimal"
+        },
+        {
+          "name": "Fixed Asset Accumulated Depreciation Account",
+          "appliedTraits": [
+            "is.dataFormat.date",
+            "means.measurement.date"
+          ],
+          "attributeContext": "Fixed_Asset_Master_File/attributeContext/Fixed_Asset_Master_File/Fixed Asset Accumulated Depreciation Account",
+          "dataFormat": "Date"
+        },
+        {
+          "name": "Fixed Asset CIP Flag",
+          "appliedTraits": [
+            "is.dataFormat.character",
+            "is.dataFormat.big",
+            "is.dataFormat.array"
+          ],
+          "attributeContext": "Fixed_Asset_Master_File/attributeContext/Fixed_Asset_Master_File/Fixed Asset CIP Flag",
+          "dataFormat": "String"
+        },
+        {
+          "name": "Fixed Asset Code",
+          "appliedTraits": [
+            {
+              "traitReference": "is.dataFormat.numeric.shaped"
+            }
+          ],
+          "attributeContext": "Fixed_Asset_Master_File/attributeContext/Fixed_Asset_Master_File/Fixed Asset Code",
+          "dataFormat": "Decimal"
+        },
+        {
+          "name": "Fixed Asset Depreciation Account",
+          "appliedTraits": [
+            "is.dataFormat.character",
+            "is.dataFormat.big",
+            "is.dataFormat.array"
+          ],
+          "attributeContext": "Fixed_Asset_Master_File/attributeContext/Fixed_Asset_Master_File/Fixed Asset Depreciation Account",
+          "dataFormat": "String"
+        },
+        {
+          "name": "Fixed Asset Description",
+          "appliedTraits": [
+            "is.dataFormat.date",
+            "means.measurement.date"
+          ],
+          "attributeContext": "Fixed_Asset_Master_File/attributeContext/Fixed_Asset_Master_File/Fixed Asset Description",
+          "dataFormat": "Date"
+        },
+        {
+          "name": "Fixed Asset Fair Value",
+          "appliedTraits": [
+            "is.dataFormat.character",
+            "is.dataFormat.big",
+            "is.dataFormat.array"
+          ],
+          "attributeContext": "Fixed_Asset_Master_File/attributeContext/Fixed_Asset_Master_File/Fixed Asset Fair Value",
+          "dataFormat": "String"
+        },
+        {
+          "name": "Fixed Asset Net Book Value",
+          "appliedTraits": [
+            {
+              "traitReference": "is.dataFormat.numeric.shaped"
+            }
+          ],
+          "attributeContext": "Fixed_Asset_Master_File/attributeContext/Fixed_Asset_Master_File/Fixed Asset Net Book Value",
+          "dataFormat": "Decimal"
+        },
+        {
+          "name": "Fixed Asset Original Cost",
+          "appliedTraits": [
+            {
+              "traitReference": "is.dataFormat.numeric.shaped"
+            }
+          ],
+          "attributeContext": "Fixed_Asset_Master_File/attributeContext/Fixed_Asset_Master_File/Fixed Asset Original Cost",
+          "dataFormat": "Decimal"
+        },
+        {
+          "name": "Business Unit Code",
+          "appliedTraits": [
+            "is.dataFormat.character",
+            "is.dataFormat.big",
+            "is.dataFormat.array"
+          ],
+          "attributeContext": "Fixed_Asset_Master_File/attributeContext/Fixed_Asset_Master_File/Business Unit Code",
+          "dataFormat": "String"
+        },
+        {
+          "name": "Currency ID",
+          "appliedTraits": [
+            "is.dataFormat.character",
+            "is.dataFormat.big",
+            "is.dataFormat.array"
+          ],
+          "attributeContext": "Fixed_Asset_Master_File/attributeContext/Fixed_Asset_Master_File/Currency ID",
+          "dataFormat": "String"
+        },
+        {
+          "name": "Fixed Asset Accumulated Depreciation",
+          "appliedTraits": [
+            "is.dataFormat.character",
+            "is.dataFormat.big",
+            "is.dataFormat.array"
+          ],
+          "attributeContext": "Fixed_Asset_Master_File/attributeContext/Fixed_Asset_Master_File/Fixed Asset Accumulated Depreciation",
+          "dataFormat": "String"
+        },
+        {
+          "name": "Fixed Asset Acquisition Date",
+          "appliedTraits": [
+            "is.dataFormat.character",
+            "is.dataFormat.big",
+            "is.dataFormat.array"
+          ],
+          "attributeContext": "Fixed_Asset_Master_File/attributeContext/Fixed_Asset_Master_File/Fixed Asset Acquisition Date",
+          "dataFormat": "String"
+        },
+        {
+          "name": "Fixed Asset Asset Account",
+          "appliedTraits": [
+            "is.dataFormat.date",
+            "means.measurement.date"
+          ],
+          "attributeContext": "Fixed_Asset_Master_File/attributeContext/Fixed_Asset_Master_File/Fixed Asset Asset Account",
+          "dataFormat": "Date"
+        },
+        {
+          "name": "Fixed Asset Availablefor Sale Date",
+          "appliedTraits": [
+            "is.dataFormat.character",
+            "is.dataFormat.big",
+            "is.dataFormat.array"
+          ],
+          "attributeContext": "Fixed_Asset_Master_File/attributeContext/Fixed_Asset_Master_File/Fixed Asset Availablefor Sale Date",
+          "dataFormat": "String"
+        },
+        {
+          "name": "Fixed Asset Bar Code",
+          "appliedTraits": [
+            "is.dataFormat.character",
+            "is.dataFormat.big",
+            "is.dataFormat.array"
+          ],
+          "attributeContext": "Fixed_Asset_Master_File/attributeContext/Fixed_Asset_Master_File/Fixed Asset Bar Code",
+          "dataFormat": "String"
+        },
+        {
+          "name": "Fixed Asset CIP Account",
+          "appliedTraits": [
+            "is.dataFormat.boolean"
+          ],
+          "attributeContext": "Fixed_Asset_Master_File/attributeContext/Fixed_Asset_Master_File/Fixed Asset CIP Account",
+          "dataFormat": "Boolean"
+        },
+        {
+          "name": "Fixed Asset Class",
+          "appliedTraits": [
+            "is.dataFormat.character",
+            "is.dataFormat.big",
+            "is.dataFormat.array"
+          ],
+          "attributeContext": "Fixed_Asset_Master_File/attributeContext/Fixed_Asset_Master_File/Fixed Asset Class",
+          "dataFormat": "String"
+        },
+        {
+          "name": "Fixed Asset Depreciable Basis",
+          "appliedTraits": [
+            "is.dataFormat.character",
+            "is.dataFormat.big",
+            "is.dataFormat.array"
+          ],
+          "attributeContext": "Fixed_Asset_Master_File/attributeContext/Fixed_Asset_Master_File/Fixed Asset Depreciable Basis",
+          "dataFormat": "String"
+        },
+        {
+          "name": "Fixed Asset Disposal Date",
+          "appliedTraits": [
+            {
+              "traitReference": "is.dataFormat.numeric.shaped"
+            }
+          ],
+          "attributeContext": "Fixed_Asset_Master_File/attributeContext/Fixed_Asset_Master_File/Fixed Asset Disposal Date",
+          "dataFormat": "Decimal"
+        },
+        {
+          "name": "Fixed Asset Inactive Flag",
+          "appliedTraits": [
+            "is.dataFormat.boolean"
+          ],
+          "attributeContext": "Fixed_Asset_Master_File/attributeContext/Fixed_Asset_Master_File/Fixed Asset Inactive Flag",
+          "dataFormat": "Boolean"
+        },
+        {
+          "name": "Fixed Asset In Service Date",
+          "appliedTraits": [
+            "is.dataFormat.date",
+            "means.measurement.date"
+          ],
+          "attributeContext": "Fixed_Asset_Master_File/attributeContext/Fixed_Asset_Master_File/Fixed Asset In Service Date",
+          "dataFormat": "Date"
+        },
+        {
+          "name": "Fixed Asset Quantity On Hand",
+          "appliedTraits": [
+            {
+              "traitReference": "is.dataFormat.numeric.shaped"
+            }
+          ],
+          "attributeContext": "Fixed_Asset_Master_File/attributeContext/Fixed_Asset_Master_File/Fixed Asset Quantity On Hand",
+          "dataFormat": "Decimal"
+        },
+        {
+          "name": "Fixed Asset Replacement Cost",
+          "appliedTraits": [
+            {
+              "traitReference": "is.dataFormat.numeric.shaped"
+            }
+          ],
+          "attributeContext": "Fixed_Asset_Master_File/attributeContext/Fixed_Asset_Master_File/Fixed Asset Replacement Cost",
+          "dataFormat": "Decimal"
+        },
+        {
+          "name": "Fixed Asset Retirement Date",
+          "appliedTraits": [
+            "is.dataFormat.date",
+            "means.measurement.date"
+          ],
+          "attributeContext": "Fixed_Asset_Master_File/attributeContext/Fixed_Asset_Master_File/Fixed Asset Retirement Date",
+          "dataFormat": "Date"
+        },
+        {
+          "name": "Fixed Assettobe Abandonedor Disposedof Otherthanbyfor Sale Date",
+          "appliedTraits": [
+            "is.dataFormat.date",
+            "means.measurement.date"
+          ],
+          "attributeContext": "Fixed_Asset_Master_File/attributeContext/Fixed_Asset_Master_File/Fixed Assettobe Abandonedor Disposedof Otherthanbyfor Sale Date",
+          "dataFormat": "Date"
+        },
+        {
+          "name": "Fixed Asset Unrealized Gain Loss Account",
+          "appliedTraits": [
+            "is.dataFormat.character",
+            "is.dataFormat.big",
+            "is.dataFormat.array"
+          ],
+          "attributeContext": "Fixed_Asset_Master_File/attributeContext/Fixed_Asset_Master_File/Fixed Asset Unrealized Gain Loss Account",
+          "dataFormat": "String"
+        },
+        {
+          "name": "Fixed Asset Useful Life Remaining",
+          "appliedTraits": [
+            {
+              "traitReference": "is.dataFormat.numeric.shaped"
+            }
+          ],
+          "attributeContext": "Fixed_Asset_Master_File/attributeContext/Fixed_Asset_Master_File/Fixed Asset Useful Life Remaining",
+          "dataFormat": "Decimal"
+        },
+        {
+          "name": "Location ID",
+          "appliedTraits": [
+            "is.dataFormat.character",
+            "is.dataFormat.big",
+            "is.dataFormat.array"
+          ],
+          "attributeContext": "Fixed_Asset_Master_File/attributeContext/Fixed_Asset_Master_File/Location ID",
+          "dataFormat": "String"
+        },
+        {
+          "name": "Location Code",
+          "appliedTraits": [
+            "is.dataFormat.character",
+            "is.dataFormat.big",
+            "is.dataFormat.array"
+          ],
+          "attributeContext": "Fixed_Asset_Master_File/attributeContext/Fixed_Asset_Master_File/Location Code",
+          "dataFormat": "String"
+        },
+        {
+          "name": "Location Description",
+          "appliedTraits": [
+            "is.dataFormat.character",
+            "is.dataFormat.big",
+            "is.dataFormat.array"
+          ],
+          "attributeContext": "Fixed_Asset_Master_File/attributeContext/Fixed_Asset_Master_File/Location Description",
+          "dataFormat": "String"
+        },
+        {
+          "name": "Lot Number",
+          "appliedTraits": [
+            "is.dataFormat.boolean"
+          ],
+          "attributeContext": "Fixed_Asset_Master_File/attributeContext/Fixed_Asset_Master_File/Lot Number",
+          "dataFormat": "Boolean"
+        },
+        {
+          "name": "Manufacturer ID",
+          "appliedTraits": [
+            "is.dataFormat.character",
+            "is.dataFormat.big",
+            "is.dataFormat.array"
+          ],
+          "attributeContext": "Fixed_Asset_Master_File/attributeContext/Fixed_Asset_Master_File/Manufacturer ID",
+          "dataFormat": "String"
+        },
+        {
+          "name": "Project ID",
+          "appliedTraits": [
+            "is.dataFormat.character",
+            "is.dataFormat.big",
+            "is.dataFormat.array"
+          ],
+          "attributeContext": "Fixed_Asset_Master_File/attributeContext/Fixed_Asset_Master_File/Project ID",
+          "dataFormat": "String"
+        },
+        {
+          "name": "Serial Number",
+          "appliedTraits": [
+            "is.dataFormat.boolean"
+          ],
+          "attributeContext": "Fixed_Asset_Master_File/attributeContext/Fixed_Asset_Master_File/Serial Number",
+          "dataFormat": "Boolean"
+        },
+        {
+          "name": "Supplier Name",
+          "appliedTraits": [
+            "is.dataFormat.character",
+            "is.dataFormat.big",
+            "is.dataFormat.array"
+          ],
+          "attributeContext": "Fixed_Asset_Master_File/attributeContext/Fixed_Asset_Master_File/Supplier Name",
+          "dataFormat": "String"
+        },
+        {
+          "name": "Vendor ID",
+          "appliedTraits": [
+            "is.dataFormat.character",
+            "is.dataFormat.big",
+            "is.dataFormat.array"
+          ],
+          "attributeContext": "Fixed_Asset_Master_File/attributeContext/Fixed_Asset_Master_File/Vendor ID",
+          "dataFormat": "String"
+        }
+      ]
+    }
+  ]
+}

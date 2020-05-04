@@ -1,0 +1,834 @@
+{
+  "jsonSchemaSemanticVersion": "1.0.0",
+  "imports": [
+    {
+      "corpusPath": "/Supplier Master Data.cdm.json",
+      "moniker": "resolvedFrom"
+    }
+  ],
+  "definitions": [
+    {
+      "entityName": "Supplier Master Data",
+      "attributeContext": {
+        "type": "entity",
+        "name": "Supplier Master Data",
+        "definition": "resolvedFrom/Supplier Master Data",
+        "contents": [
+          {
+            "type": "attributeDefinition",
+            "name": "Account ID",
+            "parent": "Supplier Master Data/attributeContext/Supplier Master Data",
+            "definition": "resolvedFrom/Supplier Master Data/hasAttributes/Account ID",
+            "contents": [
+              "Supplier Master Data/hasAttributes/Account ID"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Address Address Type",
+            "parent": "Supplier Master Data/attributeContext/Supplier Master Data",
+            "definition": "resolvedFrom/Supplier Master Data/hasAttributes/Address Address Type",
+            "contents": [
+              "Supplier Master Data/hasAttributes/Address Address Type"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Address Building",
+            "parent": "Supplier Master Data/attributeContext/Supplier Master Data",
+            "definition": "resolvedFrom/Supplier Master Data/hasAttributes/Address Building",
+            "contents": [
+              "Supplier Master Data/hasAttributes/Address Building"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Address City",
+            "parent": "Supplier Master Data/attributeContext/Supplier Master Data",
+            "definition": "resolvedFrom/Supplier Master Data/hasAttributes/Address City",
+            "contents": [
+              "Supplier Master Data/hasAttributes/Address City"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Address Country",
+            "parent": "Supplier Master Data/attributeContext/Supplier Master Data",
+            "definition": "resolvedFrom/Supplier Master Data/hasAttributes/Address Country",
+            "contents": [
+              "Supplier Master Data/hasAttributes/Address Country"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Address Number",
+            "parent": "Supplier Master Data/attributeContext/Supplier Master Data",
+            "definition": "resolvedFrom/Supplier Master Data/hasAttributes/Address Number",
+            "contents": [
+              "Supplier Master Data/hasAttributes/Address Number"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Address Postal Code",
+            "parent": "Supplier Master Data/attributeContext/Supplier Master Data",
+            "definition": "resolvedFrom/Supplier Master Data/hasAttributes/Address Postal Code",
+            "contents": [
+              "Supplier Master Data/hasAttributes/Address Postal Code"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Address Region",
+            "parent": "Supplier Master Data/attributeContext/Supplier Master Data",
+            "definition": "resolvedFrom/Supplier Master Data/hasAttributes/Address Region",
+            "contents": [
+              "Supplier Master Data/hasAttributes/Address Region"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Address Street Name",
+            "parent": "Supplier Master Data/attributeContext/Supplier Master Data",
+            "definition": "resolvedFrom/Supplier Master Data/hasAttributes/Address Street Name",
+            "contents": [
+              "Supplier Master Data/hasAttributes/Address Street Name"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Bank Account Name",
+            "parent": "Supplier Master Data/attributeContext/Supplier Master Data",
+            "definition": "resolvedFrom/Supplier Master Data/hasAttributes/Bank Account Name",
+            "contents": [
+              "Supplier Master Data/hasAttributes/Bank Account Name"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Bank Account Number",
+            "parent": "Supplier Master Data/attributeContext/Supplier Master Data",
+            "definition": "resolvedFrom/Supplier Master Data/hasAttributes/Bank Account Number",
+            "contents": [
+              "Supplier Master Data/hasAttributes/Bank Account Number"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "E B Company Type",
+            "parent": "Supplier Master Data/attributeContext/Supplier Master Data",
+            "definition": "resolvedFrom/Supplier Master Data/hasAttributes/E B Company Type",
+            "contents": [
+              "Supplier Master Data/hasAttributes/E B Company Type"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Effective Date",
+            "parent": "Supplier Master Data/attributeContext/Supplier Master Data",
+            "definition": "resolvedFrom/Supplier Master Data/hasAttributes/Effective Date",
+            "contents": [
+              "Supplier Master Data/hasAttributes/Effective Date"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Email",
+            "parent": "Supplier Master Data/attributeContext/Supplier Master Data",
+            "definition": "resolvedFrom/Supplier Master Data/hasAttributes/Email",
+            "contents": [
+              "Supplier Master Data/hasAttributes/Email"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Expiration Date",
+            "parent": "Supplier Master Data/attributeContext/Supplier Master Data",
+            "definition": "resolvedFrom/Supplier Master Data/hasAttributes/Expiration Date",
+            "contents": [
+              "Supplier Master Data/hasAttributes/Expiration Date"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Fax",
+            "parent": "Supplier Master Data/attributeContext/Supplier Master Data",
+            "definition": "resolvedFrom/Supplier Master Data/hasAttributes/Fax",
+            "contents": [
+              "Supplier Master Data/hasAttributes/Fax"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "First Name",
+            "parent": "Supplier Master Data/attributeContext/Supplier Master Data",
+            "definition": "resolvedFrom/Supplier Master Data/hasAttributes/First Name",
+            "contents": [
+              "Supplier Master Data/hasAttributes/First Name"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "IBAN Number",
+            "parent": "Supplier Master Data/attributeContext/Supplier Master Data",
+            "definition": "resolvedFrom/Supplier Master Data/hasAttributes/IBAN Number",
+            "contents": [
+              "Supplier Master Data/hasAttributes/IBAN Number"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Last Name",
+            "parent": "Supplier Master Data/attributeContext/Supplier Master Data",
+            "definition": "resolvedFrom/Supplier Master Data/hasAttributes/Last Name",
+            "contents": [
+              "Supplier Master Data/hasAttributes/Last Name"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Name",
+            "parent": "Supplier Master Data/attributeContext/Supplier Master Data",
+            "definition": "resolvedFrom/Supplier Master Data/hasAttributes/Name",
+            "contents": [
+              "Supplier Master Data/hasAttributes/Name"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Payment Discount Days",
+            "parent": "Supplier Master Data/attributeContext/Supplier Master Data",
+            "definition": "resolvedFrom/Supplier Master Data/hasAttributes/Payment Discount Days",
+            "contents": [
+              "Supplier Master Data/hasAttributes/Payment Discount Days"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Payment Discount Percentage",
+            "parent": "Supplier Master Data/attributeContext/Supplier Master Data",
+            "definition": "resolvedFrom/Supplier Master Data/hasAttributes/Payment Discount Percentage",
+            "contents": [
+              "Supplier Master Data/hasAttributes/Payment Discount Percentage"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Payment Due Days",
+            "parent": "Supplier Master Data/attributeContext/Supplier Master Data",
+            "definition": "resolvedFrom/Supplier Master Data/hasAttributes/Payment Due Days",
+            "contents": [
+              "Supplier Master Data/hasAttributes/Payment Due Days"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Registration Number",
+            "parent": "Supplier Master Data/attributeContext/Supplier Master Data",
+            "definition": "resolvedFrom/Supplier Master Data/hasAttributes/Registration Number",
+            "contents": [
+              "Supplier Master Data/hasAttributes/Registration Number"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Self Billing Indicator",
+            "parent": "Supplier Master Data/attributeContext/Supplier Master Data",
+            "definition": "resolvedFrom/Supplier Master Data/hasAttributes/Self Billing Indicator",
+            "contents": [
+              "Supplier Master Data/hasAttributes/Self Billing Indicator"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Sort Code",
+            "parent": "Supplier Master Data/attributeContext/Supplier Master Data",
+            "definition": "resolvedFrom/Supplier Master Data/hasAttributes/Sort Code",
+            "contents": [
+              "Supplier Master Data/hasAttributes/Sort Code"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Supplier ID",
+            "parent": "Supplier Master Data/attributeContext/Supplier Master Data",
+            "definition": "resolvedFrom/Supplier Master Data/hasAttributes/Supplier ID",
+            "contents": [
+              "Supplier Master Data/hasAttributes/Supplier ID"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Supplier Credit Limit",
+            "parent": "Supplier Master Data/attributeContext/Supplier Master Data",
+            "definition": "resolvedFrom/Supplier Master Data/hasAttributes/Supplier Credit Limit",
+            "contents": [
+              "Supplier Master Data/hasAttributes/Supplier Credit Limit"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "System Approved Date Time",
+            "parent": "Supplier Master Data/attributeContext/Supplier Master Data",
+            "definition": "resolvedFrom/Supplier Master Data/hasAttributes/System Approved Date Time",
+            "contents": [
+              "Supplier Master Data/hasAttributes/System Approved Date Time"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "System Approved User",
+            "parent": "Supplier Master Data/attributeContext/Supplier Master Data",
+            "definition": "resolvedFrom/Supplier Master Data/hasAttributes/System Approved User",
+            "contents": [
+              "Supplier Master Data/hasAttributes/System Approved User"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "System Entry Date Time",
+            "parent": "Supplier Master Data/attributeContext/Supplier Master Data",
+            "definition": "resolvedFrom/Supplier Master Data/hasAttributes/System Entry Date Time",
+            "contents": [
+              "Supplier Master Data/hasAttributes/System Entry Date Time"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "System Entry User",
+            "parent": "Supplier Master Data/attributeContext/Supplier Master Data",
+            "definition": "resolvedFrom/Supplier Master Data/hasAttributes/System Entry User",
+            "contents": [
+              "Supplier Master Data/hasAttributes/System Entry User"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "System Modified Date Time",
+            "parent": "Supplier Master Data/attributeContext/Supplier Master Data",
+            "definition": "resolvedFrom/Supplier Master Data/hasAttributes/System Modified Date Time",
+            "contents": [
+              "Supplier Master Data/hasAttributes/System Modified Date Time"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "System Modified User",
+            "parent": "Supplier Master Data/attributeContext/Supplier Master Data",
+            "definition": "resolvedFrom/Supplier Master Data/hasAttributes/System Modified User",
+            "contents": [
+              "Supplier Master Data/hasAttributes/System Modified User"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Tax Authority",
+            "parent": "Supplier Master Data/attributeContext/Supplier Master Data",
+            "definition": "resolvedFrom/Supplier Master Data/hasAttributes/Tax Authority",
+            "contents": [
+              "Supplier Master Data/hasAttributes/Tax Authority"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Tax Number",
+            "parent": "Supplier Master Data/attributeContext/Supplier Master Data",
+            "definition": "resolvedFrom/Supplier Master Data/hasAttributes/Tax Number",
+            "contents": [
+              "Supplier Master Data/hasAttributes/Tax Number"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Tax Registration Number",
+            "parent": "Supplier Master Data/attributeContext/Supplier Master Data",
+            "definition": "resolvedFrom/Supplier Master Data/hasAttributes/Tax Registration Number",
+            "contents": [
+              "Supplier Master Data/hasAttributes/Tax Registration Number"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Tax Type",
+            "parent": "Supplier Master Data/attributeContext/Supplier Master Data",
+            "definition": "resolvedFrom/Supplier Master Data/hasAttributes/Tax Type",
+            "contents": [
+              "Supplier Master Data/hasAttributes/Tax Type"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Tax Verification Date",
+            "parent": "Supplier Master Data/attributeContext/Supplier Master Data",
+            "definition": "resolvedFrom/Supplier Master Data/hasAttributes/Tax Verification Date",
+            "contents": [
+              "Supplier Master Data/hasAttributes/Tax Verification Date"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Telephone",
+            "parent": "Supplier Master Data/attributeContext/Supplier Master Data",
+            "definition": "resolvedFrom/Supplier Master Data/hasAttributes/Telephone",
+            "contents": [
+              "Supplier Master Data/hasAttributes/Telephone"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Title",
+            "parent": "Supplier Master Data/attributeContext/Supplier Master Data",
+            "definition": "resolvedFrom/Supplier Master Data/hasAttributes/Title",
+            "contents": [
+              "Supplier Master Data/hasAttributes/Title"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Transaction Credit Limit",
+            "parent": "Supplier Master Data/attributeContext/Supplier Master Data",
+            "definition": "resolvedFrom/Supplier Master Data/hasAttributes/Transaction Credit Limit",
+            "contents": [
+              "Supplier Master Data/hasAttributes/Transaction Credit Limit"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Website",
+            "parent": "Supplier Master Data/attributeContext/Supplier Master Data",
+            "definition": "resolvedFrom/Supplier Master Data/hasAttributes/Website",
+            "contents": [
+              "Supplier Master Data/hasAttributes/Website"
+            ]
+          }
+        ]
+      },
+      "hasAttributes": [
+        {
+          "name": "Account ID",
+          "appliedTraits": [
+            "is.dataFormat.character",
+            "is.dataFormat.big",
+            "is.dataFormat.array"
+          ],
+          "attributeContext": "Supplier Master Data/attributeContext/Supplier Master Data/Account ID",
+          "dataFormat": "String"
+        },
+        {
+          "name": "Address Address Type",
+          "appliedTraits": [
+            "is.dataFormat.character",
+            "is.dataFormat.big",
+            "is.dataFormat.array"
+          ],
+          "attributeContext": "Supplier Master Data/attributeContext/Supplier Master Data/Address Address Type",
+          "dataFormat": "String"
+        },
+        {
+          "name": "Address Building",
+          "appliedTraits": [
+            "is.dataFormat.character",
+            "is.dataFormat.big",
+            "is.dataFormat.array"
+          ],
+          "attributeContext": "Supplier Master Data/attributeContext/Supplier Master Data/Address Building",
+          "dataFormat": "String"
+        },
+        {
+          "name": "Address City",
+          "appliedTraits": [
+            "is.dataFormat.character",
+            "is.dataFormat.big",
+            "is.dataFormat.array"
+          ],
+          "attributeContext": "Supplier Master Data/attributeContext/Supplier Master Data/Address City",
+          "dataFormat": "String"
+        },
+        {
+          "name": "Address Country",
+          "appliedTraits": [
+            "is.dataFormat.character",
+            "is.dataFormat.big",
+            "is.dataFormat.array"
+          ],
+          "attributeContext": "Supplier Master Data/attributeContext/Supplier Master Data/Address Country",
+          "dataFormat": "String"
+        },
+        {
+          "name": "Address Number",
+          "appliedTraits": [
+            {
+              "traitReference": "is.dataFormat.numeric.shaped"
+            }
+          ],
+          "attributeContext": "Supplier Master Data/attributeContext/Supplier Master Data/Address Number",
+          "dataFormat": "Decimal"
+        },
+        {
+          "name": "Address Postal Code",
+          "appliedTraits": [
+            "is.dataFormat.character",
+            "is.dataFormat.big",
+            "is.dataFormat.array"
+          ],
+          "attributeContext": "Supplier Master Data/attributeContext/Supplier Master Data/Address Postal Code",
+          "dataFormat": "String"
+        },
+        {
+          "name": "Address Region",
+          "appliedTraits": [
+            "is.dataFormat.character",
+            "is.dataFormat.big",
+            "is.dataFormat.array"
+          ],
+          "attributeContext": "Supplier Master Data/attributeContext/Supplier Master Data/Address Region",
+          "dataFormat": "String"
+        },
+        {
+          "name": "Address Street Name",
+          "appliedTraits": [
+            "is.dataFormat.character",
+            "is.dataFormat.big",
+            "is.dataFormat.array"
+          ],
+          "attributeContext": "Supplier Master Data/attributeContext/Supplier Master Data/Address Street Name",
+          "dataFormat": "String"
+        },
+        {
+          "name": "Bank Account Name",
+          "appliedTraits": [
+            "is.dataFormat.character",
+            "is.dataFormat.big",
+            "is.dataFormat.array"
+          ],
+          "attributeContext": "Supplier Master Data/attributeContext/Supplier Master Data/Bank Account Name",
+          "dataFormat": "String"
+        },
+        {
+          "name": "Bank Account Number",
+          "appliedTraits": [
+            "is.dataFormat.character",
+            "is.dataFormat.big",
+            "is.dataFormat.array"
+          ],
+          "attributeContext": "Supplier Master Data/attributeContext/Supplier Master Data/Bank Account Number",
+          "dataFormat": "String"
+        },
+        {
+          "name": "E B Company Type",
+          "appliedTraits": [
+            "is.dataFormat.character",
+            "is.dataFormat.big",
+            "is.dataFormat.array"
+          ],
+          "attributeContext": "Supplier Master Data/attributeContext/Supplier Master Data/E B Company Type",
+          "dataFormat": "String"
+        },
+        {
+          "name": "Effective Date",
+          "appliedTraits": [
+            "is.dataFormat.date",
+            "means.measurement.date"
+          ],
+          "attributeContext": "Supplier Master Data/attributeContext/Supplier Master Data/Effective Date",
+          "dataFormat": "Date"
+        },
+        {
+          "name": "Email",
+          "appliedTraits": [
+            "is.dataFormat.character",
+            "is.dataFormat.big",
+            "is.dataFormat.array"
+          ],
+          "attributeContext": "Supplier Master Data/attributeContext/Supplier Master Data/Email",
+          "dataFormat": "String"
+        },
+        {
+          "name": "Expiration Date",
+          "appliedTraits": [
+            "is.dataFormat.date",
+            "means.measurement.date"
+          ],
+          "attributeContext": "Supplier Master Data/attributeContext/Supplier Master Data/Expiration Date",
+          "dataFormat": "Date"
+        },
+        {
+          "name": "Fax",
+          "appliedTraits": [
+            "is.dataFormat.character",
+            "is.dataFormat.big",
+            "is.dataFormat.array"
+          ],
+          "attributeContext": "Supplier Master Data/attributeContext/Supplier Master Data/Fax",
+          "dataFormat": "String"
+        },
+        {
+          "name": "First Name",
+          "appliedTraits": [
+            "is.dataFormat.character",
+            "is.dataFormat.big",
+            "is.dataFormat.array"
+          ],
+          "attributeContext": "Supplier Master Data/attributeContext/Supplier Master Data/First Name",
+          "dataFormat": "String"
+        },
+        {
+          "name": "IBAN Number",
+          "appliedTraits": [
+            "is.dataFormat.character",
+            "is.dataFormat.big",
+            "is.dataFormat.array"
+          ],
+          "attributeContext": "Supplier Master Data/attributeContext/Supplier Master Data/IBAN Number",
+          "dataFormat": "String"
+        },
+        {
+          "name": "Last Name",
+          "appliedTraits": [
+            "is.dataFormat.character",
+            "is.dataFormat.big",
+            "is.dataFormat.array"
+          ],
+          "attributeContext": "Supplier Master Data/attributeContext/Supplier Master Data/Last Name",
+          "dataFormat": "String"
+        },
+        {
+          "name": "Name",
+          "appliedTraits": [
+            "is.dataFormat.character",
+            "is.dataFormat.big",
+            "is.dataFormat.array"
+          ],
+          "attributeContext": "Supplier Master Data/attributeContext/Supplier Master Data/Name",
+          "dataFormat": "String"
+        },
+        {
+          "name": "Payment Discount Days",
+          "appliedTraits": [
+            {
+              "traitReference": "is.dataFormat.numeric.shaped"
+            }
+          ],
+          "attributeContext": "Supplier Master Data/attributeContext/Supplier Master Data/Payment Discount Days",
+          "dataFormat": "Decimal"
+        },
+        {
+          "name": "Payment Discount Percentage",
+          "appliedTraits": [
+            {
+              "traitReference": "is.dataFormat.numeric.shaped"
+            }
+          ],
+          "attributeContext": "Supplier Master Data/attributeContext/Supplier Master Data/Payment Discount Percentage",
+          "dataFormat": "Decimal"
+        },
+        {
+          "name": "Payment Due Days",
+          "appliedTraits": [
+            {
+              "traitReference": "is.dataFormat.numeric.shaped"
+            }
+          ],
+          "attributeContext": "Supplier Master Data/attributeContext/Supplier Master Data/Payment Due Days",
+          "dataFormat": "Decimal"
+        },
+        {
+          "name": "Registration Number",
+          "appliedTraits": [
+            "is.dataFormat.character",
+            "is.dataFormat.big",
+            "is.dataFormat.array"
+          ],
+          "attributeContext": "Supplier Master Data/attributeContext/Supplier Master Data/Registration Number",
+          "dataFormat": "String"
+        },
+        {
+          "name": "Self Billing Indicator",
+          "appliedTraits": [
+            "is.dataFormat.character",
+            "is.dataFormat.big",
+            "is.dataFormat.array"
+          ],
+          "attributeContext": "Supplier Master Data/attributeContext/Supplier Master Data/Self Billing Indicator",
+          "dataFormat": "String"
+        },
+        {
+          "name": "Sort Code",
+          "appliedTraits": [
+            "is.dataFormat.character",
+            "is.dataFormat.big",
+            "is.dataFormat.array"
+          ],
+          "attributeContext": "Supplier Master Data/attributeContext/Supplier Master Data/Sort Code",
+          "dataFormat": "String"
+        },
+        {
+          "name": "Supplier ID",
+          "appliedTraits": [
+            {
+              "traitReference": "is.dataFormat.numeric.shaped"
+            }
+          ],
+          "attributeContext": "Supplier Master Data/attributeContext/Supplier Master Data/Supplier ID",
+          "dataFormat": "Decimal"
+        },
+        {
+          "name": "Supplier Credit Limit",
+          "appliedTraits": [
+            "is.dataFormat.character",
+            "is.dataFormat.big",
+            "is.dataFormat.array"
+          ],
+          "attributeContext": "Supplier Master Data/attributeContext/Supplier Master Data/Supplier Credit Limit",
+          "dataFormat": "String"
+        },
+        {
+          "name": "System Approved Date Time",
+          "appliedTraits": [
+            "is.dataFormat.date",
+            "means.measurement.date"
+          ],
+          "attributeContext": "Supplier Master Data/attributeContext/Supplier Master Data/System Approved Date Time",
+          "dataFormat": "Date"
+        },
+        {
+          "name": "System Approved User",
+          "appliedTraits": [
+            "is.dataFormat.character",
+            "is.dataFormat.big",
+            "is.dataFormat.array"
+          ],
+          "attributeContext": "Supplier Master Data/attributeContext/Supplier Master Data/System Approved User",
+          "dataFormat": "String"
+        },
+        {
+          "name": "System Entry Date Time",
+          "appliedTraits": [
+            "is.dataFormat.date",
+            "means.measurement.date"
+          ],
+          "attributeContext": "Supplier Master Data/attributeContext/Supplier Master Data/System Entry Date Time",
+          "dataFormat": "Date"
+        },
+        {
+          "name": "System Entry User",
+          "appliedTraits": [
+            "is.dataFormat.character",
+            "is.dataFormat.big",
+            "is.dataFormat.array"
+          ],
+          "attributeContext": "Supplier Master Data/attributeContext/Supplier Master Data/System Entry User",
+          "dataFormat": "String"
+        },
+        {
+          "name": "System Modified Date Time",
+          "appliedTraits": [
+            "is.dataFormat.date",
+            "means.measurement.date"
+          ],
+          "attributeContext": "Supplier Master Data/attributeContext/Supplier Master Data/System Modified Date Time",
+          "dataFormat": "Date"
+        },
+        {
+          "name": "System Modified User",
+          "appliedTraits": [
+            "is.dataFormat.character",
+            "is.dataFormat.big",
+            "is.dataFormat.array"
+          ],
+          "attributeContext": "Supplier Master Data/attributeContext/Supplier Master Data/System Modified User",
+          "dataFormat": "String"
+        },
+        {
+          "name": "Tax Authority",
+          "appliedTraits": [
+            "is.dataFormat.character",
+            "is.dataFormat.big",
+            "is.dataFormat.array"
+          ],
+          "attributeContext": "Supplier Master Data/attributeContext/Supplier Master Data/Tax Authority",
+          "dataFormat": "String"
+        },
+        {
+          "name": "Tax Number",
+          "appliedTraits": [
+            "is.dataFormat.character",
+            "is.dataFormat.big",
+            "is.dataFormat.array"
+          ],
+          "attributeContext": "Supplier Master Data/attributeContext/Supplier Master Data/Tax Number",
+          "dataFormat": "String"
+        },
+        {
+          "name": "Tax Registration Number",
+          "appliedTraits": [
+            "is.dataFormat.character",
+            "is.dataFormat.big",
+            "is.dataFormat.array"
+          ],
+          "attributeContext": "Supplier Master Data/attributeContext/Supplier Master Data/Tax Registration Number",
+          "dataFormat": "String"
+        },
+        {
+          "name": "Tax Type",
+          "appliedTraits": [
+            "is.dataFormat.character",
+            "is.dataFormat.big",
+            "is.dataFormat.array"
+          ],
+          "attributeContext": "Supplier Master Data/attributeContext/Supplier Master Data/Tax Type",
+          "dataFormat": "String"
+        },
+        {
+          "name": "Tax Verification Date",
+          "appliedTraits": [
+            "is.dataFormat.date",
+            "means.measurement.date"
+          ],
+          "attributeContext": "Supplier Master Data/attributeContext/Supplier Master Data/Tax Verification Date",
+          "dataFormat": "Date"
+        },
+        {
+          "name": "Telephone",
+          "appliedTraits": [
+            "is.dataFormat.character",
+            "is.dataFormat.big",
+            "is.dataFormat.array"
+          ],
+          "attributeContext": "Supplier Master Data/attributeContext/Supplier Master Data/Telephone",
+          "dataFormat": "String"
+        },
+        {
+          "name": "Title",
+          "appliedTraits": [
+            "is.dataFormat.character",
+            "is.dataFormat.big",
+            "is.dataFormat.array"
+          ],
+          "attributeContext": "Supplier Master Data/attributeContext/Supplier Master Data/Title",
+          "dataFormat": "String"
+        },
+        {
+          "name": "Transaction Credit Limit",
+          "appliedTraits": [
+            {
+              "traitReference": "is.dataFormat.numeric.shaped"
+            }
+          ],
+          "attributeContext": "Supplier Master Data/attributeContext/Supplier Master Data/Transaction Credit Limit",
+          "dataFormat": "Decimal"
+        },
+        {
+          "name": "Website",
+          "appliedTraits": [
+            "is.dataFormat.character",
+            "is.dataFormat.big",
+            "is.dataFormat.array"
+          ],
+          "attributeContext": "Supplier Master Data/attributeContext/Supplier Master Data/Website",
+          "dataFormat": "String"
+        }
+      ]
+    }
+  ]
+}

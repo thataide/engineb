@@ -1,0 +1,97 @@
+﻿InventoryList,Closing Stock Quantity,decimal
+InventoryList,Closing Stock Value,decimal
+InventoryList,Inventory Description,string
+InventoryList,Inventory Item Code,string
+InventoryList,Unit Price,decimal
+InventoryList,Unit Sales Price,decimal
+InventoryList,Bin ID,string
+InventoryList,Count Date,date
+InventoryList,Counted By,string
+InventoryList,Current Valuation,decimal
+InventoryList,Default Inventory Method,string
+InventoryList,General Ledger Asset Account,string
+InventoryList,General Ledger Cost Account,string
+InventoryList,Inventory Bar Code,string
+InventoryList,Inventory Class,string
+InventoryList,Inventory Master Business Unit Code,string
+InventoryList,Inventory Product ID,string
+InventoryList,Inventory Product Master Business Unit Code,string
+InventoryList,Last Despatched Date,date
+InventoryList,Last Received Date,date
+InventoryList,Location Active Flag,boolean
+InventoryList,Location City,string
+InventoryList,Location Country,string
+InventoryList,Location Description,string
+InventoryList,Location Local Code,string
+InventoryList,Location Number,string
+InventoryList,Location Parent,string
+InventoryList,Location Postal Code,string
+InventoryList,Location State Province,string
+InventoryList,Location Street Name,string
+InventoryList,Lot Number,string
+InventoryList,Opening Stock Quantity,decimal
+InventoryList,Opening Stock Value,decimal
+InventoryList,Owner ID,string
+InventoryList,Preferred Vendor,string
+InventoryList,Product Status,string
+InventoryList,Quantity On Hand Physical Count,decimal
+InventoryList,Serial Number,string
+InventoryList,Stock Account Commodity Code,string
+InventoryList,Stock Characteristic,string
+InventoryList,Stock Characteristic Value,decimal
+InventoryList,Supplier ID,string
+InventoryList,Third Party Facility,boolean
+InventoryList,Unit Of Measure,string
+InventoryList,UOM To UOM Base Conversion Factor,decimal
+InventoryList,Write Down Description,string
+InventoryList,Write Down Factor,decimal
+InventoryTransactionDetail,Inventory Transaction Book Value,decimal
+InventoryTransactionDetail,Inventory Transaction Customer ID,string
+InventoryTransactionDetail,Inventory Transaction Document Line,string
+InventoryTransactionDetail,Inventory Transaction Document Number,string
+InventoryTransactionDetail,Inventory Transaction Document Type,string
+InventoryTransactionDetail,Inventory Transaction GL Line Credit Account Number,string
+InventoryTransactionDetail,Inventory Transaction GL Line Debit Account Number,string
+InventoryTransactionDetail,Inventory Transaction Inventory From Location,string
+InventoryTransactionDetail,Inventory Transaction Inventory Product ID,string
+InventoryTransactionDetail,Inventory Transaction Inventory To Location,string
+InventoryTransactionDetail,Inventory Transaction Line Number,decimal
+InventoryTransactionDetail,Inventory Transaction Lot Number,string
+InventoryTransactionDetail,Inventory Transaction Serial Number,string
+InventoryTransactionDetail,Inventory Transaction Supplier ID,string
+InventoryTransactionDetail,Inventory Transaction Tax Information,string
+InventoryTransactionDetail,Inventory Transaction Transaction ID,string
+InventoryTransactionDetail,Inventory Transaction Transaction Associated Order ID,string
+InventoryTransactionDetail,Inventory Transaction Transaction Associated Order Line ID,decimal
+InventoryTransactionDetail,Inventory Transaction Transaction Cost Adjustment,string
+InventoryTransactionDetail,Inventory Transaction Transaction Description,string
+InventoryTransactionDetail,Inventory Transaction Transaction Quantity,decimal
+InventoryTransactionDetail,Inventory Transaction Unit Of Measure,string
+InventoryTransactionDetail,Inventory Transaction Unit Price,decimal
+InventoryTransactionDetail,Inventory Transaction UOM To UOM Base Conversion Factor,decimal
+InventoryTransactionHeader,Inventory Transaction Approved By,string
+InventoryTransactionHeader,Inventory Transaction Approved By Date,date
+InventoryTransactionHeader,Inventory Transaction Business Unit Code,string
+InventoryTransactionHeader,Inventory Transaction Entered By,string
+InventoryTransactionHeader,Inventory Transaction Inventory System Or External Source,string
+InventoryTransactionHeader,Inventory Transaction Last Modified By,string
+InventoryTransactionHeader,Inventory Transaction Last Modified By Date,date
+InventoryTransactionHeader,Inventory Transaction Posting Date,date
+InventoryTransactionHeader,Inventory Transaction System ID,string
+InventoryTransactionHeader,Inventory Transaction Tax Point Date,date
+InventoryTransactionHeader,Inventory Transaction Transaction Type,string
+InventoryTransactionHeader,Movement Date Time,date
+InventoryTransactionHeader,Movement Reference,string
+InventoryTransactionHeader,Number Of Movement Lines,decimal
+InventoryTransactionHeader,Total Quantity Issued,decimal
+InventoryTransactionHeader,Total Quantity Received,decimal
+MaterialCost,Material Cost Business Unit,string
+MaterialCost,Material Cost Costing Type,string
+MaterialCost,Material Cost Inventory Product ID,string
+MaterialCost,Material Cost Line Item Cost,decimal
+MaterialCost,Material Cost Location ID,string
+MaterialCost,Material Cost Total Cost,decimal
+MaterialCost,Material Cost Unit Of Measure,string
+MaterialCost,Material Cost Val ID From Date ,date
+MaterialCost,Material Cost Val ID To Date,date
+MaterialCost,Material Cost Valuation Date,date

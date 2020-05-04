@@ -1,0 +1,119 @@
+{
+  "manifestName": "default",
+  "entities": [
+    {
+      "type": "LocalEntity",
+      "entityName": "InventoryList",
+      "entityPath": "resolved/InventoryList.cdm.json/InventoryList",
+      "dataPartitions": [
+        {
+          "name": "InventoryList-data-description",
+          "location": "local:/InventoryList/partition-data.csv",
+          "exhibitsTraits": [
+            {
+              "traitReference": "is.partition.format.CSV",
+              "arguments": [
+                {
+                  "name": "columnHeaders",
+                  "value": "true"
+                },
+                {
+                  "name": "delimiter",
+                  "value": ","
+                }
+              ]
+            }
+          ],
+          "arguments": []
+        }
+      ]
+    },
+    {
+      "type": "LocalEntity",
+      "entityName": "InventoryTransactionDetail",
+      "entityPath": "resolved/InventoryTransactionDetail.cdm.json/InventoryTransactionDetail",
+      "dataPartitions": [
+        {
+          "name": "InventoryTransactionDetail-data-description",
+          "location": "local:/InventoryTransactionDetail/partition-data.csv",
+          "exhibitsTraits": [
+            {
+              "traitReference": "is.partition.format.CSV",
+              "arguments": [
+                {
+                  "name": "columnHeaders",
+                  "value": "true"
+                },
+                {
+                  "name": "delimiter",
+                  "value": ","
+                }
+              ]
+            }
+          ],
+          "arguments": []
+        }
+      ]
+    },
+    {
+      "type": "LocalEntity",
+      "entityName": "InventoryTransactionHeader",
+      "entityPath": "resolved/InventoryTransactionHeader.cdm.json/InventoryTransactionHeader",
+      "dataPartitions": [
+        {
+          "name": "InventoryTransactionHeader-data-description",
+          "location": "local:/InventoryTransactionHeader/partition-data.csv",
+          "exhibitsTraits": [
+            {
+              "traitReference": "is.partition.format.CSV",
+              "arguments": [
+                {
+                  "name": "columnHeaders",
+                  "value": "true"
+                },
+                {
+                  "name": "delimiter",
+                  "value": ","
+                }
+              ]
+            }
+          ],
+          "arguments": []
+        }
+      ]
+    },
+    {
+      "type": "LocalEntity",
+      "entityName": "MaterialCost",
+      "entityPath": "resolved/MaterialCost.cdm.json/MaterialCost",
+      "dataPartitions": [
+        {
+          "name": "MaterialCost-data-description",
+          "location": "local:/MaterialCost/partition-data.csv",
+          "exhibitsTraits": [
+            {
+              "traitReference": "is.partition.format.CSV",
+              "arguments": [
+                {
+                  "name": "columnHeaders",
+                  "value": "true"
+                },
+                {
+                  "name": "delimiter",
+                  "value": ","
+                }
+              ]
+            }
+          ],
+          "arguments": []
+        }
+      ]
+    }
+  ],
+  "jsonSchemaSemanticVersion": "1.0.0",
+  "imports": [
+    {
+      "corpusPath": "cdm:/foundations.cdm.json"
+    }
+  ]
+}

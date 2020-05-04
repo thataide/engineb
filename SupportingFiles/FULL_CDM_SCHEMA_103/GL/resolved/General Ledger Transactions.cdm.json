@@ -1,0 +1,700 @@
+{
+  "jsonSchemaSemanticVersion": "1.0.0",
+  "imports": [
+    {
+      "corpusPath": "/General Ledger Transactions.cdm.json",
+      "moniker": "resolvedFrom"
+    }
+  ],
+  "definitions": [
+    {
+      "entityName": "General Ledger Transactions",
+      "attributeContext": {
+        "type": "entity",
+        "name": "General Ledger Transactions",
+        "definition": "resolvedFrom/General Ledger Transactions",
+        "contents": [
+          {
+            "type": "attributeDefinition",
+            "name": "Account Number",
+            "parent": "General Ledger Transactions/attributeContext/General Ledger Transactions",
+            "definition": "resolvedFrom/General Ledger Transactions/hasAttributes/Account Number",
+            "contents": [
+              "General Ledger Transactions/hasAttributes/Account Number"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Created Date",
+            "parent": "General Ledger Transactions/attributeContext/General Ledger Transactions",
+            "definition": "resolvedFrom/General Ledger Transactions/hasAttributes/Created Date",
+            "contents": [
+              "General Ledger Transactions/hasAttributes/Created Date"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Journal ID",
+            "parent": "General Ledger Transactions/attributeContext/General Ledger Transactions",
+            "definition": "resolvedFrom/General Ledger Transactions/hasAttributes/Journal ID",
+            "contents": [
+              "General Ledger Transactions/hasAttributes/Journal ID"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Journal Header Desc",
+            "parent": "General Ledger Transactions/attributeContext/General Ledger Transactions",
+            "definition": "resolvedFrom/General Ledger Transactions/hasAttributes/Journal Header Desc",
+            "contents": [
+              "General Ledger Transactions/hasAttributes/Journal Header Desc"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Journal Line Desc",
+            "parent": "General Ledger Transactions/attributeContext/General Ledger Transactions",
+            "definition": "resolvedFrom/General Ledger Transactions/hasAttributes/Journal Line Desc",
+            "contents": [
+              "General Ledger Transactions/hasAttributes/Journal Line Desc"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Tax Amount",
+            "parent": "General Ledger Transactions/attributeContext/General Ledger Transactions",
+            "definition": "resolvedFrom/General Ledger Transactions/hasAttributes/Tax Amount",
+            "contents": [
+              "General Ledger Transactions/hasAttributes/Tax Amount"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Tax Code",
+            "parent": "General Ledger Transactions/attributeContext/General Ledger Transactions",
+            "definition": "resolvedFrom/General Ledger Transactions/hasAttributes/Tax Code",
+            "contents": [
+              "General Ledger Transactions/hasAttributes/Tax Code"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Approved Date",
+            "parent": "General Ledger Transactions/attributeContext/General Ledger Transactions",
+            "definition": "resolvedFrom/General Ledger Transactions/hasAttributes/Approved Date",
+            "contents": [
+              "General Ledger Transactions/hasAttributes/Approved Date"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Approved User",
+            "parent": "General Ledger Transactions/attributeContext/General Ledger Transactions",
+            "definition": "resolvedFrom/General Ledger Transactions/hasAttributes/Approved User",
+            "contents": [
+              "General Ledger Transactions/hasAttributes/Approved User"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Business Unit",
+            "parent": "General Ledger Transactions/attributeContext/General Ledger Transactions",
+            "definition": "resolvedFrom/General Ledger Transactions/hasAttributes/Business Unit",
+            "contents": [
+              "General Ledger Transactions/hasAttributes/Business Unit"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Clearing Date",
+            "parent": "General Ledger Transactions/attributeContext/General Ledger Transactions",
+            "definition": "resolvedFrom/General Ledger Transactions/hasAttributes/Clearing Date",
+            "contents": [
+              "General Ledger Transactions/hasAttributes/Clearing Date"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Clearing Journal ID",
+            "parent": "General Ledger Transactions/attributeContext/General Ledger Transactions",
+            "definition": "resolvedFrom/General Ledger Transactions/hasAttributes/Clearing Journal ID",
+            "contents": [
+              "General Ledger Transactions/hasAttributes/Clearing Journal ID"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Created Time",
+            "parent": "General Ledger Transactions/attributeContext/General Ledger Transactions",
+            "definition": "resolvedFrom/General Ledger Transactions/hasAttributes/Created Time",
+            "contents": [
+              "General Ledger Transactions/hasAttributes/Created Time"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Created User",
+            "parent": "General Ledger Transactions/attributeContext/General Ledger Transactions",
+            "definition": "resolvedFrom/General Ledger Transactions/hasAttributes/Created User",
+            "contents": [
+              "General Ledger Transactions/hasAttributes/Created User"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Document Date",
+            "parent": "General Ledger Transactions/attributeContext/General Ledger Transactions",
+            "definition": "resolvedFrom/General Ledger Transactions/hasAttributes/Document Date",
+            "contents": [
+              "General Ledger Transactions/hasAttributes/Document Date"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Effective Date",
+            "parent": "General Ledger Transactions/attributeContext/General Ledger Transactions",
+            "definition": "resolvedFrom/General Ledger Transactions/hasAttributes/Effective Date",
+            "contents": [
+              "General Ledger Transactions/hasAttributes/Effective Date"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Journal Amount",
+            "parent": "General Ledger Transactions/attributeContext/General Ledger Transactions",
+            "definition": "resolvedFrom/General Ledger Transactions/hasAttributes/Journal Amount",
+            "contents": [
+              "General Ledger Transactions/hasAttributes/Journal Amount"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Journal Amount Currency",
+            "parent": "General Ledger Transactions/attributeContext/General Ledger Transactions",
+            "definition": "resolvedFrom/General Ledger Transactions/hasAttributes/Journal Amount Currency",
+            "contents": [
+              "General Ledger Transactions/hasAttributes/Journal Amount Currency"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Journal Amount Indicator",
+            "parent": "General Ledger Transactions/attributeContext/General Ledger Transactions",
+            "definition": "resolvedFrom/General Ledger Transactions/hasAttributes/Journal Amount Indicator",
+            "contents": [
+              "General Ledger Transactions/hasAttributes/Journal Amount Indicator"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Journal Line",
+            "parent": "General Ledger Transactions/attributeContext/General Ledger Transactions",
+            "definition": "resolvedFrom/General Ledger Transactions/hasAttributes/Journal Line",
+            "contents": [
+              "General Ledger Transactions/hasAttributes/Journal Line"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Journal Local Amount",
+            "parent": "General Ledger Transactions/attributeContext/General Ledger Transactions",
+            "definition": "resolvedFrom/General Ledger Transactions/hasAttributes/Journal Local Amount",
+            "contents": [
+              "General Ledger Transactions/hasAttributes/Journal Local Amount"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Journal Local Currency",
+            "parent": "General Ledger Transactions/attributeContext/General Ledger Transactions",
+            "definition": "resolvedFrom/General Ledger Transactions/hasAttributes/Journal Local Currency",
+            "contents": [
+              "General Ledger Transactions/hasAttributes/Journal Local Currency"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Journal Reporting Amount",
+            "parent": "General Ledger Transactions/attributeContext/General Ledger Transactions",
+            "definition": "resolvedFrom/General Ledger Transactions/hasAttributes/Journal Reporting Amount",
+            "contents": [
+              "General Ledger Transactions/hasAttributes/Journal Reporting Amount"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Journal Reporting Currency",
+            "parent": "General Ledger Transactions/attributeContext/General Ledger Transactions",
+            "definition": "resolvedFrom/General Ledger Transactions/hasAttributes/Journal Reporting Currency",
+            "contents": [
+              "General Ledger Transactions/hasAttributes/Journal Reporting Currency"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Journal Source",
+            "parent": "General Ledger Transactions/attributeContext/General Ledger Transactions",
+            "definition": "resolvedFrom/General Ledger Transactions/hasAttributes/Journal Source",
+            "contents": [
+              "General Ledger Transactions/hasAttributes/Journal Source"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Modified Date",
+            "parent": "General Ledger Transactions/attributeContext/General Ledger Transactions",
+            "definition": "resolvedFrom/General Ledger Transactions/hasAttributes/Modified Date",
+            "contents": [
+              "General Ledger Transactions/hasAttributes/Modified Date"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Modified User",
+            "parent": "General Ledger Transactions/attributeContext/General Ledger Transactions",
+            "definition": "resolvedFrom/General Ledger Transactions/hasAttributes/Modified User",
+            "contents": [
+              "General Ledger Transactions/hasAttributes/Modified User"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Period",
+            "parent": "General Ledger Transactions/attributeContext/General Ledger Transactions",
+            "definition": "resolvedFrom/General Ledger Transactions/hasAttributes/Period",
+            "contents": [
+              "General Ledger Transactions/hasAttributes/Period"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Reversal Indicator",
+            "parent": "General Ledger Transactions/attributeContext/General Ledger Transactions",
+            "definition": "resolvedFrom/General Ledger Transactions/hasAttributes/Reversal Indicator",
+            "contents": [
+              "General Ledger Transactions/hasAttributes/Reversal Indicator"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Reversal Journal ID",
+            "parent": "General Ledger Transactions/attributeContext/General Ledger Transactions",
+            "definition": "resolvedFrom/General Ledger Transactions/hasAttributes/Reversal Journal ID",
+            "contents": [
+              "General Ledger Transactions/hasAttributes/Reversal Journal ID"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Segment01",
+            "parent": "General Ledger Transactions/attributeContext/General Ledger Transactions",
+            "definition": "resolvedFrom/General Ledger Transactions/hasAttributes/Segment01",
+            "contents": [
+              "General Ledger Transactions/hasAttributes/Segment01"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Segment02",
+            "parent": "General Ledger Transactions/attributeContext/General Ledger Transactions",
+            "definition": "resolvedFrom/General Ledger Transactions/hasAttributes/Segment02",
+            "contents": [
+              "General Ledger Transactions/hasAttributes/Segment02"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Segment03",
+            "parent": "General Ledger Transactions/attributeContext/General Ledger Transactions",
+            "definition": "resolvedFrom/General Ledger Transactions/hasAttributes/Segment03",
+            "contents": [
+              "General Ledger Transactions/hasAttributes/Segment03"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Segment04",
+            "parent": "General Ledger Transactions/attributeContext/General Ledger Transactions",
+            "definition": "resolvedFrom/General Ledger Transactions/hasAttributes/Segment04",
+            "contents": [
+              "General Ledger Transactions/hasAttributes/Segment04"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Segment05",
+            "parent": "General Ledger Transactions/attributeContext/General Ledger Transactions",
+            "definition": "resolvedFrom/General Ledger Transactions/hasAttributes/Segment05",
+            "contents": [
+              "General Ledger Transactions/hasAttributes/Segment05"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Year",
+            "parent": "General Ledger Transactions/attributeContext/General Ledger Transactions",
+            "definition": "resolvedFrom/General Ledger Transactions/hasAttributes/Year",
+            "contents": [
+              "General Ledger Transactions/hasAttributes/Year"
+            ]
+          }
+        ]
+      },
+      "hasAttributes": [
+        {
+          "name": "Account Number",
+          "appliedTraits": [
+            "is.dataFormat.character",
+            "is.dataFormat.big",
+            "is.dataFormat.array"
+          ],
+          "attributeContext": "General Ledger Transactions/attributeContext/General Ledger Transactions/Account Number",
+          "dataFormat": "String"
+        },
+        {
+          "name": "Created Date",
+          "appliedTraits": [
+            "is.dataFormat.date",
+            "means.measurement.date"
+          ],
+          "attributeContext": "General Ledger Transactions/attributeContext/General Ledger Transactions/Created Date",
+          "dataFormat": "Date"
+        },
+        {
+          "name": "Journal ID",
+          "appliedTraits": [
+            {
+              "traitReference": "is.dataFormat.numeric.shaped"
+            }
+          ],
+          "attributeContext": "General Ledger Transactions/attributeContext/General Ledger Transactions/Journal ID",
+          "dataFormat": "Decimal"
+        },
+        {
+          "name": "Journal Header Desc",
+          "appliedTraits": [
+            "is.dataFormat.character",
+            "is.dataFormat.big",
+            "is.dataFormat.array"
+          ],
+          "attributeContext": "General Ledger Transactions/attributeContext/General Ledger Transactions/Journal Header Desc",
+          "dataFormat": "String"
+        },
+        {
+          "name": "Journal Line Desc",
+          "appliedTraits": [
+            "is.dataFormat.character",
+            "is.dataFormat.big",
+            "is.dataFormat.array"
+          ],
+          "attributeContext": "General Ledger Transactions/attributeContext/General Ledger Transactions/Journal Line Desc",
+          "dataFormat": "String"
+        },
+        {
+          "name": "Tax Amount",
+          "appliedTraits": [
+            {
+              "traitReference": "is.dataFormat.numeric.shaped"
+            }
+          ],
+          "attributeContext": "General Ledger Transactions/attributeContext/General Ledger Transactions/Tax Amount",
+          "dataFormat": "Decimal"
+        },
+        {
+          "name": "Tax Code",
+          "appliedTraits": [
+            "is.dataFormat.character",
+            "is.dataFormat.big",
+            "is.dataFormat.array"
+          ],
+          "attributeContext": "General Ledger Transactions/attributeContext/General Ledger Transactions/Tax Code",
+          "dataFormat": "String"
+        },
+        {
+          "name": "Approved Date",
+          "appliedTraits": [
+            "is.dataFormat.date",
+            "means.measurement.date"
+          ],
+          "attributeContext": "General Ledger Transactions/attributeContext/General Ledger Transactions/Approved Date",
+          "dataFormat": "Date"
+        },
+        {
+          "name": "Approved User",
+          "appliedTraits": [
+            "is.dataFormat.character",
+            "is.dataFormat.big",
+            "is.dataFormat.array"
+          ],
+          "attributeContext": "General Ledger Transactions/attributeContext/General Ledger Transactions/Approved User",
+          "dataFormat": "String"
+        },
+        {
+          "name": "Business Unit",
+          "appliedTraits": [
+            "is.dataFormat.character",
+            "is.dataFormat.big",
+            "is.dataFormat.array"
+          ],
+          "attributeContext": "General Ledger Transactions/attributeContext/General Ledger Transactions/Business Unit",
+          "dataFormat": "String"
+        },
+        {
+          "name": "Clearing Date",
+          "appliedTraits": [
+            "is.dataFormat.date",
+            "means.measurement.date"
+          ],
+          "attributeContext": "General Ledger Transactions/attributeContext/General Ledger Transactions/Clearing Date",
+          "dataFormat": "Date"
+        },
+        {
+          "name": "Clearing Journal ID",
+          "appliedTraits": [
+            "is.dataFormat.character",
+            "is.dataFormat.big",
+            "is.dataFormat.array"
+          ],
+          "attributeContext": "General Ledger Transactions/attributeContext/General Ledger Transactions/Clearing Journal ID",
+          "dataFormat": "String"
+        },
+        {
+          "name": "Created Time",
+          "appliedTraits": [
+            "is.dataFormat.date",
+            "means.measurement.date"
+          ],
+          "attributeContext": "General Ledger Transactions/attributeContext/General Ledger Transactions/Created Time",
+          "dataFormat": "Date"
+        },
+        {
+          "name": "Created User",
+          "appliedTraits": [
+            "is.dataFormat.character",
+            "is.dataFormat.big",
+            "is.dataFormat.array"
+          ],
+          "attributeContext": "General Ledger Transactions/attributeContext/General Ledger Transactions/Created User",
+          "dataFormat": "String"
+        },
+        {
+          "name": "Document Date",
+          "appliedTraits": [
+            "is.dataFormat.date",
+            "means.measurement.date"
+          ],
+          "attributeContext": "General Ledger Transactions/attributeContext/General Ledger Transactions/Document Date",
+          "dataFormat": "Date"
+        },
+        {
+          "name": "Effective Date",
+          "appliedTraits": [
+            "is.dataFormat.date",
+            "means.measurement.date"
+          ],
+          "attributeContext": "General Ledger Transactions/attributeContext/General Ledger Transactions/Effective Date",
+          "dataFormat": "Date"
+        },
+        {
+          "name": "Journal Amount",
+          "appliedTraits": [
+            "is.dataFormat.character",
+            "is.dataFormat.big",
+            "is.dataFormat.array"
+          ],
+          "attributeContext": "General Ledger Transactions/attributeContext/General Ledger Transactions/Journal Amount",
+          "dataFormat": "String"
+        },
+        {
+          "name": "Journal Amount Currency",
+          "appliedTraits": [
+            "is.dataFormat.character",
+            "is.dataFormat.big",
+            "is.dataFormat.array"
+          ],
+          "attributeContext": "General Ledger Transactions/attributeContext/General Ledger Transactions/Journal Amount Currency",
+          "dataFormat": "String"
+        },
+        {
+          "name": "Journal Amount Indicator",
+          "appliedTraits": [
+            "is.dataFormat.character",
+            "is.dataFormat.big",
+            "is.dataFormat.array"
+          ],
+          "attributeContext": "General Ledger Transactions/attributeContext/General Ledger Transactions/Journal Amount Indicator",
+          "dataFormat": "String"
+        },
+        {
+          "name": "Journal Line",
+          "appliedTraits": [
+            {
+              "traitReference": "is.dataFormat.numeric.shaped"
+            }
+          ],
+          "attributeContext": "General Ledger Transactions/attributeContext/General Ledger Transactions/Journal Line",
+          "dataFormat": "Decimal"
+        },
+        {
+          "name": "Journal Local Amount",
+          "appliedTraits": [
+            {
+              "traitReference": "is.dataFormat.numeric.shaped"
+            }
+          ],
+          "attributeContext": "General Ledger Transactions/attributeContext/General Ledger Transactions/Journal Local Amount",
+          "dataFormat": "Decimal"
+        },
+        {
+          "name": "Journal Local Currency",
+          "appliedTraits": [
+            "is.dataFormat.character",
+            "is.dataFormat.big",
+            "is.dataFormat.array"
+          ],
+          "attributeContext": "General Ledger Transactions/attributeContext/General Ledger Transactions/Journal Local Currency",
+          "dataFormat": "String"
+        },
+        {
+          "name": "Journal Reporting Amount",
+          "appliedTraits": [
+            {
+              "traitReference": "is.dataFormat.numeric.shaped"
+            }
+          ],
+          "attributeContext": "General Ledger Transactions/attributeContext/General Ledger Transactions/Journal Reporting Amount",
+          "dataFormat": "Decimal"
+        },
+        {
+          "name": "Journal Reporting Currency",
+          "appliedTraits": [
+            "is.dataFormat.character",
+            "is.dataFormat.big",
+            "is.dataFormat.array"
+          ],
+          "attributeContext": "General Ledger Transactions/attributeContext/General Ledger Transactions/Journal Reporting Currency",
+          "dataFormat": "String"
+        },
+        {
+          "name": "Journal Source",
+          "appliedTraits": [
+            "is.dataFormat.character",
+            "is.dataFormat.big",
+            "is.dataFormat.array"
+          ],
+          "attributeContext": "General Ledger Transactions/attributeContext/General Ledger Transactions/Journal Source",
+          "dataFormat": "String"
+        },
+        {
+          "name": "Modified Date",
+          "appliedTraits": [
+            "is.dataFormat.date",
+            "means.measurement.date"
+          ],
+          "attributeContext": "General Ledger Transactions/attributeContext/General Ledger Transactions/Modified Date",
+          "dataFormat": "Date"
+        },
+        {
+          "name": "Modified User",
+          "appliedTraits": [
+            "is.dataFormat.character",
+            "is.dataFormat.big",
+            "is.dataFormat.array"
+          ],
+          "attributeContext": "General Ledger Transactions/attributeContext/General Ledger Transactions/Modified User",
+          "dataFormat": "String"
+        },
+        {
+          "name": "Period",
+          "appliedTraits": [
+            "is.dataFormat.character",
+            "is.dataFormat.big",
+            "is.dataFormat.array"
+          ],
+          "attributeContext": "General Ledger Transactions/attributeContext/General Ledger Transactions/Period",
+          "dataFormat": "String"
+        },
+        {
+          "name": "Reversal Indicator",
+          "appliedTraits": [
+            "is.dataFormat.character",
+            "is.dataFormat.big",
+            "is.dataFormat.array"
+          ],
+          "attributeContext": "General Ledger Transactions/attributeContext/General Ledger Transactions/Reversal Indicator",
+          "dataFormat": "String"
+        },
+        {
+          "name": "Reversal Journal ID",
+          "appliedTraits": [
+            "is.dataFormat.character",
+            "is.dataFormat.big",
+            "is.dataFormat.array"
+          ],
+          "attributeContext": "General Ledger Transactions/attributeContext/General Ledger Transactions/Reversal Journal ID",
+          "dataFormat": "String"
+        },
+        {
+          "name": "Segment01",
+          "appliedTraits": [
+            "is.dataFormat.character",
+            "is.dataFormat.big",
+            "is.dataFormat.array"
+          ],
+          "attributeContext": "General Ledger Transactions/attributeContext/General Ledger Transactions/Segment01",
+          "dataFormat": "String"
+        },
+        {
+          "name": "Segment02",
+          "appliedTraits": [
+            "is.dataFormat.character",
+            "is.dataFormat.big",
+            "is.dataFormat.array"
+          ],
+          "attributeContext": "General Ledger Transactions/attributeContext/General Ledger Transactions/Segment02",
+          "dataFormat": "String"
+        },
+        {
+          "name": "Segment03",
+          "appliedTraits": [
+            "is.dataFormat.character",
+            "is.dataFormat.big",
+            "is.dataFormat.array"
+          ],
+          "attributeContext": "General Ledger Transactions/attributeContext/General Ledger Transactions/Segment03",
+          "dataFormat": "String"
+        },
+        {
+          "name": "Segment04",
+          "appliedTraits": [
+            "is.dataFormat.character",
+            "is.dataFormat.big",
+            "is.dataFormat.array"
+          ],
+          "attributeContext": "General Ledger Transactions/attributeContext/General Ledger Transactions/Segment04",
+          "dataFormat": "String"
+        },
+        {
+          "name": "Segment05",
+          "appliedTraits": [
+            "is.dataFormat.character",
+            "is.dataFormat.big",
+            "is.dataFormat.array"
+          ],
+          "attributeContext": "General Ledger Transactions/attributeContext/General Ledger Transactions/Segment05",
+          "dataFormat": "String"
+        },
+        {
+          "name": "Year",
+          "appliedTraits": [
+            "is.dataFormat.character",
+            "is.dataFormat.big",
+            "is.dataFormat.array"
+          ],
+          "attributeContext": "General Ledger Transactions/attributeContext/General Ledger Transactions/Year",
+          "dataFormat": "String"
+        }
+      ]
+    }
+  ]
+}

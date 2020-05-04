@@ -1,0 +1,45 @@
+{
+  "jsonSchemaSemanticVersion": "1.0.0",
+  "imports": [
+    {
+      "corpusPath": "cdm:/foundations.cdm.json"
+    }
+  ],
+  "definitions": [
+    {
+      "entityName": "Source - Type Lookup",
+      "hasAttributes": [
+        {
+          "name": "Business Process Major",
+          "purpose": "hasA",
+          "dataType": "string"
+        },
+        {
+          "name": "Business Process Minor",
+          "purpose": "hasA",
+          "dataType": "string"
+        },
+        {
+          "name": "ERP Subledger Module",
+          "purpose": "hasA",
+          "dataType": "string"
+        },
+        {
+          "name": "Source",
+          "purpose": "hasA",
+          "dataType": "string"
+        },
+        {
+          "name": "Source Description",
+          "purpose": "hasA",
+          "dataType": "string"
+        },
+        {
+          "name": "System Manual IDentifier",
+          "purpose": "hasA",
+          "dataType": "string"
+        }
+      ]
+    }
+  ]
+}

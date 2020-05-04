@@ -1,0 +1,289 @@
+{
+  "jsonSchemaSemanticVersion": "1.0.0",
+  "imports": [
+    {
+      "corpusPath": "/Purchase Invoice Quality Totals.cdm.json",
+      "moniker": "resolvedFrom"
+    }
+  ],
+  "definitions": [
+    {
+      "entityName": "Purchase Invoice Quality Totals",
+      "attributeContext": {
+        "type": "entity",
+        "name": "Purchase Invoice Quality Totals",
+        "definition": "resolvedFrom/Purchase Invoice Quality Totals",
+        "contents": [
+          {
+            "type": "attributeDefinition",
+            "name": "Document Totals Net Total",
+            "parent": "Purchase Invoice Quality Totals/attributeContext/Purchase Invoice Quality Totals",
+            "definition": "resolvedFrom/Purchase Invoice Quality Totals/hasAttributes/Document Totals Net Total",
+            "contents": [
+              "Purchase Invoice Quality Totals/hasAttributes/Document Totals Net Total"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Document Totals Shipping Costs Amount Total",
+            "parent": "Purchase Invoice Quality Totals/attributeContext/Purchase Invoice Quality Totals",
+            "definition": "resolvedFrom/Purchase Invoice Quality Totals/hasAttributes/Document Totals Shipping Costs Amount Total",
+            "contents": [
+              "Purchase Invoice Quality Totals/hasAttributes/Document Totals Shipping Costs Amount Total"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Document Totals Tax Information Totals Tax Base",
+            "parent": "Purchase Invoice Quality Totals/attributeContext/Purchase Invoice Quality Totals",
+            "definition": "resolvedFrom/Purchase Invoice Quality Totals/hasAttributes/Document Totals Tax Information Totals Tax Base",
+            "contents": [
+              "Purchase Invoice Quality Totals/hasAttributes/Document Totals Tax Information Totals Tax Base"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Document Totals Tax Information Totals Tax Base Description",
+            "parent": "Purchase Invoice Quality Totals/attributeContext/Purchase Invoice Quality Totals",
+            "definition": "resolvedFrom/Purchase Invoice Quality Totals/hasAttributes/Document Totals Tax Information Totals Tax Base Description",
+            "contents": [
+              "Purchase Invoice Quality Totals/hasAttributes/Document Totals Tax Information Totals Tax Base Description"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Document Totals Tax Information Totals Tax Code",
+            "parent": "Purchase Invoice Quality Totals/attributeContext/Purchase Invoice Quality Totals",
+            "definition": "resolvedFrom/Purchase Invoice Quality Totals/hasAttributes/Document Totals Tax Information Totals Tax Code",
+            "contents": [
+              "Purchase Invoice Quality Totals/hasAttributes/Document Totals Tax Information Totals Tax Code"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Document Totals Tax Information Totals Tax Declaration Period",
+            "parent": "Purchase Invoice Quality Totals/attributeContext/Purchase Invoice Quality Totals",
+            "definition": "resolvedFrom/Purchase Invoice Quality Totals/hasAttributes/Document Totals Tax Information Totals Tax Declaration Period",
+            "contents": [
+              "Purchase Invoice Quality Totals/hasAttributes/Document Totals Tax Information Totals Tax Declaration Period"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Document Totals Tax Information Totals Tax Exemption Reason",
+            "parent": "Purchase Invoice Quality Totals/attributeContext/Purchase Invoice Quality Totals",
+            "definition": "resolvedFrom/Purchase Invoice Quality Totals/hasAttributes/Document Totals Tax Information Totals Tax Exemption Reason",
+            "contents": [
+              "Purchase Invoice Quality Totals/hasAttributes/Document Totals Tax Information Totals Tax Exemption Reason"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Document Totals Tax Information Totals Tax Percentage",
+            "parent": "Purchase Invoice Quality Totals/attributeContext/Purchase Invoice Quality Totals",
+            "definition": "resolvedFrom/Purchase Invoice Quality Totals/hasAttributes/Document Totals Tax Information Totals Tax Percentage",
+            "contents": [
+              "Purchase Invoice Quality Totals/hasAttributes/Document Totals Tax Information Totals Tax Percentage"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Document Totals Tax Information Totals Tax Type",
+            "parent": "Purchase Invoice Quality Totals/attributeContext/Purchase Invoice Quality Totals",
+            "definition": "resolvedFrom/Purchase Invoice Quality Totals/hasAttributes/Document Totals Tax Information Totals Tax Type",
+            "contents": [
+              "Purchase Invoice Quality Totals/hasAttributes/Document Totals Tax Information Totals Tax Type"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Number Of Entries",
+            "parent": "Purchase Invoice Quality Totals/attributeContext/Purchase Invoice Quality Totals",
+            "definition": "resolvedFrom/Purchase Invoice Quality Totals/hasAttributes/Number Of Entries",
+            "contents": [
+              "Purchase Invoice Quality Totals/hasAttributes/Number Of Entries"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Total Credit",
+            "parent": "Purchase Invoice Quality Totals/attributeContext/Purchase Invoice Quality Totals",
+            "definition": "resolvedFrom/Purchase Invoice Quality Totals/hasAttributes/Total Credit",
+            "contents": [
+              "Purchase Invoice Quality Totals/hasAttributes/Total Credit"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Total Debit",
+            "parent": "Purchase Invoice Quality Totals/attributeContext/Purchase Invoice Quality Totals",
+            "definition": "resolvedFrom/Purchase Invoice Quality Totals/hasAttributes/Total Debit",
+            "contents": [
+              "Purchase Invoice Quality Totals/hasAttributes/Total Debit"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Document Totals Tax Information Totals Tax Amount",
+            "parent": "Purchase Invoice Quality Totals/attributeContext/Purchase Invoice Quality Totals",
+            "definition": "resolvedFrom/Purchase Invoice Quality Totals/hasAttributes/Document Totals Tax Information Totals Tax Amount",
+            "contents": [
+              "Purchase Invoice Quality Totals/hasAttributes/Document Totals Tax Information Totals Tax Amount"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Document Totals Gross Total",
+            "parent": "Purchase Invoice Quality Totals/attributeContext/Purchase Invoice Quality Totals",
+            "definition": "resolvedFrom/Purchase Invoice Quality Totals/hasAttributes/Document Totals Gross Total",
+            "contents": [
+              "Purchase Invoice Quality Totals/hasAttributes/Document Totals Gross Total"
+            ]
+          }
+        ]
+      },
+      "hasAttributes": [
+        {
+          "name": "Document Totals Net Total",
+          "appliedTraits": [
+            {
+              "traitReference": "is.dataFormat.numeric.shaped"
+            }
+          ],
+          "attributeContext": "Purchase Invoice Quality Totals/attributeContext/Purchase Invoice Quality Totals/Document Totals Net Total",
+          "dataFormat": "Decimal"
+        },
+        {
+          "name": "Document Totals Shipping Costs Amount Total",
+          "appliedTraits": [
+            {
+              "traitReference": "is.dataFormat.numeric.shaped"
+            }
+          ],
+          "attributeContext": "Purchase Invoice Quality Totals/attributeContext/Purchase Invoice Quality Totals/Document Totals Shipping Costs Amount Total",
+          "dataFormat": "Decimal"
+        },
+        {
+          "name": "Document Totals Tax Information Totals Tax Base",
+          "appliedTraits": [
+            "is.dataFormat.character",
+            "is.dataFormat.big",
+            "is.dataFormat.array"
+          ],
+          "attributeContext": "Purchase Invoice Quality Totals/attributeContext/Purchase Invoice Quality Totals/Document Totals Tax Information Totals Tax Base",
+          "dataFormat": "String"
+        },
+        {
+          "name": "Document Totals Tax Information Totals Tax Base Description",
+          "appliedTraits": [
+            "is.dataFormat.character",
+            "is.dataFormat.big",
+            "is.dataFormat.array"
+          ],
+          "attributeContext": "Purchase Invoice Quality Totals/attributeContext/Purchase Invoice Quality Totals/Document Totals Tax Information Totals Tax Base Description",
+          "dataFormat": "String"
+        },
+        {
+          "name": "Document Totals Tax Information Totals Tax Code",
+          "appliedTraits": [
+            "is.dataFormat.character",
+            "is.dataFormat.big",
+            "is.dataFormat.array"
+          ],
+          "attributeContext": "Purchase Invoice Quality Totals/attributeContext/Purchase Invoice Quality Totals/Document Totals Tax Information Totals Tax Code",
+          "dataFormat": "String"
+        },
+        {
+          "name": "Document Totals Tax Information Totals Tax Declaration Period",
+          "appliedTraits": [
+            "is.dataFormat.character",
+            "is.dataFormat.big",
+            "is.dataFormat.array"
+          ],
+          "attributeContext": "Purchase Invoice Quality Totals/attributeContext/Purchase Invoice Quality Totals/Document Totals Tax Information Totals Tax Declaration Period",
+          "dataFormat": "String"
+        },
+        {
+          "name": "Document Totals Tax Information Totals Tax Exemption Reason",
+          "appliedTraits": [
+            "is.dataFormat.character",
+            "is.dataFormat.big",
+            "is.dataFormat.array"
+          ],
+          "attributeContext": "Purchase Invoice Quality Totals/attributeContext/Purchase Invoice Quality Totals/Document Totals Tax Information Totals Tax Exemption Reason",
+          "dataFormat": "String"
+        },
+        {
+          "name": "Document Totals Tax Information Totals Tax Percentage",
+          "appliedTraits": [
+            {
+              "traitReference": "is.dataFormat.numeric.shaped"
+            }
+          ],
+          "attributeContext": "Purchase Invoice Quality Totals/attributeContext/Purchase Invoice Quality Totals/Document Totals Tax Information Totals Tax Percentage",
+          "dataFormat": "Decimal"
+        },
+        {
+          "name": "Document Totals Tax Information Totals Tax Type",
+          "appliedTraits": [
+            "is.dataFormat.character",
+            "is.dataFormat.big",
+            "is.dataFormat.array"
+          ],
+          "attributeContext": "Purchase Invoice Quality Totals/attributeContext/Purchase Invoice Quality Totals/Document Totals Tax Information Totals Tax Type",
+          "dataFormat": "String"
+        },
+        {
+          "name": "Number Of Entries",
+          "appliedTraits": [
+            {
+              "traitReference": "is.dataFormat.numeric.shaped"
+            }
+          ],
+          "attributeContext": "Purchase Invoice Quality Totals/attributeContext/Purchase Invoice Quality Totals/Number Of Entries",
+          "dataFormat": "Decimal"
+        },
+        {
+          "name": "Total Credit",
+          "appliedTraits": [
+            {
+              "traitReference": "is.dataFormat.numeric.shaped"
+            }
+          ],
+          "attributeContext": "Purchase Invoice Quality Totals/attributeContext/Purchase Invoice Quality Totals/Total Credit",
+          "dataFormat": "Decimal"
+        },
+        {
+          "name": "Total Debit",
+          "appliedTraits": [
+            {
+              "traitReference": "is.dataFormat.numeric.shaped"
+            }
+          ],
+          "attributeContext": "Purchase Invoice Quality Totals/attributeContext/Purchase Invoice Quality Totals/Total Debit",
+          "dataFormat": "Decimal"
+        },
+        {
+          "name": "Document Totals Tax Information Totals Tax Amount",
+          "appliedTraits": [
+            {
+              "traitReference": "is.dataFormat.numeric.shaped"
+            }
+          ],
+          "attributeContext": "Purchase Invoice Quality Totals/attributeContext/Purchase Invoice Quality Totals/Document Totals Tax Information Totals Tax Amount",
+          "dataFormat": "Decimal"
+        },
+        {
+          "name": "Document Totals Gross Total",
+          "appliedTraits": [
+            {
+              "traitReference": "is.dataFormat.numeric.shaped"
+            }
+          ],
+          "attributeContext": "Purchase Invoice Quality Totals/attributeContext/Purchase Invoice Quality Totals/Document Totals Gross Total",
+          "dataFormat": "Decimal"
+        }
+      ]
+    }
+  ]
+}

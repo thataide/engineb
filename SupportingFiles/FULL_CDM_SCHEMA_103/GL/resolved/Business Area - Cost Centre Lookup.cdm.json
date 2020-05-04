@@ -1,0 +1,156 @@
+{
+  "jsonSchemaSemanticVersion": "1.0.0",
+  "imports": [
+    {
+      "corpusPath": "/Business Area - Cost Centre Lookup.cdm.json",
+      "moniker": "resolvedFrom"
+    }
+  ],
+  "definitions": [
+    {
+      "entityName": "Business Area - Cost Centre Lookup",
+      "attributeContext": {
+        "type": "entity",
+        "name": "Business Area - Cost Centre Lookup",
+        "definition": "resolvedFrom/Business Area - Cost Centre Lookup",
+        "contents": [
+          {
+            "type": "attributeDefinition",
+            "name": "Business Unit Code",
+            "parent": "Business Area - Cost Centre Lookup/attributeContext/Business Area - Cost Centre Lookup",
+            "definition": "resolvedFrom/Business Area - Cost Centre Lookup/hasAttributes/Business Unit Code",
+            "contents": [
+              "Business Area - Cost Centre Lookup/hasAttributes/Business Unit Code"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Business Unit Description",
+            "parent": "Business Area - Cost Centre Lookup/attributeContext/Business Area - Cost Centre Lookup",
+            "definition": "resolvedFrom/Business Area - Cost Centre Lookup/hasAttributes/Business Unit Description",
+            "contents": [
+              "Business Area - Cost Centre Lookup/hasAttributes/Business Unit Description"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Business Unit Hierarchy1",
+            "parent": "Business Area - Cost Centre Lookup/attributeContext/Business Area - Cost Centre Lookup",
+            "definition": "resolvedFrom/Business Area - Cost Centre Lookup/hasAttributes/Business Unit Hierarchy1",
+            "contents": [
+              "Business Area - Cost Centre Lookup/hasAttributes/Business Unit Hierarchy1"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Business Unit Hierarchy2",
+            "parent": "Business Area - Cost Centre Lookup/attributeContext/Business Area - Cost Centre Lookup",
+            "definition": "resolvedFrom/Business Area - Cost Centre Lookup/hasAttributes/Business Unit Hierarchy2",
+            "contents": [
+              "Business Area - Cost Centre Lookup/hasAttributes/Business Unit Hierarchy2"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Business Unit Hierarchy3",
+            "parent": "Business Area - Cost Centre Lookup/attributeContext/Business Area - Cost Centre Lookup",
+            "definition": "resolvedFrom/Business Area - Cost Centre Lookup/hasAttributes/Business Unit Hierarchy3",
+            "contents": [
+              "Business Area - Cost Centre Lookup/hasAttributes/Business Unit Hierarchy3"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Business Unit Hierarchy4",
+            "parent": "Business Area - Cost Centre Lookup/attributeContext/Business Area - Cost Centre Lookup",
+            "definition": "resolvedFrom/Business Area - Cost Centre Lookup/hasAttributes/Business Unit Hierarchy4",
+            "contents": [
+              "Business Area - Cost Centre Lookup/hasAttributes/Business Unit Hierarchy4"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Business Unit Hierarchy5",
+            "parent": "Business Area - Cost Centre Lookup/attributeContext/Business Area - Cost Centre Lookup",
+            "definition": "resolvedFrom/Business Area - Cost Centre Lookup/hasAttributes/Business Unit Hierarchy5",
+            "contents": [
+              "Business Area - Cost Centre Lookup/hasAttributes/Business Unit Hierarchy5"
+            ]
+          }
+        ]
+      },
+      "hasAttributes": [
+        {
+          "name": "Business Unit Code",
+          "appliedTraits": [
+            "is.dataFormat.character",
+            "is.dataFormat.big",
+            "is.dataFormat.array"
+          ],
+          "attributeContext": "Business Area - Cost Centre Lookup/attributeContext/Business Area - Cost Centre Lookup/Business Unit Code",
+          "dataFormat": "String"
+        },
+        {
+          "name": "Business Unit Description",
+          "appliedTraits": [
+            "is.dataFormat.character",
+            "is.dataFormat.big",
+            "is.dataFormat.array"
+          ],
+          "attributeContext": "Business Area - Cost Centre Lookup/attributeContext/Business Area - Cost Centre Lookup/Business Unit Description",
+          "dataFormat": "String"
+        },
+        {
+          "name": "Business Unit Hierarchy1",
+          "appliedTraits": [
+            "is.dataFormat.character",
+            "is.dataFormat.big",
+            "is.dataFormat.array"
+          ],
+          "attributeContext": "Business Area - Cost Centre Lookup/attributeContext/Business Area - Cost Centre Lookup/Business Unit Hierarchy1",
+          "dataFormat": "String"
+        },
+        {
+          "name": "Business Unit Hierarchy2",
+          "appliedTraits": [
+            "is.dataFormat.character",
+            "is.dataFormat.big",
+            "is.dataFormat.array"
+          ],
+          "attributeContext": "Business Area - Cost Centre Lookup/attributeContext/Business Area - Cost Centre Lookup/Business Unit Hierarchy2",
+          "dataFormat": "String"
+        },
+        {
+          "name": "Business Unit Hierarchy3",
+          "appliedTraits": [
+            "is.dataFormat.character",
+            "is.dataFormat.big",
+            "is.dataFormat.array"
+          ],
+          "attributeContext": "Business Area - Cost Centre Lookup/attributeContext/Business Area - Cost Centre Lookup/Business Unit Hierarchy3",
+          "dataFormat": "String"
+        },
+        {
+          "name": "Business Unit Hierarchy4",
+          "appliedTraits": [
+            "is.dataFormat.character",
+            "is.dataFormat.big",
+            "is.dataFormat.array"
+          ],
+          "attributeContext": "Business Area - Cost Centre Lookup/attributeContext/Business Area - Cost Centre Lookup/Business Unit Hierarchy4",
+          "dataFormat": "String"
+        },
+        {
+          "name": "Business Unit Hierarchy5",
+          "appliedTraits": [
+            "is.dataFormat.character",
+            "is.dataFormat.big",
+            "is.dataFormat.array"
+          ],
+          "attributeContext": "Business Area - Cost Centre Lookup/attributeContext/Business Area - Cost Centre Lookup/Business Unit Hierarchy5",
+          "dataFormat": "String"
+        }
+      ]
+    }
+  ]
+}

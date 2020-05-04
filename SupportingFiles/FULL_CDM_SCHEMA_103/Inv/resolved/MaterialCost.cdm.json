@@ -1,0 +1,210 @@
+{
+  "jsonSchemaSemanticVersion": "1.0.0",
+  "imports": [
+    {
+      "corpusPath": "/MaterialCost.cdm.json",
+      "moniker": "resolvedFrom"
+    }
+  ],
+  "definitions": [
+    {
+      "entityName": "MaterialCost",
+      "attributeContext": {
+        "type": "entity",
+        "name": "MaterialCost",
+        "definition": "resolvedFrom/MaterialCost",
+        "contents": [
+          {
+            "type": "attributeDefinition",
+            "name": "Material Cost Business Unit",
+            "parent": "MaterialCost/attributeContext/MaterialCost",
+            "definition": "resolvedFrom/MaterialCost/hasAttributes/Material Cost Business Unit",
+            "contents": [
+              "MaterialCost/hasAttributes/Material Cost Business Unit"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Material Cost Costing Type",
+            "parent": "MaterialCost/attributeContext/MaterialCost",
+            "definition": "resolvedFrom/MaterialCost/hasAttributes/Material Cost Costing Type",
+            "contents": [
+              "MaterialCost/hasAttributes/Material Cost Costing Type"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Material Cost Inventory Product ID",
+            "parent": "MaterialCost/attributeContext/MaterialCost",
+            "definition": "resolvedFrom/MaterialCost/hasAttributes/Material Cost Inventory Product ID",
+            "contents": [
+              "MaterialCost/hasAttributes/Material Cost Inventory Product ID"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Material Cost Line Item Cost",
+            "parent": "MaterialCost/attributeContext/MaterialCost",
+            "definition": "resolvedFrom/MaterialCost/hasAttributes/Material Cost Line Item Cost",
+            "contents": [
+              "MaterialCost/hasAttributes/Material Cost Line Item Cost"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Material Cost Location ID",
+            "parent": "MaterialCost/attributeContext/MaterialCost",
+            "definition": "resolvedFrom/MaterialCost/hasAttributes/Material Cost Location ID",
+            "contents": [
+              "MaterialCost/hasAttributes/Material Cost Location ID"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Material Cost Total Cost",
+            "parent": "MaterialCost/attributeContext/MaterialCost",
+            "definition": "resolvedFrom/MaterialCost/hasAttributes/Material Cost Total Cost",
+            "contents": [
+              "MaterialCost/hasAttributes/Material Cost Total Cost"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Material Cost Unit Of Measure",
+            "parent": "MaterialCost/attributeContext/MaterialCost",
+            "definition": "resolvedFrom/MaterialCost/hasAttributes/Material Cost Unit Of Measure",
+            "contents": [
+              "MaterialCost/hasAttributes/Material Cost Unit Of Measure"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Material Cost Val ID From Date ",
+            "parent": "MaterialCost/attributeContext/MaterialCost",
+            "definition": "resolvedFrom/MaterialCost/hasAttributes/Material Cost Val ID From Date ",
+            "contents": [
+              "MaterialCost/hasAttributes/Material Cost Val ID From Date "
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Material Cost Val ID To Date",
+            "parent": "MaterialCost/attributeContext/MaterialCost",
+            "definition": "resolvedFrom/MaterialCost/hasAttributes/Material Cost Val ID To Date",
+            "contents": [
+              "MaterialCost/hasAttributes/Material Cost Val ID To Date"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Material Cost Valuation Date",
+            "parent": "MaterialCost/attributeContext/MaterialCost",
+            "definition": "resolvedFrom/MaterialCost/hasAttributes/Material Cost Valuation Date",
+            "contents": [
+              "MaterialCost/hasAttributes/Material Cost Valuation Date"
+            ]
+          }
+        ]
+      },
+      "hasAttributes": [
+        {
+          "name": "Material Cost Business Unit",
+          "appliedTraits": [
+            "is.dataFormat.character",
+            "is.dataFormat.big",
+            "is.dataFormat.array"
+          ],
+          "attributeContext": "MaterialCost/attributeContext/MaterialCost/Material Cost Business Unit",
+          "dataFormat": "String"
+        },
+        {
+          "name": "Material Cost Costing Type",
+          "appliedTraits": [
+            "is.dataFormat.character",
+            "is.dataFormat.big",
+            "is.dataFormat.array"
+          ],
+          "attributeContext": "MaterialCost/attributeContext/MaterialCost/Material Cost Costing Type",
+          "dataFormat": "String"
+        },
+        {
+          "name": "Material Cost Inventory Product ID",
+          "appliedTraits": [
+            "is.dataFormat.character",
+            "is.dataFormat.big",
+            "is.dataFormat.array"
+          ],
+          "attributeContext": "MaterialCost/attributeContext/MaterialCost/Material Cost Inventory Product ID",
+          "dataFormat": "String"
+        },
+        {
+          "name": "Material Cost Line Item Cost",
+          "appliedTraits": [
+            {
+              "traitReference": "is.dataFormat.numeric.shaped"
+            }
+          ],
+          "attributeContext": "MaterialCost/attributeContext/MaterialCost/Material Cost Line Item Cost",
+          "dataFormat": "Decimal"
+        },
+        {
+          "name": "Material Cost Location ID",
+          "appliedTraits": [
+            "is.dataFormat.character",
+            "is.dataFormat.big",
+            "is.dataFormat.array"
+          ],
+          "attributeContext": "MaterialCost/attributeContext/MaterialCost/Material Cost Location ID",
+          "dataFormat": "String"
+        },
+        {
+          "name": "Material Cost Total Cost",
+          "appliedTraits": [
+            {
+              "traitReference": "is.dataFormat.numeric.shaped"
+            }
+          ],
+          "attributeContext": "MaterialCost/attributeContext/MaterialCost/Material Cost Total Cost",
+          "dataFormat": "Decimal"
+        },
+        {
+          "name": "Material Cost Unit Of Measure",
+          "appliedTraits": [
+            "is.dataFormat.character",
+            "is.dataFormat.big",
+            "is.dataFormat.array"
+          ],
+          "attributeContext": "MaterialCost/attributeContext/MaterialCost/Material Cost Unit Of Measure",
+          "dataFormat": "String"
+        },
+        {
+          "name": "Material Cost Val ID From Date ",
+          "appliedTraits": [
+            "is.dataFormat.date",
+            "means.measurement.date"
+          ],
+          "attributeContext": "MaterialCost/attributeContext/MaterialCost/Material Cost Val ID From Date ",
+          "dataFormat": "Date"
+        },
+        {
+          "name": "Material Cost Val ID To Date",
+          "appliedTraits": [
+            "is.dataFormat.date",
+            "means.measurement.date"
+          ],
+          "attributeContext": "MaterialCost/attributeContext/MaterialCost/Material Cost Val ID To Date",
+          "dataFormat": "Date"
+        },
+        {
+          "name": "Material Cost Valuation Date",
+          "appliedTraits": [
+            "is.dataFormat.date",
+            "means.measurement.date"
+          ],
+          "attributeContext": "MaterialCost/attributeContext/MaterialCost/Material Cost Valuation Date",
+          "dataFormat": "Date"
+        }
+      ]
+    }
+  ]
+}

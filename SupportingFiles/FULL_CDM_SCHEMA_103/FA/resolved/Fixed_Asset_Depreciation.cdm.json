@@ -1,0 +1,506 @@
+{
+  "jsonSchemaSemanticVersion": "1.0.0",
+  "imports": [
+    {
+      "corpusPath": "/Fixed_Asset_Depreciation.cdm.json",
+      "moniker": "resolvedFrom"
+    }
+  ],
+  "definitions": [
+    {
+      "entityName": "Fixed_Asset_Depreciation",
+      "attributeContext": {
+        "type": "entity",
+        "name": "Fixed_Asset_Depreciation",
+        "definition": "resolvedFrom/Fixed_Asset_Depreciation",
+        "contents": [
+          {
+            "type": "attributeDefinition",
+            "name": "Depreciation For Period",
+            "parent": "Fixed_Asset_Depreciation/attributeContext/Fixed_Asset_Depreciation",
+            "definition": "resolvedFrom/Fixed_Asset_Depreciation/hasAttributes/Depreciation For Period",
+            "contents": [
+              "Fixed_Asset_Depreciation/hasAttributes/Depreciation For Period"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Depreciation Rate",
+            "parent": "Fixed_Asset_Depreciation/attributeContext/Fixed_Asset_Depreciation",
+            "definition": "resolvedFrom/Fixed_Asset_Depreciation/hasAttributes/Depreciation Rate",
+            "contents": [
+              "Fixed_Asset_Depreciation/hasAttributes/Depreciation Rate"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Approved By",
+            "parent": "Fixed_Asset_Depreciation/attributeContext/Fixed_Asset_Depreciation",
+            "definition": "resolvedFrom/Fixed_Asset_Depreciation/hasAttributes/Approved By",
+            "contents": [
+              "Fixed_Asset_Depreciation/hasAttributes/Approved By"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Approved By Date",
+            "parent": "Fixed_Asset_Depreciation/attributeContext/Fixed_Asset_Depreciation",
+            "definition": "resolvedFrom/Fixed_Asset_Depreciation/hasAttributes/Approved By Date",
+            "contents": [
+              "Fixed_Asset_Depreciation/hasAttributes/Approved By Date"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Approved By Time",
+            "parent": "Fixed_Asset_Depreciation/attributeContext/Fixed_Asset_Depreciation",
+            "definition": "resolvedFrom/Fixed_Asset_Depreciation/hasAttributes/Approved By Time",
+            "contents": [
+              "Fixed_Asset_Depreciation/hasAttributes/Approved By Time"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Business Unit Code",
+            "parent": "Fixed_Asset_Depreciation/attributeContext/Fixed_Asset_Depreciation",
+            "definition": "resolvedFrom/Fixed_Asset_Depreciation/hasAttributes/Business Unit Code",
+            "contents": [
+              "Fixed_Asset_Depreciation/hasAttributes/Business Unit Code"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Depreciation Effective Date",
+            "parent": "Fixed_Asset_Depreciation/attributeContext/Fixed_Asset_Depreciation",
+            "definition": "resolvedFrom/Fixed_Asset_Depreciation/hasAttributes/Depreciation Effective Date",
+            "contents": [
+              "Fixed_Asset_Depreciation/hasAttributes/Depreciation Effective Date"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Enteredby",
+            "parent": "Fixed_Asset_Depreciation/attributeContext/Fixed_Asset_Depreciation",
+            "definition": "resolvedFrom/Fixed_Asset_Depreciation/hasAttributes/Enteredby",
+            "contents": [
+              "Fixed_Asset_Depreciation/hasAttributes/Enteredby"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Entered Date",
+            "parent": "Fixed_Asset_Depreciation/attributeContext/Fixed_Asset_Depreciation",
+            "definition": "resolvedFrom/Fixed_Asset_Depreciation/hasAttributes/Entered Date",
+            "contents": [
+              "Fixed_Asset_Depreciation/hasAttributes/Entered Date"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Entered Time",
+            "parent": "Fixed_Asset_Depreciation/attributeContext/Fixed_Asset_Depreciation",
+            "definition": "resolvedFrom/Fixed_Asset_Depreciation/hasAttributes/Entered Time",
+            "contents": [
+              "Fixed_Asset_Depreciation/hasAttributes/Entered Time"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Fixed Asset ID",
+            "parent": "Fixed_Asset_Depreciation/attributeContext/Fixed_Asset_Depreciation",
+            "definition": "resolvedFrom/Fixed_Asset_Depreciation/hasAttributes/Fixed Asset ID",
+            "contents": [
+              "Fixed_Asset_Depreciation/hasAttributes/Fixed Asset ID"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Fixed Asset Depreciable Basis",
+            "parent": "Fixed_Asset_Depreciation/attributeContext/Fixed_Asset_Depreciation",
+            "definition": "resolvedFrom/Fixed_Asset_Depreciation/hasAttributes/Fixed Asset Depreciable Basis",
+            "contents": [
+              "Fixed_Asset_Depreciation/hasAttributes/Fixed Asset Depreciable Basis"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Fixed Asset Depreciation Amount",
+            "parent": "Fixed_Asset_Depreciation/attributeContext/Fixed_Asset_Depreciation",
+            "definition": "resolvedFrom/Fixed_Asset_Depreciation/hasAttributes/Fixed Asset Depreciation Amount",
+            "contents": [
+              "Fixed_Asset_Depreciation/hasAttributes/Fixed Asset Depreciation Amount"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Fixed Asset Depreciation Method",
+            "parent": "Fixed_Asset_Depreciation/attributeContext/Fixed_Asset_Depreciation",
+            "definition": "resolvedFrom/Fixed_Asset_Depreciation/hasAttributes/Fixed Asset Depreciation Method",
+            "contents": [
+              "Fixed_Asset_Depreciation/hasAttributes/Fixed Asset Depreciation Method"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Fixed Asset Fair Value",
+            "parent": "Fixed_Asset_Depreciation/attributeContext/Fixed_Asset_Depreciation",
+            "definition": "resolvedFrom/Fixed_Asset_Depreciation/hasAttributes/Fixed Asset Fair Value",
+            "contents": [
+              "Fixed_Asset_Depreciation/hasAttributes/Fixed Asset Fair Value"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Fixed Asset Replacement Cost",
+            "parent": "Fixed_Asset_Depreciation/attributeContext/Fixed_Asset_Depreciation",
+            "definition": "resolvedFrom/Fixed_Asset_Depreciation/hasAttributes/Fixed Asset Replacement Cost",
+            "contents": [
+              "Fixed_Asset_Depreciation/hasAttributes/Fixed Asset Replacement Cost"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Fixed Asset Salvage Value",
+            "parent": "Fixed_Asset_Depreciation/attributeContext/Fixed_Asset_Depreciation",
+            "definition": "resolvedFrom/Fixed_Asset_Depreciation/hasAttributes/Fixed Asset Salvage Value",
+            "contents": [
+              "Fixed_Asset_Depreciation/hasAttributes/Fixed Asset Salvage Value"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Fixed Asset Useful Life",
+            "parent": "Fixed_Asset_Depreciation/attributeContext/Fixed_Asset_Depreciation",
+            "definition": "resolvedFrom/Fixed_Asset_Depreciation/hasAttributes/Fixed Asset Useful Life",
+            "contents": [
+              "Fixed_Asset_Depreciation/hasAttributes/Fixed Asset Useful Life"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "GL Account",
+            "parent": "Fixed_Asset_Depreciation/attributeContext/Fixed_Asset_Depreciation",
+            "definition": "resolvedFrom/Fixed_Asset_Depreciation/hasAttributes/GL Account",
+            "contents": [
+              "Fixed_Asset_Depreciation/hasAttributes/GL Account"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "GL Transaction ID",
+            "parent": "Fixed_Asset_Depreciation/attributeContext/Fixed_Asset_Depreciation",
+            "definition": "resolvedFrom/Fixed_Asset_Depreciation/hasAttributes/GL Transaction ID",
+            "contents": [
+              "Fixed_Asset_Depreciation/hasAttributes/GL Transaction ID"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Last Modified By",
+            "parent": "Fixed_Asset_Depreciation/attributeContext/Fixed_Asset_Depreciation",
+            "definition": "resolvedFrom/Fixed_Asset_Depreciation/hasAttributes/Last Modified By",
+            "contents": [
+              "Fixed_Asset_Depreciation/hasAttributes/Last Modified By"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Last Modified By Date",
+            "parent": "Fixed_Asset_Depreciation/attributeContext/Fixed_Asset_Depreciation",
+            "definition": "resolvedFrom/Fixed_Asset_Depreciation/hasAttributes/Last Modified By Date",
+            "contents": [
+              "Fixed_Asset_Depreciation/hasAttributes/Last Modified By Date"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Last Modified By Time",
+            "parent": "Fixed_Asset_Depreciation/attributeContext/Fixed_Asset_Depreciation",
+            "definition": "resolvedFrom/Fixed_Asset_Depreciation/hasAttributes/Last Modified By Time",
+            "contents": [
+              "Fixed_Asset_Depreciation/hasAttributes/Last Modified By Time"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Lot Number",
+            "parent": "Fixed_Asset_Depreciation/attributeContext/Fixed_Asset_Depreciation",
+            "definition": "resolvedFrom/Fixed_Asset_Depreciation/hasAttributes/Lot Number",
+            "contents": [
+              "Fixed_Asset_Depreciation/hasAttributes/Lot Number"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Serial Number",
+            "parent": "Fixed_Asset_Depreciation/attributeContext/Fixed_Asset_Depreciation",
+            "definition": "resolvedFrom/Fixed_Asset_Depreciation/hasAttributes/Serial Number",
+            "contents": [
+              "Fixed_Asset_Depreciation/hasAttributes/Serial Number"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Unique ID",
+            "parent": "Fixed_Asset_Depreciation/attributeContext/Fixed_Asset_Depreciation",
+            "definition": "resolvedFrom/Fixed_Asset_Depreciation/hasAttributes/Unique ID",
+            "contents": [
+              "Fixed_Asset_Depreciation/hasAttributes/Unique ID"
+            ]
+          }
+        ]
+      },
+      "hasAttributes": [
+        {
+          "name": "Depreciation For Period",
+          "appliedTraits": [
+            {
+              "traitReference": "is.dataFormat.numeric.shaped"
+            }
+          ],
+          "attributeContext": "Fixed_Asset_Depreciation/attributeContext/Fixed_Asset_Depreciation/Depreciation For Period",
+          "dataFormat": "Decimal"
+        },
+        {
+          "name": "Depreciation Rate",
+          "appliedTraits": [
+            {
+              "traitReference": "is.dataFormat.numeric.shaped"
+            }
+          ],
+          "attributeContext": "Fixed_Asset_Depreciation/attributeContext/Fixed_Asset_Depreciation/Depreciation Rate",
+          "dataFormat": "Decimal"
+        },
+        {
+          "name": "Approved By",
+          "appliedTraits": [
+            "is.dataFormat.character",
+            "is.dataFormat.big",
+            "is.dataFormat.array"
+          ],
+          "attributeContext": "Fixed_Asset_Depreciation/attributeContext/Fixed_Asset_Depreciation/Approved By",
+          "dataFormat": "String"
+        },
+        {
+          "name": "Approved By Date",
+          "appliedTraits": [
+            "is.dataFormat.date",
+            "means.measurement.date"
+          ],
+          "attributeContext": "Fixed_Asset_Depreciation/attributeContext/Fixed_Asset_Depreciation/Approved By Date",
+          "dataFormat": "Date"
+        },
+        {
+          "name": "Approved By Time",
+          "appliedTraits": [
+            "is.dataFormat.date",
+            "means.measurement.date"
+          ],
+          "attributeContext": "Fixed_Asset_Depreciation/attributeContext/Fixed_Asset_Depreciation/Approved By Time",
+          "dataFormat": "Date"
+        },
+        {
+          "name": "Business Unit Code",
+          "appliedTraits": [
+            "is.dataFormat.character",
+            "is.dataFormat.big",
+            "is.dataFormat.array"
+          ],
+          "attributeContext": "Fixed_Asset_Depreciation/attributeContext/Fixed_Asset_Depreciation/Business Unit Code",
+          "dataFormat": "String"
+        },
+        {
+          "name": "Depreciation Effective Date",
+          "appliedTraits": [
+            "is.dataFormat.date",
+            "means.measurement.date"
+          ],
+          "attributeContext": "Fixed_Asset_Depreciation/attributeContext/Fixed_Asset_Depreciation/Depreciation Effective Date",
+          "dataFormat": "Date"
+        },
+        {
+          "name": "Enteredby",
+          "appliedTraits": [
+            "is.dataFormat.character",
+            "is.dataFormat.big",
+            "is.dataFormat.array"
+          ],
+          "attributeContext": "Fixed_Asset_Depreciation/attributeContext/Fixed_Asset_Depreciation/Enteredby",
+          "dataFormat": "String"
+        },
+        {
+          "name": "Entered Date",
+          "appliedTraits": [
+            "is.dataFormat.date",
+            "means.measurement.date"
+          ],
+          "attributeContext": "Fixed_Asset_Depreciation/attributeContext/Fixed_Asset_Depreciation/Entered Date",
+          "dataFormat": "Date"
+        },
+        {
+          "name": "Entered Time",
+          "appliedTraits": [
+            "is.dataFormat.date",
+            "means.measurement.date"
+          ],
+          "attributeContext": "Fixed_Asset_Depreciation/attributeContext/Fixed_Asset_Depreciation/Entered Time",
+          "dataFormat": "Date"
+        },
+        {
+          "name": "Fixed Asset ID",
+          "appliedTraits": [
+            {
+              "traitReference": "is.dataFormat.numeric.shaped"
+            }
+          ],
+          "attributeContext": "Fixed_Asset_Depreciation/attributeContext/Fixed_Asset_Depreciation/Fixed Asset ID",
+          "dataFormat": "Decimal"
+        },
+        {
+          "name": "Fixed Asset Depreciable Basis",
+          "appliedTraits": [
+            {
+              "traitReference": "is.dataFormat.numeric.shaped"
+            }
+          ],
+          "attributeContext": "Fixed_Asset_Depreciation/attributeContext/Fixed_Asset_Depreciation/Fixed Asset Depreciable Basis",
+          "dataFormat": "Decimal"
+        },
+        {
+          "name": "Fixed Asset Depreciation Amount",
+          "appliedTraits": [
+            "is.dataFormat.character",
+            "is.dataFormat.big",
+            "is.dataFormat.array"
+          ],
+          "attributeContext": "Fixed_Asset_Depreciation/attributeContext/Fixed_Asset_Depreciation/Fixed Asset Depreciation Amount",
+          "dataFormat": "String"
+        },
+        {
+          "name": "Fixed Asset Depreciation Method",
+          "appliedTraits": [
+            {
+              "traitReference": "is.dataFormat.numeric.shaped"
+            }
+          ],
+          "attributeContext": "Fixed_Asset_Depreciation/attributeContext/Fixed_Asset_Depreciation/Fixed Asset Depreciation Method",
+          "dataFormat": "Decimal"
+        },
+        {
+          "name": "Fixed Asset Fair Value",
+          "appliedTraits": [
+            "is.dataFormat.character",
+            "is.dataFormat.big",
+            "is.dataFormat.array"
+          ],
+          "attributeContext": "Fixed_Asset_Depreciation/attributeContext/Fixed_Asset_Depreciation/Fixed Asset Fair Value",
+          "dataFormat": "String"
+        },
+        {
+          "name": "Fixed Asset Replacement Cost",
+          "appliedTraits": [
+            {
+              "traitReference": "is.dataFormat.numeric.shaped"
+            }
+          ],
+          "attributeContext": "Fixed_Asset_Depreciation/attributeContext/Fixed_Asset_Depreciation/Fixed Asset Replacement Cost",
+          "dataFormat": "Decimal"
+        },
+        {
+          "name": "Fixed Asset Salvage Value",
+          "appliedTraits": [
+            {
+              "traitReference": "is.dataFormat.numeric.shaped"
+            }
+          ],
+          "attributeContext": "Fixed_Asset_Depreciation/attributeContext/Fixed_Asset_Depreciation/Fixed Asset Salvage Value",
+          "dataFormat": "Decimal"
+        },
+        {
+          "name": "Fixed Asset Useful Life",
+          "appliedTraits": [
+            {
+              "traitReference": "is.dataFormat.numeric.shaped"
+            }
+          ],
+          "attributeContext": "Fixed_Asset_Depreciation/attributeContext/Fixed_Asset_Depreciation/Fixed Asset Useful Life",
+          "dataFormat": "Decimal"
+        },
+        {
+          "name": "GL Account",
+          "appliedTraits": [
+            "is.dataFormat.character",
+            "is.dataFormat.big",
+            "is.dataFormat.array"
+          ],
+          "attributeContext": "Fixed_Asset_Depreciation/attributeContext/Fixed_Asset_Depreciation/GL Account",
+          "dataFormat": "String"
+        },
+        {
+          "name": "GL Transaction ID",
+          "appliedTraits": [
+            "is.dataFormat.character",
+            "is.dataFormat.big",
+            "is.dataFormat.array"
+          ],
+          "attributeContext": "Fixed_Asset_Depreciation/attributeContext/Fixed_Asset_Depreciation/GL Transaction ID",
+          "dataFormat": "String"
+        },
+        {
+          "name": "Last Modified By",
+          "appliedTraits": [
+            "is.dataFormat.character",
+            "is.dataFormat.big",
+            "is.dataFormat.array"
+          ],
+          "attributeContext": "Fixed_Asset_Depreciation/attributeContext/Fixed_Asset_Depreciation/Last Modified By",
+          "dataFormat": "String"
+        },
+        {
+          "name": "Last Modified By Date",
+          "appliedTraits": [
+            "is.dataFormat.date",
+            "means.measurement.date"
+          ],
+          "attributeContext": "Fixed_Asset_Depreciation/attributeContext/Fixed_Asset_Depreciation/Last Modified By Date",
+          "dataFormat": "Date"
+        },
+        {
+          "name": "Last Modified By Time",
+          "appliedTraits": [
+            "is.dataFormat.date",
+            "means.measurement.date"
+          ],
+          "attributeContext": "Fixed_Asset_Depreciation/attributeContext/Fixed_Asset_Depreciation/Last Modified By Time",
+          "dataFormat": "Date"
+        },
+        {
+          "name": "Lot Number",
+          "appliedTraits": [
+            "is.dataFormat.boolean"
+          ],
+          "attributeContext": "Fixed_Asset_Depreciation/attributeContext/Fixed_Asset_Depreciation/Lot Number",
+          "dataFormat": "Boolean"
+        },
+        {
+          "name": "Serial Number",
+          "appliedTraits": [
+            "is.dataFormat.boolean"
+          ],
+          "attributeContext": "Fixed_Asset_Depreciation/attributeContext/Fixed_Asset_Depreciation/Serial Number",
+          "dataFormat": "Boolean"
+        },
+        {
+          "name": "Unique ID",
+          "appliedTraits": [
+            "is.dataFormat.character",
+            "is.dataFormat.big",
+            "is.dataFormat.array"
+          ],
+          "attributeContext": "Fixed_Asset_Depreciation/attributeContext/Fixed_Asset_Depreciation/Unique ID",
+          "dataFormat": "String"
+        }
+      ]
+    }
+  ]
+}

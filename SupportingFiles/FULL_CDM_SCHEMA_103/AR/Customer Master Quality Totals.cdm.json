@@ -1,0 +1,40 @@
+{
+  "jsonSchemaSemanticVersion": "1.0.0",
+  "imports": [
+    {
+      "corpusPath": "cdm:/foundations.cdm.json"
+    }
+  ],
+  "definitions": [
+    {
+      "entityName": "Customer Master Quality Totals",
+      "hasAttributes": [
+        {
+          "name": "Closing Credit Balance",
+          "purpose": "hasA",
+          "dataType": "decimal"
+        },
+        {
+          "name": "Closing Debit Balance",
+          "purpose": "hasA",
+          "dataType": "decimal"
+        },
+        {
+          "name": "Customer ID",
+          "purpose": "hasA",
+          "dataType": "string"
+        },
+        {
+          "name": "Opening Credit Balance",
+          "purpose": "hasA",
+          "dataType": "decimal"
+        },
+        {
+          "name": "Opening Debit Balance",
+          "purpose": "hasA",
+          "dataType": "decimal"
+        }
+      ]
+    }
+  ]
+}

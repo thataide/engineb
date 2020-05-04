@@ -1,0 +1,493 @@
+﻿Customer Master Data,Account  ID,string
+Customer Master Data,Address Address Type,string
+Customer Master Data,Address Building,string
+Customer Master Data,Address City,string
+Customer Master Data,Address Country,string
+Customer Master Data,Address Number,decimal
+Customer Master Data,Address Postal Code,string
+Customer Master Data,Address Region,string
+Customer Master Data,Address Street Name,string
+Customer Master Data,Bank Account Name,string
+Customer Master Data,Bank Account Number,string
+Customer Master Data,Customer ID,decimal
+Customer Master Data,Customer Credit Limit,string
+Customer Master Data,E B Company Type,string
+Customer Master Data,Effective Date,date
+Customer Master Data,Email,string
+Customer Master Data,Expiration Date,date
+Customer Master Data,Fax,string
+Customer Master Data,First Name,string
+Customer Master Data,IBAN Number,string
+Customer Master Data,Last Name,string
+Customer Master Data,Name,string
+Customer Master Data,Payment Discount Days,decimal
+Customer Master Data,Payment Discount Percentage,decimal
+Customer Master Data,Payment Due Days,decimal
+Customer Master Data,Registration Number,string
+Customer Master Data,Self Billing Indicator,string
+Customer Master Data,Sort Code,string
+Customer Master Data,System Approved Date Time,date
+Customer Master Data,System Approved User,string
+Customer Master Data,System Entry Date Time,date
+Customer Master Data,System Entry User,string
+Customer Master Data,System Modified Date Time,date
+Customer Master Data,System Modified User,string
+Customer Master Data,Tax Authority,string
+Customer Master Data,Tax Number,string
+Customer Master Data,Tax Registration Number,string
+Customer Master Data,Tax Type,string
+Customer Master Data,Tax Verification Date,date
+Customer Master Data,Telephone,string
+Customer Master Data,Title,string
+Customer Master Data,Transaction Credit Limit,decimal
+Customer Master Data,Website,string
+Customer Master Quality Totals,Closing Credit Balance,decimal
+Customer Master Quality Totals,Closing Debit Balance,decimal
+Customer Master Quality Totals,Customer ID,string
+Customer Master Quality Totals,Opening Credit Balance,decimal
+Customer Master Quality Totals,Opening Debit Balance,decimal
+Goods Shipped Data,Adjustment_ Description,string
+Goods Shipped Data,Adjustment_ Indicator,string
+Goods Shipped Data,Adjustment Amount,decimal
+Goods Shipped Data,Approved_ By,string
+Goods Shipped Data,Approved_ By_ Date Time,date
+Goods Shipped Data,Business_ Unit_ Code,string
+Goods Shipped Data,Entered_ By,string
+Goods Shipped Data,Entered_ Date Time,date
+Goods Shipped Data,Goods Received Amount,decimal
+Goods Shipped Data,Goods Received Currency Amount,decimal
+Goods Shipped Data,Goods Received Currency Code,string
+Goods Shipped Data,Goods Received Exchange Rate,decimal
+Goods Shipped Data,Last_ Modified_ By,string
+Goods Shipped Data,Last_ Modified_ Date Time,date
+Goods Shipped Data,Line Adjustment_ Description,string
+Goods Shipped Data,Line Adjustment Amount,decimal
+Goods Shipped Data,Line Amount,decimal
+Goods Shipped Data,Line Currency Amount,decimal
+Goods Shipped Data,Line Currency Code,string
+Goods Shipped Data,Line Exchange Rate,decimal
+Goods Shipped Data,Line Receipt_ ID,string
+Goods Shipped Data,Line Receipt_ Document_ Line_ ID,string
+Goods Shipped Data,Line Receipt_ Product_ ID,string
+Goods Shipped Data,Line Receipt_ Product_ Bar_ Code,string
+Goods Shipped Data,Line Receipt_ Product_ Description,string
+Goods Shipped Data,Line Receipt_ Product_ Group_01,string
+Goods Shipped Data,Line Receipt_ Product_ Group_02,string
+Goods Shipped Data,Line Receipt_ Quantity,decimal
+Goods Shipped Data,Line Receipt_ Unit_of_ Measure,string
+Goods Shipped Data,Line Receipt_ Unit_ Price,decimal
+Goods Shipped Data,Line Sales_ Order_ Line_ ID,string
+Goods Shipped Data,Line Sales_ Order_ Quantity,decimal
+Goods Shipped Data,Line Sales_ Order_ Unit_of_ Measure,string
+Goods Shipped Data,Line Sales_ Order_ Unit_ Price,decimal
+Goods Shipped Data,Line Sales Order Amount,decimal
+Goods Shipped Data,Line Sales Order Currency Amount,decimal
+Goods Shipped Data,Line Sales Order Currency Code,string
+Goods Shipped Data,Line Sales Order Exchange Rate,decimal
+Goods Shipped Data,Posting Status,string
+Goods Shipped Data,Receipt_ ID,date
+Goods Shipped Data,Receipt_ Date,string
+Goods Shipped Data,Receipt_ Document_ ID,date
+Goods Shipped Data,Receipt_ Fiscal_ Year,string
+Goods Shipped Data,Receipt_ Period,string
+Goods Shipped Data,Sales_ Order_ ID,date
+Goods Shipped Data,Sales_ Order_ Date,string
+Goods Shipped Data,Sales Order Amount,decimal
+Goods Shipped Data,Sales Order Currency Amount,decimal
+Goods Shipped Data,Sales Order Currency Code,string
+Goods Shipped Data,Sales Order Exchange Rate,decimal
+Goods Shipped Data,Supplier_ Account_ ID,string
+Inventory Product Master Data,Description,string
+Inventory Product Master Data,Goods Services ID,string
+Inventory Product Master Data,Product Code,string
+Inventory Product Master Data,Product Commodity Code,string
+Inventory Product Master Data,Product Group,string
+Inventory Product Master Data,Product Number Code,string
+Inventory Product Master Data,System Approved Date Time,date
+Inventory Product Master Data,System Approved User,string
+Inventory Product Master Data,System Entry Date Time,date
+Inventory Product Master Data,System Entry User,string
+Inventory Product Master Data,System Modified Date Time,date
+Inventory Product Master Data,System Modified User,string
+Inventory Product Master Data,Tax Code,string
+Inventory Product Master Data,Tax Type,string
+Inventory Product Master Data,UOM Base,string
+Inventory Product Master Data,UOM Standard,string
+Inventory Product Master Data,UOM To UOM Base Conversion Factor,decimal
+Inventory Product Master Data,Valuation Method,string
+Payment Data,Approved By,string
+Payment Data,Approved Date Time,date
+Payment Data,Batch ID,string
+Payment Data,Description,string
+Payment Data,Line Account ID,string
+Payment Data,Line Analysis Analysis ID,decimal
+Payment Data,Line Analysis Analysis Amount,string
+Payment Data,Line Analysis Analysis Type,string
+Payment Data,Line Approved By,string
+Payment Data,Line Approved Date Time,date
+Payment Data,Line Customer ID,string
+Payment Data,Line Debit Credit Indicator,string
+Payment Data,Line Description,string
+Payment Data,Line Line Number,string
+Payment Data,Line Payment Line Amount Amount,decimal
+Payment Data,Line Payment Line Amount Currency Amount,decimal
+Payment Data,Line Payment Line Amount Currency Code,string
+Payment Data,Line Payment Line Amount Exchange Rate,decimal
+Payment Data,Line Settlement Payment Mechanism,string
+Payment Data,Line Settlement Settlement Amount Amount,decimal
+Payment Data,Line Settlement Settlement Amount Currency Amount,decimal
+Payment Data,Line Settlement Settlement Amount Currency Code,string
+Payment Data,Line Settlement Settlement Amount Exchange Rate,decimal
+Payment Data,Line Settlement Settlement Date,date
+Payment Data,Line Settlement Settlement Discount,string
+Payment Data,Line Source Document ID,string
+Payment Data,Line System Entry Date Time,date
+Payment Data,Line System Entry User,string
+Payment Data,Line Tax Information Tax Amount,decimal
+Payment Data,Line Tax Information Tax Base,string
+Payment Data,Line Tax Information Tax Base Description,string
+Payment Data,Line Tax Information Tax Code,string
+Payment Data,Line Tax Information Tax Declaration Period,string
+Payment Data,Line Tax Information Tax Exemption Reason,string
+Payment Data,Line Tax Information Tax Percentage,decimal
+Payment Data,Line Tax Information Tax Type,string
+Payment Data,Line Tax Point Date,date
+Payment Data,Payment Method,string
+Payment Data,Payment Ref No,string
+Payment Data,Period,string
+Payment Data,Period Year,date
+Payment Data,Source ID,string
+Payment Data,System ID,date
+Payment Data,System Entry Date Time,string
+Payment Data,System Entry User,string
+Payment Data,Transaction ID,date
+Payment Data,Transaction Date,string
+Payment Data,Document Totals Payment Amount Totals Amount,decimal
+Payment Data Quality Totals,Line Document Totals Gross Total,decimal
+Payment Data Quality Totals,Line Document Totals Net Total,decimal
+Payment Data Quality Totals,Line Document Totals Tax Information Totals Tax Amount,decimal
+Payment Data Quality Totals,Line Document Totals Tax Information Totals Tax Base,string
+Payment Data Quality Totals,Line Document Totals Tax Information Totals Tax Base Description,string
+Payment Data Quality Totals,Line Document Totals Tax Information Totals Tax Code,string
+Payment Data Quality Totals,Line Document Totals Tax Information Totals Tax Declaration Period,string
+Payment Data Quality Totals,Line Document Totals Tax Information Totals Tax Exemption Reason,string
+Payment Data Quality Totals,Line Document Totals Tax Information Totals Tax Percentage,decimal
+Payment Data Quality Totals,Line Document Totals Tax Information Totals Tax Type,string
+Payment Data Quality Totals,Number Of Entries,decimal
+Payment Data Quality Totals,Total Credit,decimal
+Payment Data Quality Totals,Total Debit,decimal
+Sales Invoice Data,Approved By,string
+Sales Invoice Data,Approved Date Time,date
+Sales Invoice Data,Batch ID,string
+Sales Invoice Data,Billing Address Additional Address Detail,string
+Sales Invoice Data,Billing Address Address Type,string
+Sales Invoice Data,Billing Address Building,string
+Sales Invoice Data,Billing Address City,string
+Sales Invoice Data,Billing Address Country,string
+Sales Invoice Data,Billing Address Number,decimal
+Sales Invoice Data,Billing Address Postal Code,string
+Sales Invoice Data,Billing Address Region,string
+Sales Invoice Data,Billing Address Street Name,string
+Sales Invoice Data,Branch Store Number,string
+Sales Invoice Data,Customer Info Customer ID,string
+Sales Invoice Data,GL Posting Date,date
+Sales Invoice Data,Invoice Document Reference,string
+Sales Invoice Data,Line Analysis ID,string
+Sales Invoice Data,Line Analysis Amount,string
+Sales Invoice Data,Line Analysis Type,string
+Sales Invoice Data,Line Approved By,string
+Sales Invoice Data,Line Approved Date Time,date
+Sales Invoice Data,Line Credit Note Reason,string
+Sales Invoice Data,Line Credit Note Reference,string
+Sales Invoice Data,Line Debit Credit Indicator,string
+Sales Invoice Data,Line Delivery Date,date
+Sales Invoice Data,Line From Date,date
+Sales Invoice Data,Line Goods Services ID,string
+Sales Invoice Data,Line Invoice Due Date,date
+Sales Invoice Data,Line Invoice Line Amount Currency Amount,decimal
+Sales Invoice Data,Line Invoice Line Amount Exchange Rate,decimal
+Sales Invoice Data,Line Invoice UOM,string
+Sales Invoice Data,Line Line Number,string
+Sales Invoice Data,Line Movement Reference,string
+Sales Invoice Data,Line Order Date,date
+Sales Invoice Data,Line Originating ON,string
+Sales Invoice Data,Line Product Description,string
+Sales Invoice Data,Line Ship From Additional Address Detail,string
+Sales Invoice Data,Line Ship From Address,string
+Sales Invoice Data,Line Ship From Address Type,string
+Sales Invoice Data,Line Ship From Building,string
+Sales Invoice Data,Line Ship From City,string
+Sales Invoice Data,Line Ship From Country,string
+Sales Invoice Data,Line Ship From Delivery ID,date
+Sales Invoice Data,Line Ship From Delivery Date,string
+Sales Invoice Data,Line Ship From Location ID,string
+Sales Invoice Data,Line Ship From Number,decimal
+Sales Invoice Data,Line Ship From Postal Code,string
+Sales Invoice Data,Line Ship From Region,string
+Sales Invoice Data,Line Ship From Street Name,string
+Sales Invoice Data,Line Ship From UCR,string
+Sales Invoice Data,Line Ship From Warehouse ID,string
+Sales Invoice Data,Line Shipping Costs Amount Amount,decimal
+Sales Invoice Data,Line Shipping Costs Amount Currency Amount,decimal
+Sales Invoice Data,Line Shipping Costs Amount Currency Code,string
+Sales Invoice Data,Line Shipping Costs Amount Exchange Rate,decimal
+Sales Invoice Data,Line Ship To Additional Address Detail,string
+Sales Invoice Data,Line Ship To Address,string
+Sales Invoice Data,Line Ship To Address Type,string
+Sales Invoice Data,Line Ship To Building,string
+Sales Invoice Data,Line Ship To City,string
+Sales Invoice Data,Line Ship To Country,string
+Sales Invoice Data,Line Ship To Delivery ID,date
+Sales Invoice Data,Line Ship To Delivery Date,string
+Sales Invoice Data,Line Ship To Location ID,string
+Sales Invoice Data,Line Ship To Number,decimal
+Sales Invoice Data,Line Ship To Postal Code,string
+Sales Invoice Data,Line Ship To Region,string
+Sales Invoice Data,Line Ship To Street Name,string
+Sales Invoice Data,Line Ship To UCR,string
+Sales Invoice Data,Line Ship To Warehouse ID,string
+Sales Invoice Data,Line System Entry Date Time,date
+Sales Invoice Data,Line System Entry User,string
+Sales Invoice Data,Line System Modified Date Time,date
+Sales Invoice Data,Line System M Odified User,string
+Sales Invoice Data,Line Tax Information Tax Base,string
+Sales Invoice Data,Line Tax Information Tax Base Description,string
+Sales Invoice Data,Line Tax Information Tax Declaration Period,string
+Sales Invoice Data,Line Tax Information Tax Exemption Reason,string
+Sales Invoice Data,Line Tax Information Tax Percentage,decimal
+Sales Invoice Data,Line Tax Information Tax Type,string
+Sales Invoice Data,Line Tax Point Date,date
+Sales Invoice Data,Line To Date,date
+Sales Invoice Data,Line UOM To UOM Base Conversion Factor,decimal
+Sales Invoice Data,Payment Terms,string
+Sales Invoice Data,Period,string
+Sales Invoice Data,Period Year,date
+Sales Invoice Data,Posting Status,string
+Sales Invoice Data,Receipt Numbers,string
+Sales Invoice Data,Self Billing Indicator,string
+Sales Invoice Data,Settlement Amount,decimal
+Sales Invoice Data,Settlement Currency Amount,decimal
+Sales Invoice Data,Settlement Currency Code,string
+Sales Invoice Data,Settlement Exchange Rate,decimal
+Sales Invoice Data,Settlement Payment Mechanism,string
+Sales Invoice Data,Settlement Settlement Date,date
+Sales Invoice Data,Settlement Settlement Discount,decimal
+Sales Invoice Data,Ship From Additional Address Detail,string
+Sales Invoice Data,Ship From Address,string
+Sales Invoice Data,Ship From Address Type,string
+Sales Invoice Data,Ship From Building,string
+Sales Invoice Data,Ship From City,string
+Sales Invoice Data,Ship From Country,string
+Sales Invoice Data,Ship From Delivery ID,date
+Sales Invoice Data,Ship From Delivery Date,string
+Sales Invoice Data,Ship From Location ID,string
+Sales Invoice Data,Ship From Number,decimal
+Sales Invoice Data,Ship From Postal Code,string
+Sales Invoice Data,Ship From Region,string
+Sales Invoice Data,Ship From Street Name,string
+Sales Invoice Data,Ship From UCR,string
+Sales Invoice Data,Ship From Warehouse ID,string
+Sales Invoice Data,Ship To Additional Address Detail,string
+Sales Invoice Data,Ship To Address,string
+Sales Invoice Data,Ship To Address Type,string
+Sales Invoice Data,Ship To Building,string
+Sales Invoice Data,Ship To City,string
+Sales Invoice Data,Ship To Country,string
+Sales Invoice Data,Ship To Delivery ID,date
+Sales Invoice Data,Ship To Delivery Date,string
+Sales Invoice Data,Ship To Location ID,string
+Sales Invoice Data,Ship To Number,decimal
+Sales Invoice Data,Ship To Postal Code,string
+Sales Invoice Data,Ship To Region,string
+Sales Invoice Data,Ship To Street Name,string
+Sales Invoice Data,Ship To UCR,string
+Sales Invoice Data,Ship To Warehouse ID,string
+Sales Invoice Data,Source ID,string
+Sales Invoice Data,System ID,date
+Sales Invoice Data,System Entry Date Time,string
+Sales Invoice Data,System Entry User,date
+Sales Invoice Data,System Modified Date Time,string
+Sales Invoice Data,System Modified User,string
+Sales Invoice Data,Transaction ID,string
+Sales Invoice Data,Customer Info Name,string
+Sales Invoice Data,Invoice Date,date
+Sales Invoice Data,Invoice Due Date,date
+Sales Invoice Data,Invoice No,string
+Sales Invoice Data,Invoice Reference,string
+Sales Invoice Data,Invoice Type,string
+Sales Invoice Data,Line Account ID,string
+Sales Invoice Data,Line Description,string
+Sales Invoice Data,Line Invoice Line Amount Amount,decimal
+Sales Invoice Data,Line Invoice Line Amount Currency Code,string
+Sales Invoice Data,Line Product Code,string
+Sales Invoice Data,Line Quantity,decimal
+Sales Invoice Data,Line Tax Information Tax Amount,decimal
+Sales Invoice Data,Line Tax Information Tax Code,string
+Sales Invoice Data,Line Unit Price,decimal
+Sales Invoice Quality Totals,Document Totals Net Total,decimal
+Sales Invoice Quality Totals,Document Totals Shipping Costs Amount Total,decimal
+Sales Invoice Quality Totals,Document Totals Tax Information Totals Tax Base,string
+Sales Invoice Quality Totals,Document Totals Tax Information Totals Tax Base Description,string
+Sales Invoice Quality Totals,Document Totals Tax Information Totals Tax Code,string
+Sales Invoice Quality Totals,Document Totals Tax Information Totals Tax Declaration Period,string
+Sales Invoice Quality Totals,Document Totals Tax Information Totals Tax Exemption Reason,string
+Sales Invoice Quality Totals,Document Totals Tax Information Totals Tax Percentage,decimal
+Sales Invoice Quality Totals,Document Totals Tax Information Totals Tax Type,string
+Sales Invoice Quality Totals,Number Of Entries,decimal
+Sales Invoice Quality Totals,Total Credit,decimal
+Sales Invoice Quality Totals,Total Debit,decimal
+Sales Invoice Quality Totals,Document Totals Gross Total,decimal
+Sales Invoice Quality Totals,Document Totals Tax Information Totals Tax Amount,decimal
+Sales Order Data,Approved By,string
+Sales Order Data,Approved Date Time,date
+Sales Order Data,Batch ID,string
+Sales Order Data,Billing Address Additional Address Detail,string
+Sales Order Data,Billing Address Address Type,string
+Sales Order Data,Billing Address Building,string
+Sales Order Data,Billing Address City,string
+Sales Order Data,Billing Address Country,string
+Sales Order Data,Billing Address Number,decimal
+Sales Order Data,Billing Address Postal Code,string
+Sales Order Data,Billing Address Region,string
+Sales Order Data,Billing Address Street Name,string
+Sales Order Data,Branch Store Number,string
+Sales Order Data,Customer Info Name,string
+Sales Order Data,Customer Info Supplier ID,string
+Sales Order Data,GL Posting Date,date
+Sales Order Data,Line Account ID,string
+Sales Order Data,Line Analysis ID,decimal
+Sales Order Data,Line Analysis Amount,string
+Sales Order Data,Line Analysis Type,string
+Sales Order Data,Line Approved By,string
+Sales Order Data,Line Approved Date Time,date
+Sales Order Data,Line Credit Note Reason,string
+Sales Order Data,Line Credit Note Reference,string
+Sales Order Data,Line Debit Credit Indicator,string
+Sales Order Data,Line Delivery Date,date
+Sales Order Data,Line Description,string
+Sales Order Data,Line From Date,date
+Sales Order Data,Line Goods Services ID,string
+Sales Order Data,Line Line Number,string
+Sales Order Data,Line Movement Reference,string
+Sales Order Data,Line Order Line Amount Amount,decimal
+Sales Order Data,Line Order Line Amount Currency Amount,decimal
+Sales Order Data,Line Order Line Amount Currency Code,string
+Sales Order Data,Line Order Line Amount Exchange Rate,decimal
+Sales Order Data,Line Order UOM,string
+Sales Order Data,Line P IDate,date
+Sales Order Data,Line Product Code,string
+Sales Order Data,Line Product Description,string
+Sales Order Data,Line Quantity,decimal
+Sales Order Data,Line Ship From Additional Address Detail,string
+Sales Order Data,Line Ship From Address,string
+Sales Order Data,Line Ship From Address Type,string
+Sales Order Data,Line Ship From Building,string
+Sales Order Data,Line Ship From City,string
+Sales Order Data,Line Ship From Country,string
+Sales Order Data,Line Ship From Delivery ID,date
+Sales Order Data,Line Ship From Delivery Date,string
+Sales Order Data,Line Ship From Location ID,string
+Sales Order Data,Line Ship From Number,decimal
+Sales Order Data,Line Ship From Postal Code,string
+Sales Order Data,Line Ship From Region,string
+Sales Order Data,Line Ship From Street Name,string
+Sales Order Data,Line Ship From UCR,string
+Sales Order Data,Line Ship From Warehouse ID,string
+Sales Order Data,Line Shipping Costs Amount Amount,decimal
+Sales Order Data,Line Shipping Costs Amount Currency Amount,decimal
+Sales Order Data,Line Shipping Costs Amount Currency Code,string
+Sales Order Data,Line Shipping Costs Amount Exchange Rate,decimal
+Sales Order Data,Line Ship To Additional Address Detail,string
+Sales Order Data,Line Ship To Address,string
+Sales Order Data,Line Ship To Address Type,string
+Sales Order Data,Line Ship To Building,string
+Sales Order Data,Line Ship To City,string
+Sales Order Data,Line Ship To Country,string
+Sales Order Data,Line Ship To Delivery ID,date
+Sales Order Data,Line Ship To Delivery Date,string
+Sales Order Data,Line Ship To Location ID,string
+Sales Order Data,Line Ship To Number,decimal
+Sales Order Data,Line Ship To Postal Code,string
+Sales Order Data,Line Ship To Region,string
+Sales Order Data,Line Ship To Street Name,string
+Sales Order Data,Line Ship To UCR,string
+Sales Order Data,Line Ship To Warehouse ID,string
+Sales Order Data,Line Subsequent PI,string
+Sales Order Data,Line System Entry Date Time,date
+Sales Order Data,Line System Entry User,string
+Sales Order Data,Line Tax Information Tax Amount,decimal
+Sales Order Data,Line Tax Information Tax Base,string
+Sales Order Data,Line Tax Information Tax Base Description,string
+Sales Order Data,Line Tax Information Tax Code,string
+Sales Order Data,Line Tax Information Tax Declaration Period,string
+Sales Order Data,Line Tax Information Tax Exemption Reason,string
+Sales Order Data,Line Tax Information Tax Percentage,decimal
+Sales Order Data,Line Tax Information Tax Type,string
+Sales Order Data,Line Tax Point Date,date
+Sales Order Data,Line To Date,date
+Sales Order Data,Line Unit Price,decimal
+Sales Order Data,Line UOM To UOM Base Conversion Factor,decimal
+Sales Order Data,Order Date,date
+Sales Order Data,Order Document Reference,string
+Sales Order Data,Order No,string
+Sales Order Data,Order Type,string
+Sales Order Data,Payment Terms,decimal
+Sales Order Data,Period,string
+Sales Order Data,Period Year,date
+Sales Order Data,Posting Status,string
+Sales Order Data,Receipt Numbers,string
+Sales Order Data,Self Billing Indicator,string
+Sales Order Data,Settlement Amount,decimal
+Sales Order Data,Settlement Currency Amount,decimal
+Sales Order Data,Settlement Currency Code,string
+Sales Order Data,Settlement Exchange Rate,decimal
+Sales Order Data,Settlement Payment Mechanism,string
+Sales Order Data,Settlement Settlement Date,date
+Sales Order Data,Settlement Settlement Discount,string
+Sales Order Data,Ship From Additional Address Detail,string
+Sales Order Data,Ship From Address,string
+Sales Order Data,Ship From Address Type,string
+Sales Order Data,Ship From Building,string
+Sales Order Data,Ship From City,string
+Sales Order Data,Ship From Country,string
+Sales Order Data,Ship From Delivery ID,date
+Sales Order Data,Ship From Delivery Date,string
+Sales Order Data,Ship From Location ID,string
+Sales Order Data,Ship From Number,decimal
+Sales Order Data,Ship From Postal Code,string
+Sales Order Data,Ship From Region,string
+Sales Order Data,Ship From Street Name,string
+Sales Order Data,Ship From UCR,string
+Sales Order Data,Ship From Warehouse ID,string
+Sales Order Data,Ship To Additional Address Detail,string
+Sales Order Data,Ship To Address,string
+Sales Order Data,Ship To Address Type,string
+Sales Order Data,Ship To Building,string
+Sales Order Data,Ship To City,string
+Sales Order Data,Ship To Country,string
+Sales Order Data,Ship To Delivery ID,date
+Sales Order Data,Ship To Delivery Date,string
+Sales Order Data,Ship To Location ID,string
+Sales Order Data,Ship To Number,decimal
+Sales Order Data,Ship To Postal Code,string
+Sales Order Data,Ship To Region,string
+Sales Order Data,Ship To Street Name,string
+Sales Order Data,Ship To U C R,string
+Sales Order Data,Ship To Warehouse ID,string
+Sales Order Data,Source ID,string
+Sales Order Data,System ID,date
+Sales Order Data,System Entry Date Time,string
+Sales Order Data,System Entry User,string
+Sales Order Data,Transaction ID,string
+Tax Table Data,Country,string
+Tax Table Data,Description,string
+Tax Table Data,Effective Date,date
+Tax Table Data,Expiration Date,date
+Tax Table Data,Flat Tax Rate Amount,decimal
+Tax Table Data,Flat Tax Rate Currency Amount,decimal
+Tax Table Data,Flat Tax Rate Currency Code,string
+Tax Table Data,Flat Tax Rate Exhchange Rate,decimal
+Tax Table Data,Region,string
+Tax Table Data,Tax Code,string
+Tax Table Data,Tax Percentage,decimal
+Tax Table Data,Tax Type,string

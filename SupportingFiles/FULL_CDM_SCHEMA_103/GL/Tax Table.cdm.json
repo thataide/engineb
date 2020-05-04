@@ -1,0 +1,70 @@
+{
+  "jsonSchemaSemanticVersion": "1.0.0",
+  "imports": [
+    {
+      "corpusPath": "cdm:/foundations.cdm.json"
+    }
+  ],
+  "definitions": [
+    {
+      "entityName": "Tax Table",
+      "hasAttributes": [
+        {
+          "name": "Regulator IDentifier",
+          "purpose": "hasA",
+          "dataType": "string"
+        },
+        {
+          "name": "Regulator Active Flag",
+          "purpose": "hasA",
+          "dataType": "string"
+        },
+        {
+          "name": "Regulator Code",
+          "purpose": "hasA",
+          "dataType": "string"
+        },
+        {
+          "name": "Regulator Country",
+          "purpose": "hasA",
+          "dataType": "string"
+        },
+        {
+          "name": "Regulator Default Accrual G L Account Number",
+          "purpose": "hasA",
+          "dataType": "string"
+        },
+        {
+          "name": "Regulator Default Expense G L Account Number",
+          "purpose": "hasA",
+          "dataType": "string"
+        },
+        {
+          "name": "Regulator Default Payable G L Account Number",
+          "purpose": "hasA",
+          "dataType": "string"
+        },
+        {
+          "name": "Regulator Name",
+          "purpose": "hasA",
+          "dataType": "string"
+        },
+        {
+          "name": "Regulator Region",
+          "purpose": "hasA",
+          "dataType": "string"
+        },
+        {
+          "name": "Regulator Reporting Organisation",
+          "purpose": "hasA",
+          "dataType": "string"
+        },
+        {
+          "name": "Regulator Role",
+          "purpose": "hasA",
+          "dataType": "string"
+        }
+      ]
+    }
+  ]
+}

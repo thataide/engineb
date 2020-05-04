@@ -1,0 +1,195 @@
+{
+  "jsonSchemaSemanticVersion": "1.0.0",
+  "imports": [
+    {
+      "corpusPath": "cdm:/foundations.cdm.json"
+    }
+  ],
+  "definitions": [
+    {
+      "entityName": "General Ledger Transactions",
+      "hasAttributes": [
+        {
+          "name": "Account Number",
+          "purpose": "hasA",
+          "dataType": "string"
+        },
+        {
+          "name": "Created Date",
+          "purpose": "hasA",
+          "dataType": "date"
+        },
+        {
+          "name": "Journal ID",
+          "purpose": "hasA",
+          "dataType": "decimal"
+        },
+        {
+          "name": "Journal Header Desc",
+          "purpose": "hasA",
+          "dataType": "string"
+        },
+        {
+          "name": "Journal Line Desc",
+          "purpose": "hasA",
+          "dataType": "string"
+        },
+        {
+          "name": "Tax Amount",
+          "purpose": "hasA",
+          "dataType": "decimal"
+        },
+        {
+          "name": "Tax Code",
+          "purpose": "hasA",
+          "dataType": "string"
+        },
+        {
+          "name": "Approved Date",
+          "purpose": "hasA",
+          "dataType": "date"
+        },
+        {
+          "name": "Approved User",
+          "purpose": "hasA",
+          "dataType": "string"
+        },
+        {
+          "name": "Business Unit",
+          "purpose": "hasA",
+          "dataType": "string"
+        },
+        {
+          "name": "Clearing Date",
+          "purpose": "hasA",
+          "dataType": "date"
+        },
+        {
+          "name": "Clearing Journal ID",
+          "purpose": "hasA",
+          "dataType": "string"
+        },
+        {
+          "name": "Created Time",
+          "purpose": "hasA",
+          "dataType": "date"
+        },
+        {
+          "name": "Created User",
+          "purpose": "hasA",
+          "dataType": "string"
+        },
+        {
+          "name": "Document Date",
+          "purpose": "hasA",
+          "dataType": "date"
+        },
+        {
+          "name": "Effective Date",
+          "purpose": "hasA",
+          "dataType": "date"
+        },
+        {
+          "name": "Journal Amount",
+          "purpose": "hasA",
+          "dataType": "string"
+        },
+        {
+          "name": "Journal Amount Currency",
+          "purpose": "hasA",
+          "dataType": "string"
+        },
+        {
+          "name": "Journal Amount Indicator",
+          "purpose": "hasA",
+          "dataType": "string"
+        },
+        {
+          "name": "Journal Line",
+          "purpose": "hasA",
+          "dataType": "decimal"
+        },
+        {
+          "name": "Journal Local Amount",
+          "purpose": "hasA",
+          "dataType": "decimal"
+        },
+        {
+          "name": "Journal Local Currency",
+          "purpose": "hasA",
+          "dataType": "string"
+        },
+        {
+          "name": "Journal Reporting Amount",
+          "purpose": "hasA",
+          "dataType": "decimal"
+        },
+        {
+          "name": "Journal Reporting Currency",
+          "purpose": "hasA",
+          "dataType": "string"
+        },
+        {
+          "name": "Journal Source",
+          "purpose": "hasA",
+          "dataType": "string"
+        },
+        {
+          "name": "Modified Date",
+          "purpose": "hasA",
+          "dataType": "date"
+        },
+        {
+          "name": "Modified User",
+          "purpose": "hasA",
+          "dataType": "string"
+        },
+        {
+          "name": "Period",
+          "purpose": "hasA",
+          "dataType": "string"
+        },
+        {
+          "name": "Reversal Indicator",
+          "purpose": "hasA",
+          "dataType": "string"
+        },
+        {
+          "name": "Reversal Journal ID",
+          "purpose": "hasA",
+          "dataType": "string"
+        },
+        {
+          "name": "Segment01",
+          "purpose": "hasA",
+          "dataType": "string"
+        },
+        {
+          "name": "Segment02",
+          "purpose": "hasA",
+          "dataType": "string"
+        },
+        {
+          "name": "Segment03",
+          "purpose": "hasA",
+          "dataType": "string"
+        },
+        {
+          "name": "Segment04",
+          "purpose": "hasA",
+          "dataType": "string"
+        },
+        {
+          "name": "Segment05",
+          "purpose": "hasA",
+          "dataType": "string"
+        },
+        {
+          "name": "Year",
+          "purpose": "hasA",
+          "dataType": "string"
+        }
+      ]
+    }
+  ]
+}

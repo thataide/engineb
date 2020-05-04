@@ -1,0 +1,908 @@
+{
+  "jsonSchemaSemanticVersion": "1.0.0",
+  "imports": [
+    {
+      "corpusPath": "/Payment Data.cdm.json",
+      "moniker": "resolvedFrom"
+    }
+  ],
+  "definitions": [
+    {
+      "entityName": "Payment Data",
+      "attributeContext": {
+        "type": "entity",
+        "name": "Payment Data",
+        "definition": "resolvedFrom/Payment Data",
+        "contents": [
+          {
+            "type": "attributeDefinition",
+            "name": "Approved By",
+            "parent": "Payment Data/attributeContext/Payment Data",
+            "definition": "resolvedFrom/Payment Data/hasAttributes/Approved By",
+            "contents": [
+              "Payment Data/hasAttributes/Approved By"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Approved Date Time",
+            "parent": "Payment Data/attributeContext/Payment Data",
+            "definition": "resolvedFrom/Payment Data/hasAttributes/Approved Date Time",
+            "contents": [
+              "Payment Data/hasAttributes/Approved Date Time"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Batch ID",
+            "parent": "Payment Data/attributeContext/Payment Data",
+            "definition": "resolvedFrom/Payment Data/hasAttributes/Batch ID",
+            "contents": [
+              "Payment Data/hasAttributes/Batch ID"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Description",
+            "parent": "Payment Data/attributeContext/Payment Data",
+            "definition": "resolvedFrom/Payment Data/hasAttributes/Description",
+            "contents": [
+              "Payment Data/hasAttributes/Description"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Line Account ID",
+            "parent": "Payment Data/attributeContext/Payment Data",
+            "definition": "resolvedFrom/Payment Data/hasAttributes/Line Account ID",
+            "contents": [
+              "Payment Data/hasAttributes/Line Account ID"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Line Analysis Analysis ID",
+            "parent": "Payment Data/attributeContext/Payment Data",
+            "definition": "resolvedFrom/Payment Data/hasAttributes/Line Analysis Analysis ID",
+            "contents": [
+              "Payment Data/hasAttributes/Line Analysis Analysis ID"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Line Analysis Analysis Amount",
+            "parent": "Payment Data/attributeContext/Payment Data",
+            "definition": "resolvedFrom/Payment Data/hasAttributes/Line Analysis Analysis Amount",
+            "contents": [
+              "Payment Data/hasAttributes/Line Analysis Analysis Amount"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Line Analysis Analysis Type",
+            "parent": "Payment Data/attributeContext/Payment Data",
+            "definition": "resolvedFrom/Payment Data/hasAttributes/Line Analysis Analysis Type",
+            "contents": [
+              "Payment Data/hasAttributes/Line Analysis Analysis Type"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Line Approved By",
+            "parent": "Payment Data/attributeContext/Payment Data",
+            "definition": "resolvedFrom/Payment Data/hasAttributes/Line Approved By",
+            "contents": [
+              "Payment Data/hasAttributes/Line Approved By"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Line Approved Date Time",
+            "parent": "Payment Data/attributeContext/Payment Data",
+            "definition": "resolvedFrom/Payment Data/hasAttributes/Line Approved Date Time",
+            "contents": [
+              "Payment Data/hasAttributes/Line Approved Date Time"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Line Debit Credit Indicator",
+            "parent": "Payment Data/attributeContext/Payment Data",
+            "definition": "resolvedFrom/Payment Data/hasAttributes/Line Debit Credit Indicator",
+            "contents": [
+              "Payment Data/hasAttributes/Line Debit Credit Indicator"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Line Description",
+            "parent": "Payment Data/attributeContext/Payment Data",
+            "definition": "resolvedFrom/Payment Data/hasAttributes/Line Description",
+            "contents": [
+              "Payment Data/hasAttributes/Line Description"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Line Line Number",
+            "parent": "Payment Data/attributeContext/Payment Data",
+            "definition": "resolvedFrom/Payment Data/hasAttributes/Line Line Number",
+            "contents": [
+              "Payment Data/hasAttributes/Line Line Number"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Line Payment Line Amount Currency Amount",
+            "parent": "Payment Data/attributeContext/Payment Data",
+            "definition": "resolvedFrom/Payment Data/hasAttributes/Line Payment Line Amount Currency Amount",
+            "contents": [
+              "Payment Data/hasAttributes/Line Payment Line Amount Currency Amount"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Line Payment Line Amount Currency Code",
+            "parent": "Payment Data/attributeContext/Payment Data",
+            "definition": "resolvedFrom/Payment Data/hasAttributes/Line Payment Line Amount Currency Code",
+            "contents": [
+              "Payment Data/hasAttributes/Line Payment Line Amount Currency Code"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Line Settlement Settlement Amount Amount",
+            "parent": "Payment Data/attributeContext/Payment Data",
+            "definition": "resolvedFrom/Payment Data/hasAttributes/Line Settlement Settlement Amount Amount",
+            "contents": [
+              "Payment Data/hasAttributes/Line Settlement Settlement Amount Amount"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Line Payment Line Amount Exchange Rate",
+            "parent": "Payment Data/attributeContext/Payment Data",
+            "definition": "resolvedFrom/Payment Data/hasAttributes/Line Payment Line Amount Exchange Rate",
+            "contents": [
+              "Payment Data/hasAttributes/Line Payment Line Amount Exchange Rate"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Line Settlement Payment Mechanism",
+            "parent": "Payment Data/attributeContext/Payment Data",
+            "definition": "resolvedFrom/Payment Data/hasAttributes/Line Settlement Payment Mechanism",
+            "contents": [
+              "Payment Data/hasAttributes/Line Settlement Payment Mechanism"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Line Settlement Settlement Amount Currency Amount",
+            "parent": "Payment Data/attributeContext/Payment Data",
+            "definition": "resolvedFrom/Payment Data/hasAttributes/Line Settlement Settlement Amount Currency Amount",
+            "contents": [
+              "Payment Data/hasAttributes/Line Settlement Settlement Amount Currency Amount"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Line Settlement Settlement Amount Currency Code",
+            "parent": "Payment Data/attributeContext/Payment Data",
+            "definition": "resolvedFrom/Payment Data/hasAttributes/Line Settlement Settlement Amount Currency Code",
+            "contents": [
+              "Payment Data/hasAttributes/Line Settlement Settlement Amount Currency Code"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Line Source Document ID",
+            "parent": "Payment Data/attributeContext/Payment Data",
+            "definition": "resolvedFrom/Payment Data/hasAttributes/Line Source Document ID",
+            "contents": [
+              "Payment Data/hasAttributes/Line Source Document ID"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Line Settlement Settlement Amount Exchange Rate",
+            "parent": "Payment Data/attributeContext/Payment Data",
+            "definition": "resolvedFrom/Payment Data/hasAttributes/Line Settlement Settlement Amount Exchange Rate",
+            "contents": [
+              "Payment Data/hasAttributes/Line Settlement Settlement Amount Exchange Rate"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Line Settlement Settlement Date",
+            "parent": "Payment Data/attributeContext/Payment Data",
+            "definition": "resolvedFrom/Payment Data/hasAttributes/Line Settlement Settlement Date",
+            "contents": [
+              "Payment Data/hasAttributes/Line Settlement Settlement Date"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Line Settlement Settlement Discount",
+            "parent": "Payment Data/attributeContext/Payment Data",
+            "definition": "resolvedFrom/Payment Data/hasAttributes/Line Settlement Settlement Discount",
+            "contents": [
+              "Payment Data/hasAttributes/Line Settlement Settlement Discount"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Line Supplier ID",
+            "parent": "Payment Data/attributeContext/Payment Data",
+            "definition": "resolvedFrom/Payment Data/hasAttributes/Line Supplier ID",
+            "contents": [
+              "Payment Data/hasAttributes/Line Supplier ID"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Line System Entry Date Time",
+            "parent": "Payment Data/attributeContext/Payment Data",
+            "definition": "resolvedFrom/Payment Data/hasAttributes/Line System Entry Date Time",
+            "contents": [
+              "Payment Data/hasAttributes/Line System Entry Date Time"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Line System Entry User",
+            "parent": "Payment Data/attributeContext/Payment Data",
+            "definition": "resolvedFrom/Payment Data/hasAttributes/Line System Entry User",
+            "contents": [
+              "Payment Data/hasAttributes/Line System Entry User"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Line Tax Information Tax Amount",
+            "parent": "Payment Data/attributeContext/Payment Data",
+            "definition": "resolvedFrom/Payment Data/hasAttributes/Line Tax Information Tax Amount",
+            "contents": [
+              "Payment Data/hasAttributes/Line Tax Information Tax Amount"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Line Tax Information Tax Code",
+            "parent": "Payment Data/attributeContext/Payment Data",
+            "definition": "resolvedFrom/Payment Data/hasAttributes/Line Tax Information Tax Code",
+            "contents": [
+              "Payment Data/hasAttributes/Line Tax Information Tax Code"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Line Tax Information Tax Base",
+            "parent": "Payment Data/attributeContext/Payment Data",
+            "definition": "resolvedFrom/Payment Data/hasAttributes/Line Tax Information Tax Base",
+            "contents": [
+              "Payment Data/hasAttributes/Line Tax Information Tax Base"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Line Tax Information Tax Base Description",
+            "parent": "Payment Data/attributeContext/Payment Data",
+            "definition": "resolvedFrom/Payment Data/hasAttributes/Line Tax Information Tax Base Description",
+            "contents": [
+              "Payment Data/hasAttributes/Line Tax Information Tax Base Description"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Payment Method",
+            "parent": "Payment Data/attributeContext/Payment Data",
+            "definition": "resolvedFrom/Payment Data/hasAttributes/Payment Method",
+            "contents": [
+              "Payment Data/hasAttributes/Payment Method"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Line Tax Information Tax Declaration Period",
+            "parent": "Payment Data/attributeContext/Payment Data",
+            "definition": "resolvedFrom/Payment Data/hasAttributes/Line Tax Information Tax Declaration Period",
+            "contents": [
+              "Payment Data/hasAttributes/Line Tax Information Tax Declaration Period"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Line Tax Information Tax Exemption Reason",
+            "parent": "Payment Data/attributeContext/Payment Data",
+            "definition": "resolvedFrom/Payment Data/hasAttributes/Line Tax Information Tax Exemption Reason",
+            "contents": [
+              "Payment Data/hasAttributes/Line Tax Information Tax Exemption Reason"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Line Tax Information Tax Percentage",
+            "parent": "Payment Data/attributeContext/Payment Data",
+            "definition": "resolvedFrom/Payment Data/hasAttributes/Line Tax Information Tax Percentage",
+            "contents": [
+              "Payment Data/hasAttributes/Line Tax Information Tax Percentage"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Line Tax Information Tax Type",
+            "parent": "Payment Data/attributeContext/Payment Data",
+            "definition": "resolvedFrom/Payment Data/hasAttributes/Line Tax Information Tax Type",
+            "contents": [
+              "Payment Data/hasAttributes/Line Tax Information Tax Type"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Payment Ref No",
+            "parent": "Payment Data/attributeContext/Payment Data",
+            "definition": "resolvedFrom/Payment Data/hasAttributes/Payment Ref No",
+            "contents": [
+              "Payment Data/hasAttributes/Payment Ref No"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Period",
+            "parent": "Payment Data/attributeContext/Payment Data",
+            "definition": "resolvedFrom/Payment Data/hasAttributes/Period",
+            "contents": [
+              "Payment Data/hasAttributes/Period"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Period Year",
+            "parent": "Payment Data/attributeContext/Payment Data",
+            "definition": "resolvedFrom/Payment Data/hasAttributes/Period Year",
+            "contents": [
+              "Payment Data/hasAttributes/Period Year"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Source ID",
+            "parent": "Payment Data/attributeContext/Payment Data",
+            "definition": "resolvedFrom/Payment Data/hasAttributes/Source ID",
+            "contents": [
+              "Payment Data/hasAttributes/Source ID"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "System ID",
+            "parent": "Payment Data/attributeContext/Payment Data",
+            "definition": "resolvedFrom/Payment Data/hasAttributes/System ID",
+            "contents": [
+              "Payment Data/hasAttributes/System ID"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "System Entry Date Time",
+            "parent": "Payment Data/attributeContext/Payment Data",
+            "definition": "resolvedFrom/Payment Data/hasAttributes/System Entry Date Time",
+            "contents": [
+              "Payment Data/hasAttributes/System Entry Date Time"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "System Entry User",
+            "parent": "Payment Data/attributeContext/Payment Data",
+            "definition": "resolvedFrom/Payment Data/hasAttributes/System Entry User",
+            "contents": [
+              "Payment Data/hasAttributes/System Entry User"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Transaction ID",
+            "parent": "Payment Data/attributeContext/Payment Data",
+            "definition": "resolvedFrom/Payment Data/hasAttributes/Transaction ID",
+            "contents": [
+              "Payment Data/hasAttributes/Transaction ID"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Transaction Date",
+            "parent": "Payment Data/attributeContext/Payment Data",
+            "definition": "resolvedFrom/Payment Data/hasAttributes/Transaction Date",
+            "contents": [
+              "Payment Data/hasAttributes/Transaction Date"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Line Payment Line Amount Amount",
+            "parent": "Payment Data/attributeContext/Payment Data",
+            "definition": "resolvedFrom/Payment Data/hasAttributes/Line Payment Line Amount Amount",
+            "contents": [
+              "Payment Data/hasAttributes/Line Payment Line Amount Amount"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Line Tax Point Date",
+            "parent": "Payment Data/attributeContext/Payment Data",
+            "definition": "resolvedFrom/Payment Data/hasAttributes/Line Tax Point Date",
+            "contents": [
+              "Payment Data/hasAttributes/Line Tax Point Date"
+            ]
+          }
+        ]
+      },
+      "hasAttributes": [
+        {
+          "name": "Approved By",
+          "appliedTraits": [
+            "is.dataFormat.character",
+            "is.dataFormat.big",
+            "is.dataFormat.array"
+          ],
+          "attributeContext": "Payment Data/attributeContext/Payment Data/Approved By",
+          "dataFormat": "String"
+        },
+        {
+          "name": "Approved Date Time",
+          "appliedTraits": [
+            "is.dataFormat.date",
+            "means.measurement.date"
+          ],
+          "attributeContext": "Payment Data/attributeContext/Payment Data/Approved Date Time",
+          "dataFormat": "Date"
+        },
+        {
+          "name": "Batch ID",
+          "appliedTraits": [
+            "is.dataFormat.character",
+            "is.dataFormat.big",
+            "is.dataFormat.array"
+          ],
+          "attributeContext": "Payment Data/attributeContext/Payment Data/Batch ID",
+          "dataFormat": "String"
+        },
+        {
+          "name": "Description",
+          "appliedTraits": [
+            "is.dataFormat.character",
+            "is.dataFormat.big",
+            "is.dataFormat.array"
+          ],
+          "attributeContext": "Payment Data/attributeContext/Payment Data/Description",
+          "dataFormat": "String"
+        },
+        {
+          "name": "Line Account ID",
+          "appliedTraits": [
+            "is.dataFormat.character",
+            "is.dataFormat.big",
+            "is.dataFormat.array"
+          ],
+          "attributeContext": "Payment Data/attributeContext/Payment Data/Line Account ID",
+          "dataFormat": "String"
+        },
+        {
+          "name": "Line Analysis Analysis ID",
+          "appliedTraits": [
+            {
+              "traitReference": "is.dataFormat.numeric.shaped"
+            }
+          ],
+          "attributeContext": "Payment Data/attributeContext/Payment Data/Line Analysis Analysis ID",
+          "dataFormat": "Decimal"
+        },
+        {
+          "name": "Line Analysis Analysis Amount",
+          "appliedTraits": [
+            "is.dataFormat.character",
+            "is.dataFormat.big",
+            "is.dataFormat.array"
+          ],
+          "attributeContext": "Payment Data/attributeContext/Payment Data/Line Analysis Analysis Amount",
+          "dataFormat": "String"
+        },
+        {
+          "name": "Line Analysis Analysis Type",
+          "appliedTraits": [
+            "is.dataFormat.character",
+            "is.dataFormat.big",
+            "is.dataFormat.array"
+          ],
+          "attributeContext": "Payment Data/attributeContext/Payment Data/Line Analysis Analysis Type",
+          "dataFormat": "String"
+        },
+        {
+          "name": "Line Approved By",
+          "appliedTraits": [
+            "is.dataFormat.character",
+            "is.dataFormat.big",
+            "is.dataFormat.array"
+          ],
+          "attributeContext": "Payment Data/attributeContext/Payment Data/Line Approved By",
+          "dataFormat": "String"
+        },
+        {
+          "name": "Line Approved Date Time",
+          "appliedTraits": [
+            "is.dataFormat.date",
+            "means.measurement.date"
+          ],
+          "attributeContext": "Payment Data/attributeContext/Payment Data/Line Approved Date Time",
+          "dataFormat": "Date"
+        },
+        {
+          "name": "Line Debit Credit Indicator",
+          "appliedTraits": [
+            "is.dataFormat.character",
+            "is.dataFormat.big",
+            "is.dataFormat.array"
+          ],
+          "attributeContext": "Payment Data/attributeContext/Payment Data/Line Debit Credit Indicator",
+          "dataFormat": "String"
+        },
+        {
+          "name": "Line Description",
+          "appliedTraits": [
+            "is.dataFormat.character",
+            "is.dataFormat.big",
+            "is.dataFormat.array"
+          ],
+          "attributeContext": "Payment Data/attributeContext/Payment Data/Line Description",
+          "dataFormat": "String"
+        },
+        {
+          "name": "Line Line Number",
+          "appliedTraits": [
+            "is.dataFormat.character",
+            "is.dataFormat.big",
+            "is.dataFormat.array"
+          ],
+          "attributeContext": "Payment Data/attributeContext/Payment Data/Line Line Number",
+          "dataFormat": "String"
+        },
+        {
+          "name": "Line Payment Line Amount Currency Amount",
+          "appliedTraits": [
+            {
+              "traitReference": "is.dataFormat.numeric.shaped"
+            }
+          ],
+          "attributeContext": "Payment Data/attributeContext/Payment Data/Line Payment Line Amount Currency Amount",
+          "dataFormat": "Decimal"
+        },
+        {
+          "name": "Line Payment Line Amount Currency Code",
+          "appliedTraits": [
+            "is.dataFormat.character",
+            "is.dataFormat.big",
+            "is.dataFormat.array"
+          ],
+          "attributeContext": "Payment Data/attributeContext/Payment Data/Line Payment Line Amount Currency Code",
+          "dataFormat": "String"
+        },
+        {
+          "name": "Line Settlement Settlement Amount Amount",
+          "appliedTraits": [
+            {
+              "traitReference": "is.dataFormat.numeric.shaped"
+            }
+          ],
+          "attributeContext": "Payment Data/attributeContext/Payment Data/Line Settlement Settlement Amount Amount",
+          "dataFormat": "Decimal"
+        },
+        {
+          "name": "Line Payment Line Amount Exchange Rate",
+          "appliedTraits": [
+            {
+              "traitReference": "is.dataFormat.numeric.shaped"
+            }
+          ],
+          "attributeContext": "Payment Data/attributeContext/Payment Data/Line Payment Line Amount Exchange Rate",
+          "dataFormat": "Decimal"
+        },
+        {
+          "name": "Line Settlement Payment Mechanism",
+          "appliedTraits": [
+            "is.dataFormat.character",
+            "is.dataFormat.big",
+            "is.dataFormat.array"
+          ],
+          "attributeContext": "Payment Data/attributeContext/Payment Data/Line Settlement Payment Mechanism",
+          "dataFormat": "String"
+        },
+        {
+          "name": "Line Settlement Settlement Amount Currency Amount",
+          "appliedTraits": [
+            {
+              "traitReference": "is.dataFormat.numeric.shaped"
+            }
+          ],
+          "attributeContext": "Payment Data/attributeContext/Payment Data/Line Settlement Settlement Amount Currency Amount",
+          "dataFormat": "Decimal"
+        },
+        {
+          "name": "Line Settlement Settlement Amount Currency Code",
+          "appliedTraits": [
+            "is.dataFormat.character",
+            "is.dataFormat.big",
+            "is.dataFormat.array"
+          ],
+          "attributeContext": "Payment Data/attributeContext/Payment Data/Line Settlement Settlement Amount Currency Code",
+          "dataFormat": "String"
+        },
+        {
+          "name": "Line Source Document ID",
+          "appliedTraits": [
+            "is.dataFormat.character",
+            "is.dataFormat.big",
+            "is.dataFormat.array"
+          ],
+          "attributeContext": "Payment Data/attributeContext/Payment Data/Line Source Document ID",
+          "dataFormat": "String"
+        },
+        {
+          "name": "Line Settlement Settlement Amount Exchange Rate",
+          "appliedTraits": [
+            {
+              "traitReference": "is.dataFormat.numeric.shaped"
+            }
+          ],
+          "attributeContext": "Payment Data/attributeContext/Payment Data/Line Settlement Settlement Amount Exchange Rate",
+          "dataFormat": "Decimal"
+        },
+        {
+          "name": "Line Settlement Settlement Date",
+          "appliedTraits": [
+            "is.dataFormat.date",
+            "means.measurement.date"
+          ],
+          "attributeContext": "Payment Data/attributeContext/Payment Data/Line Settlement Settlement Date",
+          "dataFormat": "Date"
+        },
+        {
+          "name": "Line Settlement Settlement Discount",
+          "appliedTraits": [
+            "is.dataFormat.character",
+            "is.dataFormat.big",
+            "is.dataFormat.array"
+          ],
+          "attributeContext": "Payment Data/attributeContext/Payment Data/Line Settlement Settlement Discount",
+          "dataFormat": "String"
+        },
+        {
+          "name": "Line Supplier ID",
+          "appliedTraits": [
+            "is.dataFormat.character",
+            "is.dataFormat.big",
+            "is.dataFormat.array"
+          ],
+          "attributeContext": "Payment Data/attributeContext/Payment Data/Line Supplier ID",
+          "dataFormat": "String"
+        },
+        {
+          "name": "Line System Entry Date Time",
+          "appliedTraits": [
+            "is.dataFormat.date",
+            "means.measurement.date"
+          ],
+          "attributeContext": "Payment Data/attributeContext/Payment Data/Line System Entry Date Time",
+          "dataFormat": "Date"
+        },
+        {
+          "name": "Line System Entry User",
+          "appliedTraits": [
+            "is.dataFormat.character",
+            "is.dataFormat.big",
+            "is.dataFormat.array"
+          ],
+          "attributeContext": "Payment Data/attributeContext/Payment Data/Line System Entry User",
+          "dataFormat": "String"
+        },
+        {
+          "name": "Line Tax Information Tax Amount",
+          "appliedTraits": [
+            {
+              "traitReference": "is.dataFormat.numeric.shaped"
+            }
+          ],
+          "attributeContext": "Payment Data/attributeContext/Payment Data/Line Tax Information Tax Amount",
+          "dataFormat": "Decimal"
+        },
+        {
+          "name": "Line Tax Information Tax Code",
+          "appliedTraits": [
+            "is.dataFormat.character",
+            "is.dataFormat.big",
+            "is.dataFormat.array"
+          ],
+          "attributeContext": "Payment Data/attributeContext/Payment Data/Line Tax Information Tax Code",
+          "dataFormat": "String"
+        },
+        {
+          "name": "Line Tax Information Tax Base",
+          "appliedTraits": [
+            "is.dataFormat.character",
+            "is.dataFormat.big",
+            "is.dataFormat.array"
+          ],
+          "attributeContext": "Payment Data/attributeContext/Payment Data/Line Tax Information Tax Base",
+          "dataFormat": "String"
+        },
+        {
+          "name": "Line Tax Information Tax Base Description",
+          "appliedTraits": [
+            "is.dataFormat.character",
+            "is.dataFormat.big",
+            "is.dataFormat.array"
+          ],
+          "attributeContext": "Payment Data/attributeContext/Payment Data/Line Tax Information Tax Base Description",
+          "dataFormat": "String"
+        },
+        {
+          "name": "Payment Method",
+          "appliedTraits": [
+            "is.dataFormat.character",
+            "is.dataFormat.big",
+            "is.dataFormat.array"
+          ],
+          "attributeContext": "Payment Data/attributeContext/Payment Data/Payment Method",
+          "dataFormat": "String"
+        },
+        {
+          "name": "Line Tax Information Tax Declaration Period",
+          "appliedTraits": [
+            "is.dataFormat.character",
+            "is.dataFormat.big",
+            "is.dataFormat.array"
+          ],
+          "attributeContext": "Payment Data/attributeContext/Payment Data/Line Tax Information Tax Declaration Period",
+          "dataFormat": "String"
+        },
+        {
+          "name": "Line Tax Information Tax Exemption Reason",
+          "appliedTraits": [
+            "is.dataFormat.character",
+            "is.dataFormat.big",
+            "is.dataFormat.array"
+          ],
+          "attributeContext": "Payment Data/attributeContext/Payment Data/Line Tax Information Tax Exemption Reason",
+          "dataFormat": "String"
+        },
+        {
+          "name": "Line Tax Information Tax Percentage",
+          "appliedTraits": [
+            {
+              "traitReference": "is.dataFormat.numeric.shaped"
+            }
+          ],
+          "attributeContext": "Payment Data/attributeContext/Payment Data/Line Tax Information Tax Percentage",
+          "dataFormat": "Decimal"
+        },
+        {
+          "name": "Line Tax Information Tax Type",
+          "appliedTraits": [
+            "is.dataFormat.character",
+            "is.dataFormat.big",
+            "is.dataFormat.array"
+          ],
+          "attributeContext": "Payment Data/attributeContext/Payment Data/Line Tax Information Tax Type",
+          "dataFormat": "String"
+        },
+        {
+          "name": "Payment Ref No",
+          "appliedTraits": [
+            "is.dataFormat.character",
+            "is.dataFormat.big",
+            "is.dataFormat.array"
+          ],
+          "attributeContext": "Payment Data/attributeContext/Payment Data/Payment Ref No",
+          "dataFormat": "String"
+        },
+        {
+          "name": "Period",
+          "appliedTraits": [
+            "is.dataFormat.character",
+            "is.dataFormat.big",
+            "is.dataFormat.array"
+          ],
+          "attributeContext": "Payment Data/attributeContext/Payment Data/Period",
+          "dataFormat": "String"
+        },
+        {
+          "name": "Period Year",
+          "appliedTraits": [
+            "is.dataFormat.date",
+            "means.measurement.date"
+          ],
+          "attributeContext": "Payment Data/attributeContext/Payment Data/Period Year",
+          "dataFormat": "Date"
+        },
+        {
+          "name": "Source ID",
+          "appliedTraits": [
+            "is.dataFormat.character",
+            "is.dataFormat.big",
+            "is.dataFormat.array"
+          ],
+          "attributeContext": "Payment Data/attributeContext/Payment Data/Source ID",
+          "dataFormat": "String"
+        },
+        {
+          "name": "System ID",
+          "appliedTraits": [
+            "is.dataFormat.date",
+            "means.measurement.date"
+          ],
+          "attributeContext": "Payment Data/attributeContext/Payment Data/System ID",
+          "dataFormat": "Date"
+        },
+        {
+          "name": "System Entry Date Time",
+          "appliedTraits": [
+            "is.dataFormat.character",
+            "is.dataFormat.big",
+            "is.dataFormat.array"
+          ],
+          "attributeContext": "Payment Data/attributeContext/Payment Data/System Entry Date Time",
+          "dataFormat": "String"
+        },
+        {
+          "name": "System Entry User",
+          "appliedTraits": [
+            "is.dataFormat.character",
+            "is.dataFormat.big",
+            "is.dataFormat.array"
+          ],
+          "attributeContext": "Payment Data/attributeContext/Payment Data/System Entry User",
+          "dataFormat": "String"
+        },
+        {
+          "name": "Transaction ID",
+          "appliedTraits": [
+            "is.dataFormat.date",
+            "means.measurement.date"
+          ],
+          "attributeContext": "Payment Data/attributeContext/Payment Data/Transaction ID",
+          "dataFormat": "Date"
+        },
+        {
+          "name": "Transaction Date",
+          "appliedTraits": [
+            "is.dataFormat.character",
+            "is.dataFormat.big",
+            "is.dataFormat.array"
+          ],
+          "attributeContext": "Payment Data/attributeContext/Payment Data/Transaction Date",
+          "dataFormat": "String"
+        },
+        {
+          "name": "Line Payment Line Amount Amount",
+          "appliedTraits": [
+            {
+              "traitReference": "is.dataFormat.numeric.shaped"
+            }
+          ],
+          "attributeContext": "Payment Data/attributeContext/Payment Data/Line Payment Line Amount Amount",
+          "dataFormat": "Decimal"
+        },
+        {
+          "name": "Line Tax Point Date",
+          "appliedTraits": [
+            "is.dataFormat.date",
+            "means.measurement.date"
+          ],
+          "attributeContext": "Payment Data/attributeContext/Payment Data/Line Tax Point Date",
+          "dataFormat": "Date"
+        }
+      ]
+    }
+  ]
+}

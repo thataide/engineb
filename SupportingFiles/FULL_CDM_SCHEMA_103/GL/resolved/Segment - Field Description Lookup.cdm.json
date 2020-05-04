@@ -1,0 +1,61 @@
+{
+  "jsonSchemaSemanticVersion": "1.0.0",
+  "imports": [
+    {
+      "corpusPath": "/Segment - Field Description Lookup.cdm.json",
+      "moniker": "resolvedFrom"
+    }
+  ],
+  "definitions": [
+    {
+      "entityName": "Segment - Field Description Lookup",
+      "attributeContext": {
+        "type": "entity",
+        "name": "Segment - Field Description Lookup",
+        "definition": "resolvedFrom/Segment - Field Description Lookup",
+        "contents": [
+          {
+            "type": "attributeDefinition",
+            "name": "Segment0 X Description",
+            "parent": "Segment - Field Description Lookup/attributeContext/Segment - Field Description Lookup",
+            "definition": "resolvedFrom/Segment - Field Description Lookup/hasAttributes/Segment0 X Description",
+            "contents": [
+              "Segment - Field Description Lookup/hasAttributes/Segment0 X Description"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Segment0 X Value",
+            "parent": "Segment - Field Description Lookup/attributeContext/Segment - Field Description Lookup",
+            "definition": "resolvedFrom/Segment - Field Description Lookup/hasAttributes/Segment0 X Value",
+            "contents": [
+              "Segment - Field Description Lookup/hasAttributes/Segment0 X Value"
+            ]
+          }
+        ]
+      },
+      "hasAttributes": [
+        {
+          "name": "Segment0 X Description",
+          "appliedTraits": [
+            "is.dataFormat.character",
+            "is.dataFormat.big",
+            "is.dataFormat.array"
+          ],
+          "attributeContext": "Segment - Field Description Lookup/attributeContext/Segment - Field Description Lookup/Segment0 X Description",
+          "dataFormat": "String"
+        },
+        {
+          "name": "Segment0 X Value",
+          "appliedTraits": [
+            "is.dataFormat.character",
+            "is.dataFormat.big",
+            "is.dataFormat.array"
+          ],
+          "attributeContext": "Segment - Field Description Lookup/attributeContext/Segment - Field Description Lookup/Segment0 X Value",
+          "dataFormat": "String"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,506 @@
+{
+  "jsonSchemaSemanticVersion": "1.0.0",
+  "imports": [
+    {
+      "corpusPath": "/Fixed_Asset_Removals.cdm.json",
+      "moniker": "resolvedFrom"
+    }
+  ],
+  "definitions": [
+    {
+      "entityName": "Fixed_Asset_Removals",
+      "attributeContext": {
+        "type": "entity",
+        "name": "Fixed_Asset_Removals",
+        "definition": "resolvedFrom/Fixed_Asset_Removals",
+        "contents": [
+          {
+            "type": "attributeDefinition",
+            "name": "Fixed Asset Removal Cash Proceeds Amount",
+            "parent": "Fixed_Asset_Removals/attributeContext/Fixed_Asset_Removals",
+            "definition": "resolvedFrom/Fixed_Asset_Removals/hasAttributes/Fixed Asset Removal Cash Proceeds Amount",
+            "contents": [
+              "Fixed_Asset_Removals/hasAttributes/Fixed Asset Removal Cash Proceeds Amount"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Acquirer ID",
+            "parent": "Fixed_Asset_Removals/attributeContext/Fixed_Asset_Removals",
+            "definition": "resolvedFrom/Fixed_Asset_Removals/hasAttributes/Acquirer ID",
+            "contents": [
+              "Fixed_Asset_Removals/hasAttributes/Acquirer ID"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Approved By",
+            "parent": "Fixed_Asset_Removals/attributeContext/Fixed_Asset_Removals",
+            "definition": "resolvedFrom/Fixed_Asset_Removals/hasAttributes/Approved By",
+            "contents": [
+              "Fixed_Asset_Removals/hasAttributes/Approved By"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Approved By Date",
+            "parent": "Fixed_Asset_Removals/attributeContext/Fixed_Asset_Removals",
+            "definition": "resolvedFrom/Fixed_Asset_Removals/hasAttributes/Approved By Date",
+            "contents": [
+              "Fixed_Asset_Removals/hasAttributes/Approved By Date"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Approved By Time",
+            "parent": "Fixed_Asset_Removals/attributeContext/Fixed_Asset_Removals",
+            "definition": "resolvedFrom/Fixed_Asset_Removals/hasAttributes/Approved By Time",
+            "contents": [
+              "Fixed_Asset_Removals/hasAttributes/Approved By Time"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Business Unit Code",
+            "parent": "Fixed_Asset_Removals/attributeContext/Fixed_Asset_Removals",
+            "definition": "resolvedFrom/Fixed_Asset_Removals/hasAttributes/Business Unit Code",
+            "contents": [
+              "Fixed_Asset_Removals/hasAttributes/Business Unit Code"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Enteredby",
+            "parent": "Fixed_Asset_Removals/attributeContext/Fixed_Asset_Removals",
+            "definition": "resolvedFrom/Fixed_Asset_Removals/hasAttributes/Enteredby",
+            "contents": [
+              "Fixed_Asset_Removals/hasAttributes/Enteredby"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Entered Date",
+            "parent": "Fixed_Asset_Removals/attributeContext/Fixed_Asset_Removals",
+            "definition": "resolvedFrom/Fixed_Asset_Removals/hasAttributes/Entered Date",
+            "contents": [
+              "Fixed_Asset_Removals/hasAttributes/Entered Date"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Entered Time",
+            "parent": "Fixed_Asset_Removals/attributeContext/Fixed_Asset_Removals",
+            "definition": "resolvedFrom/Fixed_Asset_Removals/hasAttributes/Entered Time",
+            "contents": [
+              "Fixed_Asset_Removals/hasAttributes/Entered Time"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Fixed Asset ID",
+            "parent": "Fixed_Asset_Removals/attributeContext/Fixed_Asset_Removals",
+            "definition": "resolvedFrom/Fixed_Asset_Removals/hasAttributes/Fixed Asset ID",
+            "contents": [
+              "Fixed_Asset_Removals/hasAttributes/Fixed Asset ID"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Fixed Asset Realized Gain Loss Account",
+            "parent": "Fixed_Asset_Removals/attributeContext/Fixed_Asset_Removals",
+            "definition": "resolvedFrom/Fixed_Asset_Removals/hasAttributes/Fixed Asset Realized Gain Loss Account",
+            "contents": [
+              "Fixed_Asset_Removals/hasAttributes/Fixed Asset Realized Gain Loss Account"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Fixed Asset Realized Gain Loss Amount",
+            "parent": "Fixed_Asset_Removals/attributeContext/Fixed_Asset_Removals",
+            "definition": "resolvedFrom/Fixed_Asset_Removals/hasAttributes/Fixed Asset Realized Gain Loss Amount",
+            "contents": [
+              "Fixed_Asset_Removals/hasAttributes/Fixed Asset Realized Gain Loss Amount"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Fixed Asset Removal Date",
+            "parent": "Fixed_Asset_Removals/attributeContext/Fixed_Asset_Removals",
+            "definition": "resolvedFrom/Fixed_Asset_Removals/hasAttributes/Fixed Asset Removal Date",
+            "contents": [
+              "Fixed_Asset_Removals/hasAttributes/Fixed Asset Removal Date"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Fixed Asset Removal Non Cash Proceeds Amount",
+            "parent": "Fixed_Asset_Removals/attributeContext/Fixed_Asset_Removals",
+            "definition": "resolvedFrom/Fixed_Asset_Removals/hasAttributes/Fixed Asset Removal Non Cash Proceeds Amount",
+            "contents": [
+              "Fixed_Asset_Removals/hasAttributes/Fixed Asset Removal Non Cash Proceeds Amount"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Fixed Asset Unrealized Gain Loss Account",
+            "parent": "Fixed_Asset_Removals/attributeContext/Fixed_Asset_Removals",
+            "definition": "resolvedFrom/Fixed_Asset_Removals/hasAttributes/Fixed Asset Unrealized Gain Loss Account",
+            "contents": [
+              "Fixed_Asset_Removals/hasAttributes/Fixed Asset Unrealized Gain Loss Account"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Fixed Asset Unrealized Gain Loss Amount",
+            "parent": "Fixed_Asset_Removals/attributeContext/Fixed_Asset_Removals",
+            "definition": "resolvedFrom/Fixed_Asset_Removals/hasAttributes/Fixed Asset Unrealized Gain Loss Amount",
+            "contents": [
+              "Fixed_Asset_Removals/hasAttributes/Fixed Asset Unrealized Gain Loss Amount"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "G L Transaction ID",
+            "parent": "Fixed_Asset_Removals/attributeContext/Fixed_Asset_Removals",
+            "definition": "resolvedFrom/Fixed_Asset_Removals/hasAttributes/G L Transaction ID",
+            "contents": [
+              "Fixed_Asset_Removals/hasAttributes/G L Transaction ID"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Last Modified By",
+            "parent": "Fixed_Asset_Removals/attributeContext/Fixed_Asset_Removals",
+            "definition": "resolvedFrom/Fixed_Asset_Removals/hasAttributes/Last Modified By",
+            "contents": [
+              "Fixed_Asset_Removals/hasAttributes/Last Modified By"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Last Modified By Date",
+            "parent": "Fixed_Asset_Removals/attributeContext/Fixed_Asset_Removals",
+            "definition": "resolvedFrom/Fixed_Asset_Removals/hasAttributes/Last Modified By Date",
+            "contents": [
+              "Fixed_Asset_Removals/hasAttributes/Last Modified By Date"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Last Modified By Time",
+            "parent": "Fixed_Asset_Removals/attributeContext/Fixed_Asset_Removals",
+            "definition": "resolvedFrom/Fixed_Asset_Removals/hasAttributes/Last Modified By Time",
+            "contents": [
+              "Fixed_Asset_Removals/hasAttributes/Last Modified By Time"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Lot Number",
+            "parent": "Fixed_Asset_Removals/attributeContext/Fixed_Asset_Removals",
+            "definition": "resolvedFrom/Fixed_Asset_Removals/hasAttributes/Lot Number",
+            "contents": [
+              "Fixed_Asset_Removals/hasAttributes/Lot Number"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Removal Type",
+            "parent": "Fixed_Asset_Removals/attributeContext/Fixed_Asset_Removals",
+            "definition": "resolvedFrom/Fixed_Asset_Removals/hasAttributes/Removal Type",
+            "contents": [
+              "Fixed_Asset_Removals/hasAttributes/Removal Type"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Serial Number",
+            "parent": "Fixed_Asset_Removals/attributeContext/Fixed_Asset_Removals",
+            "definition": "resolvedFrom/Fixed_Asset_Removals/hasAttributes/Serial Number",
+            "contents": [
+              "Fixed_Asset_Removals/hasAttributes/Serial Number"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Tax Code",
+            "parent": "Fixed_Asset_Removals/attributeContext/Fixed_Asset_Removals",
+            "definition": "resolvedFrom/Fixed_Asset_Removals/hasAttributes/Tax Code",
+            "contents": [
+              "Fixed_Asset_Removals/hasAttributes/Tax Code"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Transaction Fees",
+            "parent": "Fixed_Asset_Removals/attributeContext/Fixed_Asset_Removals",
+            "definition": "resolvedFrom/Fixed_Asset_Removals/hasAttributes/Transaction Fees",
+            "contents": [
+              "Fixed_Asset_Removals/hasAttributes/Transaction Fees"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Unique ID",
+            "parent": "Fixed_Asset_Removals/attributeContext/Fixed_Asset_Removals",
+            "definition": "resolvedFrom/Fixed_Asset_Removals/hasAttributes/Unique ID",
+            "contents": [
+              "Fixed_Asset_Removals/hasAttributes/Unique ID"
+            ]
+          }
+        ]
+      },
+      "hasAttributes": [
+        {
+          "name": "Fixed Asset Removal Cash Proceeds Amount",
+          "appliedTraits": [
+            {
+              "traitReference": "is.dataFormat.numeric.shaped"
+            }
+          ],
+          "attributeContext": "Fixed_Asset_Removals/attributeContext/Fixed_Asset_Removals/Fixed Asset Removal Cash Proceeds Amount",
+          "dataFormat": "Decimal"
+        },
+        {
+          "name": "Acquirer ID",
+          "appliedTraits": [
+            "is.dataFormat.character",
+            "is.dataFormat.big",
+            "is.dataFormat.array"
+          ],
+          "attributeContext": "Fixed_Asset_Removals/attributeContext/Fixed_Asset_Removals/Acquirer ID",
+          "dataFormat": "String"
+        },
+        {
+          "name": "Approved By",
+          "appliedTraits": [
+            "is.dataFormat.character",
+            "is.dataFormat.big",
+            "is.dataFormat.array"
+          ],
+          "attributeContext": "Fixed_Asset_Removals/attributeContext/Fixed_Asset_Removals/Approved By",
+          "dataFormat": "String"
+        },
+        {
+          "name": "Approved By Date",
+          "appliedTraits": [
+            "is.dataFormat.date",
+            "means.measurement.date"
+          ],
+          "attributeContext": "Fixed_Asset_Removals/attributeContext/Fixed_Asset_Removals/Approved By Date",
+          "dataFormat": "Date"
+        },
+        {
+          "name": "Approved By Time",
+          "appliedTraits": [
+            "is.dataFormat.date",
+            "means.measurement.date"
+          ],
+          "attributeContext": "Fixed_Asset_Removals/attributeContext/Fixed_Asset_Removals/Approved By Time",
+          "dataFormat": "Date"
+        },
+        {
+          "name": "Business Unit Code",
+          "appliedTraits": [
+            "is.dataFormat.character",
+            "is.dataFormat.big",
+            "is.dataFormat.array"
+          ],
+          "attributeContext": "Fixed_Asset_Removals/attributeContext/Fixed_Asset_Removals/Business Unit Code",
+          "dataFormat": "String"
+        },
+        {
+          "name": "Enteredby",
+          "appliedTraits": [
+            "is.dataFormat.character",
+            "is.dataFormat.big",
+            "is.dataFormat.array"
+          ],
+          "attributeContext": "Fixed_Asset_Removals/attributeContext/Fixed_Asset_Removals/Enteredby",
+          "dataFormat": "String"
+        },
+        {
+          "name": "Entered Date",
+          "appliedTraits": [
+            "is.dataFormat.date",
+            "means.measurement.date"
+          ],
+          "attributeContext": "Fixed_Asset_Removals/attributeContext/Fixed_Asset_Removals/Entered Date",
+          "dataFormat": "Date"
+        },
+        {
+          "name": "Entered Time",
+          "appliedTraits": [
+            "is.dataFormat.date",
+            "means.measurement.date"
+          ],
+          "attributeContext": "Fixed_Asset_Removals/attributeContext/Fixed_Asset_Removals/Entered Time",
+          "dataFormat": "Date"
+        },
+        {
+          "name": "Fixed Asset ID",
+          "appliedTraits": [
+            "is.dataFormat.character",
+            "is.dataFormat.big",
+            "is.dataFormat.array"
+          ],
+          "attributeContext": "Fixed_Asset_Removals/attributeContext/Fixed_Asset_Removals/Fixed Asset ID",
+          "dataFormat": "String"
+        },
+        {
+          "name": "Fixed Asset Realized Gain Loss Account",
+          "appliedTraits": [
+            "is.dataFormat.character",
+            "is.dataFormat.big",
+            "is.dataFormat.array"
+          ],
+          "attributeContext": "Fixed_Asset_Removals/attributeContext/Fixed_Asset_Removals/Fixed Asset Realized Gain Loss Account",
+          "dataFormat": "String"
+        },
+        {
+          "name": "Fixed Asset Realized Gain Loss Amount",
+          "appliedTraits": [
+            {
+              "traitReference": "is.dataFormat.numeric.shaped"
+            }
+          ],
+          "attributeContext": "Fixed_Asset_Removals/attributeContext/Fixed_Asset_Removals/Fixed Asset Realized Gain Loss Amount",
+          "dataFormat": "Decimal"
+        },
+        {
+          "name": "Fixed Asset Removal Date",
+          "appliedTraits": [
+            "is.dataFormat.date",
+            "means.measurement.date"
+          ],
+          "attributeContext": "Fixed_Asset_Removals/attributeContext/Fixed_Asset_Removals/Fixed Asset Removal Date",
+          "dataFormat": "Date"
+        },
+        {
+          "name": "Fixed Asset Removal Non Cash Proceeds Amount",
+          "appliedTraits": [
+            {
+              "traitReference": "is.dataFormat.numeric.shaped"
+            }
+          ],
+          "attributeContext": "Fixed_Asset_Removals/attributeContext/Fixed_Asset_Removals/Fixed Asset Removal Non Cash Proceeds Amount",
+          "dataFormat": "Decimal"
+        },
+        {
+          "name": "Fixed Asset Unrealized Gain Loss Account",
+          "appliedTraits": [
+            "is.dataFormat.character",
+            "is.dataFormat.big",
+            "is.dataFormat.array"
+          ],
+          "attributeContext": "Fixed_Asset_Removals/attributeContext/Fixed_Asset_Removals/Fixed Asset Unrealized Gain Loss Account",
+          "dataFormat": "String"
+        },
+        {
+          "name": "Fixed Asset Unrealized Gain Loss Amount",
+          "appliedTraits": [
+            {
+              "traitReference": "is.dataFormat.numeric.shaped"
+            }
+          ],
+          "attributeContext": "Fixed_Asset_Removals/attributeContext/Fixed_Asset_Removals/Fixed Asset Unrealized Gain Loss Amount",
+          "dataFormat": "Decimal"
+        },
+        {
+          "name": "G L Transaction ID",
+          "appliedTraits": [
+            "is.dataFormat.character",
+            "is.dataFormat.big",
+            "is.dataFormat.array"
+          ],
+          "attributeContext": "Fixed_Asset_Removals/attributeContext/Fixed_Asset_Removals/G L Transaction ID",
+          "dataFormat": "String"
+        },
+        {
+          "name": "Last Modified By",
+          "appliedTraits": [
+            "is.dataFormat.character",
+            "is.dataFormat.big",
+            "is.dataFormat.array"
+          ],
+          "attributeContext": "Fixed_Asset_Removals/attributeContext/Fixed_Asset_Removals/Last Modified By",
+          "dataFormat": "String"
+        },
+        {
+          "name": "Last Modified By Date",
+          "appliedTraits": [
+            "is.dataFormat.date",
+            "means.measurement.date"
+          ],
+          "attributeContext": "Fixed_Asset_Removals/attributeContext/Fixed_Asset_Removals/Last Modified By Date",
+          "dataFormat": "Date"
+        },
+        {
+          "name": "Last Modified By Time",
+          "appliedTraits": [
+            "is.dataFormat.date",
+            "means.measurement.date"
+          ],
+          "attributeContext": "Fixed_Asset_Removals/attributeContext/Fixed_Asset_Removals/Last Modified By Time",
+          "dataFormat": "Date"
+        },
+        {
+          "name": "Lot Number",
+          "appliedTraits": [
+            "is.dataFormat.boolean"
+          ],
+          "attributeContext": "Fixed_Asset_Removals/attributeContext/Fixed_Asset_Removals/Lot Number",
+          "dataFormat": "Boolean"
+        },
+        {
+          "name": "Removal Type",
+          "appliedTraits": [
+            "is.dataFormat.character",
+            "is.dataFormat.big",
+            "is.dataFormat.array"
+          ],
+          "attributeContext": "Fixed_Asset_Removals/attributeContext/Fixed_Asset_Removals/Removal Type",
+          "dataFormat": "String"
+        },
+        {
+          "name": "Serial Number",
+          "appliedTraits": [
+            "is.dataFormat.boolean"
+          ],
+          "attributeContext": "Fixed_Asset_Removals/attributeContext/Fixed_Asset_Removals/Serial Number",
+          "dataFormat": "Boolean"
+        },
+        {
+          "name": "Tax Code",
+          "appliedTraits": [
+            "is.dataFormat.character",
+            "is.dataFormat.big",
+            "is.dataFormat.array"
+          ],
+          "attributeContext": "Fixed_Asset_Removals/attributeContext/Fixed_Asset_Removals/Tax Code",
+          "dataFormat": "String"
+        },
+        {
+          "name": "Transaction Fees",
+          "appliedTraits": [
+            {
+              "traitReference": "is.dataFormat.numeric.shaped"
+            }
+          ],
+          "attributeContext": "Fixed_Asset_Removals/attributeContext/Fixed_Asset_Removals/Transaction Fees",
+          "dataFormat": "Decimal"
+        },
+        {
+          "name": "Unique ID",
+          "appliedTraits": [
+            "is.dataFormat.character",
+            "is.dataFormat.big",
+            "is.dataFormat.array"
+          ],
+          "attributeContext": "Fixed_Asset_Removals/attributeContext/Fixed_Asset_Removals/Unique ID",
+          "dataFormat": "String"
+        }
+      ]
+    }
+  ]
+}

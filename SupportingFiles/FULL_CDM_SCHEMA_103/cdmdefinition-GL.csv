@@ -1,0 +1,102 @@
+﻿Business Area - Cost Centre Lookup,Business Unit Code,string
+Business Area - Cost Centre Lookup,Business Unit Description,string
+Business Area - Cost Centre Lookup,Business Unit Hierarchy1,string
+Business Area - Cost Centre Lookup,Business Unit Hierarchy2,string
+Business Area - Cost Centre Lookup,Business Unit Hierarchy3,string
+Business Area - Cost Centre Lookup,Business Unit Hierarchy4,string
+Business Area - Cost Centre Lookup,Business Unit Hierarchy5,string
+Chart of Accounts,Account Description,string
+Chart of Accounts,Account Name,string
+Chart of Accounts,Account Number,string
+Chart of Accounts,Account Type,string
+Chart of Accounts,Account Subtype,string
+Chart of Accounts,Business Unit Code,string
+Chart of Accounts,Parent Account Number,string
+Chart of Accounts,Reporting Element,string
+Chart of Accounts,Segment01,string
+Chart of Accounts,Segment02,string
+Chart of Accounts,Segment03,string
+Chart of Accounts,Segment04,string
+Chart of Accounts,Segment05,string
+General Ledger Transactions,Account Number,string
+General Ledger Transactions,Created Date,date
+General Ledger Transactions,Journal ID,decimal
+General Ledger Transactions,Journal Header Desc,string
+General Ledger Transactions,Journal Line Desc,string
+General Ledger Transactions,Tax Amount,decimal
+General Ledger Transactions,Tax Code,string
+General Ledger Transactions,Approved Date,date
+General Ledger Transactions,Approved User,string
+General Ledger Transactions,Business Unit,string
+General Ledger Transactions,Clearing Date,date
+General Ledger Transactions,Clearing Journal ID,string
+General Ledger Transactions,Created Time,date
+General Ledger Transactions,Created User,string
+General Ledger Transactions,Document Date,date
+General Ledger Transactions,Effective Date,date
+General Ledger Transactions,Journal Amount,string
+General Ledger Transactions,Journal Amount Currency,string
+General Ledger Transactions,Journal Amount Indicator,string
+General Ledger Transactions,Journal Line,decimal
+General Ledger Transactions,Journal Local Amount,decimal
+General Ledger Transactions,Journal Local Currency,string
+General Ledger Transactions,Journal Reporting Amount,decimal
+General Ledger Transactions,Journal Reporting Currency,string
+General Ledger Transactions,Journal Source,string
+General Ledger Transactions,Modified Date,date
+General Ledger Transactions,Modified User,string
+General Ledger Transactions,Period,string
+General Ledger Transactions,Reversal Indicator,string
+General Ledger Transactions,Reversal Journal ID,string
+General Ledger Transactions,Segment01,string
+General Ledger Transactions,Segment02,string
+General Ledger Transactions,Segment03,string
+General Ledger Transactions,Segment04,string
+General Ledger Transactions,Segment05,string
+General Ledger Transactions,Year,string
+Segment - Field Description Lookup,Segment0 X Description,string
+Segment - Field Description Lookup,Segment0 X Value,string
+Source - Type Lookup,Business Process Major,string
+Source - Type Lookup,Business Process Minor,string
+Source - Type Lookup,ERP Subledger Module,string
+Source - Type Lookup,Source,string
+Source - Type Lookup,Source Description,string
+Source - Type Lookup,System Manual IDentifier,string
+Tax Table,Regulator IDentifier,string
+Tax Table,Regulator Active Flag,string
+Tax Table,Regulator Code,string
+Tax Table,Regulator Country,string
+Tax Table,Regulator Default Accrual G L Account Number,string
+Tax Table,Regulator Default Expense G L Account Number,string
+Tax Table,Regulator Default Payable G L Account Number,string
+Tax Table,Regulator Name,string
+Tax Table,Regulator Region,string
+Tax Table,Regulator Reporting Organisation,string
+Tax Table,Regulator Role,string
+Trial Balance,Amount Beginning Local,decimal
+Trial Balance,Amount Beginning Reporting,decimal
+Trial Balance,Amount Currency,string
+Trial Balance,Amount Ending Local,decimal
+Trial Balance,Amount Ending Reporting,decimal
+Trial Balance,Amount Local Currency,string
+Trial Balance,Amount Reporting Currency,string
+Trial Balance,Balance ,decimal
+Trial Balance,Business Unit,string
+Trial Balance,Period,string
+Trial Balance,Segment01,string
+Trial Balance,Segment02,string
+Trial Balance,Segment03,string
+Trial Balance,Segment04,string
+Trial Balance,Segment05,string
+Trial Balance,Account Number,string
+Trial Balance,Amount Beginning,decimal
+Trial Balance,Amount Ending,decimal
+Trial Balance,Fiscal Year,string
+User ID Lookup,Department,string
+User ID Lookup,First Name,string
+User ID Lookup,Last Name,string
+User ID Lookup,Position,string
+User ID Lookup,Title,string
+User ID Lookup,User ID,date
+User ID Lookup,User Active Modified Date,string
+User ID Lookup,User Active Status,string

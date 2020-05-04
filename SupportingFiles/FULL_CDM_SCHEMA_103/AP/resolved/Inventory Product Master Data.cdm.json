@@ -1,0 +1,362 @@
+{
+  "jsonSchemaSemanticVersion": "1.0.0",
+  "imports": [
+    {
+      "corpusPath": "/Inventory Product Master Data.cdm.json",
+      "moniker": "resolvedFrom"
+    }
+  ],
+  "definitions": [
+    {
+      "entityName": "Inventory Product Master Data",
+      "attributeContext": {
+        "type": "entity",
+        "name": "Inventory Product Master Data",
+        "definition": "resolvedFrom/Inventory Product Master Data",
+        "contents": [
+          {
+            "type": "attributeDefinition",
+            "name": "Description",
+            "parent": "Inventory Product Master Data/attributeContext/Inventory Product Master Data",
+            "definition": "resolvedFrom/Inventory Product Master Data/hasAttributes/Description",
+            "contents": [
+              "Inventory Product Master Data/hasAttributes/Description"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Goods Services ID",
+            "parent": "Inventory Product Master Data/attributeContext/Inventory Product Master Data",
+            "definition": "resolvedFrom/Inventory Product Master Data/hasAttributes/Goods Services ID",
+            "contents": [
+              "Inventory Product Master Data/hasAttributes/Goods Services ID"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Product Code",
+            "parent": "Inventory Product Master Data/attributeContext/Inventory Product Master Data",
+            "definition": "resolvedFrom/Inventory Product Master Data/hasAttributes/Product Code",
+            "contents": [
+              "Inventory Product Master Data/hasAttributes/Product Code"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Product Commodity Code",
+            "parent": "Inventory Product Master Data/attributeContext/Inventory Product Master Data",
+            "definition": "resolvedFrom/Inventory Product Master Data/hasAttributes/Product Commodity Code",
+            "contents": [
+              "Inventory Product Master Data/hasAttributes/Product Commodity Code"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Product Group",
+            "parent": "Inventory Product Master Data/attributeContext/Inventory Product Master Data",
+            "definition": "resolvedFrom/Inventory Product Master Data/hasAttributes/Product Group",
+            "contents": [
+              "Inventory Product Master Data/hasAttributes/Product Group"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Product Number Code",
+            "parent": "Inventory Product Master Data/attributeContext/Inventory Product Master Data",
+            "definition": "resolvedFrom/Inventory Product Master Data/hasAttributes/Product Number Code",
+            "contents": [
+              "Inventory Product Master Data/hasAttributes/Product Number Code"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "System Approved Date Time",
+            "parent": "Inventory Product Master Data/attributeContext/Inventory Product Master Data",
+            "definition": "resolvedFrom/Inventory Product Master Data/hasAttributes/System Approved Date Time",
+            "contents": [
+              "Inventory Product Master Data/hasAttributes/System Approved Date Time"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "System Approved User",
+            "parent": "Inventory Product Master Data/attributeContext/Inventory Product Master Data",
+            "definition": "resolvedFrom/Inventory Product Master Data/hasAttributes/System Approved User",
+            "contents": [
+              "Inventory Product Master Data/hasAttributes/System Approved User"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "System Entry Date Time",
+            "parent": "Inventory Product Master Data/attributeContext/Inventory Product Master Data",
+            "definition": "resolvedFrom/Inventory Product Master Data/hasAttributes/System Entry Date Time",
+            "contents": [
+              "Inventory Product Master Data/hasAttributes/System Entry Date Time"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "System Entry User",
+            "parent": "Inventory Product Master Data/attributeContext/Inventory Product Master Data",
+            "definition": "resolvedFrom/Inventory Product Master Data/hasAttributes/System Entry User",
+            "contents": [
+              "Inventory Product Master Data/hasAttributes/System Entry User"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "System Modified Date Time",
+            "parent": "Inventory Product Master Data/attributeContext/Inventory Product Master Data",
+            "definition": "resolvedFrom/Inventory Product Master Data/hasAttributes/System Modified Date Time",
+            "contents": [
+              "Inventory Product Master Data/hasAttributes/System Modified Date Time"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "System Modified User",
+            "parent": "Inventory Product Master Data/attributeContext/Inventory Product Master Data",
+            "definition": "resolvedFrom/Inventory Product Master Data/hasAttributes/System Modified User",
+            "contents": [
+              "Inventory Product Master Data/hasAttributes/System Modified User"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Tax Code",
+            "parent": "Inventory Product Master Data/attributeContext/Inventory Product Master Data",
+            "definition": "resolvedFrom/Inventory Product Master Data/hasAttributes/Tax Code",
+            "contents": [
+              "Inventory Product Master Data/hasAttributes/Tax Code"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Tax Type",
+            "parent": "Inventory Product Master Data/attributeContext/Inventory Product Master Data",
+            "definition": "resolvedFrom/Inventory Product Master Data/hasAttributes/Tax Type",
+            "contents": [
+              "Inventory Product Master Data/hasAttributes/Tax Type"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "UOM Base",
+            "parent": "Inventory Product Master Data/attributeContext/Inventory Product Master Data",
+            "definition": "resolvedFrom/Inventory Product Master Data/hasAttributes/UOM Base",
+            "contents": [
+              "Inventory Product Master Data/hasAttributes/UOM Base"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "UOM Standard",
+            "parent": "Inventory Product Master Data/attributeContext/Inventory Product Master Data",
+            "definition": "resolvedFrom/Inventory Product Master Data/hasAttributes/UOM Standard",
+            "contents": [
+              "Inventory Product Master Data/hasAttributes/UOM Standard"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "UOM To UOM Base Conversion Factor",
+            "parent": "Inventory Product Master Data/attributeContext/Inventory Product Master Data",
+            "definition": "resolvedFrom/Inventory Product Master Data/hasAttributes/UOM To UOM Base Conversion Factor",
+            "contents": [
+              "Inventory Product Master Data/hasAttributes/UOM To UOM Base Conversion Factor"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Valuation Method",
+            "parent": "Inventory Product Master Data/attributeContext/Inventory Product Master Data",
+            "definition": "resolvedFrom/Inventory Product Master Data/hasAttributes/Valuation Method",
+            "contents": [
+              "Inventory Product Master Data/hasAttributes/Valuation Method"
+            ]
+          }
+        ]
+      },
+      "hasAttributes": [
+        {
+          "name": "Description",
+          "appliedTraits": [
+            "is.dataFormat.character",
+            "is.dataFormat.big",
+            "is.dataFormat.array"
+          ],
+          "attributeContext": "Inventory Product Master Data/attributeContext/Inventory Product Master Data/Description",
+          "dataFormat": "String"
+        },
+        {
+          "name": "Goods Services ID",
+          "appliedTraits": [
+            "is.dataFormat.character",
+            "is.dataFormat.big",
+            "is.dataFormat.array"
+          ],
+          "attributeContext": "Inventory Product Master Data/attributeContext/Inventory Product Master Data/Goods Services ID",
+          "dataFormat": "String"
+        },
+        {
+          "name": "Product Code",
+          "appliedTraits": [
+            "is.dataFormat.character",
+            "is.dataFormat.big",
+            "is.dataFormat.array"
+          ],
+          "attributeContext": "Inventory Product Master Data/attributeContext/Inventory Product Master Data/Product Code",
+          "dataFormat": "String"
+        },
+        {
+          "name": "Product Commodity Code",
+          "appliedTraits": [
+            "is.dataFormat.character",
+            "is.dataFormat.big",
+            "is.dataFormat.array"
+          ],
+          "attributeContext": "Inventory Product Master Data/attributeContext/Inventory Product Master Data/Product Commodity Code",
+          "dataFormat": "String"
+        },
+        {
+          "name": "Product Group",
+          "appliedTraits": [
+            "is.dataFormat.character",
+            "is.dataFormat.big",
+            "is.dataFormat.array"
+          ],
+          "attributeContext": "Inventory Product Master Data/attributeContext/Inventory Product Master Data/Product Group",
+          "dataFormat": "String"
+        },
+        {
+          "name": "Product Number Code",
+          "appliedTraits": [
+            "is.dataFormat.character",
+            "is.dataFormat.big",
+            "is.dataFormat.array"
+          ],
+          "attributeContext": "Inventory Product Master Data/attributeContext/Inventory Product Master Data/Product Number Code",
+          "dataFormat": "String"
+        },
+        {
+          "name": "System Approved Date Time",
+          "appliedTraits": [
+            "is.dataFormat.date",
+            "means.measurement.date"
+          ],
+          "attributeContext": "Inventory Product Master Data/attributeContext/Inventory Product Master Data/System Approved Date Time",
+          "dataFormat": "Date"
+        },
+        {
+          "name": "System Approved User",
+          "appliedTraits": [
+            "is.dataFormat.character",
+            "is.dataFormat.big",
+            "is.dataFormat.array"
+          ],
+          "attributeContext": "Inventory Product Master Data/attributeContext/Inventory Product Master Data/System Approved User",
+          "dataFormat": "String"
+        },
+        {
+          "name": "System Entry Date Time",
+          "appliedTraits": [
+            "is.dataFormat.date",
+            "means.measurement.date"
+          ],
+          "attributeContext": "Inventory Product Master Data/attributeContext/Inventory Product Master Data/System Entry Date Time",
+          "dataFormat": "Date"
+        },
+        {
+          "name": "System Entry User",
+          "appliedTraits": [
+            "is.dataFormat.character",
+            "is.dataFormat.big",
+            "is.dataFormat.array"
+          ],
+          "attributeContext": "Inventory Product Master Data/attributeContext/Inventory Product Master Data/System Entry User",
+          "dataFormat": "String"
+        },
+        {
+          "name": "System Modified Date Time",
+          "appliedTraits": [
+            "is.dataFormat.date",
+            "means.measurement.date"
+          ],
+          "attributeContext": "Inventory Product Master Data/attributeContext/Inventory Product Master Data/System Modified Date Time",
+          "dataFormat": "Date"
+        },
+        {
+          "name": "System Modified User",
+          "appliedTraits": [
+            "is.dataFormat.character",
+            "is.dataFormat.big",
+            "is.dataFormat.array"
+          ],
+          "attributeContext": "Inventory Product Master Data/attributeContext/Inventory Product Master Data/System Modified User",
+          "dataFormat": "String"
+        },
+        {
+          "name": "Tax Code",
+          "appliedTraits": [
+            "is.dataFormat.character",
+            "is.dataFormat.big",
+            "is.dataFormat.array"
+          ],
+          "attributeContext": "Inventory Product Master Data/attributeContext/Inventory Product Master Data/Tax Code",
+          "dataFormat": "String"
+        },
+        {
+          "name": "Tax Type",
+          "appliedTraits": [
+            "is.dataFormat.character",
+            "is.dataFormat.big",
+            "is.dataFormat.array"
+          ],
+          "attributeContext": "Inventory Product Master Data/attributeContext/Inventory Product Master Data/Tax Type",
+          "dataFormat": "String"
+        },
+        {
+          "name": "UOM Base",
+          "appliedTraits": [
+            "is.dataFormat.character",
+            "is.dataFormat.big",
+            "is.dataFormat.array"
+          ],
+          "attributeContext": "Inventory Product Master Data/attributeContext/Inventory Product Master Data/UOM Base",
+          "dataFormat": "String"
+        },
+        {
+          "name": "UOM Standard",
+          "appliedTraits": [
+            "is.dataFormat.character",
+            "is.dataFormat.big",
+            "is.dataFormat.array"
+          ],
+          "attributeContext": "Inventory Product Master Data/attributeContext/Inventory Product Master Data/UOM Standard",
+          "dataFormat": "String"
+        },
+        {
+          "name": "UOM To UOM Base Conversion Factor",
+          "appliedTraits": [
+            {
+              "traitReference": "is.dataFormat.numeric.shaped"
+            }
+          ],
+          "attributeContext": "Inventory Product Master Data/attributeContext/Inventory Product Master Data/UOM To UOM Base Conversion Factor",
+          "dataFormat": "Decimal"
+        },
+        {
+          "name": "Valuation Method",
+          "appliedTraits": [
+            "is.dataFormat.character",
+            "is.dataFormat.big",
+            "is.dataFormat.array"
+          ],
+          "attributeContext": "Inventory Product Master Data/attributeContext/Inventory Product Master Data/Valuation Method",
+          "dataFormat": "String"
+        }
+      ]
+    }
+  ]
+}

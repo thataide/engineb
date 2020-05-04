@@ -1,0 +1,232 @@
+{
+  "jsonSchemaSemanticVersion": "1.0.0",
+  "imports": [
+    {
+      "corpusPath": "/Tax Table.cdm.json",
+      "moniker": "resolvedFrom"
+    }
+  ],
+  "definitions": [
+    {
+      "entityName": "Tax Table",
+      "attributeContext": {
+        "type": "entity",
+        "name": "Tax Table",
+        "definition": "resolvedFrom/Tax Table",
+        "contents": [
+          {
+            "type": "attributeDefinition",
+            "name": "Regulator IDentifier",
+            "parent": "Tax Table/attributeContext/Tax Table",
+            "definition": "resolvedFrom/Tax Table/hasAttributes/Regulator IDentifier",
+            "contents": [
+              "Tax Table/hasAttributes/Regulator IDentifier"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Regulator Active Flag",
+            "parent": "Tax Table/attributeContext/Tax Table",
+            "definition": "resolvedFrom/Tax Table/hasAttributes/Regulator Active Flag",
+            "contents": [
+              "Tax Table/hasAttributes/Regulator Active Flag"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Regulator Code",
+            "parent": "Tax Table/attributeContext/Tax Table",
+            "definition": "resolvedFrom/Tax Table/hasAttributes/Regulator Code",
+            "contents": [
+              "Tax Table/hasAttributes/Regulator Code"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Regulator Country",
+            "parent": "Tax Table/attributeContext/Tax Table",
+            "definition": "resolvedFrom/Tax Table/hasAttributes/Regulator Country",
+            "contents": [
+              "Tax Table/hasAttributes/Regulator Country"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Regulator Default Accrual G L Account Number",
+            "parent": "Tax Table/attributeContext/Tax Table",
+            "definition": "resolvedFrom/Tax Table/hasAttributes/Regulator Default Accrual G L Account Number",
+            "contents": [
+              "Tax Table/hasAttributes/Regulator Default Accrual G L Account Number"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Regulator Default Expense G L Account Number",
+            "parent": "Tax Table/attributeContext/Tax Table",
+            "definition": "resolvedFrom/Tax Table/hasAttributes/Regulator Default Expense G L Account Number",
+            "contents": [
+              "Tax Table/hasAttributes/Regulator Default Expense G L Account Number"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Regulator Default Payable G L Account Number",
+            "parent": "Tax Table/attributeContext/Tax Table",
+            "definition": "resolvedFrom/Tax Table/hasAttributes/Regulator Default Payable G L Account Number",
+            "contents": [
+              "Tax Table/hasAttributes/Regulator Default Payable G L Account Number"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Regulator Name",
+            "parent": "Tax Table/attributeContext/Tax Table",
+            "definition": "resolvedFrom/Tax Table/hasAttributes/Regulator Name",
+            "contents": [
+              "Tax Table/hasAttributes/Regulator Name"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Regulator Region",
+            "parent": "Tax Table/attributeContext/Tax Table",
+            "definition": "resolvedFrom/Tax Table/hasAttributes/Regulator Region",
+            "contents": [
+              "Tax Table/hasAttributes/Regulator Region"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Regulator Reporting Organisation",
+            "parent": "Tax Table/attributeContext/Tax Table",
+            "definition": "resolvedFrom/Tax Table/hasAttributes/Regulator Reporting Organisation",
+            "contents": [
+              "Tax Table/hasAttributes/Regulator Reporting Organisation"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Regulator Role",
+            "parent": "Tax Table/attributeContext/Tax Table",
+            "definition": "resolvedFrom/Tax Table/hasAttributes/Regulator Role",
+            "contents": [
+              "Tax Table/hasAttributes/Regulator Role"
+            ]
+          }
+        ]
+      },
+      "hasAttributes": [
+        {
+          "name": "Regulator IDentifier",
+          "appliedTraits": [
+            "is.dataFormat.character",
+            "is.dataFormat.big",
+            "is.dataFormat.array"
+          ],
+          "attributeContext": "Tax Table/attributeContext/Tax Table/Regulator IDentifier",
+          "dataFormat": "String"
+        },
+        {
+          "name": "Regulator Active Flag",
+          "appliedTraits": [
+            "is.dataFormat.character",
+            "is.dataFormat.big",
+            "is.dataFormat.array"
+          ],
+          "attributeContext": "Tax Table/attributeContext/Tax Table/Regulator Active Flag",
+          "dataFormat": "String"
+        },
+        {
+          "name": "Regulator Code",
+          "appliedTraits": [
+            "is.dataFormat.character",
+            "is.dataFormat.big",
+            "is.dataFormat.array"
+          ],
+          "attributeContext": "Tax Table/attributeContext/Tax Table/Regulator Code",
+          "dataFormat": "String"
+        },
+        {
+          "name": "Regulator Country",
+          "appliedTraits": [
+            "is.dataFormat.character",
+            "is.dataFormat.big",
+            "is.dataFormat.array"
+          ],
+          "attributeContext": "Tax Table/attributeContext/Tax Table/Regulator Country",
+          "dataFormat": "String"
+        },
+        {
+          "name": "Regulator Default Accrual G L Account Number",
+          "appliedTraits": [
+            "is.dataFormat.character",
+            "is.dataFormat.big",
+            "is.dataFormat.array"
+          ],
+          "attributeContext": "Tax Table/attributeContext/Tax Table/Regulator Default Accrual G L Account Number",
+          "dataFormat": "String"
+        },
+        {
+          "name": "Regulator Default Expense G L Account Number",
+          "appliedTraits": [
+            "is.dataFormat.character",
+            "is.dataFormat.big",
+            "is.dataFormat.array"
+          ],
+          "attributeContext": "Tax Table/attributeContext/Tax Table/Regulator Default Expense G L Account Number",
+          "dataFormat": "String"
+        },
+        {
+          "name": "Regulator Default Payable G L Account Number",
+          "appliedTraits": [
+            "is.dataFormat.character",
+            "is.dataFormat.big",
+            "is.dataFormat.array"
+          ],
+          "attributeContext": "Tax Table/attributeContext/Tax Table/Regulator Default Payable G L Account Number",
+          "dataFormat": "String"
+        },
+        {
+          "name": "Regulator Name",
+          "appliedTraits": [
+            "is.dataFormat.character",
+            "is.dataFormat.big",
+            "is.dataFormat.array"
+          ],
+          "attributeContext": "Tax Table/attributeContext/Tax Table/Regulator Name",
+          "dataFormat": "String"
+        },
+        {
+          "name": "Regulator Region",
+          "appliedTraits": [
+            "is.dataFormat.character",
+            "is.dataFormat.big",
+            "is.dataFormat.array"
+          ],
+          "attributeContext": "Tax Table/attributeContext/Tax Table/Regulator Region",
+          "dataFormat": "String"
+        },
+        {
+          "name": "Regulator Reporting Organisation",
+          "appliedTraits": [
+            "is.dataFormat.character",
+            "is.dataFormat.big",
+            "is.dataFormat.array"
+          ],
+          "attributeContext": "Tax Table/attributeContext/Tax Table/Regulator Reporting Organisation",
+          "dataFormat": "String"
+        },
+        {
+          "name": "Regulator Role",
+          "appliedTraits": [
+            "is.dataFormat.character",
+            "is.dataFormat.big",
+            "is.dataFormat.array"
+          ],
+          "attributeContext": "Tax Table/attributeContext/Tax Table/Regulator Role",
+          "dataFormat": "String"
+        }
+      ]
+    }
+  ]
+}

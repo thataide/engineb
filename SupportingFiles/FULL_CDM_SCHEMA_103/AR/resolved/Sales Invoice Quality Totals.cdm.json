@@ -1,0 +1,289 @@
+{
+  "jsonSchemaSemanticVersion": "1.0.0",
+  "imports": [
+    {
+      "corpusPath": "/Sales Invoice Quality Totals.cdm.json",
+      "moniker": "resolvedFrom"
+    }
+  ],
+  "definitions": [
+    {
+      "entityName": "Sales Invoice Quality Totals",
+      "attributeContext": {
+        "type": "entity",
+        "name": "Sales Invoice Quality Totals",
+        "definition": "resolvedFrom/Sales Invoice Quality Totals",
+        "contents": [
+          {
+            "type": "attributeDefinition",
+            "name": "Document Totals Net Total",
+            "parent": "Sales Invoice Quality Totals/attributeContext/Sales Invoice Quality Totals",
+            "definition": "resolvedFrom/Sales Invoice Quality Totals/hasAttributes/Document Totals Net Total",
+            "contents": [
+              "Sales Invoice Quality Totals/hasAttributes/Document Totals Net Total"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Document Totals Shipping Costs Amount Total",
+            "parent": "Sales Invoice Quality Totals/attributeContext/Sales Invoice Quality Totals",
+            "definition": "resolvedFrom/Sales Invoice Quality Totals/hasAttributes/Document Totals Shipping Costs Amount Total",
+            "contents": [
+              "Sales Invoice Quality Totals/hasAttributes/Document Totals Shipping Costs Amount Total"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Document Totals Tax Information Totals Tax Base",
+            "parent": "Sales Invoice Quality Totals/attributeContext/Sales Invoice Quality Totals",
+            "definition": "resolvedFrom/Sales Invoice Quality Totals/hasAttributes/Document Totals Tax Information Totals Tax Base",
+            "contents": [
+              "Sales Invoice Quality Totals/hasAttributes/Document Totals Tax Information Totals Tax Base"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Document Totals Tax Information Totals Tax Base Description",
+            "parent": "Sales Invoice Quality Totals/attributeContext/Sales Invoice Quality Totals",
+            "definition": "resolvedFrom/Sales Invoice Quality Totals/hasAttributes/Document Totals Tax Information Totals Tax Base Description",
+            "contents": [
+              "Sales Invoice Quality Totals/hasAttributes/Document Totals Tax Information Totals Tax Base Description"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Document Totals Tax Information Totals Tax Code",
+            "parent": "Sales Invoice Quality Totals/attributeContext/Sales Invoice Quality Totals",
+            "definition": "resolvedFrom/Sales Invoice Quality Totals/hasAttributes/Document Totals Tax Information Totals Tax Code",
+            "contents": [
+              "Sales Invoice Quality Totals/hasAttributes/Document Totals Tax Information Totals Tax Code"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Document Totals Tax Information Totals Tax Declaration Period",
+            "parent": "Sales Invoice Quality Totals/attributeContext/Sales Invoice Quality Totals",
+            "definition": "resolvedFrom/Sales Invoice Quality Totals/hasAttributes/Document Totals Tax Information Totals Tax Declaration Period",
+            "contents": [
+              "Sales Invoice Quality Totals/hasAttributes/Document Totals Tax Information Totals Tax Declaration Period"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Document Totals Tax Information Totals Tax Exemption Reason",
+            "parent": "Sales Invoice Quality Totals/attributeContext/Sales Invoice Quality Totals",
+            "definition": "resolvedFrom/Sales Invoice Quality Totals/hasAttributes/Document Totals Tax Information Totals Tax Exemption Reason",
+            "contents": [
+              "Sales Invoice Quality Totals/hasAttributes/Document Totals Tax Information Totals Tax Exemption Reason"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Document Totals Tax Information Totals Tax Percentage",
+            "parent": "Sales Invoice Quality Totals/attributeContext/Sales Invoice Quality Totals",
+            "definition": "resolvedFrom/Sales Invoice Quality Totals/hasAttributes/Document Totals Tax Information Totals Tax Percentage",
+            "contents": [
+              "Sales Invoice Quality Totals/hasAttributes/Document Totals Tax Information Totals Tax Percentage"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Document Totals Tax Information Totals Tax Type",
+            "parent": "Sales Invoice Quality Totals/attributeContext/Sales Invoice Quality Totals",
+            "definition": "resolvedFrom/Sales Invoice Quality Totals/hasAttributes/Document Totals Tax Information Totals Tax Type",
+            "contents": [
+              "Sales Invoice Quality Totals/hasAttributes/Document Totals Tax Information Totals Tax Type"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Number Of Entries",
+            "parent": "Sales Invoice Quality Totals/attributeContext/Sales Invoice Quality Totals",
+            "definition": "resolvedFrom/Sales Invoice Quality Totals/hasAttributes/Number Of Entries",
+            "contents": [
+              "Sales Invoice Quality Totals/hasAttributes/Number Of Entries"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Total Credit",
+            "parent": "Sales Invoice Quality Totals/attributeContext/Sales Invoice Quality Totals",
+            "definition": "resolvedFrom/Sales Invoice Quality Totals/hasAttributes/Total Credit",
+            "contents": [
+              "Sales Invoice Quality Totals/hasAttributes/Total Credit"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Total Debit",
+            "parent": "Sales Invoice Quality Totals/attributeContext/Sales Invoice Quality Totals",
+            "definition": "resolvedFrom/Sales Invoice Quality Totals/hasAttributes/Total Debit",
+            "contents": [
+              "Sales Invoice Quality Totals/hasAttributes/Total Debit"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Document Totals Gross Total",
+            "parent": "Sales Invoice Quality Totals/attributeContext/Sales Invoice Quality Totals",
+            "definition": "resolvedFrom/Sales Invoice Quality Totals/hasAttributes/Document Totals Gross Total",
+            "contents": [
+              "Sales Invoice Quality Totals/hasAttributes/Document Totals Gross Total"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Document Totals Tax Information Totals Tax Amount",
+            "parent": "Sales Invoice Quality Totals/attributeContext/Sales Invoice Quality Totals",
+            "definition": "resolvedFrom/Sales Invoice Quality Totals/hasAttributes/Document Totals Tax Information Totals Tax Amount",
+            "contents": [
+              "Sales Invoice Quality Totals/hasAttributes/Document Totals Tax Information Totals Tax Amount"
+            ]
+          }
+        ]
+      },
+      "hasAttributes": [
+        {
+          "name": "Document Totals Net Total",
+          "appliedTraits": [
+            {
+              "traitReference": "is.dataFormat.numeric.shaped"
+            }
+          ],
+          "attributeContext": "Sales Invoice Quality Totals/attributeContext/Sales Invoice Quality Totals/Document Totals Net Total",
+          "dataFormat": "Decimal"
+        },
+        {
+          "name": "Document Totals Shipping Costs Amount Total",
+          "appliedTraits": [
+            {
+              "traitReference": "is.dataFormat.numeric.shaped"
+            }
+          ],
+          "attributeContext": "Sales Invoice Quality Totals/attributeContext/Sales Invoice Quality Totals/Document Totals Shipping Costs Amount Total",
+          "dataFormat": "Decimal"
+        },
+        {
+          "name": "Document Totals Tax Information Totals Tax Base",
+          "appliedTraits": [
+            "is.dataFormat.character",
+            "is.dataFormat.big",
+            "is.dataFormat.array"
+          ],
+          "attributeContext": "Sales Invoice Quality Totals/attributeContext/Sales Invoice Quality Totals/Document Totals Tax Information Totals Tax Base",
+          "dataFormat": "String"
+        },
+        {
+          "name": "Document Totals Tax Information Totals Tax Base Description",
+          "appliedTraits": [
+            "is.dataFormat.character",
+            "is.dataFormat.big",
+            "is.dataFormat.array"
+          ],
+          "attributeContext": "Sales Invoice Quality Totals/attributeContext/Sales Invoice Quality Totals/Document Totals Tax Information Totals Tax Base Description",
+          "dataFormat": "String"
+        },
+        {
+          "name": "Document Totals Tax Information Totals Tax Code",
+          "appliedTraits": [
+            "is.dataFormat.character",
+            "is.dataFormat.big",
+            "is.dataFormat.array"
+          ],
+          "attributeContext": "Sales Invoice Quality Totals/attributeContext/Sales Invoice Quality Totals/Document Totals Tax Information Totals Tax Code",
+          "dataFormat": "String"
+        },
+        {
+          "name": "Document Totals Tax Information Totals Tax Declaration Period",
+          "appliedTraits": [
+            "is.dataFormat.character",
+            "is.dataFormat.big",
+            "is.dataFormat.array"
+          ],
+          "attributeContext": "Sales Invoice Quality Totals/attributeContext/Sales Invoice Quality Totals/Document Totals Tax Information Totals Tax Declaration Period",
+          "dataFormat": "String"
+        },
+        {
+          "name": "Document Totals Tax Information Totals Tax Exemption Reason",
+          "appliedTraits": [
+            "is.dataFormat.character",
+            "is.dataFormat.big",
+            "is.dataFormat.array"
+          ],
+          "attributeContext": "Sales Invoice Quality Totals/attributeContext/Sales Invoice Quality Totals/Document Totals Tax Information Totals Tax Exemption Reason",
+          "dataFormat": "String"
+        },
+        {
+          "name": "Document Totals Tax Information Totals Tax Percentage",
+          "appliedTraits": [
+            {
+              "traitReference": "is.dataFormat.numeric.shaped"
+            }
+          ],
+          "attributeContext": "Sales Invoice Quality Totals/attributeContext/Sales Invoice Quality Totals/Document Totals Tax Information Totals Tax Percentage",
+          "dataFormat": "Decimal"
+        },
+        {
+          "name": "Document Totals Tax Information Totals Tax Type",
+          "appliedTraits": [
+            "is.dataFormat.character",
+            "is.dataFormat.big",
+            "is.dataFormat.array"
+          ],
+          "attributeContext": "Sales Invoice Quality Totals/attributeContext/Sales Invoice Quality Totals/Document Totals Tax Information Totals Tax Type",
+          "dataFormat": "String"
+        },
+        {
+          "name": "Number Of Entries",
+          "appliedTraits": [
+            {
+              "traitReference": "is.dataFormat.numeric.shaped"
+            }
+          ],
+          "attributeContext": "Sales Invoice Quality Totals/attributeContext/Sales Invoice Quality Totals/Number Of Entries",
+          "dataFormat": "Decimal"
+        },
+        {
+          "name": "Total Credit",
+          "appliedTraits": [
+            {
+              "traitReference": "is.dataFormat.numeric.shaped"
+            }
+          ],
+          "attributeContext": "Sales Invoice Quality Totals/attributeContext/Sales Invoice Quality Totals/Total Credit",
+          "dataFormat": "Decimal"
+        },
+        {
+          "name": "Total Debit",
+          "appliedTraits": [
+            {
+              "traitReference": "is.dataFormat.numeric.shaped"
+            }
+          ],
+          "attributeContext": "Sales Invoice Quality Totals/attributeContext/Sales Invoice Quality Totals/Total Debit",
+          "dataFormat": "Decimal"
+        },
+        {
+          "name": "Document Totals Gross Total",
+          "appliedTraits": [
+            {
+              "traitReference": "is.dataFormat.numeric.shaped"
+            }
+          ],
+          "attributeContext": "Sales Invoice Quality Totals/attributeContext/Sales Invoice Quality Totals/Document Totals Gross Total",
+          "dataFormat": "Decimal"
+        },
+        {
+          "name": "Document Totals Tax Information Totals Tax Amount",
+          "appliedTraits": [
+            {
+              "traitReference": "is.dataFormat.numeric.shaped"
+            }
+          ],
+          "attributeContext": "Sales Invoice Quality Totals/attributeContext/Sales Invoice Quality Totals/Document Totals Tax Information Totals Tax Amount",
+          "dataFormat": "Decimal"
+        }
+      ]
+    }
+  ]
+}

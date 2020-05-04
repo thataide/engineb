@@ -1,0 +1,270 @@
+{
+  "jsonSchemaSemanticVersion": "1.0.0",
+  "imports": [
+    {
+      "corpusPath": "/Payment Data Quality Totals.cdm.json",
+      "moniker": "resolvedFrom"
+    }
+  ],
+  "definitions": [
+    {
+      "entityName": "Payment Data Quality Totals",
+      "attributeContext": {
+        "type": "entity",
+        "name": "Payment Data Quality Totals",
+        "definition": "resolvedFrom/Payment Data Quality Totals",
+        "contents": [
+          {
+            "type": "attributeDefinition",
+            "name": "Line Document Totals Gross Total",
+            "parent": "Payment Data Quality Totals/attributeContext/Payment Data Quality Totals",
+            "definition": "resolvedFrom/Payment Data Quality Totals/hasAttributes/Line Document Totals Gross Total",
+            "contents": [
+              "Payment Data Quality Totals/hasAttributes/Line Document Totals Gross Total"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Line Document Totals Net Total",
+            "parent": "Payment Data Quality Totals/attributeContext/Payment Data Quality Totals",
+            "definition": "resolvedFrom/Payment Data Quality Totals/hasAttributes/Line Document Totals Net Total",
+            "contents": [
+              "Payment Data Quality Totals/hasAttributes/Line Document Totals Net Total"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Line Document Totals Tax Information Totals Tax Amount",
+            "parent": "Payment Data Quality Totals/attributeContext/Payment Data Quality Totals",
+            "definition": "resolvedFrom/Payment Data Quality Totals/hasAttributes/Line Document Totals Tax Information Totals Tax Amount",
+            "contents": [
+              "Payment Data Quality Totals/hasAttributes/Line Document Totals Tax Information Totals Tax Amount"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Line Document Totals Tax Information Totals Tax Base",
+            "parent": "Payment Data Quality Totals/attributeContext/Payment Data Quality Totals",
+            "definition": "resolvedFrom/Payment Data Quality Totals/hasAttributes/Line Document Totals Tax Information Totals Tax Base",
+            "contents": [
+              "Payment Data Quality Totals/hasAttributes/Line Document Totals Tax Information Totals Tax Base"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Line Document Totals Tax Information Totals Tax Base Description",
+            "parent": "Payment Data Quality Totals/attributeContext/Payment Data Quality Totals",
+            "definition": "resolvedFrom/Payment Data Quality Totals/hasAttributes/Line Document Totals Tax Information Totals Tax Base Description",
+            "contents": [
+              "Payment Data Quality Totals/hasAttributes/Line Document Totals Tax Information Totals Tax Base Description"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Line Document Totals Tax Information Totals Tax Code",
+            "parent": "Payment Data Quality Totals/attributeContext/Payment Data Quality Totals",
+            "definition": "resolvedFrom/Payment Data Quality Totals/hasAttributes/Line Document Totals Tax Information Totals Tax Code",
+            "contents": [
+              "Payment Data Quality Totals/hasAttributes/Line Document Totals Tax Information Totals Tax Code"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Line Document Totals Tax Information Totals Tax Declaration Period",
+            "parent": "Payment Data Quality Totals/attributeContext/Payment Data Quality Totals",
+            "definition": "resolvedFrom/Payment Data Quality Totals/hasAttributes/Line Document Totals Tax Information Totals Tax Declaration Period",
+            "contents": [
+              "Payment Data Quality Totals/hasAttributes/Line Document Totals Tax Information Totals Tax Declaration Period"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Line Document Totals Tax Information Totals Tax Exemption Reason",
+            "parent": "Payment Data Quality Totals/attributeContext/Payment Data Quality Totals",
+            "definition": "resolvedFrom/Payment Data Quality Totals/hasAttributes/Line Document Totals Tax Information Totals Tax Exemption Reason",
+            "contents": [
+              "Payment Data Quality Totals/hasAttributes/Line Document Totals Tax Information Totals Tax Exemption Reason"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Line Document Totals Tax Information Totals Tax Percentage",
+            "parent": "Payment Data Quality Totals/attributeContext/Payment Data Quality Totals",
+            "definition": "resolvedFrom/Payment Data Quality Totals/hasAttributes/Line Document Totals Tax Information Totals Tax Percentage",
+            "contents": [
+              "Payment Data Quality Totals/hasAttributes/Line Document Totals Tax Information Totals Tax Percentage"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Line Document Totals Tax Information Totals Tax Type",
+            "parent": "Payment Data Quality Totals/attributeContext/Payment Data Quality Totals",
+            "definition": "resolvedFrom/Payment Data Quality Totals/hasAttributes/Line Document Totals Tax Information Totals Tax Type",
+            "contents": [
+              "Payment Data Quality Totals/hasAttributes/Line Document Totals Tax Information Totals Tax Type"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Number Of Entries",
+            "parent": "Payment Data Quality Totals/attributeContext/Payment Data Quality Totals",
+            "definition": "resolvedFrom/Payment Data Quality Totals/hasAttributes/Number Of Entries",
+            "contents": [
+              "Payment Data Quality Totals/hasAttributes/Number Of Entries"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Total Credit",
+            "parent": "Payment Data Quality Totals/attributeContext/Payment Data Quality Totals",
+            "definition": "resolvedFrom/Payment Data Quality Totals/hasAttributes/Total Credit",
+            "contents": [
+              "Payment Data Quality Totals/hasAttributes/Total Credit"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Total Debit",
+            "parent": "Payment Data Quality Totals/attributeContext/Payment Data Quality Totals",
+            "definition": "resolvedFrom/Payment Data Quality Totals/hasAttributes/Total Debit",
+            "contents": [
+              "Payment Data Quality Totals/hasAttributes/Total Debit"
+            ]
+          }
+        ]
+      },
+      "hasAttributes": [
+        {
+          "name": "Line Document Totals Gross Total",
+          "appliedTraits": [
+            {
+              "traitReference": "is.dataFormat.numeric.shaped"
+            }
+          ],
+          "attributeContext": "Payment Data Quality Totals/attributeContext/Payment Data Quality Totals/Line Document Totals Gross Total",
+          "dataFormat": "Decimal"
+        },
+        {
+          "name": "Line Document Totals Net Total",
+          "appliedTraits": [
+            {
+              "traitReference": "is.dataFormat.numeric.shaped"
+            }
+          ],
+          "attributeContext": "Payment Data Quality Totals/attributeContext/Payment Data Quality Totals/Line Document Totals Net Total",
+          "dataFormat": "Decimal"
+        },
+        {
+          "name": "Line Document Totals Tax Information Totals Tax Amount",
+          "appliedTraits": [
+            {
+              "traitReference": "is.dataFormat.numeric.shaped"
+            }
+          ],
+          "attributeContext": "Payment Data Quality Totals/attributeContext/Payment Data Quality Totals/Line Document Totals Tax Information Totals Tax Amount",
+          "dataFormat": "Decimal"
+        },
+        {
+          "name": "Line Document Totals Tax Information Totals Tax Base",
+          "appliedTraits": [
+            "is.dataFormat.character",
+            "is.dataFormat.big",
+            "is.dataFormat.array"
+          ],
+          "attributeContext": "Payment Data Quality Totals/attributeContext/Payment Data Quality Totals/Line Document Totals Tax Information Totals Tax Base",
+          "dataFormat": "String"
+        },
+        {
+          "name": "Line Document Totals Tax Information Totals Tax Base Description",
+          "appliedTraits": [
+            "is.dataFormat.character",
+            "is.dataFormat.big",
+            "is.dataFormat.array"
+          ],
+          "attributeContext": "Payment Data Quality Totals/attributeContext/Payment Data Quality Totals/Line Document Totals Tax Information Totals Tax Base Description",
+          "dataFormat": "String"
+        },
+        {
+          "name": "Line Document Totals Tax Information Totals Tax Code",
+          "appliedTraits": [
+            "is.dataFormat.character",
+            "is.dataFormat.big",
+            "is.dataFormat.array"
+          ],
+          "attributeContext": "Payment Data Quality Totals/attributeContext/Payment Data Quality Totals/Line Document Totals Tax Information Totals Tax Code",
+          "dataFormat": "String"
+        },
+        {
+          "name": "Line Document Totals Tax Information Totals Tax Declaration Period",
+          "appliedTraits": [
+            "is.dataFormat.character",
+            "is.dataFormat.big",
+            "is.dataFormat.array"
+          ],
+          "attributeContext": "Payment Data Quality Totals/attributeContext/Payment Data Quality Totals/Line Document Totals Tax Information Totals Tax Declaration Period",
+          "dataFormat": "String"
+        },
+        {
+          "name": "Line Document Totals Tax Information Totals Tax Exemption Reason",
+          "appliedTraits": [
+            "is.dataFormat.character",
+            "is.dataFormat.big",
+            "is.dataFormat.array"
+          ],
+          "attributeContext": "Payment Data Quality Totals/attributeContext/Payment Data Quality Totals/Line Document Totals Tax Information Totals Tax Exemption Reason",
+          "dataFormat": "String"
+        },
+        {
+          "name": "Line Document Totals Tax Information Totals Tax Percentage",
+          "appliedTraits": [
+            {
+              "traitReference": "is.dataFormat.numeric.shaped"
+            }
+          ],
+          "attributeContext": "Payment Data Quality Totals/attributeContext/Payment Data Quality Totals/Line Document Totals Tax Information Totals Tax Percentage",
+          "dataFormat": "Decimal"
+        },
+        {
+          "name": "Line Document Totals Tax Information Totals Tax Type",
+          "appliedTraits": [
+            "is.dataFormat.character",
+            "is.dataFormat.big",
+            "is.dataFormat.array"
+          ],
+          "attributeContext": "Payment Data Quality Totals/attributeContext/Payment Data Quality Totals/Line Document Totals Tax Information Totals Tax Type",
+          "dataFormat": "String"
+        },
+        {
+          "name": "Number Of Entries",
+          "appliedTraits": [
+            {
+              "traitReference": "is.dataFormat.numeric.shaped"
+            }
+          ],
+          "attributeContext": "Payment Data Quality Totals/attributeContext/Payment Data Quality Totals/Number Of Entries",
+          "dataFormat": "Decimal"
+        },
+        {
+          "name": "Total Credit",
+          "appliedTraits": [
+            {
+              "traitReference": "is.dataFormat.numeric.shaped"
+            }
+          ],
+          "attributeContext": "Payment Data Quality Totals/attributeContext/Payment Data Quality Totals/Total Credit",
+          "dataFormat": "Decimal"
+        },
+        {
+          "name": "Total Debit",
+          "appliedTraits": [
+            {
+              "traitReference": "is.dataFormat.numeric.shaped"
+            }
+          ],
+          "attributeContext": "Payment Data Quality Totals/attributeContext/Payment Data Quality Totals/Total Debit",
+          "dataFormat": "Decimal"
+        }
+      ]
+    }
+  ]
+}

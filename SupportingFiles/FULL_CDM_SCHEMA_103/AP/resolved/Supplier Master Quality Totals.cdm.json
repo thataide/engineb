@@ -1,0 +1,118 @@
+{
+  "jsonSchemaSemanticVersion": "1.0.0",
+  "imports": [
+    {
+      "corpusPath": "/Supplier Master Quality Totals.cdm.json",
+      "moniker": "resolvedFrom"
+    }
+  ],
+  "definitions": [
+    {
+      "entityName": "Supplier Master Quality Totals",
+      "attributeContext": {
+        "type": "entity",
+        "name": "Supplier Master Quality Totals",
+        "definition": "resolvedFrom/Supplier Master Quality Totals",
+        "contents": [
+          {
+            "type": "attributeDefinition",
+            "name": "Closing Credit Balance",
+            "parent": "Supplier Master Quality Totals/attributeContext/Supplier Master Quality Totals",
+            "definition": "resolvedFrom/Supplier Master Quality Totals/hasAttributes/Closing Credit Balance",
+            "contents": [
+              "Supplier Master Quality Totals/hasAttributes/Closing Credit Balance"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Closing Debit Balance",
+            "parent": "Supplier Master Quality Totals/attributeContext/Supplier Master Quality Totals",
+            "definition": "resolvedFrom/Supplier Master Quality Totals/hasAttributes/Closing Debit Balance",
+            "contents": [
+              "Supplier Master Quality Totals/hasAttributes/Closing Debit Balance"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Opening Credit Balance",
+            "parent": "Supplier Master Quality Totals/attributeContext/Supplier Master Quality Totals",
+            "definition": "resolvedFrom/Supplier Master Quality Totals/hasAttributes/Opening Credit Balance",
+            "contents": [
+              "Supplier Master Quality Totals/hasAttributes/Opening Credit Balance"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Opening Debit Balance",
+            "parent": "Supplier Master Quality Totals/attributeContext/Supplier Master Quality Totals",
+            "definition": "resolvedFrom/Supplier Master Quality Totals/hasAttributes/Opening Debit Balance",
+            "contents": [
+              "Supplier Master Quality Totals/hasAttributes/Opening Debit Balance"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Supplier ID",
+            "parent": "Supplier Master Quality Totals/attributeContext/Supplier Master Quality Totals",
+            "definition": "resolvedFrom/Supplier Master Quality Totals/hasAttributes/Supplier ID",
+            "contents": [
+              "Supplier Master Quality Totals/hasAttributes/Supplier ID"
+            ]
+          }
+        ]
+      },
+      "hasAttributes": [
+        {
+          "name": "Closing Credit Balance",
+          "appliedTraits": [
+            {
+              "traitReference": "is.dataFormat.numeric.shaped"
+            }
+          ],
+          "attributeContext": "Supplier Master Quality Totals/attributeContext/Supplier Master Quality Totals/Closing Credit Balance",
+          "dataFormat": "Decimal"
+        },
+        {
+          "name": "Closing Debit Balance",
+          "appliedTraits": [
+            {
+              "traitReference": "is.dataFormat.numeric.shaped"
+            }
+          ],
+          "attributeContext": "Supplier Master Quality Totals/attributeContext/Supplier Master Quality Totals/Closing Debit Balance",
+          "dataFormat": "Decimal"
+        },
+        {
+          "name": "Opening Credit Balance",
+          "appliedTraits": [
+            {
+              "traitReference": "is.dataFormat.numeric.shaped"
+            }
+          ],
+          "attributeContext": "Supplier Master Quality Totals/attributeContext/Supplier Master Quality Totals/Opening Credit Balance",
+          "dataFormat": "Decimal"
+        },
+        {
+          "name": "Opening Debit Balance",
+          "appliedTraits": [
+            {
+              "traitReference": "is.dataFormat.numeric.shaped"
+            }
+          ],
+          "attributeContext": "Supplier Master Quality Totals/attributeContext/Supplier Master Quality Totals/Opening Debit Balance",
+          "dataFormat": "Decimal"
+        },
+        {
+          "name": "Supplier ID",
+          "appliedTraits": [
+            "is.dataFormat.character",
+            "is.dataFormat.big",
+            "is.dataFormat.array"
+          ],
+          "attributeContext": "Supplier Master Quality Totals/attributeContext/Supplier Master Quality Totals/Supplier ID",
+          "dataFormat": "String"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,145 @@
+{
+  "jsonSchemaSemanticVersion": "1.0.0",
+  "imports": [
+    {
+      "corpusPath": "cdm:/foundations.cdm.json"
+    }
+  ],
+  "definitions": [
+    {
+      "entityName": "Fixed_Asset_Removals",
+      "hasAttributes": [
+        {
+          "name": "Fixed Asset Removal Cash Proceeds Amount",
+          "purpose": "hasA",
+          "dataType": "decimal"
+        },
+        {
+          "name": "Acquirer ID",
+          "purpose": "hasA",
+          "dataType": "string"
+        },
+        {
+          "name": "Approved By",
+          "purpose": "hasA",
+          "dataType": "string"
+        },
+        {
+          "name": "Approved By Date",
+          "purpose": "hasA",
+          "dataType": "date"
+        },
+        {
+          "name": "Approved By Time",
+          "purpose": "hasA",
+          "dataType": "date"
+        },
+        {
+          "name": "Business Unit Code",
+          "purpose": "hasA",
+          "dataType": "string"
+        },
+        {
+          "name": "Enteredby",
+          "purpose": "hasA",
+          "dataType": "string"
+        },
+        {
+          "name": "Entered Date",
+          "purpose": "hasA",
+          "dataType": "date"
+        },
+        {
+          "name": "Entered Time",
+          "purpose": "hasA",
+          "dataType": "date"
+        },
+        {
+          "name": "Fixed Asset ID",
+          "purpose": "hasA",
+          "dataType": "string"
+        },
+        {
+          "name": "Fixed Asset Realized Gain Loss Account",
+          "purpose": "hasA",
+          "dataType": "string"
+        },
+        {
+          "name": "Fixed Asset Realized Gain Loss Amount",
+          "purpose": "hasA",
+          "dataType": "decimal"
+        },
+        {
+          "name": "Fixed Asset Removal Date",
+          "purpose": "hasA",
+          "dataType": "date"
+        },
+        {
+          "name": "Fixed Asset Removal Non Cash Proceeds Amount",
+          "purpose": "hasA",
+          "dataType": "decimal"
+        },
+        {
+          "name": "Fixed Asset Unrealized Gain Loss Account",
+          "purpose": "hasA",
+          "dataType": "string"
+        },
+        {
+          "name": "Fixed Asset Unrealized Gain Loss Amount",
+          "purpose": "hasA",
+          "dataType": "decimal"
+        },
+        {
+          "name": "G L Transaction ID",
+          "purpose": "hasA",
+          "dataType": "string"
+        },
+        {
+          "name": "Last Modified By",
+          "purpose": "hasA",
+          "dataType": "string"
+        },
+        {
+          "name": "Last Modified By Date",
+          "purpose": "hasA",
+          "dataType": "date"
+        },
+        {
+          "name": "Last Modified By Time",
+          "purpose": "hasA",
+          "dataType": "date"
+        },
+        {
+          "name": "Lot Number",
+          "purpose": "hasA",
+          "dataType": "boolean"
+        },
+        {
+          "name": "Removal Type",
+          "purpose": "hasA",
+          "dataType": "string"
+        },
+        {
+          "name": "Serial Number",
+          "purpose": "hasA",
+          "dataType": "boolean"
+        },
+        {
+          "name": "Tax Code",
+          "purpose": "hasA",
+          "dataType": "string"
+        },
+        {
+          "name": "Transaction Fees",
+          "purpose": "hasA",
+          "dataType": "decimal"
+        },
+        {
+          "name": "Unique ID",
+          "purpose": "hasA",
+          "dataType": "string"
+        }
+      ]
+    }
+  ]
+}

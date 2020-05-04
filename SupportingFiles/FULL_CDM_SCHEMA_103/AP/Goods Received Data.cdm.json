@@ -1,0 +1,270 @@
+{
+  "jsonSchemaSemanticVersion": "1.0.0",
+  "imports": [
+    {
+      "corpusPath": "cdm:/foundations.cdm.json"
+    }
+  ],
+  "definitions": [
+    {
+      "entityName": "Goods Received Data",
+      "hasAttributes": [
+        {
+          "name": "Adjustment Amount",
+          "purpose": "hasA",
+          "dataType": "decimal"
+        },
+        {
+          "name": "Adjustment Description",
+          "purpose": "hasA",
+          "dataType": "string"
+        },
+        {
+          "name": "Adjustment Indicator",
+          "purpose": "hasA",
+          "dataType": "string"
+        },
+        {
+          "name": "Approved By",
+          "purpose": "hasA",
+          "dataType": "string"
+        },
+        {
+          "name": "Approved By Date Time",
+          "purpose": "hasA",
+          "dataType": "date"
+        },
+        {
+          "name": "Business Unit Code",
+          "purpose": "hasA",
+          "dataType": "string"
+        },
+        {
+          "name": "Entered By",
+          "purpose": "hasA",
+          "dataType": "string"
+        },
+        {
+          "name": "Entered Date Time",
+          "purpose": "hasA",
+          "dataType": "date"
+        },
+        {
+          "name": "Goods Received Amount",
+          "purpose": "hasA",
+          "dataType": "decimal"
+        },
+        {
+          "name": "Goods Received Currency Amount",
+          "purpose": "hasA",
+          "dataType": "decimal"
+        },
+        {
+          "name": "Goods Received Currency Code",
+          "purpose": "hasA",
+          "dataType": "string"
+        },
+        {
+          "name": "Goods Received Exchange Rate",
+          "purpose": "hasA",
+          "dataType": "decimal"
+        },
+        {
+          "name": "Last Modified By",
+          "purpose": "hasA",
+          "dataType": "string"
+        },
+        {
+          "name": "Last Modified Date Time",
+          "purpose": "hasA",
+          "dataType": "date"
+        },
+        {
+          "name": "Line Adjustment Amount",
+          "purpose": "hasA",
+          "dataType": "decimal"
+        },
+        {
+          "name": "Line Adjustment Description",
+          "purpose": "hasA",
+          "dataType": "string"
+        },
+        {
+          "name": "Line Amount",
+          "purpose": "hasA",
+          "dataType": "decimal"
+        },
+        {
+          "name": "Line Currency Amount",
+          "purpose": "hasA",
+          "dataType": "decimal"
+        },
+        {
+          "name": "Line Currency Code",
+          "purpose": "hasA",
+          "dataType": "string"
+        },
+        {
+          "name": "Line Exchange Rate",
+          "purpose": "hasA",
+          "dataType": "decimal"
+        },
+        {
+          "name": "Line Purchase Order Amount",
+          "purpose": "hasA",
+          "dataType": "decimal"
+        },
+        {
+          "name": "Line Purchase Order Currency Amount",
+          "purpose": "hasA",
+          "dataType": "decimal"
+        },
+        {
+          "name": "Line Purchase Order Currency Code",
+          "purpose": "hasA",
+          "dataType": "string"
+        },
+        {
+          "name": "Line Purchase Order Exchange Rate",
+          "purpose": "hasA",
+          "dataType": "decimal"
+        },
+        {
+          "name": "Line Purchase Order Line ID",
+          "purpose": "hasA",
+          "dataType": "string"
+        },
+        {
+          "name": "Line Purchase Order Quantity",
+          "purpose": "hasA",
+          "dataType": "decimal"
+        },
+        {
+          "name": "Line Purchase Order Unitof Measure",
+          "purpose": "hasA",
+          "dataType": "string"
+        },
+        {
+          "name": "Line Purchase Order Unit Price",
+          "purpose": "hasA",
+          "dataType": "decimal"
+        },
+        {
+          "name": "Line Receipt ID",
+          "purpose": "hasA",
+          "dataType": "string"
+        },
+        {
+          "name": "Line Receipt Document Line ID",
+          "purpose": "hasA",
+          "dataType": "string"
+        },
+        {
+          "name": "Line Receipt Product ID",
+          "purpose": "hasA",
+          "dataType": "string"
+        },
+        {
+          "name": "Line Receipt Product Bar Code",
+          "purpose": "hasA",
+          "dataType": "string"
+        },
+        {
+          "name": "Line Receipt Product Description",
+          "purpose": "hasA",
+          "dataType": "string"
+        },
+        {
+          "name": "Line Receipt Product Group01",
+          "purpose": "hasA",
+          "dataType": "string"
+        },
+        {
+          "name": "Line Receipt Product Group02",
+          "purpose": "hasA",
+          "dataType": "string"
+        },
+        {
+          "name": "Line Receipt Quantity",
+          "purpose": "hasA",
+          "dataType": "decimal"
+        },
+        {
+          "name": "Line Receipt Unitof Measure",
+          "purpose": "hasA",
+          "dataType": "string"
+        },
+        {
+          "name": "Line Receipt Unit Price",
+          "purpose": "hasA",
+          "dataType": "decimal"
+        },
+        {
+          "name": "Posting Status",
+          "purpose": "hasA",
+          "dataType": "string"
+        },
+        {
+          "name": "Purchase Order ID",
+          "purpose": "hasA",
+          "dataType": "decimal"
+        },
+        {
+          "name": "Purchase Order Amount",
+          "purpose": "hasA",
+          "dataType": "decimal"
+        },
+        {
+          "name": "Purchase Order Currency Amount",
+          "purpose": "hasA",
+          "dataType": "string"
+        },
+        {
+          "name": "Purchase Order Currency Code",
+          "purpose": "hasA",
+          "dataType": "decimal"
+        },
+        {
+          "name": "Purchase Order Exchange Rate",
+          "purpose": "hasA",
+          "dataType": "date"
+        },
+        {
+          "name": "Purchase Order Date",
+          "purpose": "hasA",
+          "dataType": "string"
+        },
+        {
+          "name": "Receipt ID",
+          "purpose": "hasA",
+          "dataType": "date"
+        },
+        {
+          "name": "Receipt Date",
+          "purpose": "hasA",
+          "dataType": "string"
+        },
+        {
+          "name": "Receipt Document ID",
+          "purpose": "hasA",
+          "dataType": "date"
+        },
+        {
+          "name": "Receipt Fiscal Year",
+          "purpose": "hasA",
+          "dataType": "string"
+        },
+        {
+          "name": "Receipt Period",
+          "purpose": "hasA",
+          "dataType": "string"
+        },
+        {
+          "name": "Supplier Account ID",
+          "purpose": "hasA",
+          "dataType": "string"
+        }
+      ]
+    }
+  ]
+}

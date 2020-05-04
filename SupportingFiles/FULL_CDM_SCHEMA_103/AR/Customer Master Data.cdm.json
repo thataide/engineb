@@ -1,0 +1,230 @@
+{
+  "jsonSchemaSemanticVersion": "1.0.0",
+  "imports": [
+    {
+      "corpusPath": "cdm:/foundations.cdm.json"
+    }
+  ],
+  "definitions": [
+    {
+      "entityName": "Customer Master Data",
+      "hasAttributes": [
+        {
+          "name": "Account  ID",
+          "purpose": "hasA",
+          "dataType": "string"
+        },
+        {
+          "name": "Address Address Type",
+          "purpose": "hasA",
+          "dataType": "string"
+        },
+        {
+          "name": "Address Building",
+          "purpose": "hasA",
+          "dataType": "string"
+        },
+        {
+          "name": "Address City",
+          "purpose": "hasA",
+          "dataType": "string"
+        },
+        {
+          "name": "Address Country",
+          "purpose": "hasA",
+          "dataType": "string"
+        },
+        {
+          "name": "Address Number",
+          "purpose": "hasA",
+          "dataType": "decimal"
+        },
+        {
+          "name": "Address Postal Code",
+          "purpose": "hasA",
+          "dataType": "string"
+        },
+        {
+          "name": "Address Region",
+          "purpose": "hasA",
+          "dataType": "string"
+        },
+        {
+          "name": "Address Street Name",
+          "purpose": "hasA",
+          "dataType": "string"
+        },
+        {
+          "name": "Bank Account Name",
+          "purpose": "hasA",
+          "dataType": "string"
+        },
+        {
+          "name": "Bank Account Number",
+          "purpose": "hasA",
+          "dataType": "string"
+        },
+        {
+          "name": "Customer ID",
+          "purpose": "hasA",
+          "dataType": "decimal"
+        },
+        {
+          "name": "Customer Credit Limit",
+          "purpose": "hasA",
+          "dataType": "string"
+        },
+        {
+          "name": "E B Company Type",
+          "purpose": "hasA",
+          "dataType": "string"
+        },
+        {
+          "name": "Effective Date",
+          "purpose": "hasA",
+          "dataType": "date"
+        },
+        {
+          "name": "Email",
+          "purpose": "hasA",
+          "dataType": "string"
+        },
+        {
+          "name": "Expiration Date",
+          "purpose": "hasA",
+          "dataType": "date"
+        },
+        {
+          "name": "Fax",
+          "purpose": "hasA",
+          "dataType": "string"
+        },
+        {
+          "name": "First Name",
+          "purpose": "hasA",
+          "dataType": "string"
+        },
+        {
+          "name": "IBAN Number",
+          "purpose": "hasA",
+          "dataType": "string"
+        },
+        {
+          "name": "Last Name",
+          "purpose": "hasA",
+          "dataType": "string"
+        },
+        {
+          "name": "Name",
+          "purpose": "hasA",
+          "dataType": "string"
+        },
+        {
+          "name": "Payment Discount Days",
+          "purpose": "hasA",
+          "dataType": "decimal"
+        },
+        {
+          "name": "Payment Discount Percentage",
+          "purpose": "hasA",
+          "dataType": "decimal"
+        },
+        {
+          "name": "Payment Due Days",
+          "purpose": "hasA",
+          "dataType": "decimal"
+        },
+        {
+          "name": "Registration Number",
+          "purpose": "hasA",
+          "dataType": "string"
+        },
+        {
+          "name": "Self Billing Indicator",
+          "purpose": "hasA",
+          "dataType": "string"
+        },
+        {
+          "name": "Sort Code",
+          "purpose": "hasA",
+          "dataType": "string"
+        },
+        {
+          "name": "System Approved Date Time",
+          "purpose": "hasA",
+          "dataType": "date"
+        },
+        {
+          "name": "System Approved User",
+          "purpose": "hasA",
+          "dataType": "string"
+        },
+        {
+          "name": "System Entry Date Time",
+          "purpose": "hasA",
+          "dataType": "date"
+        },
+        {
+          "name": "System Entry User",
+          "purpose": "hasA",
+          "dataType": "string"
+        },
+        {
+          "name": "System Modified Date Time",
+          "purpose": "hasA",
+          "dataType": "date"
+        },
+        {
+          "name": "System Modified User",
+          "purpose": "hasA",
+          "dataType": "string"
+        },
+        {
+          "name": "Tax Authority",
+          "purpose": "hasA",
+          "dataType": "string"
+        },
+        {
+          "name": "Tax Number",
+          "purpose": "hasA",
+          "dataType": "string"
+        },
+        {
+          "name": "Tax Registration Number",
+          "purpose": "hasA",
+          "dataType": "string"
+        },
+        {
+          "name": "Tax Type",
+          "purpose": "hasA",
+          "dataType": "string"
+        },
+        {
+          "name": "Tax Verification Date",
+          "purpose": "hasA",
+          "dataType": "date"
+        },
+        {
+          "name": "Telephone",
+          "purpose": "hasA",
+          "dataType": "string"
+        },
+        {
+          "name": "Title",
+          "purpose": "hasA",
+          "dataType": "string"
+        },
+        {
+          "name": "Transaction Credit Limit",
+          "purpose": "hasA",
+          "dataType": "decimal"
+        },
+        {
+          "name": "Website",
+          "purpose": "hasA",
+          "dataType": "string"
+        }
+      ]
+    }
+  ]
+}

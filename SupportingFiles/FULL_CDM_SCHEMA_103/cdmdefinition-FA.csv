@@ -1,0 +1,139 @@
+﻿Fixed_Asset_Additions,Addition Type,string
+Fixed_Asset_Additions,Approved By,string
+Fixed_Asset_Additions,Approved By Date,date
+Fixed_Asset_Additions,Approved By Time,date
+Fixed_Asset_Additions,Business Unit Code,string
+Fixed_Asset_Additions,Entered By,string
+Fixed_Asset_Additions,Entered Date,date
+Fixed_Asset_Additions,Entered Time,date
+Fixed_Asset_Additions,Fixed Asset ID,date
+Fixed_Asset_Additions,Fixed Asset Addition Date,string
+Fixed_Asset_Additions,Fixed Asset Unique ID,string
+Fixed_Asset_Additions,G L Transaction ID,string
+Fixed_Asset_Additions,Last Modified By,string
+Fixed_Asset_Additions,Last Modified By Date,date
+Fixed_Asset_Additions,Last Modified By Time,date
+Fixed_Asset_Additions,Placed In Service,boolean
+Fixed_Asset_Additions,Purchase Order ID,date
+Fixed_Asset_Additions,Purchase Order Date,string
+Fixed_Asset_Additions,Purchase Order Raised Date,date
+Fixed_Asset_Additions,Serial Number,boolean
+Fixed_Asset_Additions,Supplier ID,string
+Fixed_Asset_Additions,Supplier Name,string
+Fixed_Asset_Additions,VAT Code,string
+Fixed_Asset_Depreciation,Depreciation For Period,decimal
+Fixed_Asset_Depreciation,Depreciation Rate,decimal
+Fixed_Asset_Depreciation,Approved By,string
+Fixed_Asset_Depreciation,Approved By Date,date
+Fixed_Asset_Depreciation,Approved By Time,date
+Fixed_Asset_Depreciation,Business Unit Code,string
+Fixed_Asset_Depreciation,Depreciation Effective Date,date
+Fixed_Asset_Depreciation,Enteredby,string
+Fixed_Asset_Depreciation,Entered Date,date
+Fixed_Asset_Depreciation,Entered Time,date
+Fixed_Asset_Depreciation,Fixed Asset ID,decimal
+Fixed_Asset_Depreciation,Fixed Asset Depreciable Basis,decimal
+Fixed_Asset_Depreciation,Fixed Asset Depreciation Amount,string
+Fixed_Asset_Depreciation,Fixed Asset Depreciation Method,decimal
+Fixed_Asset_Depreciation,Fixed Asset Fair Value,string
+Fixed_Asset_Depreciation,Fixed Asset Replacement Cost,decimal
+Fixed_Asset_Depreciation,Fixed Asset Salvage Value,decimal
+Fixed_Asset_Depreciation,Fixed Asset Useful Life,decimal
+Fixed_Asset_Depreciation,GL Account,string
+Fixed_Asset_Depreciation,GL Transaction ID,string
+Fixed_Asset_Depreciation,Last Modified By,string
+Fixed_Asset_Depreciation,Last Modified By Date,date
+Fixed_Asset_Depreciation,Last Modified By Time,date
+Fixed_Asset_Depreciation,Lot Number,boolean
+Fixed_Asset_Depreciation,Serial Number,boolean
+Fixed_Asset_Depreciation,Unique ID,string
+Fixed_Asset_Master_File,Depreciation Rate,decimal
+Fixed_Asset_Master_File,Fixed Asset ID,decimal
+Fixed_Asset_Master_File,Fixed Asset Accumulated Depreciation Account,date
+Fixed_Asset_Master_File,Fixed Asset CIP Flag,string
+Fixed_Asset_Master_File,Fixed Asset Code,decimal
+Fixed_Asset_Master_File,Fixed Asset Depreciation Account,string
+Fixed_Asset_Master_File,Fixed Asset Description,date
+Fixed_Asset_Master_File,Fixed Asset Fair Value,string
+Fixed_Asset_Master_File,Fixed Asset Net Book Value,decimal
+Fixed_Asset_Master_File,Fixed Asset Original Cost,decimal
+Fixed_Asset_Master_File,Business Unit Code,string
+Fixed_Asset_Master_File,Currency ID,string
+Fixed_Asset_Master_File,Fixed Asset Accumulated Depreciation,string
+Fixed_Asset_Master_File,Fixed Asset Acquisition Date,string
+Fixed_Asset_Master_File,Fixed Asset Asset Account,date
+Fixed_Asset_Master_File,Fixed Asset Availablefor Sale Date,string
+Fixed_Asset_Master_File,Fixed Asset Bar Code,string
+Fixed_Asset_Master_File,Fixed Asset CIP Account,boolean
+Fixed_Asset_Master_File,Fixed Asset Class,string
+Fixed_Asset_Master_File,Fixed Asset Depreciable Basis,string
+Fixed_Asset_Master_File,Fixed Asset Disposal Date,decimal
+Fixed_Asset_Master_File,Fixed Asset Inactive Flag,boolean
+Fixed_Asset_Master_File,Fixed Asset In Service Date,date
+Fixed_Asset_Master_File,Fixed Asset Quantity On Hand,decimal
+Fixed_Asset_Master_File,Fixed Asset Replacement Cost,decimal
+Fixed_Asset_Master_File,Fixed Asset Retirement Date,date
+Fixed_Asset_Master_File,Fixed Assettobe Abandonedor Disposedof Otherthanbyfor Sale Date,date
+Fixed_Asset_Master_File,Fixed Asset Unrealized Gain Loss Account,string
+Fixed_Asset_Master_File,Fixed Asset Useful Life Remaining,decimal
+Fixed_Asset_Master_File,Location ID,string
+Fixed_Asset_Master_File,Location Code,string
+Fixed_Asset_Master_File,Location Description,string
+Fixed_Asset_Master_File,Lot Number,boolean
+Fixed_Asset_Master_File,Manufacturer ID,string
+Fixed_Asset_Master_File,Project ID,string
+Fixed_Asset_Master_File,Serial Number,boolean
+Fixed_Asset_Master_File,Supplier Name,string
+Fixed_Asset_Master_File,Vendor ID,string
+Fixed_Asset_Removals,Fixed Asset Removal Cash Proceeds Amount,decimal
+Fixed_Asset_Removals,Acquirer ID,string
+Fixed_Asset_Removals,Approved By,string
+Fixed_Asset_Removals,Approved By Date,date
+Fixed_Asset_Removals,Approved By Time,date
+Fixed_Asset_Removals,Business Unit Code,string
+Fixed_Asset_Removals,Enteredby,string
+Fixed_Asset_Removals,Entered Date,date
+Fixed_Asset_Removals,Entered Time,date
+Fixed_Asset_Removals,Fixed Asset ID,string
+Fixed_Asset_Removals,Fixed Asset Realized Gain Loss Account,string
+Fixed_Asset_Removals,Fixed Asset Realized Gain Loss Amount,decimal
+Fixed_Asset_Removals,Fixed Asset Removal Date,date
+Fixed_Asset_Removals,Fixed Asset Removal Non Cash Proceeds Amount,decimal
+Fixed_Asset_Removals,Fixed Asset Unrealized Gain Loss Account,string
+Fixed_Asset_Removals,Fixed Asset Unrealized Gain Loss Amount,decimal
+Fixed_Asset_Removals,G L Transaction ID,string
+Fixed_Asset_Removals,Last Modified By,string
+Fixed_Asset_Removals,Last Modified By Date,date
+Fixed_Asset_Removals,Last Modified By Time,date
+Fixed_Asset_Removals,Lot Number,boolean
+Fixed_Asset_Removals,Removal Type,string
+Fixed_Asset_Removals,Serial Number,boolean
+Fixed_Asset_Removals,Tax Code,string
+Fixed_Asset_Removals,Transaction Fees,decimal
+Fixed_Asset_Removals,Unique ID,string
+Fixed_Asset_Valuation,Approved By,string
+Fixed_Asset_Valuation,Approved By Date,date
+Fixed_Asset_Valuation,Approved By Time,date
+Fixed_Asset_Valuation,Business Unit Code,string
+Fixed_Asset_Valuation,Enteredby,string
+Fixed_Asset_Valuation,Entered Date,date
+Fixed_Asset_Valuation,Entered Time,date
+Fixed_Asset_Valuation,Fixed Asset ID,string
+Fixed_Asset_Valuation,Fixed Asset Realized Gain Loss Account,string
+Fixed_Asset_Valuation,Fixed Asset Realized Gain Loss Amount,decimal
+Fixed_Asset_Valuation,Fixed Asset Unrealized Gain Loss Account,string
+Fixed_Asset_Valuation,Fixed Asset Unrealized Gain Loss Amount,decimal
+Fixed_Asset_Valuation,G L Account,string
+Fixed_Asset_Valuation,GL Transaction ID,string
+Fixed_Asset_Valuation,Last Modified By,string
+Fixed_Asset_Valuation,Last Modified By Date,date
+Fixed_Asset_Valuation,Last Modified By Time,date
+Fixed_Asset_Valuation,Lot Number,boolean
+Fixed_Asset_Valuation,Revaluation Amount,decimal
+Fixed_Asset_Valuation,Revaluation Date,date
+Fixed_Asset_Valuation,Revaluation Description,string
+Fixed_Asset_Valuation,Serial Number,boolean
+Fixed_Asset_Valuation,Unique ID,string
+Fixed_Asset_Valuation,Valuer ID,string
+Fixed_Asset_Valuation,Valuer Documnet Reference,string
+Fixed_Asset_Valuation,Valuer Name,string

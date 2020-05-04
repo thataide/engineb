@@ -1,0 +1,479 @@
+{
+  "jsonSchemaSemanticVersion": "1.0.0",
+  "imports": [
+    {
+      "corpusPath": "/InventoryTransactionDetail.cdm.json",
+      "moniker": "resolvedFrom"
+    }
+  ],
+  "definitions": [
+    {
+      "entityName": "InventoryTransactionDetail",
+      "attributeContext": {
+        "type": "entity",
+        "name": "InventoryTransactionDetail",
+        "definition": "resolvedFrom/InventoryTransactionDetail",
+        "contents": [
+          {
+            "type": "attributeDefinition",
+            "name": "Inventory Transaction Book Value",
+            "parent": "InventoryTransactionDetail/attributeContext/InventoryTransactionDetail",
+            "definition": "resolvedFrom/InventoryTransactionDetail/hasAttributes/Inventory Transaction Book Value",
+            "contents": [
+              "InventoryTransactionDetail/hasAttributes/Inventory Transaction Book Value"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Inventory Transaction Customer ID",
+            "parent": "InventoryTransactionDetail/attributeContext/InventoryTransactionDetail",
+            "definition": "resolvedFrom/InventoryTransactionDetail/hasAttributes/Inventory Transaction Customer ID",
+            "contents": [
+              "InventoryTransactionDetail/hasAttributes/Inventory Transaction Customer ID"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Inventory Transaction Document Line",
+            "parent": "InventoryTransactionDetail/attributeContext/InventoryTransactionDetail",
+            "definition": "resolvedFrom/InventoryTransactionDetail/hasAttributes/Inventory Transaction Document Line",
+            "contents": [
+              "InventoryTransactionDetail/hasAttributes/Inventory Transaction Document Line"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Inventory Transaction Document Number",
+            "parent": "InventoryTransactionDetail/attributeContext/InventoryTransactionDetail",
+            "definition": "resolvedFrom/InventoryTransactionDetail/hasAttributes/Inventory Transaction Document Number",
+            "contents": [
+              "InventoryTransactionDetail/hasAttributes/Inventory Transaction Document Number"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Inventory Transaction Document Type",
+            "parent": "InventoryTransactionDetail/attributeContext/InventoryTransactionDetail",
+            "definition": "resolvedFrom/InventoryTransactionDetail/hasAttributes/Inventory Transaction Document Type",
+            "contents": [
+              "InventoryTransactionDetail/hasAttributes/Inventory Transaction Document Type"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Inventory Transaction GL Line Credit Account Number",
+            "parent": "InventoryTransactionDetail/attributeContext/InventoryTransactionDetail",
+            "definition": "resolvedFrom/InventoryTransactionDetail/hasAttributes/Inventory Transaction GL Line Credit Account Number",
+            "contents": [
+              "InventoryTransactionDetail/hasAttributes/Inventory Transaction GL Line Credit Account Number"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Inventory Transaction GL Line Debit Account Number",
+            "parent": "InventoryTransactionDetail/attributeContext/InventoryTransactionDetail",
+            "definition": "resolvedFrom/InventoryTransactionDetail/hasAttributes/Inventory Transaction GL Line Debit Account Number",
+            "contents": [
+              "InventoryTransactionDetail/hasAttributes/Inventory Transaction GL Line Debit Account Number"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Inventory Transaction Inventory From Location",
+            "parent": "InventoryTransactionDetail/attributeContext/InventoryTransactionDetail",
+            "definition": "resolvedFrom/InventoryTransactionDetail/hasAttributes/Inventory Transaction Inventory From Location",
+            "contents": [
+              "InventoryTransactionDetail/hasAttributes/Inventory Transaction Inventory From Location"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Inventory Transaction Inventory Product ID",
+            "parent": "InventoryTransactionDetail/attributeContext/InventoryTransactionDetail",
+            "definition": "resolvedFrom/InventoryTransactionDetail/hasAttributes/Inventory Transaction Inventory Product ID",
+            "contents": [
+              "InventoryTransactionDetail/hasAttributes/Inventory Transaction Inventory Product ID"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Inventory Transaction Inventory To Location",
+            "parent": "InventoryTransactionDetail/attributeContext/InventoryTransactionDetail",
+            "definition": "resolvedFrom/InventoryTransactionDetail/hasAttributes/Inventory Transaction Inventory To Location",
+            "contents": [
+              "InventoryTransactionDetail/hasAttributes/Inventory Transaction Inventory To Location"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Inventory Transaction Line Number",
+            "parent": "InventoryTransactionDetail/attributeContext/InventoryTransactionDetail",
+            "definition": "resolvedFrom/InventoryTransactionDetail/hasAttributes/Inventory Transaction Line Number",
+            "contents": [
+              "InventoryTransactionDetail/hasAttributes/Inventory Transaction Line Number"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Inventory Transaction Lot Number",
+            "parent": "InventoryTransactionDetail/attributeContext/InventoryTransactionDetail",
+            "definition": "resolvedFrom/InventoryTransactionDetail/hasAttributes/Inventory Transaction Lot Number",
+            "contents": [
+              "InventoryTransactionDetail/hasAttributes/Inventory Transaction Lot Number"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Inventory Transaction Serial Number",
+            "parent": "InventoryTransactionDetail/attributeContext/InventoryTransactionDetail",
+            "definition": "resolvedFrom/InventoryTransactionDetail/hasAttributes/Inventory Transaction Serial Number",
+            "contents": [
+              "InventoryTransactionDetail/hasAttributes/Inventory Transaction Serial Number"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Inventory Transaction Supplier ID",
+            "parent": "InventoryTransactionDetail/attributeContext/InventoryTransactionDetail",
+            "definition": "resolvedFrom/InventoryTransactionDetail/hasAttributes/Inventory Transaction Supplier ID",
+            "contents": [
+              "InventoryTransactionDetail/hasAttributes/Inventory Transaction Supplier ID"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Inventory Transaction Tax Information",
+            "parent": "InventoryTransactionDetail/attributeContext/InventoryTransactionDetail",
+            "definition": "resolvedFrom/InventoryTransactionDetail/hasAttributes/Inventory Transaction Tax Information",
+            "contents": [
+              "InventoryTransactionDetail/hasAttributes/Inventory Transaction Tax Information"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Inventory Transaction Transaction ID",
+            "parent": "InventoryTransactionDetail/attributeContext/InventoryTransactionDetail",
+            "definition": "resolvedFrom/InventoryTransactionDetail/hasAttributes/Inventory Transaction Transaction ID",
+            "contents": [
+              "InventoryTransactionDetail/hasAttributes/Inventory Transaction Transaction ID"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Inventory Transaction Transaction Associated Order ID",
+            "parent": "InventoryTransactionDetail/attributeContext/InventoryTransactionDetail",
+            "definition": "resolvedFrom/InventoryTransactionDetail/hasAttributes/Inventory Transaction Transaction Associated Order ID",
+            "contents": [
+              "InventoryTransactionDetail/hasAttributes/Inventory Transaction Transaction Associated Order ID"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Inventory Transaction Transaction Associated Order Line ID",
+            "parent": "InventoryTransactionDetail/attributeContext/InventoryTransactionDetail",
+            "definition": "resolvedFrom/InventoryTransactionDetail/hasAttributes/Inventory Transaction Transaction Associated Order Line ID",
+            "contents": [
+              "InventoryTransactionDetail/hasAttributes/Inventory Transaction Transaction Associated Order Line ID"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Inventory Transaction Transaction Cost Adjustment",
+            "parent": "InventoryTransactionDetail/attributeContext/InventoryTransactionDetail",
+            "definition": "resolvedFrom/InventoryTransactionDetail/hasAttributes/Inventory Transaction Transaction Cost Adjustment",
+            "contents": [
+              "InventoryTransactionDetail/hasAttributes/Inventory Transaction Transaction Cost Adjustment"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Inventory Transaction Transaction Description",
+            "parent": "InventoryTransactionDetail/attributeContext/InventoryTransactionDetail",
+            "definition": "resolvedFrom/InventoryTransactionDetail/hasAttributes/Inventory Transaction Transaction Description",
+            "contents": [
+              "InventoryTransactionDetail/hasAttributes/Inventory Transaction Transaction Description"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Inventory Transaction Transaction Quantity",
+            "parent": "InventoryTransactionDetail/attributeContext/InventoryTransactionDetail",
+            "definition": "resolvedFrom/InventoryTransactionDetail/hasAttributes/Inventory Transaction Transaction Quantity",
+            "contents": [
+              "InventoryTransactionDetail/hasAttributes/Inventory Transaction Transaction Quantity"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Inventory Transaction Unit Of Measure",
+            "parent": "InventoryTransactionDetail/attributeContext/InventoryTransactionDetail",
+            "definition": "resolvedFrom/InventoryTransactionDetail/hasAttributes/Inventory Transaction Unit Of Measure",
+            "contents": [
+              "InventoryTransactionDetail/hasAttributes/Inventory Transaction Unit Of Measure"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Inventory Transaction Unit Price",
+            "parent": "InventoryTransactionDetail/attributeContext/InventoryTransactionDetail",
+            "definition": "resolvedFrom/InventoryTransactionDetail/hasAttributes/Inventory Transaction Unit Price",
+            "contents": [
+              "InventoryTransactionDetail/hasAttributes/Inventory Transaction Unit Price"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Inventory Transaction UOM To UOM Base Conversion Factor",
+            "parent": "InventoryTransactionDetail/attributeContext/InventoryTransactionDetail",
+            "definition": "resolvedFrom/InventoryTransactionDetail/hasAttributes/Inventory Transaction UOM To UOM Base Conversion Factor",
+            "contents": [
+              "InventoryTransactionDetail/hasAttributes/Inventory Transaction UOM To UOM Base Conversion Factor"
+            ]
+          }
+        ]
+      },
+      "hasAttributes": [
+        {
+          "name": "Inventory Transaction Book Value",
+          "appliedTraits": [
+            {
+              "traitReference": "is.dataFormat.numeric.shaped"
+            }
+          ],
+          "attributeContext": "InventoryTransactionDetail/attributeContext/InventoryTransactionDetail/Inventory Transaction Book Value",
+          "dataFormat": "Decimal"
+        },
+        {
+          "name": "Inventory Transaction Customer ID",
+          "appliedTraits": [
+            "is.dataFormat.character",
+            "is.dataFormat.big",
+            "is.dataFormat.array"
+          ],
+          "attributeContext": "InventoryTransactionDetail/attributeContext/InventoryTransactionDetail/Inventory Transaction Customer ID",
+          "dataFormat": "String"
+        },
+        {
+          "name": "Inventory Transaction Document Line",
+          "appliedTraits": [
+            "is.dataFormat.character",
+            "is.dataFormat.big",
+            "is.dataFormat.array"
+          ],
+          "attributeContext": "InventoryTransactionDetail/attributeContext/InventoryTransactionDetail/Inventory Transaction Document Line",
+          "dataFormat": "String"
+        },
+        {
+          "name": "Inventory Transaction Document Number",
+          "appliedTraits": [
+            "is.dataFormat.character",
+            "is.dataFormat.big",
+            "is.dataFormat.array"
+          ],
+          "attributeContext": "InventoryTransactionDetail/attributeContext/InventoryTransactionDetail/Inventory Transaction Document Number",
+          "dataFormat": "String"
+        },
+        {
+          "name": "Inventory Transaction Document Type",
+          "appliedTraits": [
+            "is.dataFormat.character",
+            "is.dataFormat.big",
+            "is.dataFormat.array"
+          ],
+          "attributeContext": "InventoryTransactionDetail/attributeContext/InventoryTransactionDetail/Inventory Transaction Document Type",
+          "dataFormat": "String"
+        },
+        {
+          "name": "Inventory Transaction GL Line Credit Account Number",
+          "appliedTraits": [
+            "is.dataFormat.character",
+            "is.dataFormat.big",
+            "is.dataFormat.array"
+          ],
+          "attributeContext": "InventoryTransactionDetail/attributeContext/InventoryTransactionDetail/Inventory Transaction GL Line Credit Account Number",
+          "dataFormat": "String"
+        },
+        {
+          "name": "Inventory Transaction GL Line Debit Account Number",
+          "appliedTraits": [
+            "is.dataFormat.character",
+            "is.dataFormat.big",
+            "is.dataFormat.array"
+          ],
+          "attributeContext": "InventoryTransactionDetail/attributeContext/InventoryTransactionDetail/Inventory Transaction GL Line Debit Account Number",
+          "dataFormat": "String"
+        },
+        {
+          "name": "Inventory Transaction Inventory From Location",
+          "appliedTraits": [
+            "is.dataFormat.character",
+            "is.dataFormat.big",
+            "is.dataFormat.array"
+          ],
+          "attributeContext": "InventoryTransactionDetail/attributeContext/InventoryTransactionDetail/Inventory Transaction Inventory From Location",
+          "dataFormat": "String"
+        },
+        {
+          "name": "Inventory Transaction Inventory Product ID",
+          "appliedTraits": [
+            "is.dataFormat.character",
+            "is.dataFormat.big",
+            "is.dataFormat.array"
+          ],
+          "attributeContext": "InventoryTransactionDetail/attributeContext/InventoryTransactionDetail/Inventory Transaction Inventory Product ID",
+          "dataFormat": "String"
+        },
+        {
+          "name": "Inventory Transaction Inventory To Location",
+          "appliedTraits": [
+            "is.dataFormat.character",
+            "is.dataFormat.big",
+            "is.dataFormat.array"
+          ],
+          "attributeContext": "InventoryTransactionDetail/attributeContext/InventoryTransactionDetail/Inventory Transaction Inventory To Location",
+          "dataFormat": "String"
+        },
+        {
+          "name": "Inventory Transaction Line Number",
+          "appliedTraits": [
+            {
+              "traitReference": "is.dataFormat.numeric.shaped"
+            }
+          ],
+          "attributeContext": "InventoryTransactionDetail/attributeContext/InventoryTransactionDetail/Inventory Transaction Line Number",
+          "dataFormat": "Decimal"
+        },
+        {
+          "name": "Inventory Transaction Lot Number",
+          "appliedTraits": [
+            "is.dataFormat.character",
+            "is.dataFormat.big",
+            "is.dataFormat.array"
+          ],
+          "attributeContext": "InventoryTransactionDetail/attributeContext/InventoryTransactionDetail/Inventory Transaction Lot Number",
+          "dataFormat": "String"
+        },
+        {
+          "name": "Inventory Transaction Serial Number",
+          "appliedTraits": [
+            "is.dataFormat.character",
+            "is.dataFormat.big",
+            "is.dataFormat.array"
+          ],
+          "attributeContext": "InventoryTransactionDetail/attributeContext/InventoryTransactionDetail/Inventory Transaction Serial Number",
+          "dataFormat": "String"
+        },
+        {
+          "name": "Inventory Transaction Supplier ID",
+          "appliedTraits": [
+            "is.dataFormat.character",
+            "is.dataFormat.big",
+            "is.dataFormat.array"
+          ],
+          "attributeContext": "InventoryTransactionDetail/attributeContext/InventoryTransactionDetail/Inventory Transaction Supplier ID",
+          "dataFormat": "String"
+        },
+        {
+          "name": "Inventory Transaction Tax Information",
+          "appliedTraits": [
+            "is.dataFormat.character",
+            "is.dataFormat.big",
+            "is.dataFormat.array"
+          ],
+          "attributeContext": "InventoryTransactionDetail/attributeContext/InventoryTransactionDetail/Inventory Transaction Tax Information",
+          "dataFormat": "String"
+        },
+        {
+          "name": "Inventory Transaction Transaction ID",
+          "appliedTraits": [
+            "is.dataFormat.character",
+            "is.dataFormat.big",
+            "is.dataFormat.array"
+          ],
+          "attributeContext": "InventoryTransactionDetail/attributeContext/InventoryTransactionDetail/Inventory Transaction Transaction ID",
+          "dataFormat": "String"
+        },
+        {
+          "name": "Inventory Transaction Transaction Associated Order ID",
+          "appliedTraits": [
+            "is.dataFormat.character",
+            "is.dataFormat.big",
+            "is.dataFormat.array"
+          ],
+          "attributeContext": "InventoryTransactionDetail/attributeContext/InventoryTransactionDetail/Inventory Transaction Transaction Associated Order ID",
+          "dataFormat": "String"
+        },
+        {
+          "name": "Inventory Transaction Transaction Associated Order Line ID",
+          "appliedTraits": [
+            {
+              "traitReference": "is.dataFormat.numeric.shaped"
+            }
+          ],
+          "attributeContext": "InventoryTransactionDetail/attributeContext/InventoryTransactionDetail/Inventory Transaction Transaction Associated Order Line ID",
+          "dataFormat": "Decimal"
+        },
+        {
+          "name": "Inventory Transaction Transaction Cost Adjustment",
+          "appliedTraits": [
+            "is.dataFormat.character",
+            "is.dataFormat.big",
+            "is.dataFormat.array"
+          ],
+          "attributeContext": "InventoryTransactionDetail/attributeContext/InventoryTransactionDetail/Inventory Transaction Transaction Cost Adjustment",
+          "dataFormat": "String"
+        },
+        {
+          "name": "Inventory Transaction Transaction Description",
+          "appliedTraits": [
+            "is.dataFormat.character",
+            "is.dataFormat.big",
+            "is.dataFormat.array"
+          ],
+          "attributeContext": "InventoryTransactionDetail/attributeContext/InventoryTransactionDetail/Inventory Transaction Transaction Description",
+          "dataFormat": "String"
+        },
+        {
+          "name": "Inventory Transaction Transaction Quantity",
+          "appliedTraits": [
+            {
+              "traitReference": "is.dataFormat.numeric.shaped"
+            }
+          ],
+          "attributeContext": "InventoryTransactionDetail/attributeContext/InventoryTransactionDetail/Inventory Transaction Transaction Quantity",
+          "dataFormat": "Decimal"
+        },
+        {
+          "name": "Inventory Transaction Unit Of Measure",
+          "appliedTraits": [
+            "is.dataFormat.character",
+            "is.dataFormat.big",
+            "is.dataFormat.array"
+          ],
+          "attributeContext": "InventoryTransactionDetail/attributeContext/InventoryTransactionDetail/Inventory Transaction Unit Of Measure",
+          "dataFormat": "String"
+        },
+        {
+          "name": "Inventory Transaction Unit Price",
+          "appliedTraits": [
+            {
+              "traitReference": "is.dataFormat.numeric.shaped"
+            }
+          ],
+          "attributeContext": "InventoryTransactionDetail/attributeContext/InventoryTransactionDetail/Inventory Transaction Unit Price",
+          "dataFormat": "Decimal"
+        },
+        {
+          "name": "Inventory Transaction UOM To UOM Base Conversion Factor",
+          "appliedTraits": [
+            {
+              "traitReference": "is.dataFormat.numeric.shaped"
+            }
+          ],
+          "attributeContext": "InventoryTransactionDetail/attributeContext/InventoryTransactionDetail/Inventory Transaction UOM To UOM Base Conversion Factor",
+          "dataFormat": "Decimal"
+        }
+      ]
+    }
+  ]
+}

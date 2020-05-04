@@ -1,0 +1,205 @@
+{
+  "jsonSchemaSemanticVersion": "1.0.0",
+  "imports": [
+    {
+      "corpusPath": "cdm:/foundations.cdm.json"
+    }
+  ],
+  "definitions": [
+    {
+      "entityName": "Fixed_Asset_Master_File",
+      "hasAttributes": [
+        {
+          "name": "Depreciation Rate",
+          "purpose": "hasA",
+          "dataType": "decimal"
+        },
+        {
+          "name": "Fixed Asset ID",
+          "purpose": "hasA",
+          "dataType": "decimal"
+        },
+        {
+          "name": "Fixed Asset Accumulated Depreciation Account",
+          "purpose": "hasA",
+          "dataType": "date"
+        },
+        {
+          "name": "Fixed Asset CIP Flag",
+          "purpose": "hasA",
+          "dataType": "string"
+        },
+        {
+          "name": "Fixed Asset Code",
+          "purpose": "hasA",
+          "dataType": "decimal"
+        },
+        {
+          "name": "Fixed Asset Depreciation Account",
+          "purpose": "hasA",
+          "dataType": "string"
+        },
+        {
+          "name": "Fixed Asset Description",
+          "purpose": "hasA",
+          "dataType": "date"
+        },
+        {
+          "name": "Fixed Asset Fair Value",
+          "purpose": "hasA",
+          "dataType": "string"
+        },
+        {
+          "name": "Fixed Asset Net Book Value",
+          "purpose": "hasA",
+          "dataType": "decimal"
+        },
+        {
+          "name": "Fixed Asset Original Cost",
+          "purpose": "hasA",
+          "dataType": "decimal"
+        },
+        {
+          "name": "Business Unit Code",
+          "purpose": "hasA",
+          "dataType": "string"
+        },
+        {
+          "name": "Currency ID",
+          "purpose": "hasA",
+          "dataType": "string"
+        },
+        {
+          "name": "Fixed Asset Accumulated Depreciation",
+          "purpose": "hasA",
+          "dataType": "string"
+        },
+        {
+          "name": "Fixed Asset Acquisition Date",
+          "purpose": "hasA",
+          "dataType": "string"
+        },
+        {
+          "name": "Fixed Asset Asset Account",
+          "purpose": "hasA",
+          "dataType": "date"
+        },
+        {
+          "name": "Fixed Asset Availablefor Sale Date",
+          "purpose": "hasA",
+          "dataType": "string"
+        },
+        {
+          "name": "Fixed Asset Bar Code",
+          "purpose": "hasA",
+          "dataType": "string"
+        },
+        {
+          "name": "Fixed Asset CIP Account",
+          "purpose": "hasA",
+          "dataType": "boolean"
+        },
+        {
+          "name": "Fixed Asset Class",
+          "purpose": "hasA",
+          "dataType": "string"
+        },
+        {
+          "name": "Fixed Asset Depreciable Basis",
+          "purpose": "hasA",
+          "dataType": "string"
+        },
+        {
+          "name": "Fixed Asset Disposal Date",
+          "purpose": "hasA",
+          "dataType": "decimal"
+        },
+        {
+          "name": "Fixed Asset Inactive Flag",
+          "purpose": "hasA",
+          "dataType": "boolean"
+        },
+        {
+          "name": "Fixed Asset In Service Date",
+          "purpose": "hasA",
+          "dataType": "date"
+        },
+        {
+          "name": "Fixed Asset Quantity On Hand",
+          "purpose": "hasA",
+          "dataType": "decimal"
+        },
+        {
+          "name": "Fixed Asset Replacement Cost",
+          "purpose": "hasA",
+          "dataType": "decimal"
+        },
+        {
+          "name": "Fixed Asset Retirement Date",
+          "purpose": "hasA",
+          "dataType": "date"
+        },
+        {
+          "name": "Fixed Assettobe Abandonedor Disposedof Otherthanbyfor Sale Date",
+          "purpose": "hasA",
+          "dataType": "date"
+        },
+        {
+          "name": "Fixed Asset Unrealized Gain Loss Account",
+          "purpose": "hasA",
+          "dataType": "string"
+        },
+        {
+          "name": "Fixed Asset Useful Life Remaining",
+          "purpose": "hasA",
+          "dataType": "decimal"
+        },
+        {
+          "name": "Location ID",
+          "purpose": "hasA",
+          "dataType": "string"
+        },
+        {
+          "name": "Location Code",
+          "purpose": "hasA",
+          "dataType": "string"
+        },
+        {
+          "name": "Location Description",
+          "purpose": "hasA",
+          "dataType": "string"
+        },
+        {
+          "name": "Lot Number",
+          "purpose": "hasA",
+          "dataType": "boolean"
+        },
+        {
+          "name": "Manufacturer ID",
+          "purpose": "hasA",
+          "dataType": "string"
+        },
+        {
+          "name": "Project ID",
+          "purpose": "hasA",
+          "dataType": "string"
+        },
+        {
+          "name": "Serial Number",
+          "purpose": "hasA",
+          "dataType": "boolean"
+        },
+        {
+          "name": "Supplier Name",
+          "purpose": "hasA",
+          "dataType": "string"
+        },
+        {
+          "name": "Vendor ID",
+          "purpose": "hasA",
+          "dataType": "string"
+        }
+      ]
+    }
+  ]
+}

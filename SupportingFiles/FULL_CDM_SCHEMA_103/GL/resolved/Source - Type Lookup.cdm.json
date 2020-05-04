@@ -1,0 +1,137 @@
+{
+  "jsonSchemaSemanticVersion": "1.0.0",
+  "imports": [
+    {
+      "corpusPath": "/Source - Type Lookup.cdm.json",
+      "moniker": "resolvedFrom"
+    }
+  ],
+  "definitions": [
+    {
+      "entityName": "Source - Type Lookup",
+      "attributeContext": {
+        "type": "entity",
+        "name": "Source - Type Lookup",
+        "definition": "resolvedFrom/Source - Type Lookup",
+        "contents": [
+          {
+            "type": "attributeDefinition",
+            "name": "Business Process Major",
+            "parent": "Source - Type Lookup/attributeContext/Source - Type Lookup",
+            "definition": "resolvedFrom/Source - Type Lookup/hasAttributes/Business Process Major",
+            "contents": [
+              "Source - Type Lookup/hasAttributes/Business Process Major"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Business Process Minor",
+            "parent": "Source - Type Lookup/attributeContext/Source - Type Lookup",
+            "definition": "resolvedFrom/Source - Type Lookup/hasAttributes/Business Process Minor",
+            "contents": [
+              "Source - Type Lookup/hasAttributes/Business Process Minor"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "ERP Subledger Module",
+            "parent": "Source - Type Lookup/attributeContext/Source - Type Lookup",
+            "definition": "resolvedFrom/Source - Type Lookup/hasAttributes/ERP Subledger Module",
+            "contents": [
+              "Source - Type Lookup/hasAttributes/ERP Subledger Module"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Source",
+            "parent": "Source - Type Lookup/attributeContext/Source - Type Lookup",
+            "definition": "resolvedFrom/Source - Type Lookup/hasAttributes/Source",
+            "contents": [
+              "Source - Type Lookup/hasAttributes/Source"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Source Description",
+            "parent": "Source - Type Lookup/attributeContext/Source - Type Lookup",
+            "definition": "resolvedFrom/Source - Type Lookup/hasAttributes/Source Description",
+            "contents": [
+              "Source - Type Lookup/hasAttributes/Source Description"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "System Manual IDentifier",
+            "parent": "Source - Type Lookup/attributeContext/Source - Type Lookup",
+            "definition": "resolvedFrom/Source - Type Lookup/hasAttributes/System Manual IDentifier",
+            "contents": [
+              "Source - Type Lookup/hasAttributes/System Manual IDentifier"
+            ]
+          }
+        ]
+      },
+      "hasAttributes": [
+        {
+          "name": "Business Process Major",
+          "appliedTraits": [
+            "is.dataFormat.character",
+            "is.dataFormat.big",
+            "is.dataFormat.array"
+          ],
+          "attributeContext": "Source - Type Lookup/attributeContext/Source - Type Lookup/Business Process Major",
+          "dataFormat": "String"
+        },
+        {
+          "name": "Business Process Minor",
+          "appliedTraits": [
+            "is.dataFormat.character",
+            "is.dataFormat.big",
+            "is.dataFormat.array"
+          ],
+          "attributeContext": "Source - Type Lookup/attributeContext/Source - Type Lookup/Business Process Minor",
+          "dataFormat": "String"
+        },
+        {
+          "name": "ERP Subledger Module",
+          "appliedTraits": [
+            "is.dataFormat.character",
+            "is.dataFormat.big",
+            "is.dataFormat.array"
+          ],
+          "attributeContext": "Source - Type Lookup/attributeContext/Source - Type Lookup/ERP Subledger Module",
+          "dataFormat": "String"
+        },
+        {
+          "name": "Source",
+          "appliedTraits": [
+            "is.dataFormat.character",
+            "is.dataFormat.big",
+            "is.dataFormat.array"
+          ],
+          "attributeContext": "Source - Type Lookup/attributeContext/Source - Type Lookup/Source",
+          "dataFormat": "String"
+        },
+        {
+          "name": "Source Description",
+          "appliedTraits": [
+            "is.dataFormat.character",
+            "is.dataFormat.big",
+            "is.dataFormat.array"
+          ],
+          "attributeContext": "Source - Type Lookup/attributeContext/Source - Type Lookup/Source Description",
+          "dataFormat": "String"
+        },
+        {
+          "name": "System Manual IDentifier",
+          "appliedTraits": [
+            "is.dataFormat.character",
+            "is.dataFormat.big",
+            "is.dataFormat.array"
+          ],
+          "attributeContext": "Source - Type Lookup/attributeContext/Source - Type Lookup/System Manual IDentifier",
+          "dataFormat": "String"
+        }
+      ]
+    }
+  ]
+}

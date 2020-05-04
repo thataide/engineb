@@ -1,0 +1,118 @@
+{
+  "jsonSchemaSemanticVersion": "1.0.0",
+  "imports": [
+    {
+      "corpusPath": "/Customer Master Quality Totals.cdm.json",
+      "moniker": "resolvedFrom"
+    }
+  ],
+  "definitions": [
+    {
+      "entityName": "Customer Master Quality Totals",
+      "attributeContext": {
+        "type": "entity",
+        "name": "Customer Master Quality Totals",
+        "definition": "resolvedFrom/Customer Master Quality Totals",
+        "contents": [
+          {
+            "type": "attributeDefinition",
+            "name": "Closing Credit Balance",
+            "parent": "Customer Master Quality Totals/attributeContext/Customer Master Quality Totals",
+            "definition": "resolvedFrom/Customer Master Quality Totals/hasAttributes/Closing Credit Balance",
+            "contents": [
+              "Customer Master Quality Totals/hasAttributes/Closing Credit Balance"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Closing Debit Balance",
+            "parent": "Customer Master Quality Totals/attributeContext/Customer Master Quality Totals",
+            "definition": "resolvedFrom/Customer Master Quality Totals/hasAttributes/Closing Debit Balance",
+            "contents": [
+              "Customer Master Quality Totals/hasAttributes/Closing Debit Balance"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Customer ID",
+            "parent": "Customer Master Quality Totals/attributeContext/Customer Master Quality Totals",
+            "definition": "resolvedFrom/Customer Master Quality Totals/hasAttributes/Customer ID",
+            "contents": [
+              "Customer Master Quality Totals/hasAttributes/Customer ID"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Opening Credit Balance",
+            "parent": "Customer Master Quality Totals/attributeContext/Customer Master Quality Totals",
+            "definition": "resolvedFrom/Customer Master Quality Totals/hasAttributes/Opening Credit Balance",
+            "contents": [
+              "Customer Master Quality Totals/hasAttributes/Opening Credit Balance"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Opening Debit Balance",
+            "parent": "Customer Master Quality Totals/attributeContext/Customer Master Quality Totals",
+            "definition": "resolvedFrom/Customer Master Quality Totals/hasAttributes/Opening Debit Balance",
+            "contents": [
+              "Customer Master Quality Totals/hasAttributes/Opening Debit Balance"
+            ]
+          }
+        ]
+      },
+      "hasAttributes": [
+        {
+          "name": "Closing Credit Balance",
+          "appliedTraits": [
+            {
+              "traitReference": "is.dataFormat.numeric.shaped"
+            }
+          ],
+          "attributeContext": "Customer Master Quality Totals/attributeContext/Customer Master Quality Totals/Closing Credit Balance",
+          "dataFormat": "Decimal"
+        },
+        {
+          "name": "Closing Debit Balance",
+          "appliedTraits": [
+            {
+              "traitReference": "is.dataFormat.numeric.shaped"
+            }
+          ],
+          "attributeContext": "Customer Master Quality Totals/attributeContext/Customer Master Quality Totals/Closing Debit Balance",
+          "dataFormat": "Decimal"
+        },
+        {
+          "name": "Customer ID",
+          "appliedTraits": [
+            "is.dataFormat.character",
+            "is.dataFormat.big",
+            "is.dataFormat.array"
+          ],
+          "attributeContext": "Customer Master Quality Totals/attributeContext/Customer Master Quality Totals/Customer ID",
+          "dataFormat": "String"
+        },
+        {
+          "name": "Opening Credit Balance",
+          "appliedTraits": [
+            {
+              "traitReference": "is.dataFormat.numeric.shaped"
+            }
+          ],
+          "attributeContext": "Customer Master Quality Totals/attributeContext/Customer Master Quality Totals/Opening Credit Balance",
+          "dataFormat": "Decimal"
+        },
+        {
+          "name": "Opening Debit Balance",
+          "appliedTraits": [
+            {
+              "traitReference": "is.dataFormat.numeric.shaped"
+            }
+          ],
+          "attributeContext": "Customer Master Quality Totals/attributeContext/Customer Master Quality Totals/Opening Debit Balance",
+          "dataFormat": "Decimal"
+        }
+      ]
+    }
+  ]
+}

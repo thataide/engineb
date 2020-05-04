@@ -1,0 +1,80 @@
+{
+  "jsonSchemaSemanticVersion": "1.0.0",
+  "imports": [
+    {
+      "corpusPath": "cdm:/foundations.cdm.json"
+    }
+  ],
+  "definitions": [
+    {
+      "entityName": "Chart of Accounts",
+      "hasAttributes": [
+        {
+          "name": "Account Description",
+          "purpose": "hasA",
+          "dataType": "string"
+        },
+        {
+          "name": "Account Name",
+          "purpose": "hasA",
+          "dataType": "string"
+        },
+        {
+          "name": "Account Number",
+          "purpose": "hasA",
+          "dataType": "string"
+        },
+        {
+          "name": "Account Type",
+          "purpose": "hasA",
+          "dataType": "string"
+        },
+        {
+          "name": "Account Subtype",
+          "purpose": "hasA",
+          "dataType": "string"
+        },
+        {
+          "name": "Business Unit Code",
+          "purpose": "hasA",
+          "dataType": "string"
+        },
+        {
+          "name": "Parent Account Number",
+          "purpose": "hasA",
+          "dataType": "string"
+        },
+        {
+          "name": "Reporting Element",
+          "purpose": "hasA",
+          "dataType": "string"
+        },
+        {
+          "name": "Segment01",
+          "purpose": "hasA",
+          "dataType": "string"
+        },
+        {
+          "name": "Segment02",
+          "purpose": "hasA",
+          "dataType": "string"
+        },
+        {
+          "name": "Segment03",
+          "purpose": "hasA",
+          "dataType": "string"
+        },
+        {
+          "name": "Segment04",
+          "purpose": "hasA",
+          "dataType": "string"
+        },
+        {
+          "name": "Segment05",
+          "purpose": "hasA",
+          "dataType": "string"
+        }
+      ]
+    }
+  ]
+}

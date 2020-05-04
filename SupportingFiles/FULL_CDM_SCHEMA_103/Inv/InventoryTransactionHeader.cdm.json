@@ -1,0 +1,95 @@
+{
+  "jsonSchemaSemanticVersion": "1.0.0",
+  "imports": [
+    {
+      "corpusPath": "cdm:/foundations.cdm.json"
+    }
+  ],
+  "definitions": [
+    {
+      "entityName": "InventoryTransactionHeader",
+      "hasAttributes": [
+        {
+          "name": "Inventory Transaction Approved By",
+          "purpose": "hasA",
+          "dataType": "string"
+        },
+        {
+          "name": "Inventory Transaction Approved By Date",
+          "purpose": "hasA",
+          "dataType": "date"
+        },
+        {
+          "name": "Inventory Transaction Business Unit Code",
+          "purpose": "hasA",
+          "dataType": "string"
+        },
+        {
+          "name": "Inventory Transaction Entered By",
+          "purpose": "hasA",
+          "dataType": "string"
+        },
+        {
+          "name": "Inventory Transaction Inventory System Or External Source",
+          "purpose": "hasA",
+          "dataType": "string"
+        },
+        {
+          "name": "Inventory Transaction Last Modified By",
+          "purpose": "hasA",
+          "dataType": "string"
+        },
+        {
+          "name": "Inventory Transaction Last Modified By Date",
+          "purpose": "hasA",
+          "dataType": "date"
+        },
+        {
+          "name": "Inventory Transaction Posting Date",
+          "purpose": "hasA",
+          "dataType": "date"
+        },
+        {
+          "name": "Inventory Transaction System ID",
+          "purpose": "hasA",
+          "dataType": "string"
+        },
+        {
+          "name": "Inventory Transaction Tax Point Date",
+          "purpose": "hasA",
+          "dataType": "date"
+        },
+        {
+          "name": "Inventory Transaction Transaction Type",
+          "purpose": "hasA",
+          "dataType": "string"
+        },
+        {
+          "name": "Movement Date Time",
+          "purpose": "hasA",
+          "dataType": "date"
+        },
+        {
+          "name": "Movement Reference",
+          "purpose": "hasA",
+          "dataType": "string"
+        },
+        {
+          "name": "Number Of Movement Lines",
+          "purpose": "hasA",
+          "dataType": "decimal"
+        },
+        {
+          "name": "Total Quantity Issued",
+          "purpose": "hasA",
+          "dataType": "decimal"
+        },
+        {
+          "name": "Total Quantity Received",
+          "purpose": "hasA",
+          "dataType": "decimal"
+        }
+      ]
+    }
+  ]
+}

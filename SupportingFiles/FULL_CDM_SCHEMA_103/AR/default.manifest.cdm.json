@@ -1,0 +1,281 @@
+{
+  "manifestName": "default",
+  "entities": [
+    {
+      "type": "LocalEntity",
+      "entityName": "Customer Master Data",
+      "entityPath": "resolved/Customer Master Data.cdm.json/Customer Master Data",
+      "dataPartitions": [
+        {
+          "name": "Customer Master Data-data-description",
+          "location": "local:/Customer Master Data/partition-data.csv",
+          "exhibitsTraits": [
+            {
+              "traitReference": "is.partition.format.CSV",
+              "arguments": [
+                {
+                  "name": "columnHeaders",
+                  "value": "true"
+                },
+                {
+                  "name": "delimiter",
+                  "value": ","
+                }
+              ]
+            }
+          ],
+          "arguments": []
+        }
+      ]
+    },
+    {
+      "type": "LocalEntity",
+      "entityName": "Customer Master Quality Totals",
+      "entityPath": "resolved/Customer Master Quality Totals.cdm.json/Customer Master Quality Totals",
+      "dataPartitions": [
+        {
+          "name": "Customer Master Quality Totals-data-description",
+          "location": "local:/Customer Master Quality Totals/partition-data.csv",
+          "exhibitsTraits": [
+            {
+              "traitReference": "is.partition.format.CSV",
+              "arguments": [
+                {
+                  "name": "columnHeaders",
+                  "value": "true"
+                },
+                {
+                  "name": "delimiter",
+                  "value": ","
+                }
+              ]
+            }
+          ],
+          "arguments": []
+        }
+      ]
+    },
+    {
+      "type": "LocalEntity",
+      "entityName": "Goods Shipped Data",
+      "entityPath": "resolved/Goods Shipped Data.cdm.json/Goods Shipped Data",
+      "dataPartitions": [
+        {
+          "name": "Goods Shipped Data-data-description",
+          "location": "local:/Goods Shipped Data/partition-data.csv",
+          "exhibitsTraits": [
+            {
+              "traitReference": "is.partition.format.CSV",
+              "arguments": [
+                {
+                  "name": "columnHeaders",
+                  "value": "true"
+                },
+                {
+                  "name": "delimiter",
+                  "value": ","
+                }
+              ]
+            }
+          ],
+          "arguments": []
+        }
+      ]
+    },
+    {
+      "type": "LocalEntity",
+      "entityName": "Inventory Product Master Data",
+      "entityPath": "resolved/Inventory Product Master Data.cdm.json/Inventory Product Master Data",
+      "dataPartitions": [
+        {
+          "name": "Inventory Product Master Data-data-description",
+          "location": "local:/Inventory Product Master Data/partition-data.csv",
+          "exhibitsTraits": [
+            {
+              "traitReference": "is.partition.format.CSV",
+              "arguments": [
+                {
+                  "name": "columnHeaders",
+                  "value": "true"
+                },
+                {
+                  "name": "delimiter",
+                  "value": ","
+                }
+              ]
+            }
+          ],
+          "arguments": []
+        }
+      ]
+    },
+    {
+      "type": "LocalEntity",
+      "entityName": "Payment Data",
+      "entityPath": "resolved/Payment Data.cdm.json/Payment Data",
+      "dataPartitions": [
+        {
+          "name": "Payment Data-data-description",
+          "location": "local:/Payment Data/partition-data.csv",
+          "exhibitsTraits": [
+            {
+              "traitReference": "is.partition.format.CSV",
+              "arguments": [
+                {
+                  "name": "columnHeaders",
+                  "value": "true"
+                },
+                {
+                  "name": "delimiter",
+                  "value": ","
+                }
+              ]
+            }
+          ],
+          "arguments": []
+        }
+      ]
+    },
+    {
+      "type": "LocalEntity",
+      "entityName": "Payment Data Quality Totals",
+      "entityPath": "resolved/Payment Data Quality Totals.cdm.json/Payment Data Quality Totals",
+      "dataPartitions": [
+        {
+          "name": "Payment Data Quality Totals-data-description",
+          "location": "local:/Payment Data Quality Totals/partition-data.csv",
+          "exhibitsTraits": [
+            {
+              "traitReference": "is.partition.format.CSV",
+              "arguments": [
+                {
+                  "name": "columnHeaders",
+                  "value": "true"
+                },
+                {
+                  "name": "delimiter",
+                  "value": ","
+                }
+              ]
+            }
+          ],
+          "arguments": []
+        }
+      ]
+    },
+    {
+      "type": "LocalEntity",
+      "entityName": "Sales Invoice Data",
+      "entityPath": "resolved/Sales Invoice Data.cdm.json/Sales Invoice Data",
+      "dataPartitions": [
+        {
+          "name": "Sales Invoice Data-data-description",
+          "location": "local:/Sales Invoice Data/partition-data.csv",
+          "exhibitsTraits": [
+            {
+              "traitReference": "is.partition.format.CSV",
+              "arguments": [
+                {
+                  "name": "columnHeaders",
+                  "value": "true"
+                },
+                {
+                  "name": "delimiter",
+                  "value": ","
+                }
+              ]
+            }
+          ],
+          "arguments": []
+        }
+      ]
+    },
+    {
+      "type": "LocalEntity",
+      "entityName": "Sales Invoice Quality Totals",
+      "entityPath": "resolved/Sales Invoice Quality Totals.cdm.json/Sales Invoice Quality Totals",
+      "dataPartitions": [
+        {
+          "name": "Sales Invoice Quality Totals-data-description",
+          "location": "local:/Sales Invoice Quality Totals/partition-data.csv",
+          "exhibitsTraits": [
+            {
+              "traitReference": "is.partition.format.CSV",
+              "arguments": [
+                {
+                  "name": "columnHeaders",
+                  "value": "true"
+                },
+                {
+                  "name": "delimiter",
+                  "value": ","
+                }
+              ]
+            }
+          ],
+          "arguments": []
+        }
+      ]
+    },
+    {
+      "type": "LocalEntity",
+      "entityName": "Sales Order Data",
+      "entityPath": "resolved/Sales Order Data.cdm.json/Sales Order Data",
+      "dataPartitions": [
+        {
+          "name": "Sales Order Data-data-description",
+          "location": "local:/Sales Order Data/partition-data.csv",
+          "exhibitsTraits": [
+            {
+              "traitReference": "is.partition.format.CSV",
+              "arguments": [
+                {
+                  "name": "columnHeaders",
+                  "value": "true"
+                },
+                {
+                  "name": "delimiter",
+                  "value": ","
+                }
+              ]
+            }
+          ],
+          "arguments": []
+        }
+      ]
+    },
+    {
+      "type": "LocalEntity",
+      "entityName": "Tax Table Data",
+      "entityPath": "resolved/Tax Table Data.cdm.json/Tax Table Data",
+      "dataPartitions": [
+        {
+          "name": "Tax Table Data-data-description",
+          "location": "local:/Tax Table Data/partition-data.csv",
+          "exhibitsTraits": [
+            {
+              "traitReference": "is.partition.format.CSV",
+              "arguments": [
+                {
+                  "name": "columnHeaders",
+                  "value": "true"
+                },
+                {
+                  "name": "delimiter",
+                  "value": ","
+                }
+              ]
+            }
+          ],
+          "arguments": []
+        }
+      ]
+    }
+  ],
+  "jsonSchemaSemanticVersion": "1.0.0",
+  "imports": [
+    {
+      "corpusPath": "cdm:/foundations.cdm.json"
+    }
+  ]
+}

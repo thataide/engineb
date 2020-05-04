@@ -1,0 +1,384 @@
+{
+  "jsonSchemaSemanticVersion": "1.0.0",
+  "imports": [
+    {
+      "corpusPath": "/Trial Balance.cdm.json",
+      "moniker": "resolvedFrom"
+    }
+  ],
+  "definitions": [
+    {
+      "entityName": "Trial Balance",
+      "attributeContext": {
+        "type": "entity",
+        "name": "Trial Balance",
+        "definition": "resolvedFrom/Trial Balance",
+        "contents": [
+          {
+            "type": "attributeDefinition",
+            "name": "Amount Beginning Local",
+            "parent": "Trial Balance/attributeContext/Trial Balance",
+            "definition": "resolvedFrom/Trial Balance/hasAttributes/Amount Beginning Local",
+            "contents": [
+              "Trial Balance/hasAttributes/Amount Beginning Local"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Amount Beginning Reporting",
+            "parent": "Trial Balance/attributeContext/Trial Balance",
+            "definition": "resolvedFrom/Trial Balance/hasAttributes/Amount Beginning Reporting",
+            "contents": [
+              "Trial Balance/hasAttributes/Amount Beginning Reporting"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Amount Currency",
+            "parent": "Trial Balance/attributeContext/Trial Balance",
+            "definition": "resolvedFrom/Trial Balance/hasAttributes/Amount Currency",
+            "contents": [
+              "Trial Balance/hasAttributes/Amount Currency"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Amount Ending Local",
+            "parent": "Trial Balance/attributeContext/Trial Balance",
+            "definition": "resolvedFrom/Trial Balance/hasAttributes/Amount Ending Local",
+            "contents": [
+              "Trial Balance/hasAttributes/Amount Ending Local"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Amount Ending Reporting",
+            "parent": "Trial Balance/attributeContext/Trial Balance",
+            "definition": "resolvedFrom/Trial Balance/hasAttributes/Amount Ending Reporting",
+            "contents": [
+              "Trial Balance/hasAttributes/Amount Ending Reporting"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Amount Local Currency",
+            "parent": "Trial Balance/attributeContext/Trial Balance",
+            "definition": "resolvedFrom/Trial Balance/hasAttributes/Amount Local Currency",
+            "contents": [
+              "Trial Balance/hasAttributes/Amount Local Currency"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Amount Reporting Currency",
+            "parent": "Trial Balance/attributeContext/Trial Balance",
+            "definition": "resolvedFrom/Trial Balance/hasAttributes/Amount Reporting Currency",
+            "contents": [
+              "Trial Balance/hasAttributes/Amount Reporting Currency"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Balance ",
+            "parent": "Trial Balance/attributeContext/Trial Balance",
+            "definition": "resolvedFrom/Trial Balance/hasAttributes/Balance ",
+            "contents": [
+              "Trial Balance/hasAttributes/Balance "
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Business Unit",
+            "parent": "Trial Balance/attributeContext/Trial Balance",
+            "definition": "resolvedFrom/Trial Balance/hasAttributes/Business Unit",
+            "contents": [
+              "Trial Balance/hasAttributes/Business Unit"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Period",
+            "parent": "Trial Balance/attributeContext/Trial Balance",
+            "definition": "resolvedFrom/Trial Balance/hasAttributes/Period",
+            "contents": [
+              "Trial Balance/hasAttributes/Period"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Segment01",
+            "parent": "Trial Balance/attributeContext/Trial Balance",
+            "definition": "resolvedFrom/Trial Balance/hasAttributes/Segment01",
+            "contents": [
+              "Trial Balance/hasAttributes/Segment01"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Segment02",
+            "parent": "Trial Balance/attributeContext/Trial Balance",
+            "definition": "resolvedFrom/Trial Balance/hasAttributes/Segment02",
+            "contents": [
+              "Trial Balance/hasAttributes/Segment02"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Segment03",
+            "parent": "Trial Balance/attributeContext/Trial Balance",
+            "definition": "resolvedFrom/Trial Balance/hasAttributes/Segment03",
+            "contents": [
+              "Trial Balance/hasAttributes/Segment03"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Segment04",
+            "parent": "Trial Balance/attributeContext/Trial Balance",
+            "definition": "resolvedFrom/Trial Balance/hasAttributes/Segment04",
+            "contents": [
+              "Trial Balance/hasAttributes/Segment04"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Segment05",
+            "parent": "Trial Balance/attributeContext/Trial Balance",
+            "definition": "resolvedFrom/Trial Balance/hasAttributes/Segment05",
+            "contents": [
+              "Trial Balance/hasAttributes/Segment05"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Account Number",
+            "parent": "Trial Balance/attributeContext/Trial Balance",
+            "definition": "resolvedFrom/Trial Balance/hasAttributes/Account Number",
+            "contents": [
+              "Trial Balance/hasAttributes/Account Number"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Amount Beginning",
+            "parent": "Trial Balance/attributeContext/Trial Balance",
+            "definition": "resolvedFrom/Trial Balance/hasAttributes/Amount Beginning",
+            "contents": [
+              "Trial Balance/hasAttributes/Amount Beginning"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Amount Ending",
+            "parent": "Trial Balance/attributeContext/Trial Balance",
+            "definition": "resolvedFrom/Trial Balance/hasAttributes/Amount Ending",
+            "contents": [
+              "Trial Balance/hasAttributes/Amount Ending"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Fiscal Year",
+            "parent": "Trial Balance/attributeContext/Trial Balance",
+            "definition": "resolvedFrom/Trial Balance/hasAttributes/Fiscal Year",
+            "contents": [
+              "Trial Balance/hasAttributes/Fiscal Year"
+            ]
+          }
+        ]
+      },
+      "hasAttributes": [
+        {
+          "name": "Amount Beginning Local",
+          "appliedTraits": [
+            {
+              "traitReference": "is.dataFormat.numeric.shaped"
+            }
+          ],
+          "attributeContext": "Trial Balance/attributeContext/Trial Balance/Amount Beginning Local",
+          "dataFormat": "Decimal"
+        },
+        {
+          "name": "Amount Beginning Reporting",
+          "appliedTraits": [
+            {
+              "traitReference": "is.dataFormat.numeric.shaped"
+            }
+          ],
+          "attributeContext": "Trial Balance/attributeContext/Trial Balance/Amount Beginning Reporting",
+          "dataFormat": "Decimal"
+        },
+        {
+          "name": "Amount Currency",
+          "appliedTraits": [
+            "is.dataFormat.character",
+            "is.dataFormat.big",
+            "is.dataFormat.array"
+          ],
+          "attributeContext": "Trial Balance/attributeContext/Trial Balance/Amount Currency",
+          "dataFormat": "String"
+        },
+        {
+          "name": "Amount Ending Local",
+          "appliedTraits": [
+            {
+              "traitReference": "is.dataFormat.numeric.shaped"
+            }
+          ],
+          "attributeContext": "Trial Balance/attributeContext/Trial Balance/Amount Ending Local",
+          "dataFormat": "Decimal"
+        },
+        {
+          "name": "Amount Ending Reporting",
+          "appliedTraits": [
+            {
+              "traitReference": "is.dataFormat.numeric.shaped"
+            }
+          ],
+          "attributeContext": "Trial Balance/attributeContext/Trial Balance/Amount Ending Reporting",
+          "dataFormat": "Decimal"
+        },
+        {
+          "name": "Amount Local Currency",
+          "appliedTraits": [
+            "is.dataFormat.character",
+            "is.dataFormat.big",
+            "is.dataFormat.array"
+          ],
+          "attributeContext": "Trial Balance/attributeContext/Trial Balance/Amount Local Currency",
+          "dataFormat": "String"
+        },
+        {
+          "name": "Amount Reporting Currency",
+          "appliedTraits": [
+            "is.dataFormat.character",
+            "is.dataFormat.big",
+            "is.dataFormat.array"
+          ],
+          "attributeContext": "Trial Balance/attributeContext/Trial Balance/Amount Reporting Currency",
+          "dataFormat": "String"
+        },
+        {
+          "name": "Balance ",
+          "appliedTraits": [
+            {
+              "traitReference": "is.dataFormat.numeric.shaped"
+            }
+          ],
+          "attributeContext": "Trial Balance/attributeContext/Trial Balance/Balance ",
+          "dataFormat": "Decimal"
+        },
+        {
+          "name": "Business Unit",
+          "appliedTraits": [
+            "is.dataFormat.character",
+            "is.dataFormat.big",
+            "is.dataFormat.array"
+          ],
+          "attributeContext": "Trial Balance/attributeContext/Trial Balance/Business Unit",
+          "dataFormat": "String"
+        },
+        {
+          "name": "Period",
+          "appliedTraits": [
+            "is.dataFormat.character",
+            "is.dataFormat.big",
+            "is.dataFormat.array"
+          ],
+          "attributeContext": "Trial Balance/attributeContext/Trial Balance/Period",
+          "dataFormat": "String"
+        },
+        {
+          "name": "Segment01",
+          "appliedTraits": [
+            "is.dataFormat.character",
+            "is.dataFormat.big",
+            "is.dataFormat.array"
+          ],
+          "attributeContext": "Trial Balance/attributeContext/Trial Balance/Segment01",
+          "dataFormat": "String"
+        },
+        {
+          "name": "Segment02",
+          "appliedTraits": [
+            "is.dataFormat.character",
+            "is.dataFormat.big",
+            "is.dataFormat.array"
+          ],
+          "attributeContext": "Trial Balance/attributeContext/Trial Balance/Segment02",
+          "dataFormat": "String"
+        },
+        {
+          "name": "Segment03",
+          "appliedTraits": [
+            "is.dataFormat.character",
+            "is.dataFormat.big",
+            "is.dataFormat.array"
+          ],
+          "attributeContext": "Trial Balance/attributeContext/Trial Balance/Segment03",
+          "dataFormat": "String"
+        },
+        {
+          "name": "Segment04",
+          "appliedTraits": [
+            "is.dataFormat.character",
+            "is.dataFormat.big",
+            "is.dataFormat.array"
+          ],
+          "attributeContext": "Trial Balance/attributeContext/Trial Balance/Segment04",
+          "dataFormat": "String"
+        },
+        {
+          "name": "Segment05",
+          "appliedTraits": [
+            "is.dataFormat.character",
+            "is.dataFormat.big",
+            "is.dataFormat.array"
+          ],
+          "attributeContext": "Trial Balance/attributeContext/Trial Balance/Segment05",
+          "dataFormat": "String"
+        },
+        {
+          "name": "Account Number",
+          "appliedTraits": [
+            "is.dataFormat.character",
+            "is.dataFormat.big",
+            "is.dataFormat.array"
+          ],
+          "attributeContext": "Trial Balance/attributeContext/Trial Balance/Account Number",
+          "dataFormat": "String"
+        },
+        {
+          "name": "Amount Beginning",
+          "appliedTraits": [
+            {
+              "traitReference": "is.dataFormat.numeric.shaped"
+            }
+          ],
+          "attributeContext": "Trial Balance/attributeContext/Trial Balance/Amount Beginning",
+          "dataFormat": "Decimal"
+        },
+        {
+          "name": "Amount Ending",
+          "appliedTraits": [
+            {
+              "traitReference": "is.dataFormat.numeric.shaped"
+            }
+          ],
+          "attributeContext": "Trial Balance/attributeContext/Trial Balance/Amount Ending",
+          "dataFormat": "Decimal"
+        },
+        {
+          "name": "Fiscal Year",
+          "appliedTraits": [
+            "is.dataFormat.character",
+            "is.dataFormat.big",
+            "is.dataFormat.array"
+          ],
+          "attributeContext": "Trial Balance/attributeContext/Trial Balance/Fiscal Year",
+          "dataFormat": "String"
+        }
+      ]
+    }
+  ]
+}

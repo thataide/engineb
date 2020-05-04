@@ -1,0 +1,322 @@
+{
+  "jsonSchemaSemanticVersion": "1.0.0",
+  "imports": [
+    {
+      "corpusPath": "/InventoryTransactionHeader.cdm.json",
+      "moniker": "resolvedFrom"
+    }
+  ],
+  "definitions": [
+    {
+      "entityName": "InventoryTransactionHeader",
+      "attributeContext": {
+        "type": "entity",
+        "name": "InventoryTransactionHeader",
+        "definition": "resolvedFrom/InventoryTransactionHeader",
+        "contents": [
+          {
+            "type": "attributeDefinition",
+            "name": "Inventory Transaction Approved By",
+            "parent": "InventoryTransactionHeader/attributeContext/InventoryTransactionHeader",
+            "definition": "resolvedFrom/InventoryTransactionHeader/hasAttributes/Inventory Transaction Approved By",
+            "contents": [
+              "InventoryTransactionHeader/hasAttributes/Inventory Transaction Approved By"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Inventory Transaction Approved By Date",
+            "parent": "InventoryTransactionHeader/attributeContext/InventoryTransactionHeader",
+            "definition": "resolvedFrom/InventoryTransactionHeader/hasAttributes/Inventory Transaction Approved By Date",
+            "contents": [
+              "InventoryTransactionHeader/hasAttributes/Inventory Transaction Approved By Date"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Inventory Transaction Business Unit Code",
+            "parent": "InventoryTransactionHeader/attributeContext/InventoryTransactionHeader",
+            "definition": "resolvedFrom/InventoryTransactionHeader/hasAttributes/Inventory Transaction Business Unit Code",
+            "contents": [
+              "InventoryTransactionHeader/hasAttributes/Inventory Transaction Business Unit Code"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Inventory Transaction Entered By",
+            "parent": "InventoryTransactionHeader/attributeContext/InventoryTransactionHeader",
+            "definition": "resolvedFrom/InventoryTransactionHeader/hasAttributes/Inventory Transaction Entered By",
+            "contents": [
+              "InventoryTransactionHeader/hasAttributes/Inventory Transaction Entered By"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Inventory Transaction Inventory System Or External Source",
+            "parent": "InventoryTransactionHeader/attributeContext/InventoryTransactionHeader",
+            "definition": "resolvedFrom/InventoryTransactionHeader/hasAttributes/Inventory Transaction Inventory System Or External Source",
+            "contents": [
+              "InventoryTransactionHeader/hasAttributes/Inventory Transaction Inventory System Or External Source"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Inventory Transaction Last Modified By",
+            "parent": "InventoryTransactionHeader/attributeContext/InventoryTransactionHeader",
+            "definition": "resolvedFrom/InventoryTransactionHeader/hasAttributes/Inventory Transaction Last Modified By",
+            "contents": [
+              "InventoryTransactionHeader/hasAttributes/Inventory Transaction Last Modified By"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Inventory Transaction Last Modified By Date",
+            "parent": "InventoryTransactionHeader/attributeContext/InventoryTransactionHeader",
+            "definition": "resolvedFrom/InventoryTransactionHeader/hasAttributes/Inventory Transaction Last Modified By Date",
+            "contents": [
+              "InventoryTransactionHeader/hasAttributes/Inventory Transaction Last Modified By Date"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Inventory Transaction Posting Date",
+            "parent": "InventoryTransactionHeader/attributeContext/InventoryTransactionHeader",
+            "definition": "resolvedFrom/InventoryTransactionHeader/hasAttributes/Inventory Transaction Posting Date",
+            "contents": [
+              "InventoryTransactionHeader/hasAttributes/Inventory Transaction Posting Date"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Inventory Transaction System ID",
+            "parent": "InventoryTransactionHeader/attributeContext/InventoryTransactionHeader",
+            "definition": "resolvedFrom/InventoryTransactionHeader/hasAttributes/Inventory Transaction System ID",
+            "contents": [
+              "InventoryTransactionHeader/hasAttributes/Inventory Transaction System ID"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Inventory Transaction Tax Point Date",
+            "parent": "InventoryTransactionHeader/attributeContext/InventoryTransactionHeader",
+            "definition": "resolvedFrom/InventoryTransactionHeader/hasAttributes/Inventory Transaction Tax Point Date",
+            "contents": [
+              "InventoryTransactionHeader/hasAttributes/Inventory Transaction Tax Point Date"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Inventory Transaction Transaction Type",
+            "parent": "InventoryTransactionHeader/attributeContext/InventoryTransactionHeader",
+            "definition": "resolvedFrom/InventoryTransactionHeader/hasAttributes/Inventory Transaction Transaction Type",
+            "contents": [
+              "InventoryTransactionHeader/hasAttributes/Inventory Transaction Transaction Type"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Movement Date Time",
+            "parent": "InventoryTransactionHeader/attributeContext/InventoryTransactionHeader",
+            "definition": "resolvedFrom/InventoryTransactionHeader/hasAttributes/Movement Date Time",
+            "contents": [
+              "InventoryTransactionHeader/hasAttributes/Movement Date Time"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Movement Reference",
+            "parent": "InventoryTransactionHeader/attributeContext/InventoryTransactionHeader",
+            "definition": "resolvedFrom/InventoryTransactionHeader/hasAttributes/Movement Reference",
+            "contents": [
+              "InventoryTransactionHeader/hasAttributes/Movement Reference"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Number Of Movement Lines",
+            "parent": "InventoryTransactionHeader/attributeContext/InventoryTransactionHeader",
+            "definition": "resolvedFrom/InventoryTransactionHeader/hasAttributes/Number Of Movement Lines",
+            "contents": [
+              "InventoryTransactionHeader/hasAttributes/Number Of Movement Lines"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Total Quantity Issued",
+            "parent": "InventoryTransactionHeader/attributeContext/InventoryTransactionHeader",
+            "definition": "resolvedFrom/InventoryTransactionHeader/hasAttributes/Total Quantity Issued",
+            "contents": [
+              "InventoryTransactionHeader/hasAttributes/Total Quantity Issued"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Total Quantity Received",
+            "parent": "InventoryTransactionHeader/attributeContext/InventoryTransactionHeader",
+            "definition": "resolvedFrom/InventoryTransactionHeader/hasAttributes/Total Quantity Received",
+            "contents": [
+              "InventoryTransactionHeader/hasAttributes/Total Quantity Received"
+            ]
+          }
+        ]
+      },
+      "hasAttributes": [
+        {
+          "name": "Inventory Transaction Approved By",
+          "appliedTraits": [
+            "is.dataFormat.character",
+            "is.dataFormat.big",
+            "is.dataFormat.array"
+          ],
+          "attributeContext": "InventoryTransactionHeader/attributeContext/InventoryTransactionHeader/Inventory Transaction Approved By",
+          "dataFormat": "String"
+        },
+        {
+          "name": "Inventory Transaction Approved By Date",
+          "appliedTraits": [
+            "is.dataFormat.date",
+            "means.measurement.date"
+          ],
+          "attributeContext": "InventoryTransactionHeader/attributeContext/InventoryTransactionHeader/Inventory Transaction Approved By Date",
+          "dataFormat": "Date"
+        },
+        {
+          "name": "Inventory Transaction Business Unit Code",
+          "appliedTraits": [
+            "is.dataFormat.character",
+            "is.dataFormat.big",
+            "is.dataFormat.array"
+          ],
+          "attributeContext": "InventoryTransactionHeader/attributeContext/InventoryTransactionHeader/Inventory Transaction Business Unit Code",
+          "dataFormat": "String"
+        },
+        {
+          "name": "Inventory Transaction Entered By",
+          "appliedTraits": [
+            "is.dataFormat.character",
+            "is.dataFormat.big",
+            "is.dataFormat.array"
+          ],
+          "attributeContext": "InventoryTransactionHeader/attributeContext/InventoryTransactionHeader/Inventory Transaction Entered By",
+          "dataFormat": "String"
+        },
+        {
+          "name": "Inventory Transaction Inventory System Or External Source",
+          "appliedTraits": [
+            "is.dataFormat.character",
+            "is.dataFormat.big",
+            "is.dataFormat.array"
+          ],
+          "attributeContext": "InventoryTransactionHeader/attributeContext/InventoryTransactionHeader/Inventory Transaction Inventory System Or External Source",
+          "dataFormat": "String"
+        },
+        {
+          "name": "Inventory Transaction Last Modified By",
+          "appliedTraits": [
+            "is.dataFormat.character",
+            "is.dataFormat.big",
+            "is.dataFormat.array"
+          ],
+          "attributeContext": "InventoryTransactionHeader/attributeContext/InventoryTransactionHeader/Inventory Transaction Last Modified By",
+          "dataFormat": "String"
+        },
+        {
+          "name": "Inventory Transaction Last Modified By Date",
+          "appliedTraits": [
+            "is.dataFormat.date",
+            "means.measurement.date"
+          ],
+          "attributeContext": "InventoryTransactionHeader/attributeContext/InventoryTransactionHeader/Inventory Transaction Last Modified By Date",
+          "dataFormat": "Date"
+        },
+        {
+          "name": "Inventory Transaction Posting Date",
+          "appliedTraits": [
+            "is.dataFormat.date",
+            "means.measurement.date"
+          ],
+          "attributeContext": "InventoryTransactionHeader/attributeContext/InventoryTransactionHeader/Inventory Transaction Posting Date",
+          "dataFormat": "Date"
+        },
+        {
+          "name": "Inventory Transaction System ID",
+          "appliedTraits": [
+            "is.dataFormat.character",
+            "is.dataFormat.big",
+            "is.dataFormat.array"
+          ],
+          "attributeContext": "InventoryTransactionHeader/attributeContext/InventoryTransactionHeader/Inventory Transaction System ID",
+          "dataFormat": "String"
+        },
+        {
+          "name": "Inventory Transaction Tax Point Date",
+          "appliedTraits": [
+            "is.dataFormat.date",
+            "means.measurement.date"
+          ],
+          "attributeContext": "InventoryTransactionHeader/attributeContext/InventoryTransactionHeader/Inventory Transaction Tax Point Date",
+          "dataFormat": "Date"
+        },
+        {
+          "name": "Inventory Transaction Transaction Type",
+          "appliedTraits": [
+            "is.dataFormat.character",
+            "is.dataFormat.big",
+            "is.dataFormat.array"
+          ],
+          "attributeContext": "InventoryTransactionHeader/attributeContext/InventoryTransactionHeader/Inventory Transaction Transaction Type",
+          "dataFormat": "String"
+        },
+        {
+          "name": "Movement Date Time",
+          "appliedTraits": [
+            "is.dataFormat.date",
+            "means.measurement.date"
+          ],
+          "attributeContext": "InventoryTransactionHeader/attributeContext/InventoryTransactionHeader/Movement Date Time",
+          "dataFormat": "Date"
+        },
+        {
+          "name": "Movement Reference",
+          "appliedTraits": [
+            "is.dataFormat.character",
+            "is.dataFormat.big",
+            "is.dataFormat.array"
+          ],
+          "attributeContext": "InventoryTransactionHeader/attributeContext/InventoryTransactionHeader/Movement Reference",
+          "dataFormat": "String"
+        },
+        {
+          "name": "Number Of Movement Lines",
+          "appliedTraits": [
+            {
+              "traitReference": "is.dataFormat.numeric.shaped"
+            }
+          ],
+          "attributeContext": "InventoryTransactionHeader/attributeContext/InventoryTransactionHeader/Number Of Movement Lines",
+          "dataFormat": "Decimal"
+        },
+        {
+          "name": "Total Quantity Issued",
+          "appliedTraits": [
+            {
+              "traitReference": "is.dataFormat.numeric.shaped"
+            }
+          ],
+          "attributeContext": "InventoryTransactionHeader/attributeContext/InventoryTransactionHeader/Total Quantity Issued",
+          "dataFormat": "Decimal"
+        },
+        {
+          "name": "Total Quantity Received",
+          "appliedTraits": [
+            {
+              "traitReference": "is.dataFormat.numeric.shaped"
+            }
+          ],
+          "attributeContext": "InventoryTransactionHeader/attributeContext/InventoryTransactionHeader/Total Quantity Received",
+          "dataFormat": "Decimal"
+        }
+      ]
+    }
+  ]
+}

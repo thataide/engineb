@@ -1,0 +1,75 @@
+{
+  "jsonSchemaSemanticVersion": "1.0.0",
+  "imports": [
+    {
+      "corpusPath": "cdm:/foundations.cdm.json"
+    }
+  ],
+  "definitions": [
+    {
+      "entityName": "Tax Table Data",
+      "hasAttributes": [
+        {
+          "name": "Country",
+          "purpose": "hasA",
+          "dataType": "string"
+        },
+        {
+          "name": "Description",
+          "purpose": "hasA",
+          "dataType": "string"
+        },
+        {
+          "name": "Effective Date",
+          "purpose": "hasA",
+          "dataType": "date"
+        },
+        {
+          "name": "Expiration Date",
+          "purpose": "hasA",
+          "dataType": "date"
+        },
+        {
+          "name": "Flat Tax Rate Amount",
+          "purpose": "hasA",
+          "dataType": "decimal"
+        },
+        {
+          "name": "Flat Tax Rate Currency Amount",
+          "purpose": "hasA",
+          "dataType": "decimal"
+        },
+        {
+          "name": "Flat Tax Rate Currency Code",
+          "purpose": "hasA",
+          "dataType": "string"
+        },
+        {
+          "name": "Flat Tax Rate Exhchange Rate",
+          "purpose": "hasA",
+          "dataType": "decimal"
+        },
+        {
+          "name": "Region",
+          "purpose": "hasA",
+          "dataType": "string"
+        },
+        {
+          "name": "Tax Code",
+          "purpose": "hasA",
+          "dataType": "string"
+        },
+        {
+          "name": "Tax Percentage",
+          "purpose": "hasA",
+          "dataType": "decimal"
+        },
+        {
+          "name": "Tax Type",
+          "purpose": "hasA",
+          "dataType": "string"
+        }
+      ]
+    }
+  ]
+}

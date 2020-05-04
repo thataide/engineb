@@ -1,0 +1,146 @@
+{
+  "manifestName": "default",
+  "entities": [
+    {
+      "type": "LocalEntity",
+      "entityName": "Fixed_Asset_Additions",
+      "entityPath": "resolved/Fixed_Asset_Additions.cdm.json/Fixed_Asset_Additions",
+      "dataPartitions": [
+        {
+          "name": "Fixed_Asset_Additions-data-description",
+          "location": "local:/Fixed_Asset_Additions/partition-data.csv",
+          "exhibitsTraits": [
+            {
+              "traitReference": "is.partition.format.CSV",
+              "arguments": [
+                {
+                  "name": "columnHeaders",
+                  "value": "true"
+                },
+                {
+                  "name": "delimiter",
+                  "value": ","
+                }
+              ]
+            }
+          ],
+          "arguments": []
+        }
+      ]
+    },
+    {
+      "type": "LocalEntity",
+      "entityName": "Fixed_Asset_Depreciation",
+      "entityPath": "resolved/Fixed_Asset_Depreciation.cdm.json/Fixed_Asset_Depreciation",
+      "dataPartitions": [
+        {
+          "name": "Fixed_Asset_Depreciation-data-description",
+          "location": "local:/Fixed_Asset_Depreciation/partition-data.csv",
+          "exhibitsTraits": [
+            {
+              "traitReference": "is.partition.format.CSV",
+              "arguments": [
+                {
+                  "name": "columnHeaders",
+                  "value": "true"
+                },
+                {
+                  "name": "delimiter",
+                  "value": ","
+                }
+              ]
+            }
+          ],
+          "arguments": []
+        }
+      ]
+    },
+    {
+      "type": "LocalEntity",
+      "entityName": "Fixed_Asset_Master_File",
+      "entityPath": "resolved/Fixed_Asset_Master_File.cdm.json/Fixed_Asset_Master_File",
+      "dataPartitions": [
+        {
+          "name": "Fixed_Asset_Master_File-data-description",
+          "location": "local:/Fixed_Asset_Master_File/partition-data.csv",
+          "exhibitsTraits": [
+            {
+              "traitReference": "is.partition.format.CSV",
+              "arguments": [
+                {
+                  "name": "columnHeaders",
+                  "value": "true"
+                },
+                {
+                  "name": "delimiter",
+                  "value": ","
+                }
+              ]
+            }
+          ],
+          "arguments": []
+        }
+      ]
+    },
+    {
+      "type": "LocalEntity",
+      "entityName": "Fixed_Asset_Removals",
+      "entityPath": "resolved/Fixed_Asset_Removals.cdm.json/Fixed_Asset_Removals",
+      "dataPartitions": [
+        {
+          "name": "Fixed_Asset_Removals-data-description",
+          "location": "local:/Fixed_Asset_Removals/partition-data.csv",
+          "exhibitsTraits": [
+            {
+              "traitReference": "is.partition.format.CSV",
+              "arguments": [
+                {
+                  "name": "columnHeaders",
+                  "value": "true"
+                },
+                {
+                  "name": "delimiter",
+                  "value": ","
+                }
+              ]
+            }
+          ],
+          "arguments": []
+        }
+      ]
+    },
+    {
+      "type": "LocalEntity",
+      "entityName": "Fixed_Asset_Valuation",
+      "entityPath": "resolved/Fixed_Asset_Valuation.cdm.json/Fixed_Asset_Valuation",
+      "dataPartitions": [
+        {
+          "name": "Fixed_Asset_Valuation-data-description",
+          "location": "local:/Fixed_Asset_Valuation/partition-data.csv",
+          "exhibitsTraits": [
+            {
+              "traitReference": "is.partition.format.CSV",
+              "arguments": [
+                {
+                  "name": "columnHeaders",
+                  "value": "true"
+                },
+                {
+                  "name": "delimiter",
+                  "value": ","
+                }
+              ]
+            }
+          ],
+          "arguments": []
+        }
+      ]
+    }
+  ],
+  "jsonSchemaSemanticVersion": "1.0.0",
+  "imports": [
+    {
+      "corpusPath": "cdm:/foundations.cdm.json"
+    }
+  ]
+}

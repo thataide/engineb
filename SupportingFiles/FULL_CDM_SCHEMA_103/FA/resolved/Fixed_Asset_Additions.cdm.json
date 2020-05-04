@@ -1,0 +1,447 @@
+{
+  "jsonSchemaSemanticVersion": "1.0.0",
+  "imports": [
+    {
+      "corpusPath": "/Fixed_Asset_Additions.cdm.json",
+      "moniker": "resolvedFrom"
+    }
+  ],
+  "definitions": [
+    {
+      "entityName": "Fixed_Asset_Additions",
+      "attributeContext": {
+        "type": "entity",
+        "name": "Fixed_Asset_Additions",
+        "definition": "resolvedFrom/Fixed_Asset_Additions",
+        "contents": [
+          {
+            "type": "attributeDefinition",
+            "name": "Addition Type",
+            "parent": "Fixed_Asset_Additions/attributeContext/Fixed_Asset_Additions",
+            "definition": "resolvedFrom/Fixed_Asset_Additions/hasAttributes/Addition Type",
+            "contents": [
+              "Fixed_Asset_Additions/hasAttributes/Addition Type"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Approved By",
+            "parent": "Fixed_Asset_Additions/attributeContext/Fixed_Asset_Additions",
+            "definition": "resolvedFrom/Fixed_Asset_Additions/hasAttributes/Approved By",
+            "contents": [
+              "Fixed_Asset_Additions/hasAttributes/Approved By"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Approved By Date",
+            "parent": "Fixed_Asset_Additions/attributeContext/Fixed_Asset_Additions",
+            "definition": "resolvedFrom/Fixed_Asset_Additions/hasAttributes/Approved By Date",
+            "contents": [
+              "Fixed_Asset_Additions/hasAttributes/Approved By Date"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Approved By Time",
+            "parent": "Fixed_Asset_Additions/attributeContext/Fixed_Asset_Additions",
+            "definition": "resolvedFrom/Fixed_Asset_Additions/hasAttributes/Approved By Time",
+            "contents": [
+              "Fixed_Asset_Additions/hasAttributes/Approved By Time"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Business Unit Code",
+            "parent": "Fixed_Asset_Additions/attributeContext/Fixed_Asset_Additions",
+            "definition": "resolvedFrom/Fixed_Asset_Additions/hasAttributes/Business Unit Code",
+            "contents": [
+              "Fixed_Asset_Additions/hasAttributes/Business Unit Code"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Entered By",
+            "parent": "Fixed_Asset_Additions/attributeContext/Fixed_Asset_Additions",
+            "definition": "resolvedFrom/Fixed_Asset_Additions/hasAttributes/Entered By",
+            "contents": [
+              "Fixed_Asset_Additions/hasAttributes/Entered By"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Entered Date",
+            "parent": "Fixed_Asset_Additions/attributeContext/Fixed_Asset_Additions",
+            "definition": "resolvedFrom/Fixed_Asset_Additions/hasAttributes/Entered Date",
+            "contents": [
+              "Fixed_Asset_Additions/hasAttributes/Entered Date"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Entered Time",
+            "parent": "Fixed_Asset_Additions/attributeContext/Fixed_Asset_Additions",
+            "definition": "resolvedFrom/Fixed_Asset_Additions/hasAttributes/Entered Time",
+            "contents": [
+              "Fixed_Asset_Additions/hasAttributes/Entered Time"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Fixed Asset ID",
+            "parent": "Fixed_Asset_Additions/attributeContext/Fixed_Asset_Additions",
+            "definition": "resolvedFrom/Fixed_Asset_Additions/hasAttributes/Fixed Asset ID",
+            "contents": [
+              "Fixed_Asset_Additions/hasAttributes/Fixed Asset ID"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Fixed Asset Addition Date",
+            "parent": "Fixed_Asset_Additions/attributeContext/Fixed_Asset_Additions",
+            "definition": "resolvedFrom/Fixed_Asset_Additions/hasAttributes/Fixed Asset Addition Date",
+            "contents": [
+              "Fixed_Asset_Additions/hasAttributes/Fixed Asset Addition Date"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Fixed Asset Unique ID",
+            "parent": "Fixed_Asset_Additions/attributeContext/Fixed_Asset_Additions",
+            "definition": "resolvedFrom/Fixed_Asset_Additions/hasAttributes/Fixed Asset Unique ID",
+            "contents": [
+              "Fixed_Asset_Additions/hasAttributes/Fixed Asset Unique ID"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "G L Transaction ID",
+            "parent": "Fixed_Asset_Additions/attributeContext/Fixed_Asset_Additions",
+            "definition": "resolvedFrom/Fixed_Asset_Additions/hasAttributes/G L Transaction ID",
+            "contents": [
+              "Fixed_Asset_Additions/hasAttributes/G L Transaction ID"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Last Modified By",
+            "parent": "Fixed_Asset_Additions/attributeContext/Fixed_Asset_Additions",
+            "definition": "resolvedFrom/Fixed_Asset_Additions/hasAttributes/Last Modified By",
+            "contents": [
+              "Fixed_Asset_Additions/hasAttributes/Last Modified By"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Last Modified By Date",
+            "parent": "Fixed_Asset_Additions/attributeContext/Fixed_Asset_Additions",
+            "definition": "resolvedFrom/Fixed_Asset_Additions/hasAttributes/Last Modified By Date",
+            "contents": [
+              "Fixed_Asset_Additions/hasAttributes/Last Modified By Date"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Last Modified By Time",
+            "parent": "Fixed_Asset_Additions/attributeContext/Fixed_Asset_Additions",
+            "definition": "resolvedFrom/Fixed_Asset_Additions/hasAttributes/Last Modified By Time",
+            "contents": [
+              "Fixed_Asset_Additions/hasAttributes/Last Modified By Time"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Placed In Service",
+            "parent": "Fixed_Asset_Additions/attributeContext/Fixed_Asset_Additions",
+            "definition": "resolvedFrom/Fixed_Asset_Additions/hasAttributes/Placed In Service",
+            "contents": [
+              "Fixed_Asset_Additions/hasAttributes/Placed In Service"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Purchase Order ID",
+            "parent": "Fixed_Asset_Additions/attributeContext/Fixed_Asset_Additions",
+            "definition": "resolvedFrom/Fixed_Asset_Additions/hasAttributes/Purchase Order ID",
+            "contents": [
+              "Fixed_Asset_Additions/hasAttributes/Purchase Order ID"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Purchase Order Date",
+            "parent": "Fixed_Asset_Additions/attributeContext/Fixed_Asset_Additions",
+            "definition": "resolvedFrom/Fixed_Asset_Additions/hasAttributes/Purchase Order Date",
+            "contents": [
+              "Fixed_Asset_Additions/hasAttributes/Purchase Order Date"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Purchase Order Raised Date",
+            "parent": "Fixed_Asset_Additions/attributeContext/Fixed_Asset_Additions",
+            "definition": "resolvedFrom/Fixed_Asset_Additions/hasAttributes/Purchase Order Raised Date",
+            "contents": [
+              "Fixed_Asset_Additions/hasAttributes/Purchase Order Raised Date"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Serial Number",
+            "parent": "Fixed_Asset_Additions/attributeContext/Fixed_Asset_Additions",
+            "definition": "resolvedFrom/Fixed_Asset_Additions/hasAttributes/Serial Number",
+            "contents": [
+              "Fixed_Asset_Additions/hasAttributes/Serial Number"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Supplier ID",
+            "parent": "Fixed_Asset_Additions/attributeContext/Fixed_Asset_Additions",
+            "definition": "resolvedFrom/Fixed_Asset_Additions/hasAttributes/Supplier ID",
+            "contents": [
+              "Fixed_Asset_Additions/hasAttributes/Supplier ID"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Supplier Name",
+            "parent": "Fixed_Asset_Additions/attributeContext/Fixed_Asset_Additions",
+            "definition": "resolvedFrom/Fixed_Asset_Additions/hasAttributes/Supplier Name",
+            "contents": [
+              "Fixed_Asset_Additions/hasAttributes/Supplier Name"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "VAT Code",
+            "parent": "Fixed_Asset_Additions/attributeContext/Fixed_Asset_Additions",
+            "definition": "resolvedFrom/Fixed_Asset_Additions/hasAttributes/VAT Code",
+            "contents": [
+              "Fixed_Asset_Additions/hasAttributes/VAT Code"
+            ]
+          }
+        ]
+      },
+      "hasAttributes": [
+        {
+          "name": "Addition Type",
+          "appliedTraits": [
+            "is.dataFormat.character",
+            "is.dataFormat.big",
+            "is.dataFormat.array"
+          ],
+          "attributeContext": "Fixed_Asset_Additions/attributeContext/Fixed_Asset_Additions/Addition Type",
+          "dataFormat": "String"
+        },
+        {
+          "name": "Approved By",
+          "appliedTraits": [
+            "is.dataFormat.character",
+            "is.dataFormat.big",
+            "is.dataFormat.array"
+          ],
+          "attributeContext": "Fixed_Asset_Additions/attributeContext/Fixed_Asset_Additions/Approved By",
+          "dataFormat": "String"
+        },
+        {
+          "name": "Approved By Date",
+          "appliedTraits": [
+            "is.dataFormat.date",
+            "means.measurement.date"
+          ],
+          "attributeContext": "Fixed_Asset_Additions/attributeContext/Fixed_Asset_Additions/Approved By Date",
+          "dataFormat": "Date"
+        },
+        {
+          "name": "Approved By Time",
+          "appliedTraits": [
+            "is.dataFormat.date",
+            "means.measurement.date"
+          ],
+          "attributeContext": "Fixed_Asset_Additions/attributeContext/Fixed_Asset_Additions/Approved By Time",
+          "dataFormat": "Date"
+        },
+        {
+          "name": "Business Unit Code",
+          "appliedTraits": [
+            "is.dataFormat.character",
+            "is.dataFormat.big",
+            "is.dataFormat.array"
+          ],
+          "attributeContext": "Fixed_Asset_Additions/attributeContext/Fixed_Asset_Additions/Business Unit Code",
+          "dataFormat": "String"
+        },
+        {
+          "name": "Entered By",
+          "appliedTraits": [
+            "is.dataFormat.character",
+            "is.dataFormat.big",
+            "is.dataFormat.array"
+          ],
+          "attributeContext": "Fixed_Asset_Additions/attributeContext/Fixed_Asset_Additions/Entered By",
+          "dataFormat": "String"
+        },
+        {
+          "name": "Entered Date",
+          "appliedTraits": [
+            "is.dataFormat.date",
+            "means.measurement.date"
+          ],
+          "attributeContext": "Fixed_Asset_Additions/attributeContext/Fixed_Asset_Additions/Entered Date",
+          "dataFormat": "Date"
+        },
+        {
+          "name": "Entered Time",
+          "appliedTraits": [
+            "is.dataFormat.date",
+            "means.measurement.date"
+          ],
+          "attributeContext": "Fixed_Asset_Additions/attributeContext/Fixed_Asset_Additions/Entered Time",
+          "dataFormat": "Date"
+        },
+        {
+          "name": "Fixed Asset ID",
+          "appliedTraits": [
+            "is.dataFormat.date",
+            "means.measurement.date"
+          ],
+          "attributeContext": "Fixed_Asset_Additions/attributeContext/Fixed_Asset_Additions/Fixed Asset ID",
+          "dataFormat": "Date"
+        },
+        {
+          "name": "Fixed Asset Addition Date",
+          "appliedTraits": [
+            "is.dataFormat.character",
+            "is.dataFormat.big",
+            "is.dataFormat.array"
+          ],
+          "attributeContext": "Fixed_Asset_Additions/attributeContext/Fixed_Asset_Additions/Fixed Asset Addition Date",
+          "dataFormat": "String"
+        },
+        {
+          "name": "Fixed Asset Unique ID",
+          "appliedTraits": [
+            "is.dataFormat.character",
+            "is.dataFormat.big",
+            "is.dataFormat.array"
+          ],
+          "attributeContext": "Fixed_Asset_Additions/attributeContext/Fixed_Asset_Additions/Fixed Asset Unique ID",
+          "dataFormat": "String"
+        },
+        {
+          "name": "G L Transaction ID",
+          "appliedTraits": [
+            "is.dataFormat.character",
+            "is.dataFormat.big",
+            "is.dataFormat.array"
+          ],
+          "attributeContext": "Fixed_Asset_Additions/attributeContext/Fixed_Asset_Additions/G L Transaction ID",
+          "dataFormat": "String"
+        },
+        {
+          "name": "Last Modified By",
+          "appliedTraits": [
+            "is.dataFormat.character",
+            "is.dataFormat.big",
+            "is.dataFormat.array"
+          ],
+          "attributeContext": "Fixed_Asset_Additions/attributeContext/Fixed_Asset_Additions/Last Modified By",
+          "dataFormat": "String"
+        },
+        {
+          "name": "Last Modified By Date",
+          "appliedTraits": [
+            "is.dataFormat.date",
+            "means.measurement.date"
+          ],
+          "attributeContext": "Fixed_Asset_Additions/attributeContext/Fixed_Asset_Additions/Last Modified By Date",
+          "dataFormat": "Date"
+        },
+        {
+          "name": "Last Modified By Time",
+          "appliedTraits": [
+            "is.dataFormat.date",
+            "means.measurement.date"
+          ],
+          "attributeContext": "Fixed_Asset_Additions/attributeContext/Fixed_Asset_Additions/Last Modified By Time",
+          "dataFormat": "Date"
+        },
+        {
+          "name": "Placed In Service",
+          "appliedTraits": [
+            "is.dataFormat.boolean"
+          ],
+          "attributeContext": "Fixed_Asset_Additions/attributeContext/Fixed_Asset_Additions/Placed In Service",
+          "dataFormat": "Boolean"
+        },
+        {
+          "name": "Purchase Order ID",
+          "appliedTraits": [
+            "is.dataFormat.date",
+            "means.measurement.date"
+          ],
+          "attributeContext": "Fixed_Asset_Additions/attributeContext/Fixed_Asset_Additions/Purchase Order ID",
+          "dataFormat": "Date"
+        },
+        {
+          "name": "Purchase Order Date",
+          "appliedTraits": [
+            "is.dataFormat.character",
+            "is.dataFormat.big",
+            "is.dataFormat.array"
+          ],
+          "attributeContext": "Fixed_Asset_Additions/attributeContext/Fixed_Asset_Additions/Purchase Order Date",
+          "dataFormat": "String"
+        },
+        {
+          "name": "Purchase Order Raised Date",
+          "appliedTraits": [
+            "is.dataFormat.date",
+            "means.measurement.date"
+          ],
+          "attributeContext": "Fixed_Asset_Additions/attributeContext/Fixed_Asset_Additions/Purchase Order Raised Date",
+          "dataFormat": "Date"
+        },
+        {
+          "name": "Serial Number",
+          "appliedTraits": [
+            "is.dataFormat.boolean"
+          ],
+          "attributeContext": "Fixed_Asset_Additions/attributeContext/Fixed_Asset_Additions/Serial Number",
+          "dataFormat": "Boolean"
+        },
+        {
+          "name": "Supplier ID",
+          "appliedTraits": [
+            "is.dataFormat.character",
+            "is.dataFormat.big",
+            "is.dataFormat.array"
+          ],
+          "attributeContext": "Fixed_Asset_Additions/attributeContext/Fixed_Asset_Additions/Supplier ID",
+          "dataFormat": "String"
+        },
+        {
+          "name": "Supplier Name",
+          "appliedTraits": [
+            "is.dataFormat.character",
+            "is.dataFormat.big",
+            "is.dataFormat.array"
+          ],
+          "attributeContext": "Fixed_Asset_Additions/attributeContext/Fixed_Asset_Additions/Supplier Name",
+          "dataFormat": "String"
+        },
+        {
+          "name": "VAT Code",
+          "appliedTraits": [
+            "is.dataFormat.character",
+            "is.dataFormat.big",
+            "is.dataFormat.array"
+          ],
+          "attributeContext": "Fixed_Asset_Additions/attributeContext/Fixed_Asset_Additions/VAT Code",
+          "dataFormat": "String"
+        }
+      ]
+    }
+  ]
+}

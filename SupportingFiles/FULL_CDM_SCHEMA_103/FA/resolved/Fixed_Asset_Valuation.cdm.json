@@ -1,0 +1,506 @@
+{
+  "jsonSchemaSemanticVersion": "1.0.0",
+  "imports": [
+    {
+      "corpusPath": "/Fixed_Asset_Valuation.cdm.json",
+      "moniker": "resolvedFrom"
+    }
+  ],
+  "definitions": [
+    {
+      "entityName": "Fixed_Asset_Valuation",
+      "attributeContext": {
+        "type": "entity",
+        "name": "Fixed_Asset_Valuation",
+        "definition": "resolvedFrom/Fixed_Asset_Valuation",
+        "contents": [
+          {
+            "type": "attributeDefinition",
+            "name": "Approved By",
+            "parent": "Fixed_Asset_Valuation/attributeContext/Fixed_Asset_Valuation",
+            "definition": "resolvedFrom/Fixed_Asset_Valuation/hasAttributes/Approved By",
+            "contents": [
+              "Fixed_Asset_Valuation/hasAttributes/Approved By"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Approved By Date",
+            "parent": "Fixed_Asset_Valuation/attributeContext/Fixed_Asset_Valuation",
+            "definition": "resolvedFrom/Fixed_Asset_Valuation/hasAttributes/Approved By Date",
+            "contents": [
+              "Fixed_Asset_Valuation/hasAttributes/Approved By Date"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Approved By Time",
+            "parent": "Fixed_Asset_Valuation/attributeContext/Fixed_Asset_Valuation",
+            "definition": "resolvedFrom/Fixed_Asset_Valuation/hasAttributes/Approved By Time",
+            "contents": [
+              "Fixed_Asset_Valuation/hasAttributes/Approved By Time"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Business Unit Code",
+            "parent": "Fixed_Asset_Valuation/attributeContext/Fixed_Asset_Valuation",
+            "definition": "resolvedFrom/Fixed_Asset_Valuation/hasAttributes/Business Unit Code",
+            "contents": [
+              "Fixed_Asset_Valuation/hasAttributes/Business Unit Code"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Enteredby",
+            "parent": "Fixed_Asset_Valuation/attributeContext/Fixed_Asset_Valuation",
+            "definition": "resolvedFrom/Fixed_Asset_Valuation/hasAttributes/Enteredby",
+            "contents": [
+              "Fixed_Asset_Valuation/hasAttributes/Enteredby"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Entered Date",
+            "parent": "Fixed_Asset_Valuation/attributeContext/Fixed_Asset_Valuation",
+            "definition": "resolvedFrom/Fixed_Asset_Valuation/hasAttributes/Entered Date",
+            "contents": [
+              "Fixed_Asset_Valuation/hasAttributes/Entered Date"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Entered Time",
+            "parent": "Fixed_Asset_Valuation/attributeContext/Fixed_Asset_Valuation",
+            "definition": "resolvedFrom/Fixed_Asset_Valuation/hasAttributes/Entered Time",
+            "contents": [
+              "Fixed_Asset_Valuation/hasAttributes/Entered Time"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Fixed Asset ID",
+            "parent": "Fixed_Asset_Valuation/attributeContext/Fixed_Asset_Valuation",
+            "definition": "resolvedFrom/Fixed_Asset_Valuation/hasAttributes/Fixed Asset ID",
+            "contents": [
+              "Fixed_Asset_Valuation/hasAttributes/Fixed Asset ID"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Fixed Asset Realized Gain Loss Account",
+            "parent": "Fixed_Asset_Valuation/attributeContext/Fixed_Asset_Valuation",
+            "definition": "resolvedFrom/Fixed_Asset_Valuation/hasAttributes/Fixed Asset Realized Gain Loss Account",
+            "contents": [
+              "Fixed_Asset_Valuation/hasAttributes/Fixed Asset Realized Gain Loss Account"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Fixed Asset Realized Gain Loss Amount",
+            "parent": "Fixed_Asset_Valuation/attributeContext/Fixed_Asset_Valuation",
+            "definition": "resolvedFrom/Fixed_Asset_Valuation/hasAttributes/Fixed Asset Realized Gain Loss Amount",
+            "contents": [
+              "Fixed_Asset_Valuation/hasAttributes/Fixed Asset Realized Gain Loss Amount"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Fixed Asset Unrealized Gain Loss Account",
+            "parent": "Fixed_Asset_Valuation/attributeContext/Fixed_Asset_Valuation",
+            "definition": "resolvedFrom/Fixed_Asset_Valuation/hasAttributes/Fixed Asset Unrealized Gain Loss Account",
+            "contents": [
+              "Fixed_Asset_Valuation/hasAttributes/Fixed Asset Unrealized Gain Loss Account"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Fixed Asset Unrealized Gain Loss Amount",
+            "parent": "Fixed_Asset_Valuation/attributeContext/Fixed_Asset_Valuation",
+            "definition": "resolvedFrom/Fixed_Asset_Valuation/hasAttributes/Fixed Asset Unrealized Gain Loss Amount",
+            "contents": [
+              "Fixed_Asset_Valuation/hasAttributes/Fixed Asset Unrealized Gain Loss Amount"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "G L Account",
+            "parent": "Fixed_Asset_Valuation/attributeContext/Fixed_Asset_Valuation",
+            "definition": "resolvedFrom/Fixed_Asset_Valuation/hasAttributes/G L Account",
+            "contents": [
+              "Fixed_Asset_Valuation/hasAttributes/G L Account"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "GL Transaction ID",
+            "parent": "Fixed_Asset_Valuation/attributeContext/Fixed_Asset_Valuation",
+            "definition": "resolvedFrom/Fixed_Asset_Valuation/hasAttributes/GL Transaction ID",
+            "contents": [
+              "Fixed_Asset_Valuation/hasAttributes/GL Transaction ID"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Last Modified By",
+            "parent": "Fixed_Asset_Valuation/attributeContext/Fixed_Asset_Valuation",
+            "definition": "resolvedFrom/Fixed_Asset_Valuation/hasAttributes/Last Modified By",
+            "contents": [
+              "Fixed_Asset_Valuation/hasAttributes/Last Modified By"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Last Modified By Date",
+            "parent": "Fixed_Asset_Valuation/attributeContext/Fixed_Asset_Valuation",
+            "definition": "resolvedFrom/Fixed_Asset_Valuation/hasAttributes/Last Modified By Date",
+            "contents": [
+              "Fixed_Asset_Valuation/hasAttributes/Last Modified By Date"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Last Modified By Time",
+            "parent": "Fixed_Asset_Valuation/attributeContext/Fixed_Asset_Valuation",
+            "definition": "resolvedFrom/Fixed_Asset_Valuation/hasAttributes/Last Modified By Time",
+            "contents": [
+              "Fixed_Asset_Valuation/hasAttributes/Last Modified By Time"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Lot Number",
+            "parent": "Fixed_Asset_Valuation/attributeContext/Fixed_Asset_Valuation",
+            "definition": "resolvedFrom/Fixed_Asset_Valuation/hasAttributes/Lot Number",
+            "contents": [
+              "Fixed_Asset_Valuation/hasAttributes/Lot Number"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Revaluation Amount",
+            "parent": "Fixed_Asset_Valuation/attributeContext/Fixed_Asset_Valuation",
+            "definition": "resolvedFrom/Fixed_Asset_Valuation/hasAttributes/Revaluation Amount",
+            "contents": [
+              "Fixed_Asset_Valuation/hasAttributes/Revaluation Amount"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Revaluation Date",
+            "parent": "Fixed_Asset_Valuation/attributeContext/Fixed_Asset_Valuation",
+            "definition": "resolvedFrom/Fixed_Asset_Valuation/hasAttributes/Revaluation Date",
+            "contents": [
+              "Fixed_Asset_Valuation/hasAttributes/Revaluation Date"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Revaluation Description",
+            "parent": "Fixed_Asset_Valuation/attributeContext/Fixed_Asset_Valuation",
+            "definition": "resolvedFrom/Fixed_Asset_Valuation/hasAttributes/Revaluation Description",
+            "contents": [
+              "Fixed_Asset_Valuation/hasAttributes/Revaluation Description"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Serial Number",
+            "parent": "Fixed_Asset_Valuation/attributeContext/Fixed_Asset_Valuation",
+            "definition": "resolvedFrom/Fixed_Asset_Valuation/hasAttributes/Serial Number",
+            "contents": [
+              "Fixed_Asset_Valuation/hasAttributes/Serial Number"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Unique ID",
+            "parent": "Fixed_Asset_Valuation/attributeContext/Fixed_Asset_Valuation",
+            "definition": "resolvedFrom/Fixed_Asset_Valuation/hasAttributes/Unique ID",
+            "contents": [
+              "Fixed_Asset_Valuation/hasAttributes/Unique ID"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Valuer ID",
+            "parent": "Fixed_Asset_Valuation/attributeContext/Fixed_Asset_Valuation",
+            "definition": "resolvedFrom/Fixed_Asset_Valuation/hasAttributes/Valuer ID",
+            "contents": [
+              "Fixed_Asset_Valuation/hasAttributes/Valuer ID"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Valuer Documnet Reference",
+            "parent": "Fixed_Asset_Valuation/attributeContext/Fixed_Asset_Valuation",
+            "definition": "resolvedFrom/Fixed_Asset_Valuation/hasAttributes/Valuer Documnet Reference",
+            "contents": [
+              "Fixed_Asset_Valuation/hasAttributes/Valuer Documnet Reference"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Valuer Name",
+            "parent": "Fixed_Asset_Valuation/attributeContext/Fixed_Asset_Valuation",
+            "definition": "resolvedFrom/Fixed_Asset_Valuation/hasAttributes/Valuer Name",
+            "contents": [
+              "Fixed_Asset_Valuation/hasAttributes/Valuer Name"
+            ]
+          }
+        ]
+      },
+      "hasAttributes": [
+        {
+          "name": "Approved By",
+          "appliedTraits": [
+            "is.dataFormat.character",
+            "is.dataFormat.big",
+            "is.dataFormat.array"
+          ],
+          "attributeContext": "Fixed_Asset_Valuation/attributeContext/Fixed_Asset_Valuation/Approved By",
+          "dataFormat": "String"
+        },
+        {
+          "name": "Approved By Date",
+          "appliedTraits": [
+            "is.dataFormat.date",
+            "means.measurement.date"
+          ],
+          "attributeContext": "Fixed_Asset_Valuation/attributeContext/Fixed_Asset_Valuation/Approved By Date",
+          "dataFormat": "Date"
+        },
+        {
+          "name": "Approved By Time",
+          "appliedTraits": [
+            "is.dataFormat.date",
+            "means.measurement.date"
+          ],
+          "attributeContext": "Fixed_Asset_Valuation/attributeContext/Fixed_Asset_Valuation/Approved By Time",
+          "dataFormat": "Date"
+        },
+        {
+          "name": "Business Unit Code",
+          "appliedTraits": [
+            "is.dataFormat.character",
+            "is.dataFormat.big",
+            "is.dataFormat.array"
+          ],
+          "attributeContext": "Fixed_Asset_Valuation/attributeContext/Fixed_Asset_Valuation/Business Unit Code",
+          "dataFormat": "String"
+        },
+        {
+          "name": "Enteredby",
+          "appliedTraits": [
+            "is.dataFormat.character",
+            "is.dataFormat.big",
+            "is.dataFormat.array"
+          ],
+          "attributeContext": "Fixed_Asset_Valuation/attributeContext/Fixed_Asset_Valuation/Enteredby",
+          "dataFormat": "String"
+        },
+        {
+          "name": "Entered Date",
+          "appliedTraits": [
+            "is.dataFormat.date",
+            "means.measurement.date"
+          ],
+          "attributeContext": "Fixed_Asset_Valuation/attributeContext/Fixed_Asset_Valuation/Entered Date",
+          "dataFormat": "Date"
+        },
+        {
+          "name": "Entered Time",
+          "appliedTraits": [
+            "is.dataFormat.date",
+            "means.measurement.date"
+          ],
+          "attributeContext": "Fixed_Asset_Valuation/attributeContext/Fixed_Asset_Valuation/Entered Time",
+          "dataFormat": "Date"
+        },
+        {
+          "name": "Fixed Asset ID",
+          "appliedTraits": [
+            "is.dataFormat.character",
+            "is.dataFormat.big",
+            "is.dataFormat.array"
+          ],
+          "attributeContext": "Fixed_Asset_Valuation/attributeContext/Fixed_Asset_Valuation/Fixed Asset ID",
+          "dataFormat": "String"
+        },
+        {
+          "name": "Fixed Asset Realized Gain Loss Account",
+          "appliedTraits": [
+            "is.dataFormat.character",
+            "is.dataFormat.big",
+            "is.dataFormat.array"
+          ],
+          "attributeContext": "Fixed_Asset_Valuation/attributeContext/Fixed_Asset_Valuation/Fixed Asset Realized Gain Loss Account",
+          "dataFormat": "String"
+        },
+        {
+          "name": "Fixed Asset Realized Gain Loss Amount",
+          "appliedTraits": [
+            {
+              "traitReference": "is.dataFormat.numeric.shaped"
+            }
+          ],
+          "attributeContext": "Fixed_Asset_Valuation/attributeContext/Fixed_Asset_Valuation/Fixed Asset Realized Gain Loss Amount",
+          "dataFormat": "Decimal"
+        },
+        {
+          "name": "Fixed Asset Unrealized Gain Loss Account",
+          "appliedTraits": [
+            "is.dataFormat.character",
+            "is.dataFormat.big",
+            "is.dataFormat.array"
+          ],
+          "attributeContext": "Fixed_Asset_Valuation/attributeContext/Fixed_Asset_Valuation/Fixed Asset Unrealized Gain Loss Account",
+          "dataFormat": "String"
+        },
+        {
+          "name": "Fixed Asset Unrealized Gain Loss Amount",
+          "appliedTraits": [
+            {
+              "traitReference": "is.dataFormat.numeric.shaped"
+            }
+          ],
+          "attributeContext": "Fixed_Asset_Valuation/attributeContext/Fixed_Asset_Valuation/Fixed Asset Unrealized Gain Loss Amount",
+          "dataFormat": "Decimal"
+        },
+        {
+          "name": "G L Account",
+          "appliedTraits": [
+            "is.dataFormat.character",
+            "is.dataFormat.big",
+            "is.dataFormat.array"
+          ],
+          "attributeContext": "Fixed_Asset_Valuation/attributeContext/Fixed_Asset_Valuation/G L Account",
+          "dataFormat": "String"
+        },
+        {
+          "name": "GL Transaction ID",
+          "appliedTraits": [
+            "is.dataFormat.character",
+            "is.dataFormat.big",
+            "is.dataFormat.array"
+          ],
+          "attributeContext": "Fixed_Asset_Valuation/attributeContext/Fixed_Asset_Valuation/GL Transaction ID",
+          "dataFormat": "String"
+        },
+        {
+          "name": "Last Modified By",
+          "appliedTraits": [
+            "is.dataFormat.character",
+            "is.dataFormat.big",
+            "is.dataFormat.array"
+          ],
+          "attributeContext": "Fixed_Asset_Valuation/attributeContext/Fixed_Asset_Valuation/Last Modified By",
+          "dataFormat": "String"
+        },
+        {
+          "name": "Last Modified By Date",
+          "appliedTraits": [
+            "is.dataFormat.date",
+            "means.measurement.date"
+          ],
+          "attributeContext": "Fixed_Asset_Valuation/attributeContext/Fixed_Asset_Valuation/Last Modified By Date",
+          "dataFormat": "Date"
+        },
+        {
+          "name": "Last Modified By Time",
+          "appliedTraits": [
+            "is.dataFormat.date",
+            "means.measurement.date"
+          ],
+          "attributeContext": "Fixed_Asset_Valuation/attributeContext/Fixed_Asset_Valuation/Last Modified By Time",
+          "dataFormat": "Date"
+        },
+        {
+          "name": "Lot Number",
+          "appliedTraits": [
+            "is.dataFormat.boolean"
+          ],
+          "attributeContext": "Fixed_Asset_Valuation/attributeContext/Fixed_Asset_Valuation/Lot Number",
+          "dataFormat": "Boolean"
+        },
+        {
+          "name": "Revaluation Amount",
+          "appliedTraits": [
+            {
+              "traitReference": "is.dataFormat.numeric.shaped"
+            }
+          ],
+          "attributeContext": "Fixed_Asset_Valuation/attributeContext/Fixed_Asset_Valuation/Revaluation Amount",
+          "dataFormat": "Decimal"
+        },
+        {
+          "name": "Revaluation Date",
+          "appliedTraits": [
+            "is.dataFormat.date",
+            "means.measurement.date"
+          ],
+          "attributeContext": "Fixed_Asset_Valuation/attributeContext/Fixed_Asset_Valuation/Revaluation Date",
+          "dataFormat": "Date"
+        },
+        {
+          "name": "Revaluation Description",
+          "appliedTraits": [
+            "is.dataFormat.character",
+            "is.dataFormat.big",
+            "is.dataFormat.array"
+          ],
+          "attributeContext": "Fixed_Asset_Valuation/attributeContext/Fixed_Asset_Valuation/Revaluation Description",
+          "dataFormat": "String"
+        },
+        {
+          "name": "Serial Number",
+          "appliedTraits": [
+            "is.dataFormat.boolean"
+          ],
+          "attributeContext": "Fixed_Asset_Valuation/attributeContext/Fixed_Asset_Valuation/Serial Number",
+          "dataFormat": "Boolean"
+        },
+        {
+          "name": "Unique ID",
+          "appliedTraits": [
+            "is.dataFormat.character",
+            "is.dataFormat.big",
+            "is.dataFormat.array"
+          ],
+          "attributeContext": "Fixed_Asset_Valuation/attributeContext/Fixed_Asset_Valuation/Unique ID",
+          "dataFormat": "String"
+        },
+        {
+          "name": "Valuer ID",
+          "appliedTraits": [
+            "is.dataFormat.character",
+            "is.dataFormat.big",
+            "is.dataFormat.array"
+          ],
+          "attributeContext": "Fixed_Asset_Valuation/attributeContext/Fixed_Asset_Valuation/Valuer ID",
+          "dataFormat": "String"
+        },
+        {
+          "name": "Valuer Documnet Reference",
+          "appliedTraits": [
+            "is.dataFormat.character",
+            "is.dataFormat.big",
+            "is.dataFormat.array"
+          ],
+          "attributeContext": "Fixed_Asset_Valuation/attributeContext/Fixed_Asset_Valuation/Valuer Documnet Reference",
+          "dataFormat": "String"
+        },
+        {
+          "name": "Valuer Name",
+          "appliedTraits": [
+            "is.dataFormat.character",
+            "is.dataFormat.big",
+            "is.dataFormat.array"
+          ],
+          "attributeContext": "Fixed_Asset_Valuation/attributeContext/Fixed_Asset_Valuation/Valuer Name",
+          "dataFormat": "String"
+        }
+      ]
+    }
+  ]
+}

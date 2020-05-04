@@ -1,0 +1,270 @@
+{
+  "jsonSchemaSemanticVersion": "1.0.0",
+  "imports": [
+    {
+      "corpusPath": "/Chart of Accounts.cdm.json",
+      "moniker": "resolvedFrom"
+    }
+  ],
+  "definitions": [
+    {
+      "entityName": "Chart of Accounts",
+      "attributeContext": {
+        "type": "entity",
+        "name": "Chart of Accounts",
+        "definition": "resolvedFrom/Chart of Accounts",
+        "contents": [
+          {
+            "type": "attributeDefinition",
+            "name": "Account Description",
+            "parent": "Chart of Accounts/attributeContext/Chart of Accounts",
+            "definition": "resolvedFrom/Chart of Accounts/hasAttributes/Account Description",
+            "contents": [
+              "Chart of Accounts/hasAttributes/Account Description"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Account Name",
+            "parent": "Chart of Accounts/attributeContext/Chart of Accounts",
+            "definition": "resolvedFrom/Chart of Accounts/hasAttributes/Account Name",
+            "contents": [
+              "Chart of Accounts/hasAttributes/Account Name"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Account Number",
+            "parent": "Chart of Accounts/attributeContext/Chart of Accounts",
+            "definition": "resolvedFrom/Chart of Accounts/hasAttributes/Account Number",
+            "contents": [
+              "Chart of Accounts/hasAttributes/Account Number"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Account Type",
+            "parent": "Chart of Accounts/attributeContext/Chart of Accounts",
+            "definition": "resolvedFrom/Chart of Accounts/hasAttributes/Account Type",
+            "contents": [
+              "Chart of Accounts/hasAttributes/Account Type"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Account Subtype",
+            "parent": "Chart of Accounts/attributeContext/Chart of Accounts",
+            "definition": "resolvedFrom/Chart of Accounts/hasAttributes/Account Subtype",
+            "contents": [
+              "Chart of Accounts/hasAttributes/Account Subtype"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Business Unit Code",
+            "parent": "Chart of Accounts/attributeContext/Chart of Accounts",
+            "definition": "resolvedFrom/Chart of Accounts/hasAttributes/Business Unit Code",
+            "contents": [
+              "Chart of Accounts/hasAttributes/Business Unit Code"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Parent Account Number",
+            "parent": "Chart of Accounts/attributeContext/Chart of Accounts",
+            "definition": "resolvedFrom/Chart of Accounts/hasAttributes/Parent Account Number",
+            "contents": [
+              "Chart of Accounts/hasAttributes/Parent Account Number"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Reporting Element",
+            "parent": "Chart of Accounts/attributeContext/Chart of Accounts",
+            "definition": "resolvedFrom/Chart of Accounts/hasAttributes/Reporting Element",
+            "contents": [
+              "Chart of Accounts/hasAttributes/Reporting Element"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Segment01",
+            "parent": "Chart of Accounts/attributeContext/Chart of Accounts",
+            "definition": "resolvedFrom/Chart of Accounts/hasAttributes/Segment01",
+            "contents": [
+              "Chart of Accounts/hasAttributes/Segment01"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Segment02",
+            "parent": "Chart of Accounts/attributeContext/Chart of Accounts",
+            "definition": "resolvedFrom/Chart of Accounts/hasAttributes/Segment02",
+            "contents": [
+              "Chart of Accounts/hasAttributes/Segment02"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Segment03",
+            "parent": "Chart of Accounts/attributeContext/Chart of Accounts",
+            "definition": "resolvedFrom/Chart of Accounts/hasAttributes/Segment03",
+            "contents": [
+              "Chart of Accounts/hasAttributes/Segment03"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Segment04",
+            "parent": "Chart of Accounts/attributeContext/Chart of Accounts",
+            "definition": "resolvedFrom/Chart of Accounts/hasAttributes/Segment04",
+            "contents": [
+              "Chart of Accounts/hasAttributes/Segment04"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Segment05",
+            "parent": "Chart of Accounts/attributeContext/Chart of Accounts",
+            "definition": "resolvedFrom/Chart of Accounts/hasAttributes/Segment05",
+            "contents": [
+              "Chart of Accounts/hasAttributes/Segment05"
+            ]
+          }
+        ]
+      },
+      "hasAttributes": [
+        {
+          "name": "Account Description",
+          "appliedTraits": [
+            "is.dataFormat.character",
+            "is.dataFormat.big",
+            "is.dataFormat.array"
+          ],
+          "attributeContext": "Chart of Accounts/attributeContext/Chart of Accounts/Account Description",
+          "dataFormat": "String"
+        },
+        {
+          "name": "Account Name",
+          "appliedTraits": [
+            "is.dataFormat.character",
+            "is.dataFormat.big",
+            "is.dataFormat.array"
+          ],
+          "attributeContext": "Chart of Accounts/attributeContext/Chart of Accounts/Account Name",
+          "dataFormat": "String"
+        },
+        {
+          "name": "Account Number",
+          "appliedTraits": [
+            "is.dataFormat.character",
+            "is.dataFormat.big",
+            "is.dataFormat.array"
+          ],
+          "attributeContext": "Chart of Accounts/attributeContext/Chart of Accounts/Account Number",
+          "dataFormat": "String"
+        },
+        {
+          "name": "Account Type",
+          "appliedTraits": [
+            "is.dataFormat.character",
+            "is.dataFormat.big",
+            "is.dataFormat.array"
+          ],
+          "attributeContext": "Chart of Accounts/attributeContext/Chart of Accounts/Account Type",
+          "dataFormat": "String"
+        },
+        {
+          "name": "Account Subtype",
+          "appliedTraits": [
+            "is.dataFormat.character",
+            "is.dataFormat.big",
+            "is.dataFormat.array"
+          ],
+          "attributeContext": "Chart of Accounts/attributeContext/Chart of Accounts/Account Subtype",
+          "dataFormat": "String"
+        },
+        {
+          "name": "Business Unit Code",
+          "appliedTraits": [
+            "is.dataFormat.character",
+            "is.dataFormat.big",
+            "is.dataFormat.array"
+          ],
+          "attributeContext": "Chart of Accounts/attributeContext/Chart of Accounts/Business Unit Code",
+          "dataFormat": "String"
+        },
+        {
+          "name": "Parent Account Number",
+          "appliedTraits": [
+            "is.dataFormat.character",
+            "is.dataFormat.big",
+            "is.dataFormat.array"
+          ],
+          "attributeContext": "Chart of Accounts/attributeContext/Chart of Accounts/Parent Account Number",
+          "dataFormat": "String"
+        },
+        {
+          "name": "Reporting Element",
+          "appliedTraits": [
+            "is.dataFormat.character",
+            "is.dataFormat.big",
+            "is.dataFormat.array"
+          ],
+          "attributeContext": "Chart of Accounts/attributeContext/Chart of Accounts/Reporting Element",
+          "dataFormat": "String"
+        },
+        {
+          "name": "Segment01",
+          "appliedTraits": [
+            "is.dataFormat.character",
+            "is.dataFormat.big",
+            "is.dataFormat.array"
+          ],
+          "attributeContext": "Chart of Accounts/attributeContext/Chart of Accounts/Segment01",
+          "dataFormat": "String"
+        },
+        {
+          "name": "Segment02",
+          "appliedTraits": [
+            "is.dataFormat.character",
+            "is.dataFormat.big",
+            "is.dataFormat.array"
+          ],
+          "attributeContext": "Chart of Accounts/attributeContext/Chart of Accounts/Segment02",
+          "dataFormat": "String"
+        },
+        {
+          "name": "Segment03",
+          "appliedTraits": [
+            "is.dataFormat.character",
+            "is.dataFormat.big",
+            "is.dataFormat.array"
+          ],
+          "attributeContext": "Chart of Accounts/attributeContext/Chart of Accounts/Segment03",
+          "dataFormat": "String"
+        },
+        {
+          "name": "Segment04",
+          "appliedTraits": [
+            "is.dataFormat.character",
+            "is.dataFormat.big",
+            "is.dataFormat.array"
+          ],
+          "attributeContext": "Chart of Accounts/attributeContext/Chart of Accounts/Segment04",
+          "dataFormat": "String"
+        },
+        {
+          "name": "Segment05",
+          "appliedTraits": [
+            "is.dataFormat.character",
+            "is.dataFormat.big",
+            "is.dataFormat.array"
+          ],
+          "attributeContext": "Chart of Accounts/attributeContext/Chart of Accounts/Segment05",
+          "dataFormat": "String"
+        }
+      ]
+    }
+  ]
+}

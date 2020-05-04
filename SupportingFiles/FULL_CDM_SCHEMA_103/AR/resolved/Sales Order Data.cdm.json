@@ -1,0 +1,2685 @@
+{
+  "jsonSchemaSemanticVersion": "1.0.0",
+  "imports": [
+    {
+      "corpusPath": "/Sales Order Data.cdm.json",
+      "moniker": "resolvedFrom"
+    }
+  ],
+  "definitions": [
+    {
+      "entityName": "Sales Order Data",
+      "attributeContext": {
+        "type": "entity",
+        "name": "Sales Order Data",
+        "definition": "resolvedFrom/Sales Order Data",
+        "contents": [
+          {
+            "type": "attributeDefinition",
+            "name": "Approved By",
+            "parent": "Sales Order Data/attributeContext/Sales Order Data",
+            "definition": "resolvedFrom/Sales Order Data/hasAttributes/Approved By",
+            "contents": [
+              "Sales Order Data/hasAttributes/Approved By"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Approved Date Time",
+            "parent": "Sales Order Data/attributeContext/Sales Order Data",
+            "definition": "resolvedFrom/Sales Order Data/hasAttributes/Approved Date Time",
+            "contents": [
+              "Sales Order Data/hasAttributes/Approved Date Time"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Batch ID",
+            "parent": "Sales Order Data/attributeContext/Sales Order Data",
+            "definition": "resolvedFrom/Sales Order Data/hasAttributes/Batch ID",
+            "contents": [
+              "Sales Order Data/hasAttributes/Batch ID"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Billing Address Additional Address Detail",
+            "parent": "Sales Order Data/attributeContext/Sales Order Data",
+            "definition": "resolvedFrom/Sales Order Data/hasAttributes/Billing Address Additional Address Detail",
+            "contents": [
+              "Sales Order Data/hasAttributes/Billing Address Additional Address Detail"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Billing Address Address Type",
+            "parent": "Sales Order Data/attributeContext/Sales Order Data",
+            "definition": "resolvedFrom/Sales Order Data/hasAttributes/Billing Address Address Type",
+            "contents": [
+              "Sales Order Data/hasAttributes/Billing Address Address Type"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Billing Address Building",
+            "parent": "Sales Order Data/attributeContext/Sales Order Data",
+            "definition": "resolvedFrom/Sales Order Data/hasAttributes/Billing Address Building",
+            "contents": [
+              "Sales Order Data/hasAttributes/Billing Address Building"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Billing Address City",
+            "parent": "Sales Order Data/attributeContext/Sales Order Data",
+            "definition": "resolvedFrom/Sales Order Data/hasAttributes/Billing Address City",
+            "contents": [
+              "Sales Order Data/hasAttributes/Billing Address City"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Billing Address Country",
+            "parent": "Sales Order Data/attributeContext/Sales Order Data",
+            "definition": "resolvedFrom/Sales Order Data/hasAttributes/Billing Address Country",
+            "contents": [
+              "Sales Order Data/hasAttributes/Billing Address Country"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Billing Address Number",
+            "parent": "Sales Order Data/attributeContext/Sales Order Data",
+            "definition": "resolvedFrom/Sales Order Data/hasAttributes/Billing Address Number",
+            "contents": [
+              "Sales Order Data/hasAttributes/Billing Address Number"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Billing Address Postal Code",
+            "parent": "Sales Order Data/attributeContext/Sales Order Data",
+            "definition": "resolvedFrom/Sales Order Data/hasAttributes/Billing Address Postal Code",
+            "contents": [
+              "Sales Order Data/hasAttributes/Billing Address Postal Code"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Billing Address Region",
+            "parent": "Sales Order Data/attributeContext/Sales Order Data",
+            "definition": "resolvedFrom/Sales Order Data/hasAttributes/Billing Address Region",
+            "contents": [
+              "Sales Order Data/hasAttributes/Billing Address Region"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Billing Address Street Name",
+            "parent": "Sales Order Data/attributeContext/Sales Order Data",
+            "definition": "resolvedFrom/Sales Order Data/hasAttributes/Billing Address Street Name",
+            "contents": [
+              "Sales Order Data/hasAttributes/Billing Address Street Name"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Branch Store Number",
+            "parent": "Sales Order Data/attributeContext/Sales Order Data",
+            "definition": "resolvedFrom/Sales Order Data/hasAttributes/Branch Store Number",
+            "contents": [
+              "Sales Order Data/hasAttributes/Branch Store Number"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Customer Info Name",
+            "parent": "Sales Order Data/attributeContext/Sales Order Data",
+            "definition": "resolvedFrom/Sales Order Data/hasAttributes/Customer Info Name",
+            "contents": [
+              "Sales Order Data/hasAttributes/Customer Info Name"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Customer Info Supplier ID",
+            "parent": "Sales Order Data/attributeContext/Sales Order Data",
+            "definition": "resolvedFrom/Sales Order Data/hasAttributes/Customer Info Supplier ID",
+            "contents": [
+              "Sales Order Data/hasAttributes/Customer Info Supplier ID"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "GL Posting Date",
+            "parent": "Sales Order Data/attributeContext/Sales Order Data",
+            "definition": "resolvedFrom/Sales Order Data/hasAttributes/GL Posting Date",
+            "contents": [
+              "Sales Order Data/hasAttributes/GL Posting Date"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Line Account ID",
+            "parent": "Sales Order Data/attributeContext/Sales Order Data",
+            "definition": "resolvedFrom/Sales Order Data/hasAttributes/Line Account ID",
+            "contents": [
+              "Sales Order Data/hasAttributes/Line Account ID"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Line Analysis ID",
+            "parent": "Sales Order Data/attributeContext/Sales Order Data",
+            "definition": "resolvedFrom/Sales Order Data/hasAttributes/Line Analysis ID",
+            "contents": [
+              "Sales Order Data/hasAttributes/Line Analysis ID"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Line Analysis Amount",
+            "parent": "Sales Order Data/attributeContext/Sales Order Data",
+            "definition": "resolvedFrom/Sales Order Data/hasAttributes/Line Analysis Amount",
+            "contents": [
+              "Sales Order Data/hasAttributes/Line Analysis Amount"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Line Analysis Type",
+            "parent": "Sales Order Data/attributeContext/Sales Order Data",
+            "definition": "resolvedFrom/Sales Order Data/hasAttributes/Line Analysis Type",
+            "contents": [
+              "Sales Order Data/hasAttributes/Line Analysis Type"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Line Approved By",
+            "parent": "Sales Order Data/attributeContext/Sales Order Data",
+            "definition": "resolvedFrom/Sales Order Data/hasAttributes/Line Approved By",
+            "contents": [
+              "Sales Order Data/hasAttributes/Line Approved By"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Line Approved Date Time",
+            "parent": "Sales Order Data/attributeContext/Sales Order Data",
+            "definition": "resolvedFrom/Sales Order Data/hasAttributes/Line Approved Date Time",
+            "contents": [
+              "Sales Order Data/hasAttributes/Line Approved Date Time"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Line Credit Note Reason",
+            "parent": "Sales Order Data/attributeContext/Sales Order Data",
+            "definition": "resolvedFrom/Sales Order Data/hasAttributes/Line Credit Note Reason",
+            "contents": [
+              "Sales Order Data/hasAttributes/Line Credit Note Reason"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Line Credit Note Reference",
+            "parent": "Sales Order Data/attributeContext/Sales Order Data",
+            "definition": "resolvedFrom/Sales Order Data/hasAttributes/Line Credit Note Reference",
+            "contents": [
+              "Sales Order Data/hasAttributes/Line Credit Note Reference"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Line Debit Credit Indicator",
+            "parent": "Sales Order Data/attributeContext/Sales Order Data",
+            "definition": "resolvedFrom/Sales Order Data/hasAttributes/Line Debit Credit Indicator",
+            "contents": [
+              "Sales Order Data/hasAttributes/Line Debit Credit Indicator"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Line Delivery Date",
+            "parent": "Sales Order Data/attributeContext/Sales Order Data",
+            "definition": "resolvedFrom/Sales Order Data/hasAttributes/Line Delivery Date",
+            "contents": [
+              "Sales Order Data/hasAttributes/Line Delivery Date"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Line Description",
+            "parent": "Sales Order Data/attributeContext/Sales Order Data",
+            "definition": "resolvedFrom/Sales Order Data/hasAttributes/Line Description",
+            "contents": [
+              "Sales Order Data/hasAttributes/Line Description"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Line From Date",
+            "parent": "Sales Order Data/attributeContext/Sales Order Data",
+            "definition": "resolvedFrom/Sales Order Data/hasAttributes/Line From Date",
+            "contents": [
+              "Sales Order Data/hasAttributes/Line From Date"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Line Goods Services ID",
+            "parent": "Sales Order Data/attributeContext/Sales Order Data",
+            "definition": "resolvedFrom/Sales Order Data/hasAttributes/Line Goods Services ID",
+            "contents": [
+              "Sales Order Data/hasAttributes/Line Goods Services ID"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Line Line Number",
+            "parent": "Sales Order Data/attributeContext/Sales Order Data",
+            "definition": "resolvedFrom/Sales Order Data/hasAttributes/Line Line Number",
+            "contents": [
+              "Sales Order Data/hasAttributes/Line Line Number"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Line Movement Reference",
+            "parent": "Sales Order Data/attributeContext/Sales Order Data",
+            "definition": "resolvedFrom/Sales Order Data/hasAttributes/Line Movement Reference",
+            "contents": [
+              "Sales Order Data/hasAttributes/Line Movement Reference"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Line Order Line Amount Amount",
+            "parent": "Sales Order Data/attributeContext/Sales Order Data",
+            "definition": "resolvedFrom/Sales Order Data/hasAttributes/Line Order Line Amount Amount",
+            "contents": [
+              "Sales Order Data/hasAttributes/Line Order Line Amount Amount"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Line Order Line Amount Currency Amount",
+            "parent": "Sales Order Data/attributeContext/Sales Order Data",
+            "definition": "resolvedFrom/Sales Order Data/hasAttributes/Line Order Line Amount Currency Amount",
+            "contents": [
+              "Sales Order Data/hasAttributes/Line Order Line Amount Currency Amount"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Line Order Line Amount Currency Code",
+            "parent": "Sales Order Data/attributeContext/Sales Order Data",
+            "definition": "resolvedFrom/Sales Order Data/hasAttributes/Line Order Line Amount Currency Code",
+            "contents": [
+              "Sales Order Data/hasAttributes/Line Order Line Amount Currency Code"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Line Order Line Amount Exchange Rate",
+            "parent": "Sales Order Data/attributeContext/Sales Order Data",
+            "definition": "resolvedFrom/Sales Order Data/hasAttributes/Line Order Line Amount Exchange Rate",
+            "contents": [
+              "Sales Order Data/hasAttributes/Line Order Line Amount Exchange Rate"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Line Order UOM",
+            "parent": "Sales Order Data/attributeContext/Sales Order Data",
+            "definition": "resolvedFrom/Sales Order Data/hasAttributes/Line Order UOM",
+            "contents": [
+              "Sales Order Data/hasAttributes/Line Order UOM"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Line P IDate",
+            "parent": "Sales Order Data/attributeContext/Sales Order Data",
+            "definition": "resolvedFrom/Sales Order Data/hasAttributes/Line P IDate",
+            "contents": [
+              "Sales Order Data/hasAttributes/Line P IDate"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Line Product Code",
+            "parent": "Sales Order Data/attributeContext/Sales Order Data",
+            "definition": "resolvedFrom/Sales Order Data/hasAttributes/Line Product Code",
+            "contents": [
+              "Sales Order Data/hasAttributes/Line Product Code"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Line Product Description",
+            "parent": "Sales Order Data/attributeContext/Sales Order Data",
+            "definition": "resolvedFrom/Sales Order Data/hasAttributes/Line Product Description",
+            "contents": [
+              "Sales Order Data/hasAttributes/Line Product Description"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Line Quantity",
+            "parent": "Sales Order Data/attributeContext/Sales Order Data",
+            "definition": "resolvedFrom/Sales Order Data/hasAttributes/Line Quantity",
+            "contents": [
+              "Sales Order Data/hasAttributes/Line Quantity"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Line Ship From Additional Address Detail",
+            "parent": "Sales Order Data/attributeContext/Sales Order Data",
+            "definition": "resolvedFrom/Sales Order Data/hasAttributes/Line Ship From Additional Address Detail",
+            "contents": [
+              "Sales Order Data/hasAttributes/Line Ship From Additional Address Detail"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Line Ship From Address",
+            "parent": "Sales Order Data/attributeContext/Sales Order Data",
+            "definition": "resolvedFrom/Sales Order Data/hasAttributes/Line Ship From Address",
+            "contents": [
+              "Sales Order Data/hasAttributes/Line Ship From Address"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Line Ship From Address Type",
+            "parent": "Sales Order Data/attributeContext/Sales Order Data",
+            "definition": "resolvedFrom/Sales Order Data/hasAttributes/Line Ship From Address Type",
+            "contents": [
+              "Sales Order Data/hasAttributes/Line Ship From Address Type"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Line Ship From Building",
+            "parent": "Sales Order Data/attributeContext/Sales Order Data",
+            "definition": "resolvedFrom/Sales Order Data/hasAttributes/Line Ship From Building",
+            "contents": [
+              "Sales Order Data/hasAttributes/Line Ship From Building"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Line Ship From City",
+            "parent": "Sales Order Data/attributeContext/Sales Order Data",
+            "definition": "resolvedFrom/Sales Order Data/hasAttributes/Line Ship From City",
+            "contents": [
+              "Sales Order Data/hasAttributes/Line Ship From City"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Line Ship From Country",
+            "parent": "Sales Order Data/attributeContext/Sales Order Data",
+            "definition": "resolvedFrom/Sales Order Data/hasAttributes/Line Ship From Country",
+            "contents": [
+              "Sales Order Data/hasAttributes/Line Ship From Country"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Line Ship From Delivery ID",
+            "parent": "Sales Order Data/attributeContext/Sales Order Data",
+            "definition": "resolvedFrom/Sales Order Data/hasAttributes/Line Ship From Delivery ID",
+            "contents": [
+              "Sales Order Data/hasAttributes/Line Ship From Delivery ID"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Line Ship From Delivery Date",
+            "parent": "Sales Order Data/attributeContext/Sales Order Data",
+            "definition": "resolvedFrom/Sales Order Data/hasAttributes/Line Ship From Delivery Date",
+            "contents": [
+              "Sales Order Data/hasAttributes/Line Ship From Delivery Date"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Line Ship From Location ID",
+            "parent": "Sales Order Data/attributeContext/Sales Order Data",
+            "definition": "resolvedFrom/Sales Order Data/hasAttributes/Line Ship From Location ID",
+            "contents": [
+              "Sales Order Data/hasAttributes/Line Ship From Location ID"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Line Ship From Number",
+            "parent": "Sales Order Data/attributeContext/Sales Order Data",
+            "definition": "resolvedFrom/Sales Order Data/hasAttributes/Line Ship From Number",
+            "contents": [
+              "Sales Order Data/hasAttributes/Line Ship From Number"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Line Ship From Postal Code",
+            "parent": "Sales Order Data/attributeContext/Sales Order Data",
+            "definition": "resolvedFrom/Sales Order Data/hasAttributes/Line Ship From Postal Code",
+            "contents": [
+              "Sales Order Data/hasAttributes/Line Ship From Postal Code"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Line Ship From Region",
+            "parent": "Sales Order Data/attributeContext/Sales Order Data",
+            "definition": "resolvedFrom/Sales Order Data/hasAttributes/Line Ship From Region",
+            "contents": [
+              "Sales Order Data/hasAttributes/Line Ship From Region"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Line Ship From Street Name",
+            "parent": "Sales Order Data/attributeContext/Sales Order Data",
+            "definition": "resolvedFrom/Sales Order Data/hasAttributes/Line Ship From Street Name",
+            "contents": [
+              "Sales Order Data/hasAttributes/Line Ship From Street Name"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Line Ship From UCR",
+            "parent": "Sales Order Data/attributeContext/Sales Order Data",
+            "definition": "resolvedFrom/Sales Order Data/hasAttributes/Line Ship From UCR",
+            "contents": [
+              "Sales Order Data/hasAttributes/Line Ship From UCR"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Line Ship From Warehouse ID",
+            "parent": "Sales Order Data/attributeContext/Sales Order Data",
+            "definition": "resolvedFrom/Sales Order Data/hasAttributes/Line Ship From Warehouse ID",
+            "contents": [
+              "Sales Order Data/hasAttributes/Line Ship From Warehouse ID"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Line Shipping Costs Amount Amount",
+            "parent": "Sales Order Data/attributeContext/Sales Order Data",
+            "definition": "resolvedFrom/Sales Order Data/hasAttributes/Line Shipping Costs Amount Amount",
+            "contents": [
+              "Sales Order Data/hasAttributes/Line Shipping Costs Amount Amount"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Line Shipping Costs Amount Currency Amount",
+            "parent": "Sales Order Data/attributeContext/Sales Order Data",
+            "definition": "resolvedFrom/Sales Order Data/hasAttributes/Line Shipping Costs Amount Currency Amount",
+            "contents": [
+              "Sales Order Data/hasAttributes/Line Shipping Costs Amount Currency Amount"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Line Shipping Costs Amount Currency Code",
+            "parent": "Sales Order Data/attributeContext/Sales Order Data",
+            "definition": "resolvedFrom/Sales Order Data/hasAttributes/Line Shipping Costs Amount Currency Code",
+            "contents": [
+              "Sales Order Data/hasAttributes/Line Shipping Costs Amount Currency Code"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Line Shipping Costs Amount Exchange Rate",
+            "parent": "Sales Order Data/attributeContext/Sales Order Data",
+            "definition": "resolvedFrom/Sales Order Data/hasAttributes/Line Shipping Costs Amount Exchange Rate",
+            "contents": [
+              "Sales Order Data/hasAttributes/Line Shipping Costs Amount Exchange Rate"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Line Ship To Additional Address Detail",
+            "parent": "Sales Order Data/attributeContext/Sales Order Data",
+            "definition": "resolvedFrom/Sales Order Data/hasAttributes/Line Ship To Additional Address Detail",
+            "contents": [
+              "Sales Order Data/hasAttributes/Line Ship To Additional Address Detail"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Line Ship To Address",
+            "parent": "Sales Order Data/attributeContext/Sales Order Data",
+            "definition": "resolvedFrom/Sales Order Data/hasAttributes/Line Ship To Address",
+            "contents": [
+              "Sales Order Data/hasAttributes/Line Ship To Address"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Line Ship To Address Type",
+            "parent": "Sales Order Data/attributeContext/Sales Order Data",
+            "definition": "resolvedFrom/Sales Order Data/hasAttributes/Line Ship To Address Type",
+            "contents": [
+              "Sales Order Data/hasAttributes/Line Ship To Address Type"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Line Ship To Building",
+            "parent": "Sales Order Data/attributeContext/Sales Order Data",
+            "definition": "resolvedFrom/Sales Order Data/hasAttributes/Line Ship To Building",
+            "contents": [
+              "Sales Order Data/hasAttributes/Line Ship To Building"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Line Ship To City",
+            "parent": "Sales Order Data/attributeContext/Sales Order Data",
+            "definition": "resolvedFrom/Sales Order Data/hasAttributes/Line Ship To City",
+            "contents": [
+              "Sales Order Data/hasAttributes/Line Ship To City"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Line Ship To Country",
+            "parent": "Sales Order Data/attributeContext/Sales Order Data",
+            "definition": "resolvedFrom/Sales Order Data/hasAttributes/Line Ship To Country",
+            "contents": [
+              "Sales Order Data/hasAttributes/Line Ship To Country"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Line Ship To Delivery ID",
+            "parent": "Sales Order Data/attributeContext/Sales Order Data",
+            "definition": "resolvedFrom/Sales Order Data/hasAttributes/Line Ship To Delivery ID",
+            "contents": [
+              "Sales Order Data/hasAttributes/Line Ship To Delivery ID"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Line Ship To Delivery Date",
+            "parent": "Sales Order Data/attributeContext/Sales Order Data",
+            "definition": "resolvedFrom/Sales Order Data/hasAttributes/Line Ship To Delivery Date",
+            "contents": [
+              "Sales Order Data/hasAttributes/Line Ship To Delivery Date"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Line Ship To Location ID",
+            "parent": "Sales Order Data/attributeContext/Sales Order Data",
+            "definition": "resolvedFrom/Sales Order Data/hasAttributes/Line Ship To Location ID",
+            "contents": [
+              "Sales Order Data/hasAttributes/Line Ship To Location ID"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Line Ship To Number",
+            "parent": "Sales Order Data/attributeContext/Sales Order Data",
+            "definition": "resolvedFrom/Sales Order Data/hasAttributes/Line Ship To Number",
+            "contents": [
+              "Sales Order Data/hasAttributes/Line Ship To Number"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Line Ship To Postal Code",
+            "parent": "Sales Order Data/attributeContext/Sales Order Data",
+            "definition": "resolvedFrom/Sales Order Data/hasAttributes/Line Ship To Postal Code",
+            "contents": [
+              "Sales Order Data/hasAttributes/Line Ship To Postal Code"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Line Ship To Region",
+            "parent": "Sales Order Data/attributeContext/Sales Order Data",
+            "definition": "resolvedFrom/Sales Order Data/hasAttributes/Line Ship To Region",
+            "contents": [
+              "Sales Order Data/hasAttributes/Line Ship To Region"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Line Ship To Street Name",
+            "parent": "Sales Order Data/attributeContext/Sales Order Data",
+            "definition": "resolvedFrom/Sales Order Data/hasAttributes/Line Ship To Street Name",
+            "contents": [
+              "Sales Order Data/hasAttributes/Line Ship To Street Name"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Line Ship To UCR",
+            "parent": "Sales Order Data/attributeContext/Sales Order Data",
+            "definition": "resolvedFrom/Sales Order Data/hasAttributes/Line Ship To UCR",
+            "contents": [
+              "Sales Order Data/hasAttributes/Line Ship To UCR"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Line Ship To Warehouse ID",
+            "parent": "Sales Order Data/attributeContext/Sales Order Data",
+            "definition": "resolvedFrom/Sales Order Data/hasAttributes/Line Ship To Warehouse ID",
+            "contents": [
+              "Sales Order Data/hasAttributes/Line Ship To Warehouse ID"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Line Subsequent PI",
+            "parent": "Sales Order Data/attributeContext/Sales Order Data",
+            "definition": "resolvedFrom/Sales Order Data/hasAttributes/Line Subsequent PI",
+            "contents": [
+              "Sales Order Data/hasAttributes/Line Subsequent PI"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Line System Entry Date Time",
+            "parent": "Sales Order Data/attributeContext/Sales Order Data",
+            "definition": "resolvedFrom/Sales Order Data/hasAttributes/Line System Entry Date Time",
+            "contents": [
+              "Sales Order Data/hasAttributes/Line System Entry Date Time"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Line System Entry User",
+            "parent": "Sales Order Data/attributeContext/Sales Order Data",
+            "definition": "resolvedFrom/Sales Order Data/hasAttributes/Line System Entry User",
+            "contents": [
+              "Sales Order Data/hasAttributes/Line System Entry User"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Line Tax Information Tax Amount",
+            "parent": "Sales Order Data/attributeContext/Sales Order Data",
+            "definition": "resolvedFrom/Sales Order Data/hasAttributes/Line Tax Information Tax Amount",
+            "contents": [
+              "Sales Order Data/hasAttributes/Line Tax Information Tax Amount"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Line Tax Information Tax Base",
+            "parent": "Sales Order Data/attributeContext/Sales Order Data",
+            "definition": "resolvedFrom/Sales Order Data/hasAttributes/Line Tax Information Tax Base",
+            "contents": [
+              "Sales Order Data/hasAttributes/Line Tax Information Tax Base"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Line Tax Information Tax Base Description",
+            "parent": "Sales Order Data/attributeContext/Sales Order Data",
+            "definition": "resolvedFrom/Sales Order Data/hasAttributes/Line Tax Information Tax Base Description",
+            "contents": [
+              "Sales Order Data/hasAttributes/Line Tax Information Tax Base Description"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Line Tax Information Tax Code",
+            "parent": "Sales Order Data/attributeContext/Sales Order Data",
+            "definition": "resolvedFrom/Sales Order Data/hasAttributes/Line Tax Information Tax Code",
+            "contents": [
+              "Sales Order Data/hasAttributes/Line Tax Information Tax Code"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Line Tax Information Tax Declaration Period",
+            "parent": "Sales Order Data/attributeContext/Sales Order Data",
+            "definition": "resolvedFrom/Sales Order Data/hasAttributes/Line Tax Information Tax Declaration Period",
+            "contents": [
+              "Sales Order Data/hasAttributes/Line Tax Information Tax Declaration Period"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Line Tax Information Tax Exemption Reason",
+            "parent": "Sales Order Data/attributeContext/Sales Order Data",
+            "definition": "resolvedFrom/Sales Order Data/hasAttributes/Line Tax Information Tax Exemption Reason",
+            "contents": [
+              "Sales Order Data/hasAttributes/Line Tax Information Tax Exemption Reason"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Line Tax Information Tax Percentage",
+            "parent": "Sales Order Data/attributeContext/Sales Order Data",
+            "definition": "resolvedFrom/Sales Order Data/hasAttributes/Line Tax Information Tax Percentage",
+            "contents": [
+              "Sales Order Data/hasAttributes/Line Tax Information Tax Percentage"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Line Tax Information Tax Type",
+            "parent": "Sales Order Data/attributeContext/Sales Order Data",
+            "definition": "resolvedFrom/Sales Order Data/hasAttributes/Line Tax Information Tax Type",
+            "contents": [
+              "Sales Order Data/hasAttributes/Line Tax Information Tax Type"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Line Tax Point Date",
+            "parent": "Sales Order Data/attributeContext/Sales Order Data",
+            "definition": "resolvedFrom/Sales Order Data/hasAttributes/Line Tax Point Date",
+            "contents": [
+              "Sales Order Data/hasAttributes/Line Tax Point Date"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Line To Date",
+            "parent": "Sales Order Data/attributeContext/Sales Order Data",
+            "definition": "resolvedFrom/Sales Order Data/hasAttributes/Line To Date",
+            "contents": [
+              "Sales Order Data/hasAttributes/Line To Date"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Line Unit Price",
+            "parent": "Sales Order Data/attributeContext/Sales Order Data",
+            "definition": "resolvedFrom/Sales Order Data/hasAttributes/Line Unit Price",
+            "contents": [
+              "Sales Order Data/hasAttributes/Line Unit Price"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Line UOM To UOM Base Conversion Factor",
+            "parent": "Sales Order Data/attributeContext/Sales Order Data",
+            "definition": "resolvedFrom/Sales Order Data/hasAttributes/Line UOM To UOM Base Conversion Factor",
+            "contents": [
+              "Sales Order Data/hasAttributes/Line UOM To UOM Base Conversion Factor"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Order Date",
+            "parent": "Sales Order Data/attributeContext/Sales Order Data",
+            "definition": "resolvedFrom/Sales Order Data/hasAttributes/Order Date",
+            "contents": [
+              "Sales Order Data/hasAttributes/Order Date"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Order Document Reference",
+            "parent": "Sales Order Data/attributeContext/Sales Order Data",
+            "definition": "resolvedFrom/Sales Order Data/hasAttributes/Order Document Reference",
+            "contents": [
+              "Sales Order Data/hasAttributes/Order Document Reference"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Order No",
+            "parent": "Sales Order Data/attributeContext/Sales Order Data",
+            "definition": "resolvedFrom/Sales Order Data/hasAttributes/Order No",
+            "contents": [
+              "Sales Order Data/hasAttributes/Order No"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Order Type",
+            "parent": "Sales Order Data/attributeContext/Sales Order Data",
+            "definition": "resolvedFrom/Sales Order Data/hasAttributes/Order Type",
+            "contents": [
+              "Sales Order Data/hasAttributes/Order Type"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Payment Terms",
+            "parent": "Sales Order Data/attributeContext/Sales Order Data",
+            "definition": "resolvedFrom/Sales Order Data/hasAttributes/Payment Terms",
+            "contents": [
+              "Sales Order Data/hasAttributes/Payment Terms"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Period",
+            "parent": "Sales Order Data/attributeContext/Sales Order Data",
+            "definition": "resolvedFrom/Sales Order Data/hasAttributes/Period",
+            "contents": [
+              "Sales Order Data/hasAttributes/Period"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Period Year",
+            "parent": "Sales Order Data/attributeContext/Sales Order Data",
+            "definition": "resolvedFrom/Sales Order Data/hasAttributes/Period Year",
+            "contents": [
+              "Sales Order Data/hasAttributes/Period Year"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Posting Status",
+            "parent": "Sales Order Data/attributeContext/Sales Order Data",
+            "definition": "resolvedFrom/Sales Order Data/hasAttributes/Posting Status",
+            "contents": [
+              "Sales Order Data/hasAttributes/Posting Status"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Receipt Numbers",
+            "parent": "Sales Order Data/attributeContext/Sales Order Data",
+            "definition": "resolvedFrom/Sales Order Data/hasAttributes/Receipt Numbers",
+            "contents": [
+              "Sales Order Data/hasAttributes/Receipt Numbers"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Self Billing Indicator",
+            "parent": "Sales Order Data/attributeContext/Sales Order Data",
+            "definition": "resolvedFrom/Sales Order Data/hasAttributes/Self Billing Indicator",
+            "contents": [
+              "Sales Order Data/hasAttributes/Self Billing Indicator"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Settlement Amount",
+            "parent": "Sales Order Data/attributeContext/Sales Order Data",
+            "definition": "resolvedFrom/Sales Order Data/hasAttributes/Settlement Amount",
+            "contents": [
+              "Sales Order Data/hasAttributes/Settlement Amount"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Settlement Currency Amount",
+            "parent": "Sales Order Data/attributeContext/Sales Order Data",
+            "definition": "resolvedFrom/Sales Order Data/hasAttributes/Settlement Currency Amount",
+            "contents": [
+              "Sales Order Data/hasAttributes/Settlement Currency Amount"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Settlement Currency Code",
+            "parent": "Sales Order Data/attributeContext/Sales Order Data",
+            "definition": "resolvedFrom/Sales Order Data/hasAttributes/Settlement Currency Code",
+            "contents": [
+              "Sales Order Data/hasAttributes/Settlement Currency Code"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Settlement Exchange Rate",
+            "parent": "Sales Order Data/attributeContext/Sales Order Data",
+            "definition": "resolvedFrom/Sales Order Data/hasAttributes/Settlement Exchange Rate",
+            "contents": [
+              "Sales Order Data/hasAttributes/Settlement Exchange Rate"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Settlement Payment Mechanism",
+            "parent": "Sales Order Data/attributeContext/Sales Order Data",
+            "definition": "resolvedFrom/Sales Order Data/hasAttributes/Settlement Payment Mechanism",
+            "contents": [
+              "Sales Order Data/hasAttributes/Settlement Payment Mechanism"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Settlement Settlement Date",
+            "parent": "Sales Order Data/attributeContext/Sales Order Data",
+            "definition": "resolvedFrom/Sales Order Data/hasAttributes/Settlement Settlement Date",
+            "contents": [
+              "Sales Order Data/hasAttributes/Settlement Settlement Date"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Settlement Settlement Discount",
+            "parent": "Sales Order Data/attributeContext/Sales Order Data",
+            "definition": "resolvedFrom/Sales Order Data/hasAttributes/Settlement Settlement Discount",
+            "contents": [
+              "Sales Order Data/hasAttributes/Settlement Settlement Discount"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Ship From Additional Address Detail",
+            "parent": "Sales Order Data/attributeContext/Sales Order Data",
+            "definition": "resolvedFrom/Sales Order Data/hasAttributes/Ship From Additional Address Detail",
+            "contents": [
+              "Sales Order Data/hasAttributes/Ship From Additional Address Detail"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Ship From Address",
+            "parent": "Sales Order Data/attributeContext/Sales Order Data",
+            "definition": "resolvedFrom/Sales Order Data/hasAttributes/Ship From Address",
+            "contents": [
+              "Sales Order Data/hasAttributes/Ship From Address"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Ship From Address Type",
+            "parent": "Sales Order Data/attributeContext/Sales Order Data",
+            "definition": "resolvedFrom/Sales Order Data/hasAttributes/Ship From Address Type",
+            "contents": [
+              "Sales Order Data/hasAttributes/Ship From Address Type"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Ship From Building",
+            "parent": "Sales Order Data/attributeContext/Sales Order Data",
+            "definition": "resolvedFrom/Sales Order Data/hasAttributes/Ship From Building",
+            "contents": [
+              "Sales Order Data/hasAttributes/Ship From Building"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Ship From City",
+            "parent": "Sales Order Data/attributeContext/Sales Order Data",
+            "definition": "resolvedFrom/Sales Order Data/hasAttributes/Ship From City",
+            "contents": [
+              "Sales Order Data/hasAttributes/Ship From City"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Ship From Country",
+            "parent": "Sales Order Data/attributeContext/Sales Order Data",
+            "definition": "resolvedFrom/Sales Order Data/hasAttributes/Ship From Country",
+            "contents": [
+              "Sales Order Data/hasAttributes/Ship From Country"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Ship From Delivery ID",
+            "parent": "Sales Order Data/attributeContext/Sales Order Data",
+            "definition": "resolvedFrom/Sales Order Data/hasAttributes/Ship From Delivery ID",
+            "contents": [
+              "Sales Order Data/hasAttributes/Ship From Delivery ID"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Ship From Delivery Date",
+            "parent": "Sales Order Data/attributeContext/Sales Order Data",
+            "definition": "resolvedFrom/Sales Order Data/hasAttributes/Ship From Delivery Date",
+            "contents": [
+              "Sales Order Data/hasAttributes/Ship From Delivery Date"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Ship From Location ID",
+            "parent": "Sales Order Data/attributeContext/Sales Order Data",
+            "definition": "resolvedFrom/Sales Order Data/hasAttributes/Ship From Location ID",
+            "contents": [
+              "Sales Order Data/hasAttributes/Ship From Location ID"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Ship From Number",
+            "parent": "Sales Order Data/attributeContext/Sales Order Data",
+            "definition": "resolvedFrom/Sales Order Data/hasAttributes/Ship From Number",
+            "contents": [
+              "Sales Order Data/hasAttributes/Ship From Number"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Ship From Postal Code",
+            "parent": "Sales Order Data/attributeContext/Sales Order Data",
+            "definition": "resolvedFrom/Sales Order Data/hasAttributes/Ship From Postal Code",
+            "contents": [
+              "Sales Order Data/hasAttributes/Ship From Postal Code"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Ship From Region",
+            "parent": "Sales Order Data/attributeContext/Sales Order Data",
+            "definition": "resolvedFrom/Sales Order Data/hasAttributes/Ship From Region",
+            "contents": [
+              "Sales Order Data/hasAttributes/Ship From Region"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Ship From Street Name",
+            "parent": "Sales Order Data/attributeContext/Sales Order Data",
+            "definition": "resolvedFrom/Sales Order Data/hasAttributes/Ship From Street Name",
+            "contents": [
+              "Sales Order Data/hasAttributes/Ship From Street Name"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Ship From UCR",
+            "parent": "Sales Order Data/attributeContext/Sales Order Data",
+            "definition": "resolvedFrom/Sales Order Data/hasAttributes/Ship From UCR",
+            "contents": [
+              "Sales Order Data/hasAttributes/Ship From UCR"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Ship From Warehouse ID",
+            "parent": "Sales Order Data/attributeContext/Sales Order Data",
+            "definition": "resolvedFrom/Sales Order Data/hasAttributes/Ship From Warehouse ID",
+            "contents": [
+              "Sales Order Data/hasAttributes/Ship From Warehouse ID"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Ship To Additional Address Detail",
+            "parent": "Sales Order Data/attributeContext/Sales Order Data",
+            "definition": "resolvedFrom/Sales Order Data/hasAttributes/Ship To Additional Address Detail",
+            "contents": [
+              "Sales Order Data/hasAttributes/Ship To Additional Address Detail"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Ship To Address",
+            "parent": "Sales Order Data/attributeContext/Sales Order Data",
+            "definition": "resolvedFrom/Sales Order Data/hasAttributes/Ship To Address",
+            "contents": [
+              "Sales Order Data/hasAttributes/Ship To Address"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Ship To Address Type",
+            "parent": "Sales Order Data/attributeContext/Sales Order Data",
+            "definition": "resolvedFrom/Sales Order Data/hasAttributes/Ship To Address Type",
+            "contents": [
+              "Sales Order Data/hasAttributes/Ship To Address Type"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Ship To Building",
+            "parent": "Sales Order Data/attributeContext/Sales Order Data",
+            "definition": "resolvedFrom/Sales Order Data/hasAttributes/Ship To Building",
+            "contents": [
+              "Sales Order Data/hasAttributes/Ship To Building"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Ship To City",
+            "parent": "Sales Order Data/attributeContext/Sales Order Data",
+            "definition": "resolvedFrom/Sales Order Data/hasAttributes/Ship To City",
+            "contents": [
+              "Sales Order Data/hasAttributes/Ship To City"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Ship To Country",
+            "parent": "Sales Order Data/attributeContext/Sales Order Data",
+            "definition": "resolvedFrom/Sales Order Data/hasAttributes/Ship To Country",
+            "contents": [
+              "Sales Order Data/hasAttributes/Ship To Country"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Ship To Delivery ID",
+            "parent": "Sales Order Data/attributeContext/Sales Order Data",
+            "definition": "resolvedFrom/Sales Order Data/hasAttributes/Ship To Delivery ID",
+            "contents": [
+              "Sales Order Data/hasAttributes/Ship To Delivery ID"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Ship To Delivery Date",
+            "parent": "Sales Order Data/attributeContext/Sales Order Data",
+            "definition": "resolvedFrom/Sales Order Data/hasAttributes/Ship To Delivery Date",
+            "contents": [
+              "Sales Order Data/hasAttributes/Ship To Delivery Date"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Ship To Location ID",
+            "parent": "Sales Order Data/attributeContext/Sales Order Data",
+            "definition": "resolvedFrom/Sales Order Data/hasAttributes/Ship To Location ID",
+            "contents": [
+              "Sales Order Data/hasAttributes/Ship To Location ID"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Ship To Number",
+            "parent": "Sales Order Data/attributeContext/Sales Order Data",
+            "definition": "resolvedFrom/Sales Order Data/hasAttributes/Ship To Number",
+            "contents": [
+              "Sales Order Data/hasAttributes/Ship To Number"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Ship To Postal Code",
+            "parent": "Sales Order Data/attributeContext/Sales Order Data",
+            "definition": "resolvedFrom/Sales Order Data/hasAttributes/Ship To Postal Code",
+            "contents": [
+              "Sales Order Data/hasAttributes/Ship To Postal Code"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Ship To Region",
+            "parent": "Sales Order Data/attributeContext/Sales Order Data",
+            "definition": "resolvedFrom/Sales Order Data/hasAttributes/Ship To Region",
+            "contents": [
+              "Sales Order Data/hasAttributes/Ship To Region"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Ship To Street Name",
+            "parent": "Sales Order Data/attributeContext/Sales Order Data",
+            "definition": "resolvedFrom/Sales Order Data/hasAttributes/Ship To Street Name",
+            "contents": [
+              "Sales Order Data/hasAttributes/Ship To Street Name"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Ship To U C R",
+            "parent": "Sales Order Data/attributeContext/Sales Order Data",
+            "definition": "resolvedFrom/Sales Order Data/hasAttributes/Ship To U C R",
+            "contents": [
+              "Sales Order Data/hasAttributes/Ship To U C R"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Ship To Warehouse ID",
+            "parent": "Sales Order Data/attributeContext/Sales Order Data",
+            "definition": "resolvedFrom/Sales Order Data/hasAttributes/Ship To Warehouse ID",
+            "contents": [
+              "Sales Order Data/hasAttributes/Ship To Warehouse ID"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Source ID",
+            "parent": "Sales Order Data/attributeContext/Sales Order Data",
+            "definition": "resolvedFrom/Sales Order Data/hasAttributes/Source ID",
+            "contents": [
+              "Sales Order Data/hasAttributes/Source ID"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "System ID",
+            "parent": "Sales Order Data/attributeContext/Sales Order Data",
+            "definition": "resolvedFrom/Sales Order Data/hasAttributes/System ID",
+            "contents": [
+              "Sales Order Data/hasAttributes/System ID"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "System Entry Date Time",
+            "parent": "Sales Order Data/attributeContext/Sales Order Data",
+            "definition": "resolvedFrom/Sales Order Data/hasAttributes/System Entry Date Time",
+            "contents": [
+              "Sales Order Data/hasAttributes/System Entry Date Time"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "System Entry User",
+            "parent": "Sales Order Data/attributeContext/Sales Order Data",
+            "definition": "resolvedFrom/Sales Order Data/hasAttributes/System Entry User",
+            "contents": [
+              "Sales Order Data/hasAttributes/System Entry User"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Transaction ID",
+            "parent": "Sales Order Data/attributeContext/Sales Order Data",
+            "definition": "resolvedFrom/Sales Order Data/hasAttributes/Transaction ID",
+            "contents": [
+              "Sales Order Data/hasAttributes/Transaction ID"
+            ]
+          }
+        ]
+      },
+      "hasAttributes": [
+        {
+          "name": "Approved By",
+          "appliedTraits": [
+            "is.dataFormat.character",
+            "is.dataFormat.big",
+            "is.dataFormat.array"
+          ],
+          "attributeContext": "Sales Order Data/attributeContext/Sales Order Data/Approved By",
+          "dataFormat": "String"
+        },
+        {
+          "name": "Approved Date Time",
+          "appliedTraits": [
+            "is.dataFormat.date",
+            "means.measurement.date"
+          ],
+          "attributeContext": "Sales Order Data/attributeContext/Sales Order Data/Approved Date Time",
+          "dataFormat": "Date"
+        },
+        {
+          "name": "Batch ID",
+          "appliedTraits": [
+            "is.dataFormat.character",
+            "is.dataFormat.big",
+            "is.dataFormat.array"
+          ],
+          "attributeContext": "Sales Order Data/attributeContext/Sales Order Data/Batch ID",
+          "dataFormat": "String"
+        },
+        {
+          "name": "Billing Address Additional Address Detail",
+          "appliedTraits": [
+            "is.dataFormat.character",
+            "is.dataFormat.big",
+            "is.dataFormat.array"
+          ],
+          "attributeContext": "Sales Order Data/attributeContext/Sales Order Data/Billing Address Additional Address Detail",
+          "dataFormat": "String"
+        },
+        {
+          "name": "Billing Address Address Type",
+          "appliedTraits": [
+            "is.dataFormat.character",
+            "is.dataFormat.big",
+            "is.dataFormat.array"
+          ],
+          "attributeContext": "Sales Order Data/attributeContext/Sales Order Data/Billing Address Address Type",
+          "dataFormat": "String"
+        },
+        {
+          "name": "Billing Address Building",
+          "appliedTraits": [
+            "is.dataFormat.character",
+            "is.dataFormat.big",
+            "is.dataFormat.array"
+          ],
+          "attributeContext": "Sales Order Data/attributeContext/Sales Order Data/Billing Address Building",
+          "dataFormat": "String"
+        },
+        {
+          "name": "Billing Address City",
+          "appliedTraits": [
+            "is.dataFormat.character",
+            "is.dataFormat.big",
+            "is.dataFormat.array"
+          ],
+          "attributeContext": "Sales Order Data/attributeContext/Sales Order Data/Billing Address City",
+          "dataFormat": "String"
+        },
+        {
+          "name": "Billing Address Country",
+          "appliedTraits": [
+            "is.dataFormat.character",
+            "is.dataFormat.big",
+            "is.dataFormat.array"
+          ],
+          "attributeContext": "Sales Order Data/attributeContext/Sales Order Data/Billing Address Country",
+          "dataFormat": "String"
+        },
+        {
+          "name": "Billing Address Number",
+          "appliedTraits": [
+            {
+              "traitReference": "is.dataFormat.numeric.shaped"
+            }
+          ],
+          "attributeContext": "Sales Order Data/attributeContext/Sales Order Data/Billing Address Number",
+          "dataFormat": "Decimal"
+        },
+        {
+          "name": "Billing Address Postal Code",
+          "appliedTraits": [
+            "is.dataFormat.character",
+            "is.dataFormat.big",
+            "is.dataFormat.array"
+          ],
+          "attributeContext": "Sales Order Data/attributeContext/Sales Order Data/Billing Address Postal Code",
+          "dataFormat": "String"
+        },
+        {
+          "name": "Billing Address Region",
+          "appliedTraits": [
+            "is.dataFormat.character",
+            "is.dataFormat.big",
+            "is.dataFormat.array"
+          ],
+          "attributeContext": "Sales Order Data/attributeContext/Sales Order Data/Billing Address Region",
+          "dataFormat": "String"
+        },
+        {
+          "name": "Billing Address Street Name",
+          "appliedTraits": [
+            "is.dataFormat.character",
+            "is.dataFormat.big",
+            "is.dataFormat.array"
+          ],
+          "attributeContext": "Sales Order Data/attributeContext/Sales Order Data/Billing Address Street Name",
+          "dataFormat": "String"
+        },
+        {
+          "name": "Branch Store Number",
+          "appliedTraits": [
+            "is.dataFormat.character",
+            "is.dataFormat.big",
+            "is.dataFormat.array"
+          ],
+          "attributeContext": "Sales Order Data/attributeContext/Sales Order Data/Branch Store Number",
+          "dataFormat": "String"
+        },
+        {
+          "name": "Customer Info Name",
+          "appliedTraits": [
+            "is.dataFormat.character",
+            "is.dataFormat.big",
+            "is.dataFormat.array"
+          ],
+          "attributeContext": "Sales Order Data/attributeContext/Sales Order Data/Customer Info Name",
+          "dataFormat": "String"
+        },
+        {
+          "name": "Customer Info Supplier ID",
+          "appliedTraits": [
+            "is.dataFormat.character",
+            "is.dataFormat.big",
+            "is.dataFormat.array"
+          ],
+          "attributeContext": "Sales Order Data/attributeContext/Sales Order Data/Customer Info Supplier ID",
+          "dataFormat": "String"
+        },
+        {
+          "name": "GL Posting Date",
+          "appliedTraits": [
+            "is.dataFormat.date",
+            "means.measurement.date"
+          ],
+          "attributeContext": "Sales Order Data/attributeContext/Sales Order Data/GL Posting Date",
+          "dataFormat": "Date"
+        },
+        {
+          "name": "Line Account ID",
+          "appliedTraits": [
+            "is.dataFormat.character",
+            "is.dataFormat.big",
+            "is.dataFormat.array"
+          ],
+          "attributeContext": "Sales Order Data/attributeContext/Sales Order Data/Line Account ID",
+          "dataFormat": "String"
+        },
+        {
+          "name": "Line Analysis ID",
+          "appliedTraits": [
+            {
+              "traitReference": "is.dataFormat.numeric.shaped"
+            }
+          ],
+          "attributeContext": "Sales Order Data/attributeContext/Sales Order Data/Line Analysis ID",
+          "dataFormat": "Decimal"
+        },
+        {
+          "name": "Line Analysis Amount",
+          "appliedTraits": [
+            "is.dataFormat.character",
+            "is.dataFormat.big",
+            "is.dataFormat.array"
+          ],
+          "attributeContext": "Sales Order Data/attributeContext/Sales Order Data/Line Analysis Amount",
+          "dataFormat": "String"
+        },
+        {
+          "name": "Line Analysis Type",
+          "appliedTraits": [
+            "is.dataFormat.character",
+            "is.dataFormat.big",
+            "is.dataFormat.array"
+          ],
+          "attributeContext": "Sales Order Data/attributeContext/Sales Order Data/Line Analysis Type",
+          "dataFormat": "String"
+        },
+        {
+          "name": "Line Approved By",
+          "appliedTraits": [
+            "is.dataFormat.character",
+            "is.dataFormat.big",
+            "is.dataFormat.array"
+          ],
+          "attributeContext": "Sales Order Data/attributeContext/Sales Order Data/Line Approved By",
+          "dataFormat": "String"
+        },
+        {
+          "name": "Line Approved Date Time",
+          "appliedTraits": [
+            "is.dataFormat.date",
+            "means.measurement.date"
+          ],
+          "attributeContext": "Sales Order Data/attributeContext/Sales Order Data/Line Approved Date Time",
+          "dataFormat": "Date"
+        },
+        {
+          "name": "Line Credit Note Reason",
+          "appliedTraits": [
+            "is.dataFormat.character",
+            "is.dataFormat.big",
+            "is.dataFormat.array"
+          ],
+          "attributeContext": "Sales Order Data/attributeContext/Sales Order Data/Line Credit Note Reason",
+          "dataFormat": "String"
+        },
+        {
+          "name": "Line Credit Note Reference",
+          "appliedTraits": [
+            "is.dataFormat.character",
+            "is.dataFormat.big",
+            "is.dataFormat.array"
+          ],
+          "attributeContext": "Sales Order Data/attributeContext/Sales Order Data/Line Credit Note Reference",
+          "dataFormat": "String"
+        },
+        {
+          "name": "Line Debit Credit Indicator",
+          "appliedTraits": [
+            "is.dataFormat.character",
+            "is.dataFormat.big",
+            "is.dataFormat.array"
+          ],
+          "attributeContext": "Sales Order Data/attributeContext/Sales Order Data/Line Debit Credit Indicator",
+          "dataFormat": "String"
+        },
+        {
+          "name": "Line Delivery Date",
+          "appliedTraits": [
+            "is.dataFormat.date",
+            "means.measurement.date"
+          ],
+          "attributeContext": "Sales Order Data/attributeContext/Sales Order Data/Line Delivery Date",
+          "dataFormat": "Date"
+        },
+        {
+          "name": "Line Description",
+          "appliedTraits": [
+            "is.dataFormat.character",
+            "is.dataFormat.big",
+            "is.dataFormat.array"
+          ],
+          "attributeContext": "Sales Order Data/attributeContext/Sales Order Data/Line Description",
+          "dataFormat": "String"
+        },
+        {
+          "name": "Line From Date",
+          "appliedTraits": [
+            "is.dataFormat.date",
+            "means.measurement.date"
+          ],
+          "attributeContext": "Sales Order Data/attributeContext/Sales Order Data/Line From Date",
+          "dataFormat": "Date"
+        },
+        {
+          "name": "Line Goods Services ID",
+          "appliedTraits": [
+            "is.dataFormat.character",
+            "is.dataFormat.big",
+            "is.dataFormat.array"
+          ],
+          "attributeContext": "Sales Order Data/attributeContext/Sales Order Data/Line Goods Services ID",
+          "dataFormat": "String"
+        },
+        {
+          "name": "Line Line Number",
+          "appliedTraits": [
+            "is.dataFormat.character",
+            "is.dataFormat.big",
+            "is.dataFormat.array"
+          ],
+          "attributeContext": "Sales Order Data/attributeContext/Sales Order Data/Line Line Number",
+          "dataFormat": "String"
+        },
+        {
+          "name": "Line Movement Reference",
+          "appliedTraits": [
+            "is.dataFormat.character",
+            "is.dataFormat.big",
+            "is.dataFormat.array"
+          ],
+          "attributeContext": "Sales Order Data/attributeContext/Sales Order Data/Line Movement Reference",
+          "dataFormat": "String"
+        },
+        {
+          "name": "Line Order Line Amount Amount",
+          "appliedTraits": [
+            {
+              "traitReference": "is.dataFormat.numeric.shaped"
+            }
+          ],
+          "attributeContext": "Sales Order Data/attributeContext/Sales Order Data/Line Order Line Amount Amount",
+          "dataFormat": "Decimal"
+        },
+        {
+          "name": "Line Order Line Amount Currency Amount",
+          "appliedTraits": [
+            {
+              "traitReference": "is.dataFormat.numeric.shaped"
+            }
+          ],
+          "attributeContext": "Sales Order Data/attributeContext/Sales Order Data/Line Order Line Amount Currency Amount",
+          "dataFormat": "Decimal"
+        },
+        {
+          "name": "Line Order Line Amount Currency Code",
+          "appliedTraits": [
+            "is.dataFormat.character",
+            "is.dataFormat.big",
+            "is.dataFormat.array"
+          ],
+          "attributeContext": "Sales Order Data/attributeContext/Sales Order Data/Line Order Line Amount Currency Code",
+          "dataFormat": "String"
+        },
+        {
+          "name": "Line Order Line Amount Exchange Rate",
+          "appliedTraits": [
+            {
+              "traitReference": "is.dataFormat.numeric.shaped"
+            }
+          ],
+          "attributeContext": "Sales Order Data/attributeContext/Sales Order Data/Line Order Line Amount Exchange Rate",
+          "dataFormat": "Decimal"
+        },
+        {
+          "name": "Line Order UOM",
+          "appliedTraits": [
+            "is.dataFormat.character",
+            "is.dataFormat.big",
+            "is.dataFormat.array"
+          ],
+          "attributeContext": "Sales Order Data/attributeContext/Sales Order Data/Line Order UOM",
+          "dataFormat": "String"
+        },
+        {
+          "name": "Line P IDate",
+          "appliedTraits": [
+            "is.dataFormat.date",
+            "means.measurement.date"
+          ],
+          "attributeContext": "Sales Order Data/attributeContext/Sales Order Data/Line P IDate",
+          "dataFormat": "Date"
+        },
+        {
+          "name": "Line Product Code",
+          "appliedTraits": [
+            "is.dataFormat.character",
+            "is.dataFormat.big",
+            "is.dataFormat.array"
+          ],
+          "attributeContext": "Sales Order Data/attributeContext/Sales Order Data/Line Product Code",
+          "dataFormat": "String"
+        },
+        {
+          "name": "Line Product Description",
+          "appliedTraits": [
+            "is.dataFormat.character",
+            "is.dataFormat.big",
+            "is.dataFormat.array"
+          ],
+          "attributeContext": "Sales Order Data/attributeContext/Sales Order Data/Line Product Description",
+          "dataFormat": "String"
+        },
+        {
+          "name": "Line Quantity",
+          "appliedTraits": [
+            {
+              "traitReference": "is.dataFormat.numeric.shaped"
+            }
+          ],
+          "attributeContext": "Sales Order Data/attributeContext/Sales Order Data/Line Quantity",
+          "dataFormat": "Decimal"
+        },
+        {
+          "name": "Line Ship From Additional Address Detail",
+          "appliedTraits": [
+            "is.dataFormat.character",
+            "is.dataFormat.big",
+            "is.dataFormat.array"
+          ],
+          "attributeContext": "Sales Order Data/attributeContext/Sales Order Data/Line Ship From Additional Address Detail",
+          "dataFormat": "String"
+        },
+        {
+          "name": "Line Ship From Address",
+          "appliedTraits": [
+            "is.dataFormat.character",
+            "is.dataFormat.big",
+            "is.dataFormat.array"
+          ],
+          "attributeContext": "Sales Order Data/attributeContext/Sales Order Data/Line Ship From Address",
+          "dataFormat": "String"
+        },
+        {
+          "name": "Line Ship From Address Type",
+          "appliedTraits": [
+            "is.dataFormat.character",
+            "is.dataFormat.big",
+            "is.dataFormat.array"
+          ],
+          "attributeContext": "Sales Order Data/attributeContext/Sales Order Data/Line Ship From Address Type",
+          "dataFormat": "String"
+        },
+        {
+          "name": "Line Ship From Building",
+          "appliedTraits": [
+            "is.dataFormat.character",
+            "is.dataFormat.big",
+            "is.dataFormat.array"
+          ],
+          "attributeContext": "Sales Order Data/attributeContext/Sales Order Data/Line Ship From Building",
+          "dataFormat": "String"
+        },
+        {
+          "name": "Line Ship From City",
+          "appliedTraits": [
+            "is.dataFormat.character",
+            "is.dataFormat.big",
+            "is.dataFormat.array"
+          ],
+          "attributeContext": "Sales Order Data/attributeContext/Sales Order Data/Line Ship From City",
+          "dataFormat": "String"
+        },
+        {
+          "name": "Line Ship From Country",
+          "appliedTraits": [
+            "is.dataFormat.character",
+            "is.dataFormat.big",
+            "is.dataFormat.array"
+          ],
+          "attributeContext": "Sales Order Data/attributeContext/Sales Order Data/Line Ship From Country",
+          "dataFormat": "String"
+        },
+        {
+          "name": "Line Ship From Delivery ID",
+          "appliedTraits": [
+            "is.dataFormat.date",
+            "means.measurement.date"
+          ],
+          "attributeContext": "Sales Order Data/attributeContext/Sales Order Data/Line Ship From Delivery ID",
+          "dataFormat": "Date"
+        },
+        {
+          "name": "Line Ship From Delivery Date",
+          "appliedTraits": [
+            "is.dataFormat.character",
+            "is.dataFormat.big",
+            "is.dataFormat.array"
+          ],
+          "attributeContext": "Sales Order Data/attributeContext/Sales Order Data/Line Ship From Delivery Date",
+          "dataFormat": "String"
+        },
+        {
+          "name": "Line Ship From Location ID",
+          "appliedTraits": [
+            "is.dataFormat.character",
+            "is.dataFormat.big",
+            "is.dataFormat.array"
+          ],
+          "attributeContext": "Sales Order Data/attributeContext/Sales Order Data/Line Ship From Location ID",
+          "dataFormat": "String"
+        },
+        {
+          "name": "Line Ship From Number",
+          "appliedTraits": [
+            {
+              "traitReference": "is.dataFormat.numeric.shaped"
+            }
+          ],
+          "attributeContext": "Sales Order Data/attributeContext/Sales Order Data/Line Ship From Number",
+          "dataFormat": "Decimal"
+        },
+        {
+          "name": "Line Ship From Postal Code",
+          "appliedTraits": [
+            "is.dataFormat.character",
+            "is.dataFormat.big",
+            "is.dataFormat.array"
+          ],
+          "attributeContext": "Sales Order Data/attributeContext/Sales Order Data/Line Ship From Postal Code",
+          "dataFormat": "String"
+        },
+        {
+          "name": "Line Ship From Region",
+          "appliedTraits": [
+            "is.dataFormat.character",
+            "is.dataFormat.big",
+            "is.dataFormat.array"
+          ],
+          "attributeContext": "Sales Order Data/attributeContext/Sales Order Data/Line Ship From Region",
+          "dataFormat": "String"
+        },
+        {
+          "name": "Line Ship From Street Name",
+          "appliedTraits": [
+            "is.dataFormat.character",
+            "is.dataFormat.big",
+            "is.dataFormat.array"
+          ],
+          "attributeContext": "Sales Order Data/attributeContext/Sales Order Data/Line Ship From Street Name",
+          "dataFormat": "String"
+        },
+        {
+          "name": "Line Ship From UCR",
+          "appliedTraits": [
+            "is.dataFormat.character",
+            "is.dataFormat.big",
+            "is.dataFormat.array"
+          ],
+          "attributeContext": "Sales Order Data/attributeContext/Sales Order Data/Line Ship From UCR",
+          "dataFormat": "String"
+        },
+        {
+          "name": "Line Ship From Warehouse ID",
+          "appliedTraits": [
+            "is.dataFormat.character",
+            "is.dataFormat.big",
+            "is.dataFormat.array"
+          ],
+          "attributeContext": "Sales Order Data/attributeContext/Sales Order Data/Line Ship From Warehouse ID",
+          "dataFormat": "String"
+        },
+        {
+          "name": "Line Shipping Costs Amount Amount",
+          "appliedTraits": [
+            {
+              "traitReference": "is.dataFormat.numeric.shaped"
+            }
+          ],
+          "attributeContext": "Sales Order Data/attributeContext/Sales Order Data/Line Shipping Costs Amount Amount",
+          "dataFormat": "Decimal"
+        },
+        {
+          "name": "Line Shipping Costs Amount Currency Amount",
+          "appliedTraits": [
+            {
+              "traitReference": "is.dataFormat.numeric.shaped"
+            }
+          ],
+          "attributeContext": "Sales Order Data/attributeContext/Sales Order Data/Line Shipping Costs Amount Currency Amount",
+          "dataFormat": "Decimal"
+        },
+        {
+          "name": "Line Shipping Costs Amount Currency Code",
+          "appliedTraits": [
+            "is.dataFormat.character",
+            "is.dataFormat.big",
+            "is.dataFormat.array"
+          ],
+          "attributeContext": "Sales Order Data/attributeContext/Sales Order Data/Line Shipping Costs Amount Currency Code",
+          "dataFormat": "String"
+        },
+        {
+          "name": "Line Shipping Costs Amount Exchange Rate",
+          "appliedTraits": [
+            {
+              "traitReference": "is.dataFormat.numeric.shaped"
+            }
+          ],
+          "attributeContext": "Sales Order Data/attributeContext/Sales Order Data/Line Shipping Costs Amount Exchange Rate",
+          "dataFormat": "Decimal"
+        },
+        {
+          "name": "Line Ship To Additional Address Detail",
+          "appliedTraits": [
+            "is.dataFormat.character",
+            "is.dataFormat.big",
+            "is.dataFormat.array"
+          ],
+          "attributeContext": "Sales Order Data/attributeContext/Sales Order Data/Line Ship To Additional Address Detail",
+          "dataFormat": "String"
+        },
+        {
+          "name": "Line Ship To Address",
+          "appliedTraits": [
+            "is.dataFormat.character",
+            "is.dataFormat.big",
+            "is.dataFormat.array"
+          ],
+          "attributeContext": "Sales Order Data/attributeContext/Sales Order Data/Line Ship To Address",
+          "dataFormat": "String"
+        },
+        {
+          "name": "Line Ship To Address Type",
+          "appliedTraits": [
+            "is.dataFormat.character",
+            "is.dataFormat.big",
+            "is.dataFormat.array"
+          ],
+          "attributeContext": "Sales Order Data/attributeContext/Sales Order Data/Line Ship To Address Type",
+          "dataFormat": "String"
+        },
+        {
+          "name": "Line Ship To Building",
+          "appliedTraits": [
+            "is.dataFormat.character",
+            "is.dataFormat.big",
+            "is.dataFormat.array"
+          ],
+          "attributeContext": "Sales Order Data/attributeContext/Sales Order Data/Line Ship To Building",
+          "dataFormat": "String"
+        },
+        {
+          "name": "Line Ship To City",
+          "appliedTraits": [
+            "is.dataFormat.character",
+            "is.dataFormat.big",
+            "is.dataFormat.array"
+          ],
+          "attributeContext": "Sales Order Data/attributeContext/Sales Order Data/Line Ship To City",
+          "dataFormat": "String"
+        },
+        {
+          "name": "Line Ship To Country",
+          "appliedTraits": [
+            "is.dataFormat.character",
+            "is.dataFormat.big",
+            "is.dataFormat.array"
+          ],
+          "attributeContext": "Sales Order Data/attributeContext/Sales Order Data/Line Ship To Country",
+          "dataFormat": "String"
+        },
+        {
+          "name": "Line Ship To Delivery ID",
+          "appliedTraits": [
+            "is.dataFormat.date",
+            "means.measurement.date"
+          ],
+          "attributeContext": "Sales Order Data/attributeContext/Sales Order Data/Line Ship To Delivery ID",
+          "dataFormat": "Date"
+        },
+        {
+          "name": "Line Ship To Delivery Date",
+          "appliedTraits": [
+            "is.dataFormat.character",
+            "is.dataFormat.big",
+            "is.dataFormat.array"
+          ],
+          "attributeContext": "Sales Order Data/attributeContext/Sales Order Data/Line Ship To Delivery Date",
+          "dataFormat": "String"
+        },
+        {
+          "name": "Line Ship To Location ID",
+          "appliedTraits": [
+            "is.dataFormat.character",
+            "is.dataFormat.big",
+            "is.dataFormat.array"
+          ],
+          "attributeContext": "Sales Order Data/attributeContext/Sales Order Data/Line Ship To Location ID",
+          "dataFormat": "String"
+        },
+        {
+          "name": "Line Ship To Number",
+          "appliedTraits": [
+            {
+              "traitReference": "is.dataFormat.numeric.shaped"
+            }
+          ],
+          "attributeContext": "Sales Order Data/attributeContext/Sales Order Data/Line Ship To Number",
+          "dataFormat": "Decimal"
+        },
+        {
+          "name": "Line Ship To Postal Code",
+          "appliedTraits": [
+            "is.dataFormat.character",
+            "is.dataFormat.big",
+            "is.dataFormat.array"
+          ],
+          "attributeContext": "Sales Order Data/attributeContext/Sales Order Data/Line Ship To Postal Code",
+          "dataFormat": "String"
+        },
+        {
+          "name": "Line Ship To Region",
+          "appliedTraits": [
+            "is.dataFormat.character",
+            "is.dataFormat.big",
+            "is.dataFormat.array"
+          ],
+          "attributeContext": "Sales Order Data/attributeContext/Sales Order Data/Line Ship To Region",
+          "dataFormat": "String"
+        },
+        {
+          "name": "Line Ship To Street Name",
+          "appliedTraits": [
+            "is.dataFormat.character",
+            "is.dataFormat.big",
+            "is.dataFormat.array"
+          ],
+          "attributeContext": "Sales Order Data/attributeContext/Sales Order Data/Line Ship To Street Name",
+          "dataFormat": "String"
+        },
+        {
+          "name": "Line Ship To UCR",
+          "appliedTraits": [
+            "is.dataFormat.character",
+            "is.dataFormat.big",
+            "is.dataFormat.array"
+          ],
+          "attributeContext": "Sales Order Data/attributeContext/Sales Order Data/Line Ship To UCR",
+          "dataFormat": "String"
+        },
+        {
+          "name": "Line Ship To Warehouse ID",
+          "appliedTraits": [
+            "is.dataFormat.character",
+            "is.dataFormat.big",
+            "is.dataFormat.array"
+          ],
+          "attributeContext": "Sales Order Data/attributeContext/Sales Order Data/Line Ship To Warehouse ID",
+          "dataFormat": "String"
+        },
+        {
+          "name": "Line Subsequent PI",
+          "appliedTraits": [
+            "is.dataFormat.character",
+            "is.dataFormat.big",
+            "is.dataFormat.array"
+          ],
+          "attributeContext": "Sales Order Data/attributeContext/Sales Order Data/Line Subsequent PI",
+          "dataFormat": "String"
+        },
+        {
+          "name": "Line System Entry Date Time",
+          "appliedTraits": [
+            "is.dataFormat.date",
+            "means.measurement.date"
+          ],
+          "attributeContext": "Sales Order Data/attributeContext/Sales Order Data/Line System Entry Date Time",
+          "dataFormat": "Date"
+        },
+        {
+          "name": "Line System Entry User",
+          "appliedTraits": [
+            "is.dataFormat.character",
+            "is.dataFormat.big",
+            "is.dataFormat.array"
+          ],
+          "attributeContext": "Sales Order Data/attributeContext/Sales Order Data/Line System Entry User",
+          "dataFormat": "String"
+        },
+        {
+          "name": "Line Tax Information Tax Amount",
+          "appliedTraits": [
+            {
+              "traitReference": "is.dataFormat.numeric.shaped"
+            }
+          ],
+          "attributeContext": "Sales Order Data/attributeContext/Sales Order Data/Line Tax Information Tax Amount",
+          "dataFormat": "Decimal"
+        },
+        {
+          "name": "Line Tax Information Tax Base",
+          "appliedTraits": [
+            "is.dataFormat.character",
+            "is.dataFormat.big",
+            "is.dataFormat.array"
+          ],
+          "attributeContext": "Sales Order Data/attributeContext/Sales Order Data/Line Tax Information Tax Base",
+          "dataFormat": "String"
+        },
+        {
+          "name": "Line Tax Information Tax Base Description",
+          "appliedTraits": [
+            "is.dataFormat.character",
+            "is.dataFormat.big",
+            "is.dataFormat.array"
+          ],
+          "attributeContext": "Sales Order Data/attributeContext/Sales Order Data/Line Tax Information Tax Base Description",
+          "dataFormat": "String"
+        },
+        {
+          "name": "Line Tax Information Tax Code",
+          "appliedTraits": [
+            "is.dataFormat.character",
+            "is.dataFormat.big",
+            "is.dataFormat.array"
+          ],
+          "attributeContext": "Sales Order Data/attributeContext/Sales Order Data/Line Tax Information Tax Code",
+          "dataFormat": "String"
+        },
+        {
+          "name": "Line Tax Information Tax Declaration Period",
+          "appliedTraits": [
+            "is.dataFormat.character",
+            "is.dataFormat.big",
+            "is.dataFormat.array"
+          ],
+          "attributeContext": "Sales Order Data/attributeContext/Sales Order Data/Line Tax Information Tax Declaration Period",
+          "dataFormat": "String"
+        },
+        {
+          "name": "Line Tax Information Tax Exemption Reason",
+          "appliedTraits": [
+            "is.dataFormat.character",
+            "is.dataFormat.big",
+            "is.dataFormat.array"
+          ],
+          "attributeContext": "Sales Order Data/attributeContext/Sales Order Data/Line Tax Information Tax Exemption Reason",
+          "dataFormat": "String"
+        },
+        {
+          "name": "Line Tax Information Tax Percentage",
+          "appliedTraits": [
+            {
+              "traitReference": "is.dataFormat.numeric.shaped"
+            }
+          ],
+          "attributeContext": "Sales Order Data/attributeContext/Sales Order Data/Line Tax Information Tax Percentage",
+          "dataFormat": "Decimal"
+        },
+        {
+          "name": "Line Tax Information Tax Type",
+          "appliedTraits": [
+            "is.dataFormat.character",
+            "is.dataFormat.big",
+            "is.dataFormat.array"
+          ],
+          "attributeContext": "Sales Order Data/attributeContext/Sales Order Data/Line Tax Information Tax Type",
+          "dataFormat": "String"
+        },
+        {
+          "name": "Line Tax Point Date",
+          "appliedTraits": [
+            "is.dataFormat.date",
+            "means.measurement.date"
+          ],
+          "attributeContext": "Sales Order Data/attributeContext/Sales Order Data/Line Tax Point Date",
+          "dataFormat": "Date"
+        },
+        {
+          "name": "Line To Date",
+          "appliedTraits": [
+            "is.dataFormat.date",
+            "means.measurement.date"
+          ],
+          "attributeContext": "Sales Order Data/attributeContext/Sales Order Data/Line To Date",
+          "dataFormat": "Date"
+        },
+        {
+          "name": "Line Unit Price",
+          "appliedTraits": [
+            {
+              "traitReference": "is.dataFormat.numeric.shaped"
+            }
+          ],
+          "attributeContext": "Sales Order Data/attributeContext/Sales Order Data/Line Unit Price",
+          "dataFormat": "Decimal"
+        },
+        {
+          "name": "Line UOM To UOM Base Conversion Factor",
+          "appliedTraits": [
+            {
+              "traitReference": "is.dataFormat.numeric.shaped"
+            }
+          ],
+          "attributeContext": "Sales Order Data/attributeContext/Sales Order Data/Line UOM To UOM Base Conversion Factor",
+          "dataFormat": "Decimal"
+        },
+        {
+          "name": "Order Date",
+          "appliedTraits": [
+            "is.dataFormat.date",
+            "means.measurement.date"
+          ],
+          "attributeContext": "Sales Order Data/attributeContext/Sales Order Data/Order Date",
+          "dataFormat": "Date"
+        },
+        {
+          "name": "Order Document Reference",
+          "appliedTraits": [
+            "is.dataFormat.character",
+            "is.dataFormat.big",
+            "is.dataFormat.array"
+          ],
+          "attributeContext": "Sales Order Data/attributeContext/Sales Order Data/Order Document Reference",
+          "dataFormat": "String"
+        },
+        {
+          "name": "Order No",
+          "appliedTraits": [
+            "is.dataFormat.character",
+            "is.dataFormat.big",
+            "is.dataFormat.array"
+          ],
+          "attributeContext": "Sales Order Data/attributeContext/Sales Order Data/Order No",
+          "dataFormat": "String"
+        },
+        {
+          "name": "Order Type",
+          "appliedTraits": [
+            "is.dataFormat.character",
+            "is.dataFormat.big",
+            "is.dataFormat.array"
+          ],
+          "attributeContext": "Sales Order Data/attributeContext/Sales Order Data/Order Type",
+          "dataFormat": "String"
+        },
+        {
+          "name": "Payment Terms",
+          "appliedTraits": [
+            {
+              "traitReference": "is.dataFormat.numeric.shaped"
+            }
+          ],
+          "attributeContext": "Sales Order Data/attributeContext/Sales Order Data/Payment Terms",
+          "dataFormat": "Decimal"
+        },
+        {
+          "name": "Period",
+          "appliedTraits": [
+            "is.dataFormat.character",
+            "is.dataFormat.big",
+            "is.dataFormat.array"
+          ],
+          "attributeContext": "Sales Order Data/attributeContext/Sales Order Data/Period",
+          "dataFormat": "String"
+        },
+        {
+          "name": "Period Year",
+          "appliedTraits": [
+            "is.dataFormat.date",
+            "means.measurement.date"
+          ],
+          "attributeContext": "Sales Order Data/attributeContext/Sales Order Data/Period Year",
+          "dataFormat": "Date"
+        },
+        {
+          "name": "Posting Status",
+          "appliedTraits": [
+            "is.dataFormat.character",
+            "is.dataFormat.big",
+            "is.dataFormat.array"
+          ],
+          "attributeContext": "Sales Order Data/attributeContext/Sales Order Data/Posting Status",
+          "dataFormat": "String"
+        },
+        {
+          "name": "Receipt Numbers",
+          "appliedTraits": [
+            "is.dataFormat.character",
+            "is.dataFormat.big",
+            "is.dataFormat.array"
+          ],
+          "attributeContext": "Sales Order Data/attributeContext/Sales Order Data/Receipt Numbers",
+          "dataFormat": "String"
+        },
+        {
+          "name": "Self Billing Indicator",
+          "appliedTraits": [
+            "is.dataFormat.character",
+            "is.dataFormat.big",
+            "is.dataFormat.array"
+          ],
+          "attributeContext": "Sales Order Data/attributeContext/Sales Order Data/Self Billing Indicator",
+          "dataFormat": "String"
+        },
+        {
+          "name": "Settlement Amount",
+          "appliedTraits": [
+            {
+              "traitReference": "is.dataFormat.numeric.shaped"
+            }
+          ],
+          "attributeContext": "Sales Order Data/attributeContext/Sales Order Data/Settlement Amount",
+          "dataFormat": "Decimal"
+        },
+        {
+          "name": "Settlement Currency Amount",
+          "appliedTraits": [
+            {
+              "traitReference": "is.dataFormat.numeric.shaped"
+            }
+          ],
+          "attributeContext": "Sales Order Data/attributeContext/Sales Order Data/Settlement Currency Amount",
+          "dataFormat": "Decimal"
+        },
+        {
+          "name": "Settlement Currency Code",
+          "appliedTraits": [
+            "is.dataFormat.character",
+            "is.dataFormat.big",
+            "is.dataFormat.array"
+          ],
+          "attributeContext": "Sales Order Data/attributeContext/Sales Order Data/Settlement Currency Code",
+          "dataFormat": "String"
+        },
+        {
+          "name": "Settlement Exchange Rate",
+          "appliedTraits": [
+            {
+              "traitReference": "is.dataFormat.numeric.shaped"
+            }
+          ],
+          "attributeContext": "Sales Order Data/attributeContext/Sales Order Data/Settlement Exchange Rate",
+          "dataFormat": "Decimal"
+        },
+        {
+          "name": "Settlement Payment Mechanism",
+          "appliedTraits": [
+            "is.dataFormat.character",
+            "is.dataFormat.big",
+            "is.dataFormat.array"
+          ],
+          "attributeContext": "Sales Order Data/attributeContext/Sales Order Data/Settlement Payment Mechanism",
+          "dataFormat": "String"
+        },
+        {
+          "name": "Settlement Settlement Date",
+          "appliedTraits": [
+            "is.dataFormat.date",
+            "means.measurement.date"
+          ],
+          "attributeContext": "Sales Order Data/attributeContext/Sales Order Data/Settlement Settlement Date",
+          "dataFormat": "Date"
+        },
+        {
+          "name": "Settlement Settlement Discount",
+          "appliedTraits": [
+            "is.dataFormat.character",
+            "is.dataFormat.big",
+            "is.dataFormat.array"
+          ],
+          "attributeContext": "Sales Order Data/attributeContext/Sales Order Data/Settlement Settlement Discount",
+          "dataFormat": "String"
+        },
+        {
+          "name": "Ship From Additional Address Detail",
+          "appliedTraits": [
+            "is.dataFormat.character",
+            "is.dataFormat.big",
+            "is.dataFormat.array"
+          ],
+          "attributeContext": "Sales Order Data/attributeContext/Sales Order Data/Ship From Additional Address Detail",
+          "dataFormat": "String"
+        },
+        {
+          "name": "Ship From Address",
+          "appliedTraits": [
+            "is.dataFormat.character",
+            "is.dataFormat.big",
+            "is.dataFormat.array"
+          ],
+          "attributeContext": "Sales Order Data/attributeContext/Sales Order Data/Ship From Address",
+          "dataFormat": "String"
+        },
+        {
+          "name": "Ship From Address Type",
+          "appliedTraits": [
+            "is.dataFormat.character",
+            "is.dataFormat.big",
+            "is.dataFormat.array"
+          ],
+          "attributeContext": "Sales Order Data/attributeContext/Sales Order Data/Ship From Address Type",
+          "dataFormat": "String"
+        },
+        {
+          "name": "Ship From Building",
+          "appliedTraits": [
+            "is.dataFormat.character",
+            "is.dataFormat.big",
+            "is.dataFormat.array"
+          ],
+          "attributeContext": "Sales Order Data/attributeContext/Sales Order Data/Ship From Building",
+          "dataFormat": "String"
+        },
+        {
+          "name": "Ship From City",
+          "appliedTraits": [
+            "is.dataFormat.character",
+            "is.dataFormat.big",
+            "is.dataFormat.array"
+          ],
+          "attributeContext": "Sales Order Data/attributeContext/Sales Order Data/Ship From City",
+          "dataFormat": "String"
+        },
+        {
+          "name": "Ship From Country",
+          "appliedTraits": [
+            "is.dataFormat.character",
+            "is.dataFormat.big",
+            "is.dataFormat.array"
+          ],
+          "attributeContext": "Sales Order Data/attributeContext/Sales Order Data/Ship From Country",
+          "dataFormat": "String"
+        },
+        {
+          "name": "Ship From Delivery ID",
+          "appliedTraits": [
+            "is.dataFormat.date",
+            "means.measurement.date"
+          ],
+          "attributeContext": "Sales Order Data/attributeContext/Sales Order Data/Ship From Delivery ID",
+          "dataFormat": "Date"
+        },
+        {
+          "name": "Ship From Delivery Date",
+          "appliedTraits": [
+            "is.dataFormat.character",
+            "is.dataFormat.big",
+            "is.dataFormat.array"
+          ],
+          "attributeContext": "Sales Order Data/attributeContext/Sales Order Data/Ship From Delivery Date",
+          "dataFormat": "String"
+        },
+        {
+          "name": "Ship From Location ID",
+          "appliedTraits": [
+            "is.dataFormat.character",
+            "is.dataFormat.big",
+            "is.dataFormat.array"
+          ],
+          "attributeContext": "Sales Order Data/attributeContext/Sales Order Data/Ship From Location ID",
+          "dataFormat": "String"
+        },
+        {
+          "name": "Ship From Number",
+          "appliedTraits": [
+            {
+              "traitReference": "is.dataFormat.numeric.shaped"
+            }
+          ],
+          "attributeContext": "Sales Order Data/attributeContext/Sales Order Data/Ship From Number",
+          "dataFormat": "Decimal"
+        },
+        {
+          "name": "Ship From Postal Code",
+          "appliedTraits": [
+            "is.dataFormat.character",
+            "is.dataFormat.big",
+            "is.dataFormat.array"
+          ],
+          "attributeContext": "Sales Order Data/attributeContext/Sales Order Data/Ship From Postal Code",
+          "dataFormat": "String"
+        },
+        {
+          "name": "Ship From Region",
+          "appliedTraits": [
+            "is.dataFormat.character",
+            "is.dataFormat.big",
+            "is.dataFormat.array"
+          ],
+          "attributeContext": "Sales Order Data/attributeContext/Sales Order Data/Ship From Region",
+          "dataFormat": "String"
+        },
+        {
+          "name": "Ship From Street Name",
+          "appliedTraits": [
+            "is.dataFormat.character",
+            "is.dataFormat.big",
+            "is.dataFormat.array"
+          ],
+          "attributeContext": "Sales Order Data/attributeContext/Sales Order Data/Ship From Street Name",
+          "dataFormat": "String"
+        },
+        {
+          "name": "Ship From UCR",
+          "appliedTraits": [
+            "is.dataFormat.character",
+            "is.dataFormat.big",
+            "is.dataFormat.array"
+          ],
+          "attributeContext": "Sales Order Data/attributeContext/Sales Order Data/Ship From UCR",
+          "dataFormat": "String"
+        },
+        {
+          "name": "Ship From Warehouse ID",
+          "appliedTraits": [
+            "is.dataFormat.character",
+            "is.dataFormat.big",
+            "is.dataFormat.array"
+          ],
+          "attributeContext": "Sales Order Data/attributeContext/Sales Order Data/Ship From Warehouse ID",
+          "dataFormat": "String"
+        },
+        {
+          "name": "Ship To Additional Address Detail",
+          "appliedTraits": [
+            "is.dataFormat.character",
+            "is.dataFormat.big",
+            "is.dataFormat.array"
+          ],
+          "attributeContext": "Sales Order Data/attributeContext/Sales Order Data/Ship To Additional Address Detail",
+          "dataFormat": "String"
+        },
+        {
+          "name": "Ship To Address",
+          "appliedTraits": [
+            "is.dataFormat.character",
+            "is.dataFormat.big",
+            "is.dataFormat.array"
+          ],
+          "attributeContext": "Sales Order Data/attributeContext/Sales Order Data/Ship To Address",
+          "dataFormat": "String"
+        },
+        {
+          "name": "Ship To Address Type",
+          "appliedTraits": [
+            "is.dataFormat.character",
+            "is.dataFormat.big",
+            "is.dataFormat.array"
+          ],
+          "attributeContext": "Sales Order Data/attributeContext/Sales Order Data/Ship To Address Type",
+          "dataFormat": "String"
+        },
+        {
+          "name": "Ship To Building",
+          "appliedTraits": [
+            "is.dataFormat.character",
+            "is.dataFormat.big",
+            "is.dataFormat.array"
+          ],
+          "attributeContext": "Sales Order Data/attributeContext/Sales Order Data/Ship To Building",
+          "dataFormat": "String"
+        },
+        {
+          "name": "Ship To City",
+          "appliedTraits": [
+            "is.dataFormat.character",
+            "is.dataFormat.big",
+            "is.dataFormat.array"
+          ],
+          "attributeContext": "Sales Order Data/attributeContext/Sales Order Data/Ship To City",
+          "dataFormat": "String"
+        },
+        {
+          "name": "Ship To Country",
+          "appliedTraits": [
+            "is.dataFormat.character",
+            "is.dataFormat.big",
+            "is.dataFormat.array"
+          ],
+          "attributeContext": "Sales Order Data/attributeContext/Sales Order Data/Ship To Country",
+          "dataFormat": "String"
+        },
+        {
+          "name": "Ship To Delivery ID",
+          "appliedTraits": [
+            "is.dataFormat.date",
+            "means.measurement.date"
+          ],
+          "attributeContext": "Sales Order Data/attributeContext/Sales Order Data/Ship To Delivery ID",
+          "dataFormat": "Date"
+        },
+        {
+          "name": "Ship To Delivery Date",
+          "appliedTraits": [
+            "is.dataFormat.character",
+            "is.dataFormat.big",
+            "is.dataFormat.array"
+          ],
+          "attributeContext": "Sales Order Data/attributeContext/Sales Order Data/Ship To Delivery Date",
+          "dataFormat": "String"
+        },
+        {
+          "name": "Ship To Location ID",
+          "appliedTraits": [
+            "is.dataFormat.character",
+            "is.dataFormat.big",
+            "is.dataFormat.array"
+          ],
+          "attributeContext": "Sales Order Data/attributeContext/Sales Order Data/Ship To Location ID",
+          "dataFormat": "String"
+        },
+        {
+          "name": "Ship To Number",
+          "appliedTraits": [
+            {
+              "traitReference": "is.dataFormat.numeric.shaped"
+            }
+          ],
+          "attributeContext": "Sales Order Data/attributeContext/Sales Order Data/Ship To Number",
+          "dataFormat": "Decimal"
+        },
+        {
+          "name": "Ship To Postal Code",
+          "appliedTraits": [
+            "is.dataFormat.character",
+            "is.dataFormat.big",
+            "is.dataFormat.array"
+          ],
+          "attributeContext": "Sales Order Data/attributeContext/Sales Order Data/Ship To Postal Code",
+          "dataFormat": "String"
+        },
+        {
+          "name": "Ship To Region",
+          "appliedTraits": [
+            "is.dataFormat.character",
+            "is.dataFormat.big",
+            "is.dataFormat.array"
+          ],
+          "attributeContext": "Sales Order Data/attributeContext/Sales Order Data/Ship To Region",
+          "dataFormat": "String"
+        },
+        {
+          "name": "Ship To Street Name",
+          "appliedTraits": [
+            "is.dataFormat.character",
+            "is.dataFormat.big",
+            "is.dataFormat.array"
+          ],
+          "attributeContext": "Sales Order Data/attributeContext/Sales Order Data/Ship To Street Name",
+          "dataFormat": "String"
+        },
+        {
+          "name": "Ship To U C R",
+          "appliedTraits": [
+            "is.dataFormat.character",
+            "is.dataFormat.big",
+            "is.dataFormat.array"
+          ],
+          "attributeContext": "Sales Order Data/attributeContext/Sales Order Data/Ship To U C R",
+          "dataFormat": "String"
+        },
+        {
+          "name": "Ship To Warehouse ID",
+          "appliedTraits": [
+            "is.dataFormat.character",
+            "is.dataFormat.big",
+            "is.dataFormat.array"
+          ],
+          "attributeContext": "Sales Order Data/attributeContext/Sales Order Data/Ship To Warehouse ID",
+          "dataFormat": "String"
+        },
+        {
+          "name": "Source ID",
+          "appliedTraits": [
+            "is.dataFormat.character",
+            "is.dataFormat.big",
+            "is.dataFormat.array"
+          ],
+          "attributeContext": "Sales Order Data/attributeContext/Sales Order Data/Source ID",
+          "dataFormat": "String"
+        },
+        {
+          "name": "System ID",
+          "appliedTraits": [
+            "is.dataFormat.date",
+            "means.measurement.date"
+          ],
+          "attributeContext": "Sales Order Data/attributeContext/Sales Order Data/System ID",
+          "dataFormat": "Date"
+        },
+        {
+          "name": "System Entry Date Time",
+          "appliedTraits": [
+            "is.dataFormat.character",
+            "is.dataFormat.big",
+            "is.dataFormat.array"
+          ],
+          "attributeContext": "Sales Order Data/attributeContext/Sales Order Data/System Entry Date Time",
+          "dataFormat": "String"
+        },
+        {
+          "name": "System Entry User",
+          "appliedTraits": [
+            "is.dataFormat.character",
+            "is.dataFormat.big",
+            "is.dataFormat.array"
+          ],
+          "attributeContext": "Sales Order Data/attributeContext/Sales Order Data/System Entry User",
+          "dataFormat": "String"
+        },
+        {
+          "name": "Transaction ID",
+          "appliedTraits": [
+            "is.dataFormat.character",
+            "is.dataFormat.big",
+            "is.dataFormat.array"
+          ],
+          "attributeContext": "Sales Order Data/attributeContext/Sales Order Data/Transaction ID",
+          "dataFormat": "String"
+        }
+      ]
+    }
+  ]
+}

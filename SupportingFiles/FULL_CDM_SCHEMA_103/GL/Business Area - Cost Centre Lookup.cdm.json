@@ -1,0 +1,50 @@
+{
+  "jsonSchemaSemanticVersion": "1.0.0",
+  "imports": [
+    {
+      "corpusPath": "cdm:/foundations.cdm.json"
+    }
+  ],
+  "definitions": [
+    {
+      "entityName": "Business Area - Cost Centre Lookup",
+      "hasAttributes": [
+        {
+          "name": "Business Unit Code",
+          "purpose": "hasA",
+          "dataType": "string"
+        },
+        {
+          "name": "Business Unit Description",
+          "purpose": "hasA",
+          "dataType": "string"
+        },
+        {
+          "name": "Business Unit Hierarchy1",
+          "purpose": "hasA",
+          "dataType": "string"
+        },
+        {
+          "name": "Business Unit Hierarchy2",
+          "purpose": "hasA",
+          "dataType": "string"
+        },
+        {
+          "name": "Business Unit Hierarchy3",
+          "purpose": "hasA",
+          "dataType": "string"
+        },
+        {
+          "name": "Business Unit Hierarchy4",
+          "purpose": "hasA",
+          "dataType": "string"
+        },
+        {
+          "name": "Business Unit Hierarchy5",
+          "purpose": "hasA",
+          "dataType": "string"
+        }
+      ]
+    }
+  ]
+}

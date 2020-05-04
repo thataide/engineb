@@ -1,0 +1,135 @@
+{
+  "jsonSchemaSemanticVersion": "1.0.0",
+  "imports": [
+    {
+      "corpusPath": "cdm:/foundations.cdm.json"
+    }
+  ],
+  "definitions": [
+    {
+      "entityName": "InventoryTransactionDetail",
+      "hasAttributes": [
+        {
+          "name": "Inventory Transaction Book Value",
+          "purpose": "hasA",
+          "dataType": "decimal"
+        },
+        {
+          "name": "Inventory Transaction Customer ID",
+          "purpose": "hasA",
+          "dataType": "string"
+        },
+        {
+          "name": "Inventory Transaction Document Line",
+          "purpose": "hasA",
+          "dataType": "string"
+        },
+        {
+          "name": "Inventory Transaction Document Number",
+          "purpose": "hasA",
+          "dataType": "string"
+        },
+        {
+          "name": "Inventory Transaction Document Type",
+          "purpose": "hasA",
+          "dataType": "string"
+        },
+        {
+          "name": "Inventory Transaction GL Line Credit Account Number",
+          "purpose": "hasA",
+          "dataType": "string"
+        },
+        {
+          "name": "Inventory Transaction GL Line Debit Account Number",
+          "purpose": "hasA",
+          "dataType": "string"
+        },
+        {
+          "name": "Inventory Transaction Inventory From Location",
+          "purpose": "hasA",
+          "dataType": "string"
+        },
+        {
+          "name": "Inventory Transaction Inventory Product ID",
+          "purpose": "hasA",
+          "dataType": "string"
+        },
+        {
+          "name": "Inventory Transaction Inventory To Location",
+          "purpose": "hasA",
+          "dataType": "string"
+        },
+        {
+          "name": "Inventory Transaction Line Number",
+          "purpose": "hasA",
+          "dataType": "decimal"
+        },
+        {
+          "name": "Inventory Transaction Lot Number",
+          "purpose": "hasA",
+          "dataType": "string"
+        },
+        {
+          "name": "Inventory Transaction Serial Number",
+          "purpose": "hasA",
+          "dataType": "string"
+        },
+        {
+          "name": "Inventory Transaction Supplier ID",
+          "purpose": "hasA",
+          "dataType": "string"
+        },
+        {
+          "name": "Inventory Transaction Tax Information",
+          "purpose": "hasA",
+          "dataType": "string"
+        },
+        {
+          "name": "Inventory Transaction Transaction ID",
+          "purpose": "hasA",
+          "dataType": "string"
+        },
+        {
+          "name": "Inventory Transaction Transaction Associated Order ID",
+          "purpose": "hasA",
+          "dataType": "string"
+        },
+        {
+          "name": "Inventory Transaction Transaction Associated Order Line ID",
+          "purpose": "hasA",
+          "dataType": "decimal"
+        },
+        {
+          "name": "Inventory Transaction Transaction Cost Adjustment",
+          "purpose": "hasA",
+          "dataType": "string"
+        },
+        {
+          "name": "Inventory Transaction Transaction Description",
+          "purpose": "hasA",
+          "dataType": "string"
+        },
+        {
+          "name": "Inventory Transaction Transaction Quantity",
+          "purpose": "hasA",
+          "dataType": "decimal"
+        },
+        {
+          "name": "Inventory Transaction Unit Of Measure",
+          "purpose": "hasA",
+          "dataType": "string"
+        },
+        {
+          "name": "Inventory Transaction Unit Price",
+          "purpose": "hasA",
+          "dataType": "decimal"
+        },
+        {
+          "name": "Inventory Transaction UOM To UOM Base Conversion Factor",
+          "purpose": "hasA",
+          "dataType": "decimal"
+        }
+      ]
+    }
+  ]
+}

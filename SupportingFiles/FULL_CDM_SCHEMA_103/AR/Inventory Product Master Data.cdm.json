@@ -1,0 +1,105 @@
+{
+  "jsonSchemaSemanticVersion": "1.0.0",
+  "imports": [
+    {
+      "corpusPath": "cdm:/foundations.cdm.json"
+    }
+  ],
+  "definitions": [
+    {
+      "entityName": "Inventory Product Master Data",
+      "hasAttributes": [
+        {
+          "name": "Description",
+          "purpose": "hasA",
+          "dataType": "string"
+        },
+        {
+          "name": "Goods Services ID",
+          "purpose": "hasA",
+          "dataType": "string"
+        },
+        {
+          "name": "Product Code",
+          "purpose": "hasA",
+          "dataType": "string"
+        },
+        {
+          "name": "Product Commodity Code",
+          "purpose": "hasA",
+          "dataType": "string"
+        },
+        {
+          "name": "Product Group",
+          "purpose": "hasA",
+          "dataType": "string"
+        },
+        {
+          "name": "Product Number Code",
+          "purpose": "hasA",
+          "dataType": "string"
+        },
+        {
+          "name": "System Approved Date Time",
+          "purpose": "hasA",
+          "dataType": "date"
+        },
+        {
+          "name": "System Approved User",
+          "purpose": "hasA",
+          "dataType": "string"
+        },
+        {
+          "name": "System Entry Date Time",
+          "purpose": "hasA",
+          "dataType": "date"
+        },
+        {
+          "name": "System Entry User",
+          "purpose": "hasA",
+          "dataType": "string"
+        },
+        {
+          "name": "System Modified Date Time",
+          "purpose": "hasA",
+          "dataType": "date"
+        },
+        {
+          "name": "System Modified User",
+          "purpose": "hasA",
+          "dataType": "string"
+        },
+        {
+          "name": "Tax Code",
+          "purpose": "hasA",
+          "dataType": "string"
+        },
+        {
+          "name": "Tax Type",
+          "purpose": "hasA",
+          "dataType": "string"
+        },
+        {
+          "name": "UOM Base",
+          "purpose": "hasA",
+          "dataType": "string"
+        },
+        {
+          "name": "UOM Standard",
+          "purpose": "hasA",
+          "dataType": "string"
+        },
+        {
+          "name": "UOM To UOM Base Conversion Factor",
+          "purpose": "hasA",
+          "dataType": "decimal"
+        },
+        {
+          "name": "Valuation Method",
+          "purpose": "hasA",
+          "dataType": "string"
+        }
+      ]
+    }
+  ]
+}

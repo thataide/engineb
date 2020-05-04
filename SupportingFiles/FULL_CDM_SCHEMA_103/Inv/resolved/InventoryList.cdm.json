@@ -1,0 +1,909 @@
+{
+  "jsonSchemaSemanticVersion": "1.0.0",
+  "imports": [
+    {
+      "corpusPath": "/InventoryList.cdm.json",
+      "moniker": "resolvedFrom"
+    }
+  ],
+  "definitions": [
+    {
+      "entityName": "InventoryList",
+      "attributeContext": {
+        "type": "entity",
+        "name": "InventoryList",
+        "definition": "resolvedFrom/InventoryList",
+        "contents": [
+          {
+            "type": "attributeDefinition",
+            "name": "Closing Stock Quantity",
+            "parent": "InventoryList/attributeContext/InventoryList",
+            "definition": "resolvedFrom/InventoryList/hasAttributes/Closing Stock Quantity",
+            "contents": [
+              "InventoryList/hasAttributes/Closing Stock Quantity"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Closing Stock Value",
+            "parent": "InventoryList/attributeContext/InventoryList",
+            "definition": "resolvedFrom/InventoryList/hasAttributes/Closing Stock Value",
+            "contents": [
+              "InventoryList/hasAttributes/Closing Stock Value"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Inventory Description",
+            "parent": "InventoryList/attributeContext/InventoryList",
+            "definition": "resolvedFrom/InventoryList/hasAttributes/Inventory Description",
+            "contents": [
+              "InventoryList/hasAttributes/Inventory Description"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Inventory Item Code",
+            "parent": "InventoryList/attributeContext/InventoryList",
+            "definition": "resolvedFrom/InventoryList/hasAttributes/Inventory Item Code",
+            "contents": [
+              "InventoryList/hasAttributes/Inventory Item Code"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Unit Price",
+            "parent": "InventoryList/attributeContext/InventoryList",
+            "definition": "resolvedFrom/InventoryList/hasAttributes/Unit Price",
+            "contents": [
+              "InventoryList/hasAttributes/Unit Price"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Unit Sales Price",
+            "parent": "InventoryList/attributeContext/InventoryList",
+            "definition": "resolvedFrom/InventoryList/hasAttributes/Unit Sales Price",
+            "contents": [
+              "InventoryList/hasAttributes/Unit Sales Price"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Bin ID",
+            "parent": "InventoryList/attributeContext/InventoryList",
+            "definition": "resolvedFrom/InventoryList/hasAttributes/Bin ID",
+            "contents": [
+              "InventoryList/hasAttributes/Bin ID"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Count Date",
+            "parent": "InventoryList/attributeContext/InventoryList",
+            "definition": "resolvedFrom/InventoryList/hasAttributes/Count Date",
+            "contents": [
+              "InventoryList/hasAttributes/Count Date"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Counted By",
+            "parent": "InventoryList/attributeContext/InventoryList",
+            "definition": "resolvedFrom/InventoryList/hasAttributes/Counted By",
+            "contents": [
+              "InventoryList/hasAttributes/Counted By"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Current Valuation",
+            "parent": "InventoryList/attributeContext/InventoryList",
+            "definition": "resolvedFrom/InventoryList/hasAttributes/Current Valuation",
+            "contents": [
+              "InventoryList/hasAttributes/Current Valuation"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Default Inventory Method",
+            "parent": "InventoryList/attributeContext/InventoryList",
+            "definition": "resolvedFrom/InventoryList/hasAttributes/Default Inventory Method",
+            "contents": [
+              "InventoryList/hasAttributes/Default Inventory Method"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "General Ledger Asset Account",
+            "parent": "InventoryList/attributeContext/InventoryList",
+            "definition": "resolvedFrom/InventoryList/hasAttributes/General Ledger Asset Account",
+            "contents": [
+              "InventoryList/hasAttributes/General Ledger Asset Account"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "General Ledger Cost Account",
+            "parent": "InventoryList/attributeContext/InventoryList",
+            "definition": "resolvedFrom/InventoryList/hasAttributes/General Ledger Cost Account",
+            "contents": [
+              "InventoryList/hasAttributes/General Ledger Cost Account"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Inventory Bar Code",
+            "parent": "InventoryList/attributeContext/InventoryList",
+            "definition": "resolvedFrom/InventoryList/hasAttributes/Inventory Bar Code",
+            "contents": [
+              "InventoryList/hasAttributes/Inventory Bar Code"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Inventory Class",
+            "parent": "InventoryList/attributeContext/InventoryList",
+            "definition": "resolvedFrom/InventoryList/hasAttributes/Inventory Class",
+            "contents": [
+              "InventoryList/hasAttributes/Inventory Class"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Inventory Master Business Unit Code",
+            "parent": "InventoryList/attributeContext/InventoryList",
+            "definition": "resolvedFrom/InventoryList/hasAttributes/Inventory Master Business Unit Code",
+            "contents": [
+              "InventoryList/hasAttributes/Inventory Master Business Unit Code"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Inventory Product ID",
+            "parent": "InventoryList/attributeContext/InventoryList",
+            "definition": "resolvedFrom/InventoryList/hasAttributes/Inventory Product ID",
+            "contents": [
+              "InventoryList/hasAttributes/Inventory Product ID"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Inventory Product Master Business Unit Code",
+            "parent": "InventoryList/attributeContext/InventoryList",
+            "definition": "resolvedFrom/InventoryList/hasAttributes/Inventory Product Master Business Unit Code",
+            "contents": [
+              "InventoryList/hasAttributes/Inventory Product Master Business Unit Code"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Last Despatched Date",
+            "parent": "InventoryList/attributeContext/InventoryList",
+            "definition": "resolvedFrom/InventoryList/hasAttributes/Last Despatched Date",
+            "contents": [
+              "InventoryList/hasAttributes/Last Despatched Date"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Last Received Date",
+            "parent": "InventoryList/attributeContext/InventoryList",
+            "definition": "resolvedFrom/InventoryList/hasAttributes/Last Received Date",
+            "contents": [
+              "InventoryList/hasAttributes/Last Received Date"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Location Active Flag",
+            "parent": "InventoryList/attributeContext/InventoryList",
+            "definition": "resolvedFrom/InventoryList/hasAttributes/Location Active Flag",
+            "contents": [
+              "InventoryList/hasAttributes/Location Active Flag"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Location City",
+            "parent": "InventoryList/attributeContext/InventoryList",
+            "definition": "resolvedFrom/InventoryList/hasAttributes/Location City",
+            "contents": [
+              "InventoryList/hasAttributes/Location City"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Location Country",
+            "parent": "InventoryList/attributeContext/InventoryList",
+            "definition": "resolvedFrom/InventoryList/hasAttributes/Location Country",
+            "contents": [
+              "InventoryList/hasAttributes/Location Country"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Location Description",
+            "parent": "InventoryList/attributeContext/InventoryList",
+            "definition": "resolvedFrom/InventoryList/hasAttributes/Location Description",
+            "contents": [
+              "InventoryList/hasAttributes/Location Description"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Location Local Code",
+            "parent": "InventoryList/attributeContext/InventoryList",
+            "definition": "resolvedFrom/InventoryList/hasAttributes/Location Local Code",
+            "contents": [
+              "InventoryList/hasAttributes/Location Local Code"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Location Number",
+            "parent": "InventoryList/attributeContext/InventoryList",
+            "definition": "resolvedFrom/InventoryList/hasAttributes/Location Number",
+            "contents": [
+              "InventoryList/hasAttributes/Location Number"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Location Parent",
+            "parent": "InventoryList/attributeContext/InventoryList",
+            "definition": "resolvedFrom/InventoryList/hasAttributes/Location Parent",
+            "contents": [
+              "InventoryList/hasAttributes/Location Parent"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Location Postal Code",
+            "parent": "InventoryList/attributeContext/InventoryList",
+            "definition": "resolvedFrom/InventoryList/hasAttributes/Location Postal Code",
+            "contents": [
+              "InventoryList/hasAttributes/Location Postal Code"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Location State Province",
+            "parent": "InventoryList/attributeContext/InventoryList",
+            "definition": "resolvedFrom/InventoryList/hasAttributes/Location State Province",
+            "contents": [
+              "InventoryList/hasAttributes/Location State Province"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Location Street Name",
+            "parent": "InventoryList/attributeContext/InventoryList",
+            "definition": "resolvedFrom/InventoryList/hasAttributes/Location Street Name",
+            "contents": [
+              "InventoryList/hasAttributes/Location Street Name"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Lot Number",
+            "parent": "InventoryList/attributeContext/InventoryList",
+            "definition": "resolvedFrom/InventoryList/hasAttributes/Lot Number",
+            "contents": [
+              "InventoryList/hasAttributes/Lot Number"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Opening Stock Quantity",
+            "parent": "InventoryList/attributeContext/InventoryList",
+            "definition": "resolvedFrom/InventoryList/hasAttributes/Opening Stock Quantity",
+            "contents": [
+              "InventoryList/hasAttributes/Opening Stock Quantity"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Opening Stock Value",
+            "parent": "InventoryList/attributeContext/InventoryList",
+            "definition": "resolvedFrom/InventoryList/hasAttributes/Opening Stock Value",
+            "contents": [
+              "InventoryList/hasAttributes/Opening Stock Value"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Owner ID",
+            "parent": "InventoryList/attributeContext/InventoryList",
+            "definition": "resolvedFrom/InventoryList/hasAttributes/Owner ID",
+            "contents": [
+              "InventoryList/hasAttributes/Owner ID"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Preferred Vendor",
+            "parent": "InventoryList/attributeContext/InventoryList",
+            "definition": "resolvedFrom/InventoryList/hasAttributes/Preferred Vendor",
+            "contents": [
+              "InventoryList/hasAttributes/Preferred Vendor"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Product Status",
+            "parent": "InventoryList/attributeContext/InventoryList",
+            "definition": "resolvedFrom/InventoryList/hasAttributes/Product Status",
+            "contents": [
+              "InventoryList/hasAttributes/Product Status"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Quantity On Hand Physical Count",
+            "parent": "InventoryList/attributeContext/InventoryList",
+            "definition": "resolvedFrom/InventoryList/hasAttributes/Quantity On Hand Physical Count",
+            "contents": [
+              "InventoryList/hasAttributes/Quantity On Hand Physical Count"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Serial Number",
+            "parent": "InventoryList/attributeContext/InventoryList",
+            "definition": "resolvedFrom/InventoryList/hasAttributes/Serial Number",
+            "contents": [
+              "InventoryList/hasAttributes/Serial Number"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Stock Account Commodity Code",
+            "parent": "InventoryList/attributeContext/InventoryList",
+            "definition": "resolvedFrom/InventoryList/hasAttributes/Stock Account Commodity Code",
+            "contents": [
+              "InventoryList/hasAttributes/Stock Account Commodity Code"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Stock Characteristic",
+            "parent": "InventoryList/attributeContext/InventoryList",
+            "definition": "resolvedFrom/InventoryList/hasAttributes/Stock Characteristic",
+            "contents": [
+              "InventoryList/hasAttributes/Stock Characteristic"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Stock Characteristic Value",
+            "parent": "InventoryList/attributeContext/InventoryList",
+            "definition": "resolvedFrom/InventoryList/hasAttributes/Stock Characteristic Value",
+            "contents": [
+              "InventoryList/hasAttributes/Stock Characteristic Value"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Supplier ID",
+            "parent": "InventoryList/attributeContext/InventoryList",
+            "definition": "resolvedFrom/InventoryList/hasAttributes/Supplier ID",
+            "contents": [
+              "InventoryList/hasAttributes/Supplier ID"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Third Party Facility",
+            "parent": "InventoryList/attributeContext/InventoryList",
+            "definition": "resolvedFrom/InventoryList/hasAttributes/Third Party Facility",
+            "contents": [
+              "InventoryList/hasAttributes/Third Party Facility"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Unit Of Measure",
+            "parent": "InventoryList/attributeContext/InventoryList",
+            "definition": "resolvedFrom/InventoryList/hasAttributes/Unit Of Measure",
+            "contents": [
+              "InventoryList/hasAttributes/Unit Of Measure"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "UOM To UOM Base Conversion Factor",
+            "parent": "InventoryList/attributeContext/InventoryList",
+            "definition": "resolvedFrom/InventoryList/hasAttributes/UOM To UOM Base Conversion Factor",
+            "contents": [
+              "InventoryList/hasAttributes/UOM To UOM Base Conversion Factor"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Write Down Description",
+            "parent": "InventoryList/attributeContext/InventoryList",
+            "definition": "resolvedFrom/InventoryList/hasAttributes/Write Down Description",
+            "contents": [
+              "InventoryList/hasAttributes/Write Down Description"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Write Down Factor",
+            "parent": "InventoryList/attributeContext/InventoryList",
+            "definition": "resolvedFrom/InventoryList/hasAttributes/Write Down Factor",
+            "contents": [
+              "InventoryList/hasAttributes/Write Down Factor"
+            ]
+          }
+        ]
+      },
+      "hasAttributes": [
+        {
+          "name": "Closing Stock Quantity",
+          "appliedTraits": [
+            {
+              "traitReference": "is.dataFormat.numeric.shaped"
+            }
+          ],
+          "attributeContext": "InventoryList/attributeContext/InventoryList/Closing Stock Quantity",
+          "dataFormat": "Decimal"
+        },
+        {
+          "name": "Closing Stock Value",
+          "appliedTraits": [
+            {
+              "traitReference": "is.dataFormat.numeric.shaped"
+            }
+          ],
+          "attributeContext": "InventoryList/attributeContext/InventoryList/Closing Stock Value",
+          "dataFormat": "Decimal"
+        },
+        {
+          "name": "Inventory Description",
+          "appliedTraits": [
+            "is.dataFormat.character",
+            "is.dataFormat.big",
+            "is.dataFormat.array"
+          ],
+          "attributeContext": "InventoryList/attributeContext/InventoryList/Inventory Description",
+          "dataFormat": "String"
+        },
+        {
+          "name": "Inventory Item Code",
+          "appliedTraits": [
+            "is.dataFormat.character",
+            "is.dataFormat.big",
+            "is.dataFormat.array"
+          ],
+          "attributeContext": "InventoryList/attributeContext/InventoryList/Inventory Item Code",
+          "dataFormat": "String"
+        },
+        {
+          "name": "Unit Price",
+          "appliedTraits": [
+            {
+              "traitReference": "is.dataFormat.numeric.shaped"
+            }
+          ],
+          "attributeContext": "InventoryList/attributeContext/InventoryList/Unit Price",
+          "dataFormat": "Decimal"
+        },
+        {
+          "name": "Unit Sales Price",
+          "appliedTraits": [
+            {
+              "traitReference": "is.dataFormat.numeric.shaped"
+            }
+          ],
+          "attributeContext": "InventoryList/attributeContext/InventoryList/Unit Sales Price",
+          "dataFormat": "Decimal"
+        },
+        {
+          "name": "Bin ID",
+          "appliedTraits": [
+            "is.dataFormat.character",
+            "is.dataFormat.big",
+            "is.dataFormat.array"
+          ],
+          "attributeContext": "InventoryList/attributeContext/InventoryList/Bin ID",
+          "dataFormat": "String"
+        },
+        {
+          "name": "Count Date",
+          "appliedTraits": [
+            "is.dataFormat.date",
+            "means.measurement.date"
+          ],
+          "attributeContext": "InventoryList/attributeContext/InventoryList/Count Date",
+          "dataFormat": "Date"
+        },
+        {
+          "name": "Counted By",
+          "appliedTraits": [
+            "is.dataFormat.character",
+            "is.dataFormat.big",
+            "is.dataFormat.array"
+          ],
+          "attributeContext": "InventoryList/attributeContext/InventoryList/Counted By",
+          "dataFormat": "String"
+        },
+        {
+          "name": "Current Valuation",
+          "appliedTraits": [
+            {
+              "traitReference": "is.dataFormat.numeric.shaped"
+            }
+          ],
+          "attributeContext": "InventoryList/attributeContext/InventoryList/Current Valuation",
+          "dataFormat": "Decimal"
+        },
+        {
+          "name": "Default Inventory Method",
+          "appliedTraits": [
+            "is.dataFormat.character",
+            "is.dataFormat.big",
+            "is.dataFormat.array"
+          ],
+          "attributeContext": "InventoryList/attributeContext/InventoryList/Default Inventory Method",
+          "dataFormat": "String"
+        },
+        {
+          "name": "General Ledger Asset Account",
+          "appliedTraits": [
+            "is.dataFormat.character",
+            "is.dataFormat.big",
+            "is.dataFormat.array"
+          ],
+          "attributeContext": "InventoryList/attributeContext/InventoryList/General Ledger Asset Account",
+          "dataFormat": "String"
+        },
+        {
+          "name": "General Ledger Cost Account",
+          "appliedTraits": [
+            "is.dataFormat.character",
+            "is.dataFormat.big",
+            "is.dataFormat.array"
+          ],
+          "attributeContext": "InventoryList/attributeContext/InventoryList/General Ledger Cost Account",
+          "dataFormat": "String"
+        },
+        {
+          "name": "Inventory Bar Code",
+          "appliedTraits": [
+            "is.dataFormat.character",
+            "is.dataFormat.big",
+            "is.dataFormat.array"
+          ],
+          "attributeContext": "InventoryList/attributeContext/InventoryList/Inventory Bar Code",
+          "dataFormat": "String"
+        },
+        {
+          "name": "Inventory Class",
+          "appliedTraits": [
+            "is.dataFormat.character",
+            "is.dataFormat.big",
+            "is.dataFormat.array"
+          ],
+          "attributeContext": "InventoryList/attributeContext/InventoryList/Inventory Class",
+          "dataFormat": "String"
+        },
+        {
+          "name": "Inventory Master Business Unit Code",
+          "appliedTraits": [
+            "is.dataFormat.character",
+            "is.dataFormat.big",
+            "is.dataFormat.array"
+          ],
+          "attributeContext": "InventoryList/attributeContext/InventoryList/Inventory Master Business Unit Code",
+          "dataFormat": "String"
+        },
+        {
+          "name": "Inventory Product ID",
+          "appliedTraits": [
+            "is.dataFormat.character",
+            "is.dataFormat.big",
+            "is.dataFormat.array"
+          ],
+          "attributeContext": "InventoryList/attributeContext/InventoryList/Inventory Product ID",
+          "dataFormat": "String"
+        },
+        {
+          "name": "Inventory Product Master Business Unit Code",
+          "appliedTraits": [
+            "is.dataFormat.character",
+            "is.dataFormat.big",
+            "is.dataFormat.array"
+          ],
+          "attributeContext": "InventoryList/attributeContext/InventoryList/Inventory Product Master Business Unit Code",
+          "dataFormat": "String"
+        },
+        {
+          "name": "Last Despatched Date",
+          "appliedTraits": [
+            "is.dataFormat.date",
+            "means.measurement.date"
+          ],
+          "attributeContext": "InventoryList/attributeContext/InventoryList/Last Despatched Date",
+          "dataFormat": "Date"
+        },
+        {
+          "name": "Last Received Date",
+          "appliedTraits": [
+            "is.dataFormat.date",
+            "means.measurement.date"
+          ],
+          "attributeContext": "InventoryList/attributeContext/InventoryList/Last Received Date",
+          "dataFormat": "Date"
+        },
+        {
+          "name": "Location Active Flag",
+          "appliedTraits": [
+            "is.dataFormat.boolean"
+          ],
+          "attributeContext": "InventoryList/attributeContext/InventoryList/Location Active Flag",
+          "dataFormat": "Boolean"
+        },
+        {
+          "name": "Location City",
+          "appliedTraits": [
+            "is.dataFormat.character",
+            "is.dataFormat.big",
+            "is.dataFormat.array"
+          ],
+          "attributeContext": "InventoryList/attributeContext/InventoryList/Location City",
+          "dataFormat": "String"
+        },
+        {
+          "name": "Location Country",
+          "appliedTraits": [
+            "is.dataFormat.character",
+            "is.dataFormat.big",
+            "is.dataFormat.array"
+          ],
+          "attributeContext": "InventoryList/attributeContext/InventoryList/Location Country",
+          "dataFormat": "String"
+        },
+        {
+          "name": "Location Description",
+          "appliedTraits": [
+            "is.dataFormat.character",
+            "is.dataFormat.big",
+            "is.dataFormat.array"
+          ],
+          "attributeContext": "InventoryList/attributeContext/InventoryList/Location Description",
+          "dataFormat": "String"
+        },
+        {
+          "name": "Location Local Code",
+          "appliedTraits": [
+            "is.dataFormat.character",
+            "is.dataFormat.big",
+            "is.dataFormat.array"
+          ],
+          "attributeContext": "InventoryList/attributeContext/InventoryList/Location Local Code",
+          "dataFormat": "String"
+        },
+        {
+          "name": "Location Number",
+          "appliedTraits": [
+            "is.dataFormat.character",
+            "is.dataFormat.big",
+            "is.dataFormat.array"
+          ],
+          "attributeContext": "InventoryList/attributeContext/InventoryList/Location Number",
+          "dataFormat": "String"
+        },
+        {
+          "name": "Location Parent",
+          "appliedTraits": [
+            "is.dataFormat.character",
+            "is.dataFormat.big",
+            "is.dataFormat.array"
+          ],
+          "attributeContext": "InventoryList/attributeContext/InventoryList/Location Parent",
+          "dataFormat": "String"
+        },
+        {
+          "name": "Location Postal Code",
+          "appliedTraits": [
+            "is.dataFormat.character",
+            "is.dataFormat.big",
+            "is.dataFormat.array"
+          ],
+          "attributeContext": "InventoryList/attributeContext/InventoryList/Location Postal Code",
+          "dataFormat": "String"
+        },
+        {
+          "name": "Location State Province",
+          "appliedTraits": [
+            "is.dataFormat.character",
+            "is.dataFormat.big",
+            "is.dataFormat.array"
+          ],
+          "attributeContext": "InventoryList/attributeContext/InventoryList/Location State Province",
+          "dataFormat": "String"
+        },
+        {
+          "name": "Location Street Name",
+          "appliedTraits": [
+            "is.dataFormat.character",
+            "is.dataFormat.big",
+            "is.dataFormat.array"
+          ],
+          "attributeContext": "InventoryList/attributeContext/InventoryList/Location Street Name",
+          "dataFormat": "String"
+        },
+        {
+          "name": "Lot Number",
+          "appliedTraits": [
+            "is.dataFormat.character",
+            "is.dataFormat.big",
+            "is.dataFormat.array"
+          ],
+          "attributeContext": "InventoryList/attributeContext/InventoryList/Lot Number",
+          "dataFormat": "String"
+        },
+        {
+          "name": "Opening Stock Quantity",
+          "appliedTraits": [
+            {
+              "traitReference": "is.dataFormat.numeric.shaped"
+            }
+          ],
+          "attributeContext": "InventoryList/attributeContext/InventoryList/Opening Stock Quantity",
+          "dataFormat": "Decimal"
+        },
+        {
+          "name": "Opening Stock Value",
+          "appliedTraits": [
+            {
+              "traitReference": "is.dataFormat.numeric.shaped"
+            }
+          ],
+          "attributeContext": "InventoryList/attributeContext/InventoryList/Opening Stock Value",
+          "dataFormat": "Decimal"
+        },
+        {
+          "name": "Owner ID",
+          "appliedTraits": [
+            "is.dataFormat.character",
+            "is.dataFormat.big",
+            "is.dataFormat.array"
+          ],
+          "attributeContext": "InventoryList/attributeContext/InventoryList/Owner ID",
+          "dataFormat": "String"
+        },
+        {
+          "name": "Preferred Vendor",
+          "appliedTraits": [
+            "is.dataFormat.character",
+            "is.dataFormat.big",
+            "is.dataFormat.array"
+          ],
+          "attributeContext": "InventoryList/attributeContext/InventoryList/Preferred Vendor",
+          "dataFormat": "String"
+        },
+        {
+          "name": "Product Status",
+          "appliedTraits": [
+            "is.dataFormat.character",
+            "is.dataFormat.big",
+            "is.dataFormat.array"
+          ],
+          "attributeContext": "InventoryList/attributeContext/InventoryList/Product Status",
+          "dataFormat": "String"
+        },
+        {
+          "name": "Quantity On Hand Physical Count",
+          "appliedTraits": [
+            {
+              "traitReference": "is.dataFormat.numeric.shaped"
+            }
+          ],
+          "attributeContext": "InventoryList/attributeContext/InventoryList/Quantity On Hand Physical Count",
+          "dataFormat": "Decimal"
+        },
+        {
+          "name": "Serial Number",
+          "appliedTraits": [
+            "is.dataFormat.character",
+            "is.dataFormat.big",
+            "is.dataFormat.array"
+          ],
+          "attributeContext": "InventoryList/attributeContext/InventoryList/Serial Number",
+          "dataFormat": "String"
+        },
+        {
+          "name": "Stock Account Commodity Code",
+          "appliedTraits": [
+            "is.dataFormat.character",
+            "is.dataFormat.big",
+            "is.dataFormat.array"
+          ],
+          "attributeContext": "InventoryList/attributeContext/InventoryList/Stock Account Commodity Code",
+          "dataFormat": "String"
+        },
+        {
+          "name": "Stock Characteristic",
+          "appliedTraits": [
+            "is.dataFormat.character",
+            "is.dataFormat.big",
+            "is.dataFormat.array"
+          ],
+          "attributeContext": "InventoryList/attributeContext/InventoryList/Stock Characteristic",
+          "dataFormat": "String"
+        },
+        {
+          "name": "Stock Characteristic Value",
+          "appliedTraits": [
+            {
+              "traitReference": "is.dataFormat.numeric.shaped"
+            }
+          ],
+          "attributeContext": "InventoryList/attributeContext/InventoryList/Stock Characteristic Value",
+          "dataFormat": "Decimal"
+        },
+        {
+          "name": "Supplier ID",
+          "appliedTraits": [
+            "is.dataFormat.character",
+            "is.dataFormat.big",
+            "is.dataFormat.array"
+          ],
+          "attributeContext": "InventoryList/attributeContext/InventoryList/Supplier ID",
+          "dataFormat": "String"
+        },
+        {
+          "name": "Third Party Facility",
+          "appliedTraits": [
+            "is.dataFormat.boolean"
+          ],
+          "attributeContext": "InventoryList/attributeContext/InventoryList/Third Party Facility",
+          "dataFormat": "Boolean"
+        },
+        {
+          "name": "Unit Of Measure",
+          "appliedTraits": [
+            "is.dataFormat.character",
+            "is.dataFormat.big",
+            "is.dataFormat.array"
+          ],
+          "attributeContext": "InventoryList/attributeContext/InventoryList/Unit Of Measure",
+          "dataFormat": "String"
+        },
+        {
+          "name": "UOM To UOM Base Conversion Factor",
+          "appliedTraits": [
+            {
+              "traitReference": "is.dataFormat.numeric.shaped"
+            }
+          ],
+          "attributeContext": "InventoryList/attributeContext/InventoryList/UOM To UOM Base Conversion Factor",
+          "dataFormat": "Decimal"
+        },
+        {
+          "name": "Write Down Description",
+          "appliedTraits": [
+            "is.dataFormat.character",
+            "is.dataFormat.big",
+            "is.dataFormat.array"
+          ],
+          "attributeContext": "InventoryList/attributeContext/InventoryList/Write Down Description",
+          "dataFormat": "String"
+        },
+        {
+          "name": "Write Down Factor",
+          "appliedTraits": [
+            {
+              "traitReference": "is.dataFormat.numeric.shaped"
+            }
+          ],
+          "attributeContext": "InventoryList/attributeContext/InventoryList/Write Down Factor",
+          "dataFormat": "Decimal"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,250 @@
+{
+  "jsonSchemaSemanticVersion": "1.0.0",
+  "imports": [
+    {
+      "corpusPath": "cdm:/foundations.cdm.json"
+    }
+  ],
+  "definitions": [
+    {
+      "entityName": "InventoryList",
+      "hasAttributes": [
+        {
+          "name": "Closing Stock Quantity",
+          "purpose": "hasA",
+          "dataType": "decimal"
+        },
+        {
+          "name": "Closing Stock Value",
+          "purpose": "hasA",
+          "dataType": "decimal"
+        },
+        {
+          "name": "Inventory Description",
+          "purpose": "hasA",
+          "dataType": "string"
+        },
+        {
+          "name": "Inventory Item Code",
+          "purpose": "hasA",
+          "dataType": "string"
+        },
+        {
+          "name": "Unit Price",
+          "purpose": "hasA",
+          "dataType": "decimal"
+        },
+        {
+          "name": "Unit Sales Price",
+          "purpose": "hasA",
+          "dataType": "decimal"
+        },
+        {
+          "name": "Bin ID",
+          "purpose": "hasA",
+          "dataType": "string"
+        },
+        {
+          "name": "Count Date",
+          "purpose": "hasA",
+          "dataType": "date"
+        },
+        {
+          "name": "Counted By",
+          "purpose": "hasA",
+          "dataType": "string"
+        },
+        {
+          "name": "Current Valuation",
+          "purpose": "hasA",
+          "dataType": "decimal"
+        },
+        {
+          "name": "Default Inventory Method",
+          "purpose": "hasA",
+          "dataType": "string"
+        },
+        {
+          "name": "General Ledger Asset Account",
+          "purpose": "hasA",
+          "dataType": "string"
+        },
+        {
+          "name": "General Ledger Cost Account",
+          "purpose": "hasA",
+          "dataType": "string"
+        },
+        {
+          "name": "Inventory Bar Code",
+          "purpose": "hasA",
+          "dataType": "string"
+        },
+        {
+          "name": "Inventory Class",
+          "purpose": "hasA",
+          "dataType": "string"
+        },
+        {
+          "name": "Inventory Master Business Unit Code",
+          "purpose": "hasA",
+          "dataType": "string"
+        },
+        {
+          "name": "Inventory Product ID",
+          "purpose": "hasA",
+          "dataType": "string"
+        },
+        {
+          "name": "Inventory Product Master Business Unit Code",
+          "purpose": "hasA",
+          "dataType": "string"
+        },
+        {
+          "name": "Last Despatched Date",
+          "purpose": "hasA",
+          "dataType": "date"
+        },
+        {
+          "name": "Last Received Date",
+          "purpose": "hasA",
+          "dataType": "date"
+        },
+        {
+          "name": "Location Active Flag",
+          "purpose": "hasA",
+          "dataType": "boolean"
+        },
+        {
+          "name": "Location City",
+          "purpose": "hasA",
+          "dataType": "string"
+        },
+        {
+          "name": "Location Country",
+          "purpose": "hasA",
+          "dataType": "string"
+        },
+        {
+          "name": "Location Description",
+          "purpose": "hasA",
+          "dataType": "string"
+        },
+        {
+          "name": "Location Local Code",
+          "purpose": "hasA",
+          "dataType": "string"
+        },
+        {
+          "name": "Location Number",
+          "purpose": "hasA",
+          "dataType": "string"
+        },
+        {
+          "name": "Location Parent",
+          "purpose": "hasA",
+          "dataType": "string"
+        },
+        {
+          "name": "Location Postal Code",
+          "purpose": "hasA",
+          "dataType": "string"
+        },
+        {
+          "name": "Location State Province",
+          "purpose": "hasA",
+          "dataType": "string"
+        },
+        {
+          "name": "Location Street Name",
+          "purpose": "hasA",
+          "dataType": "string"
+        },
+        {
+          "name": "Lot Number",
+          "purpose": "hasA",
+          "dataType": "string"
+        },
+        {
+          "name": "Opening Stock Quantity",
+          "purpose": "hasA",
+          "dataType": "decimal"
+        },
+        {
+          "name": "Opening Stock Value",
+          "purpose": "hasA",
+          "dataType": "decimal"
+        },
+        {
+          "name": "Owner ID",
+          "purpose": "hasA",
+          "dataType": "string"
+        },
+        {
+          "name": "Preferred Vendor",
+          "purpose": "hasA",
+          "dataType": "string"
+        },
+        {
+          "name": "Product Status",
+          "purpose": "hasA",
+          "dataType": "string"
+        },
+        {
+          "name": "Quantity On Hand Physical Count",
+          "purpose": "hasA",
+          "dataType": "decimal"
+        },
+        {
+          "name": "Serial Number",
+          "purpose": "hasA",
+          "dataType": "string"
+        },
+        {
+          "name": "Stock Account Commodity Code",
+          "purpose": "hasA",
+          "dataType": "string"
+        },
+        {
+          "name": "Stock Characteristic",
+          "purpose": "hasA",
+          "dataType": "string"
+        },
+        {
+          "name": "Stock Characteristic Value",
+          "purpose": "hasA",
+          "dataType": "decimal"
+        },
+        {
+          "name": "Supplier ID",
+          "purpose": "hasA",
+          "dataType": "string"
+        },
+        {
+          "name": "Third Party Facility",
+          "purpose": "hasA",
+          "dataType": "boolean"
+        },
+        {
+          "name": "Unit Of Measure",
+          "purpose": "hasA",
+          "dataType": "string"
+        },
+        {
+          "name": "UOM To UOM Base Conversion Factor",
+          "purpose": "hasA",
+          "dataType": "decimal"
+        },
+        {
+          "name": "Write Down Description",
+          "purpose": "hasA",
+          "dataType": "string"
+        },
+        {
+          "name": "Write Down Factor",
+          "purpose": "hasA",
+          "dataType": "decimal"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,249 @@
+{
+  "jsonSchemaSemanticVersion": "1.0.0",
+  "imports": [
+    {
+      "corpusPath": "/Tax Table Data.cdm.json",
+      "moniker": "resolvedFrom"
+    }
+  ],
+  "definitions": [
+    {
+      "entityName": "Tax Table Data",
+      "attributeContext": {
+        "type": "entity",
+        "name": "Tax Table Data",
+        "definition": "resolvedFrom/Tax Table Data",
+        "contents": [
+          {
+            "type": "attributeDefinition",
+            "name": "Country",
+            "parent": "Tax Table Data/attributeContext/Tax Table Data",
+            "definition": "resolvedFrom/Tax Table Data/hasAttributes/Country",
+            "contents": [
+              "Tax Table Data/hasAttributes/Country"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Description",
+            "parent": "Tax Table Data/attributeContext/Tax Table Data",
+            "definition": "resolvedFrom/Tax Table Data/hasAttributes/Description",
+            "contents": [
+              "Tax Table Data/hasAttributes/Description"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Effective Date",
+            "parent": "Tax Table Data/attributeContext/Tax Table Data",
+            "definition": "resolvedFrom/Tax Table Data/hasAttributes/Effective Date",
+            "contents": [
+              "Tax Table Data/hasAttributes/Effective Date"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Expiration Date",
+            "parent": "Tax Table Data/attributeContext/Tax Table Data",
+            "definition": "resolvedFrom/Tax Table Data/hasAttributes/Expiration Date",
+            "contents": [
+              "Tax Table Data/hasAttributes/Expiration Date"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Flat Tax Rate Amount",
+            "parent": "Tax Table Data/attributeContext/Tax Table Data",
+            "definition": "resolvedFrom/Tax Table Data/hasAttributes/Flat Tax Rate Amount",
+            "contents": [
+              "Tax Table Data/hasAttributes/Flat Tax Rate Amount"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Flat Tax Rate Currency Amount",
+            "parent": "Tax Table Data/attributeContext/Tax Table Data",
+            "definition": "resolvedFrom/Tax Table Data/hasAttributes/Flat Tax Rate Currency Amount",
+            "contents": [
+              "Tax Table Data/hasAttributes/Flat Tax Rate Currency Amount"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Flat Tax Rate Currency Code",
+            "parent": "Tax Table Data/attributeContext/Tax Table Data",
+            "definition": "resolvedFrom/Tax Table Data/hasAttributes/Flat Tax Rate Currency Code",
+            "contents": [
+              "Tax Table Data/hasAttributes/Flat Tax Rate Currency Code"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Flat Tax Rate Exhchange Rate",
+            "parent": "Tax Table Data/attributeContext/Tax Table Data",
+            "definition": "resolvedFrom/Tax Table Data/hasAttributes/Flat Tax Rate Exhchange Rate",
+            "contents": [
+              "Tax Table Data/hasAttributes/Flat Tax Rate Exhchange Rate"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Region",
+            "parent": "Tax Table Data/attributeContext/Tax Table Data",
+            "definition": "resolvedFrom/Tax Table Data/hasAttributes/Region",
+            "contents": [
+              "Tax Table Data/hasAttributes/Region"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Tax Code",
+            "parent": "Tax Table Data/attributeContext/Tax Table Data",
+            "definition": "resolvedFrom/Tax Table Data/hasAttributes/Tax Code",
+            "contents": [
+              "Tax Table Data/hasAttributes/Tax Code"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Tax Percentage",
+            "parent": "Tax Table Data/attributeContext/Tax Table Data",
+            "definition": "resolvedFrom/Tax Table Data/hasAttributes/Tax Percentage",
+            "contents": [
+              "Tax Table Data/hasAttributes/Tax Percentage"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Tax Type",
+            "parent": "Tax Table Data/attributeContext/Tax Table Data",
+            "definition": "resolvedFrom/Tax Table Data/hasAttributes/Tax Type",
+            "contents": [
+              "Tax Table Data/hasAttributes/Tax Type"
+            ]
+          }
+        ]
+      },
+      "hasAttributes": [
+        {
+          "name": "Country",
+          "appliedTraits": [
+            "is.dataFormat.character",
+            "is.dataFormat.big",
+            "is.dataFormat.array"
+          ],
+          "attributeContext": "Tax Table Data/attributeContext/Tax Table Data/Country",
+          "dataFormat": "String"
+        },
+        {
+          "name": "Description",
+          "appliedTraits": [
+            "is.dataFormat.character",
+            "is.dataFormat.big",
+            "is.dataFormat.array"
+          ],
+          "attributeContext": "Tax Table Data/attributeContext/Tax Table Data/Description",
+          "dataFormat": "String"
+        },
+        {
+          "name": "Effective Date",
+          "appliedTraits": [
+            "is.dataFormat.date",
+            "means.measurement.date"
+          ],
+          "attributeContext": "Tax Table Data/attributeContext/Tax Table Data/Effective Date",
+          "dataFormat": "Date"
+        },
+        {
+          "name": "Expiration Date",
+          "appliedTraits": [
+            "is.dataFormat.date",
+            "means.measurement.date"
+          ],
+          "attributeContext": "Tax Table Data/attributeContext/Tax Table Data/Expiration Date",
+          "dataFormat": "Date"
+        },
+        {
+          "name": "Flat Tax Rate Amount",
+          "appliedTraits": [
+            {
+              "traitReference": "is.dataFormat.numeric.shaped"
+            }
+          ],
+          "attributeContext": "Tax Table Data/attributeContext/Tax Table Data/Flat Tax Rate Amount",
+          "dataFormat": "Decimal"
+        },
+        {
+          "name": "Flat Tax Rate Currency Amount",
+          "appliedTraits": [
+            {
+              "traitReference": "is.dataFormat.numeric.shaped"
+            }
+          ],
+          "attributeContext": "Tax Table Data/attributeContext/Tax Table Data/Flat Tax Rate Currency Amount",
+          "dataFormat": "Decimal"
+        },
+        {
+          "name": "Flat Tax Rate Currency Code",
+          "appliedTraits": [
+            "is.dataFormat.character",
+            "is.dataFormat.big",
+            "is.dataFormat.array"
+          ],
+          "attributeContext": "Tax Table Data/attributeContext/Tax Table Data/Flat Tax Rate Currency Code",
+          "dataFormat": "String"
+        },
+        {
+          "name": "Flat Tax Rate Exhchange Rate",
+          "appliedTraits": [
+            {
+              "traitReference": "is.dataFormat.numeric.shaped"
+            }
+          ],
+          "attributeContext": "Tax Table Data/attributeContext/Tax Table Data/Flat Tax Rate Exhchange Rate",
+          "dataFormat": "Decimal"
+        },
+        {
+          "name": "Region",
+          "appliedTraits": [
+            "is.dataFormat.character",
+            "is.dataFormat.big",
+            "is.dataFormat.array"
+          ],
+          "attributeContext": "Tax Table Data/attributeContext/Tax Table Data/Region",
+          "dataFormat": "String"
+        },
+        {
+          "name": "Tax Code",
+          "appliedTraits": [
+            "is.dataFormat.character",
+            "is.dataFormat.big",
+            "is.dataFormat.array"
+          ],
+          "attributeContext": "Tax Table Data/attributeContext/Tax Table Data/Tax Code",
+          "dataFormat": "String"
+        },
+        {
+          "name": "Tax Percentage",
+          "appliedTraits": [
+            {
+              "traitReference": "is.dataFormat.numeric.shaped"
+            }
+          ],
+          "attributeContext": "Tax Table Data/attributeContext/Tax Table Data/Tax Percentage",
+          "dataFormat": "Decimal"
+        },
+        {
+          "name": "Tax Type",
+          "appliedTraits": [
+            "is.dataFormat.character",
+            "is.dataFormat.big",
+            "is.dataFormat.array"
+          ],
+          "attributeContext": "Tax Table Data/attributeContext/Tax Table Data/Tax Type",
+          "dataFormat": "String"
+        }
+      ]
+    }
+  ]
+}

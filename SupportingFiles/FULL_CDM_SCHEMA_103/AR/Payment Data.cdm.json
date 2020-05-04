@@ -1,0 +1,255 @@
+{
+  "jsonSchemaSemanticVersion": "1.0.0",
+  "imports": [
+    {
+      "corpusPath": "cdm:/foundations.cdm.json"
+    }
+  ],
+  "definitions": [
+    {
+      "entityName": "Payment Data",
+      "hasAttributes": [
+        {
+          "name": "Approved By",
+          "purpose": "hasA",
+          "dataType": "string"
+        },
+        {
+          "name": "Approved Date Time",
+          "purpose": "hasA",
+          "dataType": "date"
+        },
+        {
+          "name": "Batch ID",
+          "purpose": "hasA",
+          "dataType": "string"
+        },
+        {
+          "name": "Description",
+          "purpose": "hasA",
+          "dataType": "string"
+        },
+        {
+          "name": "Line Account ID",
+          "purpose": "hasA",
+          "dataType": "string"
+        },
+        {
+          "name": "Line Analysis Analysis ID",
+          "purpose": "hasA",
+          "dataType": "decimal"
+        },
+        {
+          "name": "Line Analysis Analysis Amount",
+          "purpose": "hasA",
+          "dataType": "string"
+        },
+        {
+          "name": "Line Analysis Analysis Type",
+          "purpose": "hasA",
+          "dataType": "string"
+        },
+        {
+          "name": "Line Approved By",
+          "purpose": "hasA",
+          "dataType": "string"
+        },
+        {
+          "name": "Line Approved Date Time",
+          "purpose": "hasA",
+          "dataType": "date"
+        },
+        {
+          "name": "Line Customer ID",
+          "purpose": "hasA",
+          "dataType": "string"
+        },
+        {
+          "name": "Line Debit Credit Indicator",
+          "purpose": "hasA",
+          "dataType": "string"
+        },
+        {
+          "name": "Line Description",
+          "purpose": "hasA",
+          "dataType": "string"
+        },
+        {
+          "name": "Line Line Number",
+          "purpose": "hasA",
+          "dataType": "string"
+        },
+        {
+          "name": "Line Payment Line Amount Amount",
+          "purpose": "hasA",
+          "dataType": "decimal"
+        },
+        {
+          "name": "Line Payment Line Amount Currency Amount",
+          "purpose": "hasA",
+          "dataType": "decimal"
+        },
+        {
+          "name": "Line Payment Line Amount Currency Code",
+          "purpose": "hasA",
+          "dataType": "string"
+        },
+        {
+          "name": "Line Payment Line Amount Exchange Rate",
+          "purpose": "hasA",
+          "dataType": "decimal"
+        },
+        {
+          "name": "Line Settlement Payment Mechanism",
+          "purpose": "hasA",
+          "dataType": "string"
+        },
+        {
+          "name": "Line Settlement Settlement Amount Amount",
+          "purpose": "hasA",
+          "dataType": "decimal"
+        },
+        {
+          "name": "Line Settlement Settlement Amount Currency Amount",
+          "purpose": "hasA",
+          "dataType": "decimal"
+        },
+        {
+          "name": "Line Settlement Settlement Amount Currency Code",
+          "purpose": "hasA",
+          "dataType": "string"
+        },
+        {
+          "name": "Line Settlement Settlement Amount Exchange Rate",
+          "purpose": "hasA",
+          "dataType": "decimal"
+        },
+        {
+          "name": "Line Settlement Settlement Date",
+          "purpose": "hasA",
+          "dataType": "date"
+        },
+        {
+          "name": "Line Settlement Settlement Discount",
+          "purpose": "hasA",
+          "dataType": "string"
+        },
+        {
+          "name": "Line Source Document ID",
+          "purpose": "hasA",
+          "dataType": "string"
+        },
+        {
+          "name": "Line System Entry Date Time",
+          "purpose": "hasA",
+          "dataType": "date"
+        },
+        {
+          "name": "Line System Entry User",
+          "purpose": "hasA",
+          "dataType": "string"
+        },
+        {
+          "name": "Line Tax Information Tax Amount",
+          "purpose": "hasA",
+          "dataType": "decimal"
+        },
+        {
+          "name": "Line Tax Information Tax Base",
+          "purpose": "hasA",
+          "dataType": "string"
+        },
+        {
+          "name": "Line Tax Information Tax Base Description",
+          "purpose": "hasA",
+          "dataType": "string"
+        },
+        {
+          "name": "Line Tax Information Tax Code",
+          "purpose": "hasA",
+          "dataType": "string"
+        },
+        {
+          "name": "Line Tax Information Tax Declaration Period",
+          "purpose": "hasA",
+          "dataType": "string"
+        },
+        {
+          "name": "Line Tax Information Tax Exemption Reason",
+          "purpose": "hasA",
+          "dataType": "string"
+        },
+        {
+          "name": "Line Tax Information Tax Percentage",
+          "purpose": "hasA",
+          "dataType": "decimal"
+        },
+        {
+          "name": "Line Tax Information Tax Type",
+          "purpose": "hasA",
+          "dataType": "string"
+        },
+        {
+          "name": "Line Tax Point Date",
+          "purpose": "hasA",
+          "dataType": "date"
+        },
+        {
+          "name": "Payment Method",
+          "purpose": "hasA",
+          "dataType": "string"
+        },
+        {
+          "name": "Payment Ref No",
+          "purpose": "hasA",
+          "dataType": "string"
+        },
+        {
+          "name": "Period",
+          "purpose": "hasA",
+          "dataType": "string"
+        },
+        {
+          "name": "Period Year",
+          "purpose": "hasA",
+          "dataType": "date"
+        },
+        {
+          "name": "Source ID",
+          "purpose": "hasA",
+          "dataType": "string"
+        },
+        {
+          "name": "System ID",
+          "purpose": "hasA",
+          "dataType": "date"
+        },
+        {
+          "name": "System Entry Date Time",
+          "purpose": "hasA",
+          "dataType": "string"
+        },
+        {
+          "name": "System Entry User",
+          "purpose": "hasA",
+          "dataType": "string"
+        },
+        {
+          "name": "Transaction ID",
+          "purpose": "hasA",
+          "dataType": "date"
+        },
+        {
+          "name": "Transaction Date",
+          "purpose": "hasA",
+          "dataType": "string"
+        },
+        {
+          "name": "Document Totals Payment Amount Totals Amount",
+          "purpose": "hasA",
+          "dataType": "decimal"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,492 @@
+﻿Goods Received Data,Adjustment Amount,decimal
+Goods Received Data,Adjustment Description,string
+Goods Received Data,Adjustment Indicator,string
+Goods Received Data,Approved By,string
+Goods Received Data,Approved By Date Time,date
+Goods Received Data,Business Unit Code,string
+Goods Received Data,Entered By,string
+Goods Received Data,Entered Date Time,date
+Goods Received Data,Goods Received Amount,decimal
+Goods Received Data,Goods Received Currency Amount,decimal
+Goods Received Data,Goods Received Currency Code,string
+Goods Received Data,Goods Received Exchange Rate,decimal
+Goods Received Data,Last Modified By,string
+Goods Received Data,Last Modified Date Time,date
+Goods Received Data,Line Adjustment Amount,decimal
+Goods Received Data,Line Adjustment Description,string
+Goods Received Data,Line Amount,decimal
+Goods Received Data,Line Currency Amount,decimal
+Goods Received Data,Line Currency Code,string
+Goods Received Data,Line Exchange Rate,decimal
+Goods Received Data,Line Purchase Order Amount,decimal
+Goods Received Data,Line Purchase Order Currency Amount,decimal
+Goods Received Data,Line Purchase Order Currency Code,string
+Goods Received Data,Line Purchase Order Exchange Rate,decimal
+Goods Received Data,Line Purchase Order Line ID,string
+Goods Received Data,Line Purchase Order Quantity,decimal
+Goods Received Data,Line Purchase Order Unitof Measure,string
+Goods Received Data,Line Purchase Order Unit Price,decimal
+Goods Received Data,Line Receipt ID,string
+Goods Received Data,Line Receipt Document Line ID,string
+Goods Received Data,Line Receipt Product ID,string
+Goods Received Data,Line Receipt Product Bar Code,string
+Goods Received Data,Line Receipt Product Description,string
+Goods Received Data,Line Receipt Product Group01,string
+Goods Received Data,Line Receipt Product Group02,string
+Goods Received Data,Line Receipt Quantity,decimal
+Goods Received Data,Line Receipt Unitof Measure,string
+Goods Received Data,Line Receipt Unit Price,decimal
+Goods Received Data,Posting Status,string
+Goods Received Data,Purchase Order ID,decimal
+Goods Received Data,Purchase Order Amount,decimal
+Goods Received Data,Purchase Order Currency Amount,string
+Goods Received Data,Purchase Order Currency Code,decimal
+Goods Received Data,Purchase Order Exchange Rate,date
+Goods Received Data,Purchase Order Date,string
+Goods Received Data,Receipt ID,date
+Goods Received Data,Receipt Date,string
+Goods Received Data,Receipt Document ID,date
+Goods Received Data,Receipt Fiscal Year,string
+Goods Received Data,Receipt Period,string
+Goods Received Data,Supplier Account ID,string
+Inventory Product Master Data,Description,string
+Inventory Product Master Data,Goods Services ID,string
+Inventory Product Master Data,Product Code,string
+Inventory Product Master Data,Product Commodity Code,string
+Inventory Product Master Data,Product Group,string
+Inventory Product Master Data,Product Number Code,string
+Inventory Product Master Data,System Approved Date Time,date
+Inventory Product Master Data,System Approved User,string
+Inventory Product Master Data,System Entry Date Time,date
+Inventory Product Master Data,System Entry User,string
+Inventory Product Master Data,System Modified Date Time,date
+Inventory Product Master Data,System Modified User,string
+Inventory Product Master Data,Tax Code,string
+Inventory Product Master Data,Tax Type,string
+Inventory Product Master Data,UOM Base,string
+Inventory Product Master Data,UOM Standard,string
+Inventory Product Master Data,UOM To UOM Base Conversion Factor,decimal
+Inventory Product Master Data,Valuation Method,string
+Payment Data,Approved By,string
+Payment Data,Approved Date Time,date
+Payment Data,Batch ID,string
+Payment Data,Description,string
+Payment Data,Line Account ID,string
+Payment Data,Line Analysis Analysis ID,decimal
+Payment Data,Line Analysis Analysis Amount,string
+Payment Data,Line Analysis Analysis Type,string
+Payment Data,Line Approved By,string
+Payment Data,Line Approved Date Time,date
+Payment Data,Line Debit Credit Indicator,string
+Payment Data,Line Description,string
+Payment Data,Line Line Number,string
+Payment Data,Line Payment Line Amount Currency Amount,decimal
+Payment Data,Line Payment Line Amount Currency Code,string
+Payment Data,Line Settlement Settlement Amount Amount,decimal
+Payment Data,Line Payment Line Amount Exchange Rate,decimal
+Payment Data,Line Settlement Payment Mechanism,string
+Payment Data,Line Settlement Settlement Amount Currency Amount,decimal
+Payment Data,Line Settlement Settlement Amount Currency Code,string
+Payment Data,Line Source Document ID,string
+Payment Data,Line Settlement Settlement Amount Exchange Rate,decimal
+Payment Data,Line Settlement Settlement Date,date
+Payment Data,Line Settlement Settlement Discount,string
+Payment Data,Line Supplier ID,string
+Payment Data,Line System Entry Date Time,date
+Payment Data,Line System Entry User,string
+Payment Data,Line Tax Information Tax Amount,decimal
+Payment Data,Line Tax Information Tax Code,string
+Payment Data,Line Tax Information Tax Base,string
+Payment Data,Line Tax Information Tax Base Description,string
+Payment Data,Payment Method,string
+Payment Data,Line Tax Information Tax Declaration Period,string
+Payment Data,Line Tax Information Tax Exemption Reason,string
+Payment Data,Line Tax Information Tax Percentage,decimal
+Payment Data,Line Tax Information Tax Type,string
+Payment Data,Payment Ref No,string
+Payment Data,Period,string
+Payment Data,Period Year,date
+Payment Data,Source ID,string
+Payment Data,System ID,date
+Payment Data,System Entry Date Time,string
+Payment Data,System Entry User,string
+Payment Data,Transaction ID,date
+Payment Data,Transaction Date,string
+Payment Data,Line Payment Line Amount Amount,decimal
+Payment Data,Line Tax Point Date,date
+Payment Data Quality Totals,Line Document Totals Gross Total,decimal
+Payment Data Quality Totals,Line Document Totals Net Total,decimal
+Payment Data Quality Totals,Line Document Totals Tax Information Totals Tax Code,string
+Payment Data Quality Totals,Line Document Totals Tax Information Totals Tax Base,string
+Payment Data Quality Totals,Line Document Totals Tax Information Totals Tax Base Description,string
+Payment Data Quality Totals,Number Of Entries,decimal
+Payment Data Quality Totals,Line Document Totals Tax Information Totals Tax Declaration Period,string
+Payment Data Quality Totals,Line Document Totals Tax Information Totals Tax Exemption Reason,string
+Payment Data Quality Totals,Line Document Totals Tax Information Totals Tax Percentage,decimal
+Payment Data Quality Totals,Line Document Totals Tax Information Totals Tax Type,string
+Payment Data Quality Totals,Total Credit,decimal
+Payment Data Quality Totals,Total Debit,decimal
+Payment Data Quality Totals,Line Document Totals Tax Information Totals Tax Amount,decimal
+Purchase Invoice Data,Supplier Info Supplier ID,string
+Purchase Invoice Data,Approved By,string
+Purchase Invoice Data,Billing Address Additional Address Detail,string
+Purchase Invoice Data,Billing Address Address Type,string
+Purchase Invoice Data,Approved Date Time,date
+Purchase Invoice Data,Batch ID,string
+Purchase Invoice Data,Billing Address Building,string
+Purchase Invoice Data,Billing Address City,string
+Purchase Invoice Data,Billing Address Country,string
+Purchase Invoice Data,Billing Address Region,string
+Purchase Invoice Data,Billing Address Number,decimal
+Purchase Invoice Data,Branch Store Number,string
+Purchase Invoice Data,Billing Address Postal Code,string
+Purchase Invoice Data,Billing Address Street Name,string
+Purchase Invoice Data,Invoice Document Reference,string
+Purchase Invoice Data,GL Posting Date,date
+Purchase Invoice Data,Line Analysis ID,string
+Purchase Invoice Data,Line Analysis Amount,string
+Purchase Invoice Data,Line Analysis Type,string
+Purchase Invoice Data,Line Invoice Due Date,date
+Purchase Invoice Data,Line Credit Note Reason,string
+Purchase Invoice Data,Line Approved By,string
+Purchase Invoice Data,Line Debit Credit Indicator,string
+Purchase Invoice Data,Line Approved Date Time,date
+Purchase Invoice Data,Line Credit Note Reference,string
+Purchase Invoice Data,Line From Date,date
+Purchase Invoice Data,Line Delivery Date,date
+Purchase Invoice Data,Line Goods Services ID,string
+Purchase Invoice Data,Line Invoice Line Amount Currency Amount,decimal
+Purchase Invoice Data,Line Invoice Line Amount Exchange Rate,decimal
+Purchase Invoice Data,Line Invoice UOM,string
+Purchase Invoice Data,Line Movement Reference,string
+Purchase Invoice Data,Line Line Number,string
+Purchase Invoice Data,Line Order Date,date
+Purchase Invoice Data,Line Originating ON,string
+Purchase Invoice Data,Line Product Description,string
+Purchase Invoice Data,Line Ship From Additional Address Detail,string
+Purchase Invoice Data,Line Ship From Address Type,string
+Purchase Invoice Data,Line Ship From Building,string
+Purchase Invoice Data,Line Ship From Address,string
+Purchase Invoice Data,Line Ship From City,string
+Purchase Invoice Data,Line Ship From Country,string
+Purchase Invoice Data,Line Ship From Delivery ID,date
+Purchase Invoice Data,Line Ship From Location ID,string
+Purchase Invoice Data,Line Ship From Delivery Date,string
+Purchase Invoice Data,Line Ship From Number,decimal
+Purchase Invoice Data,Line Ship From Region,string
+Purchase Invoice Data,Line Ship From Postal Code,string
+Purchase Invoice Data,Line Ship From Street Name,string
+Purchase Invoice Data,Line Ship From Warehouse ID,string
+Purchase Invoice Data,Line Ship From UCR,string
+Purchase Invoice Data,Line Shipping Costs Amount Amount,decimal
+Purchase Invoice Data,Line Shipping Costs Amount Currency Amount,decimal
+Purchase Invoice Data,Line Shipping Costs Amount Exchange Rate,decimal
+Purchase Invoice Data,Line Ship To Additional Address Detail,string
+Purchase Invoice Data,Line Shipping Costs Amount Currency Code,string
+Purchase Invoice Data,Line Ship To Address Type,string
+Purchase Invoice Data,Line Ship To Building,string
+Purchase Invoice Data,Line Ship To Address,string
+Purchase Invoice Data,Line Ship To City,string
+Purchase Invoice Data,Line Ship To Country,string
+Purchase Invoice Data,Line Ship To Delivery ID,date
+Purchase Invoice Data,Line Ship To Location ID,string
+Purchase Invoice Data,Line Ship To Delivery Date,string
+Purchase Invoice Data,Line Ship To Number,decimal
+Purchase Invoice Data,Line Ship To Region,string
+Purchase Invoice Data,Line Ship To Postal Code,string
+Purchase Invoice Data,Line Ship To Street Name,string
+Purchase Invoice Data,Line Ship To Warehouse ID,string
+Purchase Invoice Data,Line Ship To UCR,string
+Purchase Invoice Data,Line System Entry Date Time,date
+Purchase Invoice Data,Line System Modified Date Time,date
+Purchase Invoice Data,Line System M Odified User,string
+Purchase Invoice Data,Line System Entry User,string
+Purchase Invoice Data,Line Tax Information Tax Base,string
+Purchase Invoice Data,Line Tax Information Tax Base Description,string
+Purchase Invoice Data,Line Tax Point Date,date
+Purchase Invoice Data,Line Tax Information Tax Declaration Period,string
+Purchase Invoice Data,Line Tax Information Tax Exemption Reason,string
+Purchase Invoice Data,Line Tax Information Tax Percentage,decimal
+Purchase Invoice Data,Line Tax Information Tax Type,string
+Purchase Invoice Data,Line To Date,date
+Purchase Invoice Data,Period,string
+Purchase Invoice Data,Line UOM To UOM Base Conversion Factor,decimal
+Purchase Invoice Data,Payment Terms,string
+Purchase Invoice Data,Period Year,date
+Purchase Invoice Data,Posting Status,string
+Purchase Invoice Data,Settlement Amount,decimal
+Purchase Invoice Data,Receipt Numbers,string
+Purchase Invoice Data,Self Billing Indicator,string
+Purchase Invoice Data,Settlement Currency Amount,decimal
+Purchase Invoice Data,Settlement Currency Code,string
+Purchase Invoice Data,Ship From Address,string
+Purchase Invoice Data,Settlement Exchange Rate,decimal
+Purchase Invoice Data,Settlement Payment Mechanism,string
+Purchase Invoice Data,Settlement Settlement Date,date
+Purchase Invoice Data,Settlement Settlement Discount,decimal
+Purchase Invoice Data,Ship From Additional Address Detail,string
+Purchase Invoice Data,Ship From City,string
+Purchase Invoice Data,Ship From Address Type,string
+Purchase Invoice Data,Ship From Building,string
+Purchase Invoice Data,Ship From Country,string
+Purchase Invoice Data,Ship From Delivery ID,date
+Purchase Invoice Data,Ship From Delivery Date,string
+Purchase Invoice Data,Ship From Number,decimal
+Purchase Invoice Data,Ship From Location ID,string
+Purchase Invoice Data,Ship From Postal Code,string
+Purchase Invoice Data,Ship From Street Name,string
+Purchase Invoice Data,Ship From Region,string
+Purchase Invoice Data,Ship From UCR,string
+Purchase Invoice Data,Ship To Address,string
+Purchase Invoice Data,Ship From Warehouse ID,string
+Purchase Invoice Data,Ship To Additional Address Detail,string
+Purchase Invoice Data,Ship To City,string
+Purchase Invoice Data,Ship To Address Type,string
+Purchase Invoice Data,Ship To Building,string
+Purchase Invoice Data,Ship To Country,string
+Purchase Invoice Data,Ship To Delivery ID,date
+Purchase Invoice Data,Ship To Delivery Date,string
+Purchase Invoice Data,Ship To Number,decimal
+Purchase Invoice Data,Ship To Location ID,string
+Purchase Invoice Data,Ship To Postal Code,string
+Purchase Invoice Data,Ship To Street Name,string
+Purchase Invoice Data,Ship To Region,string
+Purchase Invoice Data,Ship To UCR,string
+Purchase Invoice Data,Ship To Warehouse ID,string
+Purchase Invoice Data,Source ID,string
+Purchase Invoice Data,System ID,date
+Purchase Invoice Data,System Entry Date Time,string
+Purchase Invoice Data,System Modified User,string
+Purchase Invoice Data,Transaction ID,string
+Purchase Invoice Data,System Entry User,date
+Purchase Invoice Data,System Modified Date Time,string
+Purchase Invoice Data,Line Account ID,string
+Purchase Invoice Data,Supplier Info Name,string
+Purchase Invoice Data,Line Invoice Line Amount Currency Code,string
+Purchase Invoice Data,Line Description,string
+Purchase Invoice Data,Invoice Due Date,date
+Purchase Invoice Data,Line Product Code,string
+Purchase Invoice Data,Document Totals Payment Amount Totals Amount,decimal
+Purchase Invoice Data,Invoice Date,date
+Purchase Invoice Data,Invoice No,string
+Purchase Invoice Data,Line Invoice Line Amount Amount,decimal
+Purchase Invoice Data,Line Quantity,decimal
+Purchase Invoice Data,Line Tax Information Tax Amount,decimal
+Purchase Invoice Data,Line Tax Information Tax Code,string
+Purchase Invoice Data,Invoice Type,string
+Purchase Invoice Data,Line Unit Price,decimal
+Purchase Invoice Quality Totals,Document Totals Net Total,decimal
+Purchase Invoice Quality Totals,Document Totals Shipping Costs Amount Total,decimal
+Purchase Invoice Quality Totals,Document Totals Tax Information Totals Tax Base,string
+Purchase Invoice Quality Totals,Document Totals Tax Information Totals Tax Base Description,string
+Purchase Invoice Quality Totals,Document Totals Tax Information Totals Tax Code,string
+Purchase Invoice Quality Totals,Document Totals Tax Information Totals Tax Declaration Period,string
+Purchase Invoice Quality Totals,Document Totals Tax Information Totals Tax Exemption Reason,string
+Purchase Invoice Quality Totals,Document Totals Tax Information Totals Tax Percentage,decimal
+Purchase Invoice Quality Totals,Document Totals Tax Information Totals Tax Type,string
+Purchase Invoice Quality Totals,Number Of Entries,decimal
+Purchase Invoice Quality Totals,Total Credit,decimal
+Purchase Invoice Quality Totals,Total Debit,decimal
+Purchase Invoice Quality Totals,Document Totals Tax Information Totals Tax Amount,decimal
+Purchase Invoice Quality Totals,Document Totals Gross Total,decimal
+Purchase Order Data,Approved By,string
+Purchase Order Data,Approved Date Time,date
+Purchase Order Data,Batch ID,string
+Purchase Order Data,Billing Address Additional Address Detail,string
+Purchase Order Data,Billing Address Address Type,string
+Purchase Order Data,Billing Address Building,string
+Purchase Order Data,Billing Address City,string
+Purchase Order Data,Billing Address Country,string
+Purchase Order Data,Billing Address Number,decimal
+Purchase Order Data,Billing Address Postal Code,string
+Purchase Order Data,Billing Address Region,string
+Purchase Order Data,Billing Address Street Name,string
+Purchase Order Data,Branch Store Number,string
+Purchase Order Data,GL Posting Date,date
+Purchase Order Data,Line Account ID,string
+Purchase Order Data,Line Analysis ID,decimal
+Purchase Order Data,Line Analysis Amount,string
+Purchase Order Data,Line Analysis Type,string
+Purchase Order Data,Line Approved By,string
+Purchase Order Data,Line Approved Date Time,date
+Purchase Order Data,Line Credit Note Reason,string
+Purchase Order Data,Line Credit Note Reference,string
+Purchase Order Data,Line Debit Credit Indicator,string
+Purchase Order Data,Line Delivery Date,date
+Purchase Order Data,Line Description,string
+Purchase Order Data,Line From Date,date
+Purchase Order Data,Line Goods Services ID,string
+Purchase Order Data,Line Line Number,string
+Purchase Order Data,Line Movement Reference,string
+Purchase Order Data,Line Order Line Amount Amount,decimal
+Purchase Order Data,Line Order Line Amount Currency Amount,decimal
+Purchase Order Data,Line Order Line Amount Currency Code,string
+Purchase Order Data,Line Order Line Amount Exchange Rate,decimal
+Purchase Order Data,Line Order UOM,string
+Purchase Order Data,Line PI Date,date
+Purchase Order Data,Line Product Code,string
+Purchase Order Data,Line Product Description,string
+Purchase Order Data,Line Quantity,decimal
+Purchase Order Data,Line Ship From Additional Address Detail,string
+Purchase Order Data,Line Ship From Address,string
+Purchase Order Data,Line Ship From Address Type,string
+Purchase Order Data,Line Ship From Building,string
+Purchase Order Data,Line Ship From City,string
+Purchase Order Data,Line Ship From Country,string
+Purchase Order Data,Line Ship From Delivery ID,date
+Purchase Order Data,Line Ship From Delivery Date,string
+Purchase Order Data,Line Ship From Location ID,string
+Purchase Order Data,Line Ship From Number,decimal
+Purchase Order Data,Line Ship From Postal Code,string
+Purchase Order Data,Line Ship From Region,string
+Purchase Order Data,Line Ship From Street Name,string
+Purchase Order Data,Line Ship From UCR,string
+Purchase Order Data,Line Ship From Warehouse ID,string
+Purchase Order Data,Line Shipping Costs Amount Amount,decimal
+Purchase Order Data,Line Shipping Costs Amount Currency Amount,decimal
+Purchase Order Data,Line Shipping Costs Amount Currency Code,string
+Purchase Order Data,Line Shipping Costs Amount Exchange Rate,decimal
+Purchase Order Data,Line Ship To Additional Address Detail,string
+Purchase Order Data,Line Ship To Address,string
+Purchase Order Data,Line Ship To Address Type,string
+Purchase Order Data,Line Ship To Building,string
+Purchase Order Data,Line Ship To City,string
+Purchase Order Data,Line Ship To Country,string
+Purchase Order Data,Line Ship To Delivery ID,date
+Purchase Order Data,Line Ship To Delivery Date,string
+Purchase Order Data,Line Ship To Location ID,string
+Purchase Order Data,Line Ship To Number,decimal
+Purchase Order Data,Line Ship To Postal Code,string
+Purchase Order Data,Line Ship To Region,string
+Purchase Order Data,Line Ship To Street Name,string
+Purchase Order Data,Line Ship To UCR,string
+Purchase Order Data,Line Ship To Warehouse ID,string
+Purchase Order Data,Line Subsequent P I,string
+Purchase Order Data,Line System Entry Date Time,date
+Purchase Order Data,Line System Entry User,string
+Purchase Order Data,Line Tax Information Tax Amount,decimal
+Purchase Order Data,Line Tax Information Tax Base,string
+Purchase Order Data,Line Tax Information Tax Base Description,string
+Purchase Order Data,Line Tax Information Tax Code,string
+Purchase Order Data,Line Tax Information Tax Declaration Period,string
+Purchase Order Data,Line Tax Information Tax Exemption Reason,string
+Purchase Order Data,Line Tax Information Tax Percentage,decimal
+Purchase Order Data,Line Tax Information Tax Type,string
+Purchase Order Data,Line Tax Point Date,date
+Purchase Order Data,Line To Date,date
+Purchase Order Data,Line Unit Price,decimal
+Purchase Order Data,Line UOM To UOM Base Conversion Factor,decimal
+Purchase Order Data,Order Date,date
+Purchase Order Data,Order Document Reference,string
+Purchase Order Data,Order No,string
+Purchase Order Data,Order Type,string
+Purchase Order Data,Payment Terms,decimal
+Purchase Order Data,Period,string
+Purchase Order Data,Period Year,date
+Purchase Order Data,Posting Status,string
+Purchase Order Data,Receipt Numbers,string
+Purchase Order Data,Self Billing Indicator,string
+Purchase Order Data,Settlement Amount,decimal
+Purchase Order Data,Settlement Currency Amount,decimal
+Purchase Order Data,Settlement Currency Code,string
+Purchase Order Data,Settlement Exchange Rate,decimal
+Purchase Order Data,Settlement Payment Mechanism,string
+Purchase Order Data,Settlement Settlement Date,date
+Purchase Order Data,Settlement Settlement Discount,string
+Purchase Order Data,Ship From Additional Address Detail,string
+Purchase Order Data,Ship From Address,string
+Purchase Order Data,Ship From Address Type,string
+Purchase Order Data,Ship From Building,string
+Purchase Order Data,Ship From City,string
+Purchase Order Data,Ship From Country,string
+Purchase Order Data,Ship From Delivery ID,date
+Purchase Order Data,Ship From Delivery Date,string
+Purchase Order Data,Ship From Location ID,string
+Purchase Order Data,Ship From Number,decimal
+Purchase Order Data,Ship From Postal Code,string
+Purchase Order Data,Ship From Region,string
+Purchase Order Data,Ship From Street Name,string
+Purchase Order Data,Ship From UCR,string
+Purchase Order Data,Ship From Warehouse ID,string
+Purchase Order Data,Ship To Additional Address Detail,string
+Purchase Order Data,Ship To Address,string
+Purchase Order Data,Ship To Address Type,string
+Purchase Order Data,Ship To Building,string
+Purchase Order Data,Ship To City,string
+Purchase Order Data,Ship To Country,string
+Purchase Order Data,Ship To Delivery ID,date
+Purchase Order Data,Ship To Delivery Date,string
+Purchase Order Data,Ship To Location ID,string
+Purchase Order Data,Ship To Number,decimal
+Purchase Order Data,Ship To Postal Code,string
+Purchase Order Data,Ship To Region,string
+Purchase Order Data,Ship To Street Name,string
+Purchase Order Data,Ship To UCR,string
+Purchase Order Data,Ship To Warehouse ID,string
+Purchase Order Data,Source ID,string
+Purchase Order Data,Supplier Info Name,string
+Purchase Order Data,Supplier Info Supplier ID,string
+Purchase Order Data,System ID,date
+Purchase Order Data,System Entry Date Time,string
+Purchase Order Data,System Entry User,string
+Purchase Order Data,Transaction ID,string
+Supplier Master Data,Account ID,string
+Supplier Master Data,Address Address Type,string
+Supplier Master Data,Address Building,string
+Supplier Master Data,Address City,string
+Supplier Master Data,Address Country,string
+Supplier Master Data,Address Number,decimal
+Supplier Master Data,Address Postal Code,string
+Supplier Master Data,Address Region,string
+Supplier Master Data,Address Street Name,string
+Supplier Master Data,Bank Account Name,string
+Supplier Master Data,Bank Account Number,string
+Supplier Master Data,E B Company Type,string
+Supplier Master Data,Effective Date,date
+Supplier Master Data,Email,string
+Supplier Master Data,Expiration Date,date
+Supplier Master Data,Fax,string
+Supplier Master Data,First Name,string
+Supplier Master Data,IBAN Number,string
+Supplier Master Data,Last Name,string
+Supplier Master Data,Name,string
+Supplier Master Data,Payment Discount Days,decimal
+Supplier Master Data,Payment Discount Percentage,decimal
+Supplier Master Data,Payment Due Days,decimal
+Supplier Master Data,Registration Number,string
+Supplier Master Data,Self Billing Indicator,string
+Supplier Master Data,Sort Code,string
+Supplier Master Data,Supplier ID,decimal
+Supplier Master Data,Supplier Credit Limit,string
+Supplier Master Data,System Approved Date Time,date
+Supplier Master Data,System Approved User,string
+Supplier Master Data,System Entry Date Time,date
+Supplier Master Data,System Entry User,string
+Supplier Master Data,System Modified Date Time,date
+Supplier Master Data,System Modified User,string
+Supplier Master Data,Tax Authority,string
+Supplier Master Data,Tax Number,string
+Supplier Master Data,Tax Registration Number,string
+Supplier Master Data,Tax Type,string
+Supplier Master Data,Tax Verification Date,date
+Supplier Master Data,Telephone,string
+Supplier Master Data,Title,string
+Supplier Master Data,Transaction Credit Limit,decimal
+Supplier Master Data,Website,string
+Supplier Master Quality Totals,Closing Credit Balance,decimal
+Supplier Master Quality Totals,Closing Debit Balance,decimal
+Supplier Master Quality Totals,Opening Credit Balance,decimal
+Supplier Master Quality Totals,Opening Debit Balance,decimal
+Supplier Master Quality Totals,Supplier ID,string
+Tax Table Data,Country,string
+Tax Table Data,Description,string
+Tax Table Data,Effective Date,date
+Tax Table Data,Expiration Date,date
+Tax Table Data,Flat Tax Rate Amount,decimal
+Tax Table Data,Flat Tax Rate Currency Amount,decimal
+Tax Table Data,Flat Tax Rate Currency Code,string
+Tax Table Data,Flat Tax Rate Exhchange Rate,decimal
+Tax Table Data,Region,string
+Tax Table Data,Tax Code,string
+Tax Table Data,Tax Percentage,decimal
+Tax Table Data,Tax Type,string

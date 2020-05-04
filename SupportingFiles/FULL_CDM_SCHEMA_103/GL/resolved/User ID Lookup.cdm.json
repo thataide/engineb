@@ -1,0 +1,174 @@
+{
+  "jsonSchemaSemanticVersion": "1.0.0",
+  "imports": [
+    {
+      "corpusPath": "/User ID Lookup.cdm.json",
+      "moniker": "resolvedFrom"
+    }
+  ],
+  "definitions": [
+    {
+      "entityName": "User ID Lookup",
+      "attributeContext": {
+        "type": "entity",
+        "name": "User ID Lookup",
+        "definition": "resolvedFrom/User ID Lookup",
+        "contents": [
+          {
+            "type": "attributeDefinition",
+            "name": "Department",
+            "parent": "User ID Lookup/attributeContext/User ID Lookup",
+            "definition": "resolvedFrom/User ID Lookup/hasAttributes/Department",
+            "contents": [
+              "User ID Lookup/hasAttributes/Department"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "First Name",
+            "parent": "User ID Lookup/attributeContext/User ID Lookup",
+            "definition": "resolvedFrom/User ID Lookup/hasAttributes/First Name",
+            "contents": [
+              "User ID Lookup/hasAttributes/First Name"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Last Name",
+            "parent": "User ID Lookup/attributeContext/User ID Lookup",
+            "definition": "resolvedFrom/User ID Lookup/hasAttributes/Last Name",
+            "contents": [
+              "User ID Lookup/hasAttributes/Last Name"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Position",
+            "parent": "User ID Lookup/attributeContext/User ID Lookup",
+            "definition": "resolvedFrom/User ID Lookup/hasAttributes/Position",
+            "contents": [
+              "User ID Lookup/hasAttributes/Position"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Title",
+            "parent": "User ID Lookup/attributeContext/User ID Lookup",
+            "definition": "resolvedFrom/User ID Lookup/hasAttributes/Title",
+            "contents": [
+              "User ID Lookup/hasAttributes/Title"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "User ID",
+            "parent": "User ID Lookup/attributeContext/User ID Lookup",
+            "definition": "resolvedFrom/User ID Lookup/hasAttributes/User ID",
+            "contents": [
+              "User ID Lookup/hasAttributes/User ID"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "User Active Modified Date",
+            "parent": "User ID Lookup/attributeContext/User ID Lookup",
+            "definition": "resolvedFrom/User ID Lookup/hasAttributes/User Active Modified Date",
+            "contents": [
+              "User ID Lookup/hasAttributes/User Active Modified Date"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "User Active Status",
+            "parent": "User ID Lookup/attributeContext/User ID Lookup",
+            "definition": "resolvedFrom/User ID Lookup/hasAttributes/User Active Status",
+            "contents": [
+              "User ID Lookup/hasAttributes/User Active Status"
+            ]
+          }
+        ]
+      },
+      "hasAttributes": [
+        {
+          "name": "Department",
+          "appliedTraits": [
+            "is.dataFormat.character",
+            "is.dataFormat.big",
+            "is.dataFormat.array"
+          ],
+          "attributeContext": "User ID Lookup/attributeContext/User ID Lookup/Department",
+          "dataFormat": "String"
+        },
+        {
+          "name": "First Name",
+          "appliedTraits": [
+            "is.dataFormat.character",
+            "is.dataFormat.big",
+            "is.dataFormat.array"
+          ],
+          "attributeContext": "User ID Lookup/attributeContext/User ID Lookup/First Name",
+          "dataFormat": "String"
+        },
+        {
+          "name": "Last Name",
+          "appliedTraits": [
+            "is.dataFormat.character",
+            "is.dataFormat.big",
+            "is.dataFormat.array"
+          ],
+          "attributeContext": "User ID Lookup/attributeContext/User ID Lookup/Last Name",
+          "dataFormat": "String"
+        },
+        {
+          "name": "Position",
+          "appliedTraits": [
+            "is.dataFormat.character",
+            "is.dataFormat.big",
+            "is.dataFormat.array"
+          ],
+          "attributeContext": "User ID Lookup/attributeContext/User ID Lookup/Position",
+          "dataFormat": "String"
+        },
+        {
+          "name": "Title",
+          "appliedTraits": [
+            "is.dataFormat.character",
+            "is.dataFormat.big",
+            "is.dataFormat.array"
+          ],
+          "attributeContext": "User ID Lookup/attributeContext/User ID Lookup/Title",
+          "dataFormat": "String"
+        },
+        {
+          "name": "User ID",
+          "appliedTraits": [
+            "is.dataFormat.date",
+            "means.measurement.date"
+          ],
+          "attributeContext": "User ID Lookup/attributeContext/User ID Lookup/User ID",
+          "dataFormat": "Date"
+        },
+        {
+          "name": "User Active Modified Date",
+          "appliedTraits": [
+            "is.dataFormat.character",
+            "is.dataFormat.big",
+            "is.dataFormat.array"
+          ],
+          "attributeContext": "User ID Lookup/attributeContext/User ID Lookup/User Active Modified Date",
+          "dataFormat": "String"
+        },
+        {
+          "name": "User Active Status",
+          "appliedTraits": [
+            "is.dataFormat.character",
+            "is.dataFormat.big",
+            "is.dataFormat.array"
+          ],
+          "attributeContext": "User ID Lookup/attributeContext/User ID Lookup/User Active Status",
+          "dataFormat": "String"
+        }
+      ]
+    }
+  ]
+}

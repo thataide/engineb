@@ -1,0 +1,2814 @@
+{
+  "jsonSchemaSemanticVersion": "1.0.0",
+  "imports": [
+    {
+      "corpusPath": "/Purchase Invoice Data.cdm.json",
+      "moniker": "resolvedFrom"
+    }
+  ],
+  "definitions": [
+    {
+      "entityName": "Purchase Invoice Data",
+      "attributeContext": {
+        "type": "entity",
+        "name": "Purchase Invoice Data",
+        "definition": "resolvedFrom/Purchase Invoice Data",
+        "contents": [
+          {
+            "type": "attributeDefinition",
+            "name": "Supplier Info Supplier ID",
+            "parent": "Purchase Invoice Data/attributeContext/Purchase Invoice Data",
+            "definition": "resolvedFrom/Purchase Invoice Data/hasAttributes/Supplier Info Supplier ID",
+            "contents": [
+              "Purchase Invoice Data/hasAttributes/Supplier Info Supplier ID"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Approved By",
+            "parent": "Purchase Invoice Data/attributeContext/Purchase Invoice Data",
+            "definition": "resolvedFrom/Purchase Invoice Data/hasAttributes/Approved By",
+            "contents": [
+              "Purchase Invoice Data/hasAttributes/Approved By"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Billing Address Additional Address Detail",
+            "parent": "Purchase Invoice Data/attributeContext/Purchase Invoice Data",
+            "definition": "resolvedFrom/Purchase Invoice Data/hasAttributes/Billing Address Additional Address Detail",
+            "contents": [
+              "Purchase Invoice Data/hasAttributes/Billing Address Additional Address Detail"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Billing Address Address Type",
+            "parent": "Purchase Invoice Data/attributeContext/Purchase Invoice Data",
+            "definition": "resolvedFrom/Purchase Invoice Data/hasAttributes/Billing Address Address Type",
+            "contents": [
+              "Purchase Invoice Data/hasAttributes/Billing Address Address Type"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Approved Date Time",
+            "parent": "Purchase Invoice Data/attributeContext/Purchase Invoice Data",
+            "definition": "resolvedFrom/Purchase Invoice Data/hasAttributes/Approved Date Time",
+            "contents": [
+              "Purchase Invoice Data/hasAttributes/Approved Date Time"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Batch ID",
+            "parent": "Purchase Invoice Data/attributeContext/Purchase Invoice Data",
+            "definition": "resolvedFrom/Purchase Invoice Data/hasAttributes/Batch ID",
+            "contents": [
+              "Purchase Invoice Data/hasAttributes/Batch ID"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Billing Address Building",
+            "parent": "Purchase Invoice Data/attributeContext/Purchase Invoice Data",
+            "definition": "resolvedFrom/Purchase Invoice Data/hasAttributes/Billing Address Building",
+            "contents": [
+              "Purchase Invoice Data/hasAttributes/Billing Address Building"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Billing Address City",
+            "parent": "Purchase Invoice Data/attributeContext/Purchase Invoice Data",
+            "definition": "resolvedFrom/Purchase Invoice Data/hasAttributes/Billing Address City",
+            "contents": [
+              "Purchase Invoice Data/hasAttributes/Billing Address City"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Billing Address Country",
+            "parent": "Purchase Invoice Data/attributeContext/Purchase Invoice Data",
+            "definition": "resolvedFrom/Purchase Invoice Data/hasAttributes/Billing Address Country",
+            "contents": [
+              "Purchase Invoice Data/hasAttributes/Billing Address Country"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Billing Address Region",
+            "parent": "Purchase Invoice Data/attributeContext/Purchase Invoice Data",
+            "definition": "resolvedFrom/Purchase Invoice Data/hasAttributes/Billing Address Region",
+            "contents": [
+              "Purchase Invoice Data/hasAttributes/Billing Address Region"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Billing Address Number",
+            "parent": "Purchase Invoice Data/attributeContext/Purchase Invoice Data",
+            "definition": "resolvedFrom/Purchase Invoice Data/hasAttributes/Billing Address Number",
+            "contents": [
+              "Purchase Invoice Data/hasAttributes/Billing Address Number"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Branch Store Number",
+            "parent": "Purchase Invoice Data/attributeContext/Purchase Invoice Data",
+            "definition": "resolvedFrom/Purchase Invoice Data/hasAttributes/Branch Store Number",
+            "contents": [
+              "Purchase Invoice Data/hasAttributes/Branch Store Number"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Billing Address Postal Code",
+            "parent": "Purchase Invoice Data/attributeContext/Purchase Invoice Data",
+            "definition": "resolvedFrom/Purchase Invoice Data/hasAttributes/Billing Address Postal Code",
+            "contents": [
+              "Purchase Invoice Data/hasAttributes/Billing Address Postal Code"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Billing Address Street Name",
+            "parent": "Purchase Invoice Data/attributeContext/Purchase Invoice Data",
+            "definition": "resolvedFrom/Purchase Invoice Data/hasAttributes/Billing Address Street Name",
+            "contents": [
+              "Purchase Invoice Data/hasAttributes/Billing Address Street Name"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Invoice Document Reference",
+            "parent": "Purchase Invoice Data/attributeContext/Purchase Invoice Data",
+            "definition": "resolvedFrom/Purchase Invoice Data/hasAttributes/Invoice Document Reference",
+            "contents": [
+              "Purchase Invoice Data/hasAttributes/Invoice Document Reference"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "GL Posting Date",
+            "parent": "Purchase Invoice Data/attributeContext/Purchase Invoice Data",
+            "definition": "resolvedFrom/Purchase Invoice Data/hasAttributes/GL Posting Date",
+            "contents": [
+              "Purchase Invoice Data/hasAttributes/GL Posting Date"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Line Analysis ID",
+            "parent": "Purchase Invoice Data/attributeContext/Purchase Invoice Data",
+            "definition": "resolvedFrom/Purchase Invoice Data/hasAttributes/Line Analysis ID",
+            "contents": [
+              "Purchase Invoice Data/hasAttributes/Line Analysis ID"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Line Analysis Amount",
+            "parent": "Purchase Invoice Data/attributeContext/Purchase Invoice Data",
+            "definition": "resolvedFrom/Purchase Invoice Data/hasAttributes/Line Analysis Amount",
+            "contents": [
+              "Purchase Invoice Data/hasAttributes/Line Analysis Amount"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Line Analysis Type",
+            "parent": "Purchase Invoice Data/attributeContext/Purchase Invoice Data",
+            "definition": "resolvedFrom/Purchase Invoice Data/hasAttributes/Line Analysis Type",
+            "contents": [
+              "Purchase Invoice Data/hasAttributes/Line Analysis Type"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Line Invoice Due Date",
+            "parent": "Purchase Invoice Data/attributeContext/Purchase Invoice Data",
+            "definition": "resolvedFrom/Purchase Invoice Data/hasAttributes/Line Invoice Due Date",
+            "contents": [
+              "Purchase Invoice Data/hasAttributes/Line Invoice Due Date"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Line Credit Note Reason",
+            "parent": "Purchase Invoice Data/attributeContext/Purchase Invoice Data",
+            "definition": "resolvedFrom/Purchase Invoice Data/hasAttributes/Line Credit Note Reason",
+            "contents": [
+              "Purchase Invoice Data/hasAttributes/Line Credit Note Reason"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Line Approved By",
+            "parent": "Purchase Invoice Data/attributeContext/Purchase Invoice Data",
+            "definition": "resolvedFrom/Purchase Invoice Data/hasAttributes/Line Approved By",
+            "contents": [
+              "Purchase Invoice Data/hasAttributes/Line Approved By"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Line Debit Credit Indicator",
+            "parent": "Purchase Invoice Data/attributeContext/Purchase Invoice Data",
+            "definition": "resolvedFrom/Purchase Invoice Data/hasAttributes/Line Debit Credit Indicator",
+            "contents": [
+              "Purchase Invoice Data/hasAttributes/Line Debit Credit Indicator"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Line Approved Date Time",
+            "parent": "Purchase Invoice Data/attributeContext/Purchase Invoice Data",
+            "definition": "resolvedFrom/Purchase Invoice Data/hasAttributes/Line Approved Date Time",
+            "contents": [
+              "Purchase Invoice Data/hasAttributes/Line Approved Date Time"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Line Credit Note Reference",
+            "parent": "Purchase Invoice Data/attributeContext/Purchase Invoice Data",
+            "definition": "resolvedFrom/Purchase Invoice Data/hasAttributes/Line Credit Note Reference",
+            "contents": [
+              "Purchase Invoice Data/hasAttributes/Line Credit Note Reference"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Line From Date",
+            "parent": "Purchase Invoice Data/attributeContext/Purchase Invoice Data",
+            "definition": "resolvedFrom/Purchase Invoice Data/hasAttributes/Line From Date",
+            "contents": [
+              "Purchase Invoice Data/hasAttributes/Line From Date"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Line Delivery Date",
+            "parent": "Purchase Invoice Data/attributeContext/Purchase Invoice Data",
+            "definition": "resolvedFrom/Purchase Invoice Data/hasAttributes/Line Delivery Date",
+            "contents": [
+              "Purchase Invoice Data/hasAttributes/Line Delivery Date"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Line Goods Services ID",
+            "parent": "Purchase Invoice Data/attributeContext/Purchase Invoice Data",
+            "definition": "resolvedFrom/Purchase Invoice Data/hasAttributes/Line Goods Services ID",
+            "contents": [
+              "Purchase Invoice Data/hasAttributes/Line Goods Services ID"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Line Invoice Line Amount Currency Amount",
+            "parent": "Purchase Invoice Data/attributeContext/Purchase Invoice Data",
+            "definition": "resolvedFrom/Purchase Invoice Data/hasAttributes/Line Invoice Line Amount Currency Amount",
+            "contents": [
+              "Purchase Invoice Data/hasAttributes/Line Invoice Line Amount Currency Amount"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Line Invoice Line Amount Exchange Rate",
+            "parent": "Purchase Invoice Data/attributeContext/Purchase Invoice Data",
+            "definition": "resolvedFrom/Purchase Invoice Data/hasAttributes/Line Invoice Line Amount Exchange Rate",
+            "contents": [
+              "Purchase Invoice Data/hasAttributes/Line Invoice Line Amount Exchange Rate"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Line Invoice UOM",
+            "parent": "Purchase Invoice Data/attributeContext/Purchase Invoice Data",
+            "definition": "resolvedFrom/Purchase Invoice Data/hasAttributes/Line Invoice UOM",
+            "contents": [
+              "Purchase Invoice Data/hasAttributes/Line Invoice UOM"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Line Movement Reference",
+            "parent": "Purchase Invoice Data/attributeContext/Purchase Invoice Data",
+            "definition": "resolvedFrom/Purchase Invoice Data/hasAttributes/Line Movement Reference",
+            "contents": [
+              "Purchase Invoice Data/hasAttributes/Line Movement Reference"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Line Line Number",
+            "parent": "Purchase Invoice Data/attributeContext/Purchase Invoice Data",
+            "definition": "resolvedFrom/Purchase Invoice Data/hasAttributes/Line Line Number",
+            "contents": [
+              "Purchase Invoice Data/hasAttributes/Line Line Number"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Line Order Date",
+            "parent": "Purchase Invoice Data/attributeContext/Purchase Invoice Data",
+            "definition": "resolvedFrom/Purchase Invoice Data/hasAttributes/Line Order Date",
+            "contents": [
+              "Purchase Invoice Data/hasAttributes/Line Order Date"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Line Originating ON",
+            "parent": "Purchase Invoice Data/attributeContext/Purchase Invoice Data",
+            "definition": "resolvedFrom/Purchase Invoice Data/hasAttributes/Line Originating ON",
+            "contents": [
+              "Purchase Invoice Data/hasAttributes/Line Originating ON"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Line Product Description",
+            "parent": "Purchase Invoice Data/attributeContext/Purchase Invoice Data",
+            "definition": "resolvedFrom/Purchase Invoice Data/hasAttributes/Line Product Description",
+            "contents": [
+              "Purchase Invoice Data/hasAttributes/Line Product Description"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Line Ship From Additional Address Detail",
+            "parent": "Purchase Invoice Data/attributeContext/Purchase Invoice Data",
+            "definition": "resolvedFrom/Purchase Invoice Data/hasAttributes/Line Ship From Additional Address Detail",
+            "contents": [
+              "Purchase Invoice Data/hasAttributes/Line Ship From Additional Address Detail"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Line Ship From Address Type",
+            "parent": "Purchase Invoice Data/attributeContext/Purchase Invoice Data",
+            "definition": "resolvedFrom/Purchase Invoice Data/hasAttributes/Line Ship From Address Type",
+            "contents": [
+              "Purchase Invoice Data/hasAttributes/Line Ship From Address Type"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Line Ship From Building",
+            "parent": "Purchase Invoice Data/attributeContext/Purchase Invoice Data",
+            "definition": "resolvedFrom/Purchase Invoice Data/hasAttributes/Line Ship From Building",
+            "contents": [
+              "Purchase Invoice Data/hasAttributes/Line Ship From Building"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Line Ship From Address",
+            "parent": "Purchase Invoice Data/attributeContext/Purchase Invoice Data",
+            "definition": "resolvedFrom/Purchase Invoice Data/hasAttributes/Line Ship From Address",
+            "contents": [
+              "Purchase Invoice Data/hasAttributes/Line Ship From Address"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Line Ship From City",
+            "parent": "Purchase Invoice Data/attributeContext/Purchase Invoice Data",
+            "definition": "resolvedFrom/Purchase Invoice Data/hasAttributes/Line Ship From City",
+            "contents": [
+              "Purchase Invoice Data/hasAttributes/Line Ship From City"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Line Ship From Country",
+            "parent": "Purchase Invoice Data/attributeContext/Purchase Invoice Data",
+            "definition": "resolvedFrom/Purchase Invoice Data/hasAttributes/Line Ship From Country",
+            "contents": [
+              "Purchase Invoice Data/hasAttributes/Line Ship From Country"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Line Ship From Delivery ID",
+            "parent": "Purchase Invoice Data/attributeContext/Purchase Invoice Data",
+            "definition": "resolvedFrom/Purchase Invoice Data/hasAttributes/Line Ship From Delivery ID",
+            "contents": [
+              "Purchase Invoice Data/hasAttributes/Line Ship From Delivery ID"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Line Ship From Location ID",
+            "parent": "Purchase Invoice Data/attributeContext/Purchase Invoice Data",
+            "definition": "resolvedFrom/Purchase Invoice Data/hasAttributes/Line Ship From Location ID",
+            "contents": [
+              "Purchase Invoice Data/hasAttributes/Line Ship From Location ID"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Line Ship From Delivery Date",
+            "parent": "Purchase Invoice Data/attributeContext/Purchase Invoice Data",
+            "definition": "resolvedFrom/Purchase Invoice Data/hasAttributes/Line Ship From Delivery Date",
+            "contents": [
+              "Purchase Invoice Data/hasAttributes/Line Ship From Delivery Date"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Line Ship From Number",
+            "parent": "Purchase Invoice Data/attributeContext/Purchase Invoice Data",
+            "definition": "resolvedFrom/Purchase Invoice Data/hasAttributes/Line Ship From Number",
+            "contents": [
+              "Purchase Invoice Data/hasAttributes/Line Ship From Number"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Line Ship From Region",
+            "parent": "Purchase Invoice Data/attributeContext/Purchase Invoice Data",
+            "definition": "resolvedFrom/Purchase Invoice Data/hasAttributes/Line Ship From Region",
+            "contents": [
+              "Purchase Invoice Data/hasAttributes/Line Ship From Region"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Line Ship From Postal Code",
+            "parent": "Purchase Invoice Data/attributeContext/Purchase Invoice Data",
+            "definition": "resolvedFrom/Purchase Invoice Data/hasAttributes/Line Ship From Postal Code",
+            "contents": [
+              "Purchase Invoice Data/hasAttributes/Line Ship From Postal Code"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Line Ship From Street Name",
+            "parent": "Purchase Invoice Data/attributeContext/Purchase Invoice Data",
+            "definition": "resolvedFrom/Purchase Invoice Data/hasAttributes/Line Ship From Street Name",
+            "contents": [
+              "Purchase Invoice Data/hasAttributes/Line Ship From Street Name"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Line Ship From Warehouse ID",
+            "parent": "Purchase Invoice Data/attributeContext/Purchase Invoice Data",
+            "definition": "resolvedFrom/Purchase Invoice Data/hasAttributes/Line Ship From Warehouse ID",
+            "contents": [
+              "Purchase Invoice Data/hasAttributes/Line Ship From Warehouse ID"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Line Ship From UCR",
+            "parent": "Purchase Invoice Data/attributeContext/Purchase Invoice Data",
+            "definition": "resolvedFrom/Purchase Invoice Data/hasAttributes/Line Ship From UCR",
+            "contents": [
+              "Purchase Invoice Data/hasAttributes/Line Ship From UCR"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Line Shipping Costs Amount Amount",
+            "parent": "Purchase Invoice Data/attributeContext/Purchase Invoice Data",
+            "definition": "resolvedFrom/Purchase Invoice Data/hasAttributes/Line Shipping Costs Amount Amount",
+            "contents": [
+              "Purchase Invoice Data/hasAttributes/Line Shipping Costs Amount Amount"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Line Shipping Costs Amount Currency Amount",
+            "parent": "Purchase Invoice Data/attributeContext/Purchase Invoice Data",
+            "definition": "resolvedFrom/Purchase Invoice Data/hasAttributes/Line Shipping Costs Amount Currency Amount",
+            "contents": [
+              "Purchase Invoice Data/hasAttributes/Line Shipping Costs Amount Currency Amount"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Line Shipping Costs Amount Exchange Rate",
+            "parent": "Purchase Invoice Data/attributeContext/Purchase Invoice Data",
+            "definition": "resolvedFrom/Purchase Invoice Data/hasAttributes/Line Shipping Costs Amount Exchange Rate",
+            "contents": [
+              "Purchase Invoice Data/hasAttributes/Line Shipping Costs Amount Exchange Rate"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Line Ship To Additional Address Detail",
+            "parent": "Purchase Invoice Data/attributeContext/Purchase Invoice Data",
+            "definition": "resolvedFrom/Purchase Invoice Data/hasAttributes/Line Ship To Additional Address Detail",
+            "contents": [
+              "Purchase Invoice Data/hasAttributes/Line Ship To Additional Address Detail"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Line Shipping Costs Amount Currency Code",
+            "parent": "Purchase Invoice Data/attributeContext/Purchase Invoice Data",
+            "definition": "resolvedFrom/Purchase Invoice Data/hasAttributes/Line Shipping Costs Amount Currency Code",
+            "contents": [
+              "Purchase Invoice Data/hasAttributes/Line Shipping Costs Amount Currency Code"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Line Ship To Address Type",
+            "parent": "Purchase Invoice Data/attributeContext/Purchase Invoice Data",
+            "definition": "resolvedFrom/Purchase Invoice Data/hasAttributes/Line Ship To Address Type",
+            "contents": [
+              "Purchase Invoice Data/hasAttributes/Line Ship To Address Type"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Line Ship To Building",
+            "parent": "Purchase Invoice Data/attributeContext/Purchase Invoice Data",
+            "definition": "resolvedFrom/Purchase Invoice Data/hasAttributes/Line Ship To Building",
+            "contents": [
+              "Purchase Invoice Data/hasAttributes/Line Ship To Building"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Line Ship To Address",
+            "parent": "Purchase Invoice Data/attributeContext/Purchase Invoice Data",
+            "definition": "resolvedFrom/Purchase Invoice Data/hasAttributes/Line Ship To Address",
+            "contents": [
+              "Purchase Invoice Data/hasAttributes/Line Ship To Address"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Line Ship To City",
+            "parent": "Purchase Invoice Data/attributeContext/Purchase Invoice Data",
+            "definition": "resolvedFrom/Purchase Invoice Data/hasAttributes/Line Ship To City",
+            "contents": [
+              "Purchase Invoice Data/hasAttributes/Line Ship To City"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Line Ship To Country",
+            "parent": "Purchase Invoice Data/attributeContext/Purchase Invoice Data",
+            "definition": "resolvedFrom/Purchase Invoice Data/hasAttributes/Line Ship To Country",
+            "contents": [
+              "Purchase Invoice Data/hasAttributes/Line Ship To Country"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Line Ship To Delivery ID",
+            "parent": "Purchase Invoice Data/attributeContext/Purchase Invoice Data",
+            "definition": "resolvedFrom/Purchase Invoice Data/hasAttributes/Line Ship To Delivery ID",
+            "contents": [
+              "Purchase Invoice Data/hasAttributes/Line Ship To Delivery ID"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Line Ship To Location ID",
+            "parent": "Purchase Invoice Data/attributeContext/Purchase Invoice Data",
+            "definition": "resolvedFrom/Purchase Invoice Data/hasAttributes/Line Ship To Location ID",
+            "contents": [
+              "Purchase Invoice Data/hasAttributes/Line Ship To Location ID"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Line Ship To Delivery Date",
+            "parent": "Purchase Invoice Data/attributeContext/Purchase Invoice Data",
+            "definition": "resolvedFrom/Purchase Invoice Data/hasAttributes/Line Ship To Delivery Date",
+            "contents": [
+              "Purchase Invoice Data/hasAttributes/Line Ship To Delivery Date"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Line Ship To Number",
+            "parent": "Purchase Invoice Data/attributeContext/Purchase Invoice Data",
+            "definition": "resolvedFrom/Purchase Invoice Data/hasAttributes/Line Ship To Number",
+            "contents": [
+              "Purchase Invoice Data/hasAttributes/Line Ship To Number"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Line Ship To Region",
+            "parent": "Purchase Invoice Data/attributeContext/Purchase Invoice Data",
+            "definition": "resolvedFrom/Purchase Invoice Data/hasAttributes/Line Ship To Region",
+            "contents": [
+              "Purchase Invoice Data/hasAttributes/Line Ship To Region"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Line Ship To Postal Code",
+            "parent": "Purchase Invoice Data/attributeContext/Purchase Invoice Data",
+            "definition": "resolvedFrom/Purchase Invoice Data/hasAttributes/Line Ship To Postal Code",
+            "contents": [
+              "Purchase Invoice Data/hasAttributes/Line Ship To Postal Code"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Line Ship To Street Name",
+            "parent": "Purchase Invoice Data/attributeContext/Purchase Invoice Data",
+            "definition": "resolvedFrom/Purchase Invoice Data/hasAttributes/Line Ship To Street Name",
+            "contents": [
+              "Purchase Invoice Data/hasAttributes/Line Ship To Street Name"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Line Ship To Warehouse ID",
+            "parent": "Purchase Invoice Data/attributeContext/Purchase Invoice Data",
+            "definition": "resolvedFrom/Purchase Invoice Data/hasAttributes/Line Ship To Warehouse ID",
+            "contents": [
+              "Purchase Invoice Data/hasAttributes/Line Ship To Warehouse ID"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Line Ship To UCR",
+            "parent": "Purchase Invoice Data/attributeContext/Purchase Invoice Data",
+            "definition": "resolvedFrom/Purchase Invoice Data/hasAttributes/Line Ship To UCR",
+            "contents": [
+              "Purchase Invoice Data/hasAttributes/Line Ship To UCR"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Line System Entry Date Time",
+            "parent": "Purchase Invoice Data/attributeContext/Purchase Invoice Data",
+            "definition": "resolvedFrom/Purchase Invoice Data/hasAttributes/Line System Entry Date Time",
+            "contents": [
+              "Purchase Invoice Data/hasAttributes/Line System Entry Date Time"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Line System Modified Date Time",
+            "parent": "Purchase Invoice Data/attributeContext/Purchase Invoice Data",
+            "definition": "resolvedFrom/Purchase Invoice Data/hasAttributes/Line System Modified Date Time",
+            "contents": [
+              "Purchase Invoice Data/hasAttributes/Line System Modified Date Time"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Line System M Odified User",
+            "parent": "Purchase Invoice Data/attributeContext/Purchase Invoice Data",
+            "definition": "resolvedFrom/Purchase Invoice Data/hasAttributes/Line System M Odified User",
+            "contents": [
+              "Purchase Invoice Data/hasAttributes/Line System M Odified User"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Line System Entry User",
+            "parent": "Purchase Invoice Data/attributeContext/Purchase Invoice Data",
+            "definition": "resolvedFrom/Purchase Invoice Data/hasAttributes/Line System Entry User",
+            "contents": [
+              "Purchase Invoice Data/hasAttributes/Line System Entry User"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Line Tax Information Tax Base",
+            "parent": "Purchase Invoice Data/attributeContext/Purchase Invoice Data",
+            "definition": "resolvedFrom/Purchase Invoice Data/hasAttributes/Line Tax Information Tax Base",
+            "contents": [
+              "Purchase Invoice Data/hasAttributes/Line Tax Information Tax Base"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Line Tax Information Tax Base Description",
+            "parent": "Purchase Invoice Data/attributeContext/Purchase Invoice Data",
+            "definition": "resolvedFrom/Purchase Invoice Data/hasAttributes/Line Tax Information Tax Base Description",
+            "contents": [
+              "Purchase Invoice Data/hasAttributes/Line Tax Information Tax Base Description"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Line Tax Point Date",
+            "parent": "Purchase Invoice Data/attributeContext/Purchase Invoice Data",
+            "definition": "resolvedFrom/Purchase Invoice Data/hasAttributes/Line Tax Point Date",
+            "contents": [
+              "Purchase Invoice Data/hasAttributes/Line Tax Point Date"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Line Tax Information Tax Declaration Period",
+            "parent": "Purchase Invoice Data/attributeContext/Purchase Invoice Data",
+            "definition": "resolvedFrom/Purchase Invoice Data/hasAttributes/Line Tax Information Tax Declaration Period",
+            "contents": [
+              "Purchase Invoice Data/hasAttributes/Line Tax Information Tax Declaration Period"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Line Tax Information Tax Exemption Reason",
+            "parent": "Purchase Invoice Data/attributeContext/Purchase Invoice Data",
+            "definition": "resolvedFrom/Purchase Invoice Data/hasAttributes/Line Tax Information Tax Exemption Reason",
+            "contents": [
+              "Purchase Invoice Data/hasAttributes/Line Tax Information Tax Exemption Reason"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Line Tax Information Tax Percentage",
+            "parent": "Purchase Invoice Data/attributeContext/Purchase Invoice Data",
+            "definition": "resolvedFrom/Purchase Invoice Data/hasAttributes/Line Tax Information Tax Percentage",
+            "contents": [
+              "Purchase Invoice Data/hasAttributes/Line Tax Information Tax Percentage"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Line Tax Information Tax Type",
+            "parent": "Purchase Invoice Data/attributeContext/Purchase Invoice Data",
+            "definition": "resolvedFrom/Purchase Invoice Data/hasAttributes/Line Tax Information Tax Type",
+            "contents": [
+              "Purchase Invoice Data/hasAttributes/Line Tax Information Tax Type"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Line To Date",
+            "parent": "Purchase Invoice Data/attributeContext/Purchase Invoice Data",
+            "definition": "resolvedFrom/Purchase Invoice Data/hasAttributes/Line To Date",
+            "contents": [
+              "Purchase Invoice Data/hasAttributes/Line To Date"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Period",
+            "parent": "Purchase Invoice Data/attributeContext/Purchase Invoice Data",
+            "definition": "resolvedFrom/Purchase Invoice Data/hasAttributes/Period",
+            "contents": [
+              "Purchase Invoice Data/hasAttributes/Period"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Line UOM To UOM Base Conversion Factor",
+            "parent": "Purchase Invoice Data/attributeContext/Purchase Invoice Data",
+            "definition": "resolvedFrom/Purchase Invoice Data/hasAttributes/Line UOM To UOM Base Conversion Factor",
+            "contents": [
+              "Purchase Invoice Data/hasAttributes/Line UOM To UOM Base Conversion Factor"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Payment Terms",
+            "parent": "Purchase Invoice Data/attributeContext/Purchase Invoice Data",
+            "definition": "resolvedFrom/Purchase Invoice Data/hasAttributes/Payment Terms",
+            "contents": [
+              "Purchase Invoice Data/hasAttributes/Payment Terms"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Period Year",
+            "parent": "Purchase Invoice Data/attributeContext/Purchase Invoice Data",
+            "definition": "resolvedFrom/Purchase Invoice Data/hasAttributes/Period Year",
+            "contents": [
+              "Purchase Invoice Data/hasAttributes/Period Year"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Posting Status",
+            "parent": "Purchase Invoice Data/attributeContext/Purchase Invoice Data",
+            "definition": "resolvedFrom/Purchase Invoice Data/hasAttributes/Posting Status",
+            "contents": [
+              "Purchase Invoice Data/hasAttributes/Posting Status"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Settlement Amount",
+            "parent": "Purchase Invoice Data/attributeContext/Purchase Invoice Data",
+            "definition": "resolvedFrom/Purchase Invoice Data/hasAttributes/Settlement Amount",
+            "contents": [
+              "Purchase Invoice Data/hasAttributes/Settlement Amount"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Receipt Numbers",
+            "parent": "Purchase Invoice Data/attributeContext/Purchase Invoice Data",
+            "definition": "resolvedFrom/Purchase Invoice Data/hasAttributes/Receipt Numbers",
+            "contents": [
+              "Purchase Invoice Data/hasAttributes/Receipt Numbers"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Self Billing Indicator",
+            "parent": "Purchase Invoice Data/attributeContext/Purchase Invoice Data",
+            "definition": "resolvedFrom/Purchase Invoice Data/hasAttributes/Self Billing Indicator",
+            "contents": [
+              "Purchase Invoice Data/hasAttributes/Self Billing Indicator"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Settlement Currency Amount",
+            "parent": "Purchase Invoice Data/attributeContext/Purchase Invoice Data",
+            "definition": "resolvedFrom/Purchase Invoice Data/hasAttributes/Settlement Currency Amount",
+            "contents": [
+              "Purchase Invoice Data/hasAttributes/Settlement Currency Amount"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Settlement Currency Code",
+            "parent": "Purchase Invoice Data/attributeContext/Purchase Invoice Data",
+            "definition": "resolvedFrom/Purchase Invoice Data/hasAttributes/Settlement Currency Code",
+            "contents": [
+              "Purchase Invoice Data/hasAttributes/Settlement Currency Code"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Ship From Address",
+            "parent": "Purchase Invoice Data/attributeContext/Purchase Invoice Data",
+            "definition": "resolvedFrom/Purchase Invoice Data/hasAttributes/Ship From Address",
+            "contents": [
+              "Purchase Invoice Data/hasAttributes/Ship From Address"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Settlement Exchange Rate",
+            "parent": "Purchase Invoice Data/attributeContext/Purchase Invoice Data",
+            "definition": "resolvedFrom/Purchase Invoice Data/hasAttributes/Settlement Exchange Rate",
+            "contents": [
+              "Purchase Invoice Data/hasAttributes/Settlement Exchange Rate"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Settlement Payment Mechanism",
+            "parent": "Purchase Invoice Data/attributeContext/Purchase Invoice Data",
+            "definition": "resolvedFrom/Purchase Invoice Data/hasAttributes/Settlement Payment Mechanism",
+            "contents": [
+              "Purchase Invoice Data/hasAttributes/Settlement Payment Mechanism"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Settlement Settlement Date",
+            "parent": "Purchase Invoice Data/attributeContext/Purchase Invoice Data",
+            "definition": "resolvedFrom/Purchase Invoice Data/hasAttributes/Settlement Settlement Date",
+            "contents": [
+              "Purchase Invoice Data/hasAttributes/Settlement Settlement Date"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Settlement Settlement Discount",
+            "parent": "Purchase Invoice Data/attributeContext/Purchase Invoice Data",
+            "definition": "resolvedFrom/Purchase Invoice Data/hasAttributes/Settlement Settlement Discount",
+            "contents": [
+              "Purchase Invoice Data/hasAttributes/Settlement Settlement Discount"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Ship From Additional Address Detail",
+            "parent": "Purchase Invoice Data/attributeContext/Purchase Invoice Data",
+            "definition": "resolvedFrom/Purchase Invoice Data/hasAttributes/Ship From Additional Address Detail",
+            "contents": [
+              "Purchase Invoice Data/hasAttributes/Ship From Additional Address Detail"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Ship From City",
+            "parent": "Purchase Invoice Data/attributeContext/Purchase Invoice Data",
+            "definition": "resolvedFrom/Purchase Invoice Data/hasAttributes/Ship From City",
+            "contents": [
+              "Purchase Invoice Data/hasAttributes/Ship From City"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Ship From Address Type",
+            "parent": "Purchase Invoice Data/attributeContext/Purchase Invoice Data",
+            "definition": "resolvedFrom/Purchase Invoice Data/hasAttributes/Ship From Address Type",
+            "contents": [
+              "Purchase Invoice Data/hasAttributes/Ship From Address Type"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Ship From Building",
+            "parent": "Purchase Invoice Data/attributeContext/Purchase Invoice Data",
+            "definition": "resolvedFrom/Purchase Invoice Data/hasAttributes/Ship From Building",
+            "contents": [
+              "Purchase Invoice Data/hasAttributes/Ship From Building"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Ship From Country",
+            "parent": "Purchase Invoice Data/attributeContext/Purchase Invoice Data",
+            "definition": "resolvedFrom/Purchase Invoice Data/hasAttributes/Ship From Country",
+            "contents": [
+              "Purchase Invoice Data/hasAttributes/Ship From Country"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Ship From Delivery ID",
+            "parent": "Purchase Invoice Data/attributeContext/Purchase Invoice Data",
+            "definition": "resolvedFrom/Purchase Invoice Data/hasAttributes/Ship From Delivery ID",
+            "contents": [
+              "Purchase Invoice Data/hasAttributes/Ship From Delivery ID"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Ship From Delivery Date",
+            "parent": "Purchase Invoice Data/attributeContext/Purchase Invoice Data",
+            "definition": "resolvedFrom/Purchase Invoice Data/hasAttributes/Ship From Delivery Date",
+            "contents": [
+              "Purchase Invoice Data/hasAttributes/Ship From Delivery Date"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Ship From Number",
+            "parent": "Purchase Invoice Data/attributeContext/Purchase Invoice Data",
+            "definition": "resolvedFrom/Purchase Invoice Data/hasAttributes/Ship From Number",
+            "contents": [
+              "Purchase Invoice Data/hasAttributes/Ship From Number"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Ship From Location ID",
+            "parent": "Purchase Invoice Data/attributeContext/Purchase Invoice Data",
+            "definition": "resolvedFrom/Purchase Invoice Data/hasAttributes/Ship From Location ID",
+            "contents": [
+              "Purchase Invoice Data/hasAttributes/Ship From Location ID"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Ship From Postal Code",
+            "parent": "Purchase Invoice Data/attributeContext/Purchase Invoice Data",
+            "definition": "resolvedFrom/Purchase Invoice Data/hasAttributes/Ship From Postal Code",
+            "contents": [
+              "Purchase Invoice Data/hasAttributes/Ship From Postal Code"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Ship From Street Name",
+            "parent": "Purchase Invoice Data/attributeContext/Purchase Invoice Data",
+            "definition": "resolvedFrom/Purchase Invoice Data/hasAttributes/Ship From Street Name",
+            "contents": [
+              "Purchase Invoice Data/hasAttributes/Ship From Street Name"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Ship From Region",
+            "parent": "Purchase Invoice Data/attributeContext/Purchase Invoice Data",
+            "definition": "resolvedFrom/Purchase Invoice Data/hasAttributes/Ship From Region",
+            "contents": [
+              "Purchase Invoice Data/hasAttributes/Ship From Region"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Ship From UCR",
+            "parent": "Purchase Invoice Data/attributeContext/Purchase Invoice Data",
+            "definition": "resolvedFrom/Purchase Invoice Data/hasAttributes/Ship From UCR",
+            "contents": [
+              "Purchase Invoice Data/hasAttributes/Ship From UCR"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Ship To Address",
+            "parent": "Purchase Invoice Data/attributeContext/Purchase Invoice Data",
+            "definition": "resolvedFrom/Purchase Invoice Data/hasAttributes/Ship To Address",
+            "contents": [
+              "Purchase Invoice Data/hasAttributes/Ship To Address"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Ship From Warehouse ID",
+            "parent": "Purchase Invoice Data/attributeContext/Purchase Invoice Data",
+            "definition": "resolvedFrom/Purchase Invoice Data/hasAttributes/Ship From Warehouse ID",
+            "contents": [
+              "Purchase Invoice Data/hasAttributes/Ship From Warehouse ID"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Ship To Additional Address Detail",
+            "parent": "Purchase Invoice Data/attributeContext/Purchase Invoice Data",
+            "definition": "resolvedFrom/Purchase Invoice Data/hasAttributes/Ship To Additional Address Detail",
+            "contents": [
+              "Purchase Invoice Data/hasAttributes/Ship To Additional Address Detail"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Ship To City",
+            "parent": "Purchase Invoice Data/attributeContext/Purchase Invoice Data",
+            "definition": "resolvedFrom/Purchase Invoice Data/hasAttributes/Ship To City",
+            "contents": [
+              "Purchase Invoice Data/hasAttributes/Ship To City"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Ship To Address Type",
+            "parent": "Purchase Invoice Data/attributeContext/Purchase Invoice Data",
+            "definition": "resolvedFrom/Purchase Invoice Data/hasAttributes/Ship To Address Type",
+            "contents": [
+              "Purchase Invoice Data/hasAttributes/Ship To Address Type"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Ship To Building",
+            "parent": "Purchase Invoice Data/attributeContext/Purchase Invoice Data",
+            "definition": "resolvedFrom/Purchase Invoice Data/hasAttributes/Ship To Building",
+            "contents": [
+              "Purchase Invoice Data/hasAttributes/Ship To Building"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Ship To Country",
+            "parent": "Purchase Invoice Data/attributeContext/Purchase Invoice Data",
+            "definition": "resolvedFrom/Purchase Invoice Data/hasAttributes/Ship To Country",
+            "contents": [
+              "Purchase Invoice Data/hasAttributes/Ship To Country"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Ship To Delivery ID",
+            "parent": "Purchase Invoice Data/attributeContext/Purchase Invoice Data",
+            "definition": "resolvedFrom/Purchase Invoice Data/hasAttributes/Ship To Delivery ID",
+            "contents": [
+              "Purchase Invoice Data/hasAttributes/Ship To Delivery ID"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Ship To Delivery Date",
+            "parent": "Purchase Invoice Data/attributeContext/Purchase Invoice Data",
+            "definition": "resolvedFrom/Purchase Invoice Data/hasAttributes/Ship To Delivery Date",
+            "contents": [
+              "Purchase Invoice Data/hasAttributes/Ship To Delivery Date"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Ship To Number",
+            "parent": "Purchase Invoice Data/attributeContext/Purchase Invoice Data",
+            "definition": "resolvedFrom/Purchase Invoice Data/hasAttributes/Ship To Number",
+            "contents": [
+              "Purchase Invoice Data/hasAttributes/Ship To Number"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Ship To Location ID",
+            "parent": "Purchase Invoice Data/attributeContext/Purchase Invoice Data",
+            "definition": "resolvedFrom/Purchase Invoice Data/hasAttributes/Ship To Location ID",
+            "contents": [
+              "Purchase Invoice Data/hasAttributes/Ship To Location ID"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Ship To Postal Code",
+            "parent": "Purchase Invoice Data/attributeContext/Purchase Invoice Data",
+            "definition": "resolvedFrom/Purchase Invoice Data/hasAttributes/Ship To Postal Code",
+            "contents": [
+              "Purchase Invoice Data/hasAttributes/Ship To Postal Code"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Ship To Street Name",
+            "parent": "Purchase Invoice Data/attributeContext/Purchase Invoice Data",
+            "definition": "resolvedFrom/Purchase Invoice Data/hasAttributes/Ship To Street Name",
+            "contents": [
+              "Purchase Invoice Data/hasAttributes/Ship To Street Name"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Ship To Region",
+            "parent": "Purchase Invoice Data/attributeContext/Purchase Invoice Data",
+            "definition": "resolvedFrom/Purchase Invoice Data/hasAttributes/Ship To Region",
+            "contents": [
+              "Purchase Invoice Data/hasAttributes/Ship To Region"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Ship To UCR",
+            "parent": "Purchase Invoice Data/attributeContext/Purchase Invoice Data",
+            "definition": "resolvedFrom/Purchase Invoice Data/hasAttributes/Ship To UCR",
+            "contents": [
+              "Purchase Invoice Data/hasAttributes/Ship To UCR"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Ship To Warehouse ID",
+            "parent": "Purchase Invoice Data/attributeContext/Purchase Invoice Data",
+            "definition": "resolvedFrom/Purchase Invoice Data/hasAttributes/Ship To Warehouse ID",
+            "contents": [
+              "Purchase Invoice Data/hasAttributes/Ship To Warehouse ID"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Source ID",
+            "parent": "Purchase Invoice Data/attributeContext/Purchase Invoice Data",
+            "definition": "resolvedFrom/Purchase Invoice Data/hasAttributes/Source ID",
+            "contents": [
+              "Purchase Invoice Data/hasAttributes/Source ID"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "System ID",
+            "parent": "Purchase Invoice Data/attributeContext/Purchase Invoice Data",
+            "definition": "resolvedFrom/Purchase Invoice Data/hasAttributes/System ID",
+            "contents": [
+              "Purchase Invoice Data/hasAttributes/System ID"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "System Entry Date Time",
+            "parent": "Purchase Invoice Data/attributeContext/Purchase Invoice Data",
+            "definition": "resolvedFrom/Purchase Invoice Data/hasAttributes/System Entry Date Time",
+            "contents": [
+              "Purchase Invoice Data/hasAttributes/System Entry Date Time"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "System Modified User",
+            "parent": "Purchase Invoice Data/attributeContext/Purchase Invoice Data",
+            "definition": "resolvedFrom/Purchase Invoice Data/hasAttributes/System Modified User",
+            "contents": [
+              "Purchase Invoice Data/hasAttributes/System Modified User"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Transaction ID",
+            "parent": "Purchase Invoice Data/attributeContext/Purchase Invoice Data",
+            "definition": "resolvedFrom/Purchase Invoice Data/hasAttributes/Transaction ID",
+            "contents": [
+              "Purchase Invoice Data/hasAttributes/Transaction ID"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "System Entry User",
+            "parent": "Purchase Invoice Data/attributeContext/Purchase Invoice Data",
+            "definition": "resolvedFrom/Purchase Invoice Data/hasAttributes/System Entry User",
+            "contents": [
+              "Purchase Invoice Data/hasAttributes/System Entry User"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "System Modified Date Time",
+            "parent": "Purchase Invoice Data/attributeContext/Purchase Invoice Data",
+            "definition": "resolvedFrom/Purchase Invoice Data/hasAttributes/System Modified Date Time",
+            "contents": [
+              "Purchase Invoice Data/hasAttributes/System Modified Date Time"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Line Account ID",
+            "parent": "Purchase Invoice Data/attributeContext/Purchase Invoice Data",
+            "definition": "resolvedFrom/Purchase Invoice Data/hasAttributes/Line Account ID",
+            "contents": [
+              "Purchase Invoice Data/hasAttributes/Line Account ID"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Supplier Info Name",
+            "parent": "Purchase Invoice Data/attributeContext/Purchase Invoice Data",
+            "definition": "resolvedFrom/Purchase Invoice Data/hasAttributes/Supplier Info Name",
+            "contents": [
+              "Purchase Invoice Data/hasAttributes/Supplier Info Name"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Line Invoice Line Amount Currency Code",
+            "parent": "Purchase Invoice Data/attributeContext/Purchase Invoice Data",
+            "definition": "resolvedFrom/Purchase Invoice Data/hasAttributes/Line Invoice Line Amount Currency Code",
+            "contents": [
+              "Purchase Invoice Data/hasAttributes/Line Invoice Line Amount Currency Code"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Line Description",
+            "parent": "Purchase Invoice Data/attributeContext/Purchase Invoice Data",
+            "definition": "resolvedFrom/Purchase Invoice Data/hasAttributes/Line Description",
+            "contents": [
+              "Purchase Invoice Data/hasAttributes/Line Description"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Invoice Due Date",
+            "parent": "Purchase Invoice Data/attributeContext/Purchase Invoice Data",
+            "definition": "resolvedFrom/Purchase Invoice Data/hasAttributes/Invoice Due Date",
+            "contents": [
+              "Purchase Invoice Data/hasAttributes/Invoice Due Date"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Line Product Code",
+            "parent": "Purchase Invoice Data/attributeContext/Purchase Invoice Data",
+            "definition": "resolvedFrom/Purchase Invoice Data/hasAttributes/Line Product Code",
+            "contents": [
+              "Purchase Invoice Data/hasAttributes/Line Product Code"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Document Totals Payment Amount Totals Amount",
+            "parent": "Purchase Invoice Data/attributeContext/Purchase Invoice Data",
+            "definition": "resolvedFrom/Purchase Invoice Data/hasAttributes/Document Totals Payment Amount Totals Amount",
+            "contents": [
+              "Purchase Invoice Data/hasAttributes/Document Totals Payment Amount Totals Amount"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Invoice Date",
+            "parent": "Purchase Invoice Data/attributeContext/Purchase Invoice Data",
+            "definition": "resolvedFrom/Purchase Invoice Data/hasAttributes/Invoice Date",
+            "contents": [
+              "Purchase Invoice Data/hasAttributes/Invoice Date"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Invoice No",
+            "parent": "Purchase Invoice Data/attributeContext/Purchase Invoice Data",
+            "definition": "resolvedFrom/Purchase Invoice Data/hasAttributes/Invoice No",
+            "contents": [
+              "Purchase Invoice Data/hasAttributes/Invoice No"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Line Invoice Line Amount Amount",
+            "parent": "Purchase Invoice Data/attributeContext/Purchase Invoice Data",
+            "definition": "resolvedFrom/Purchase Invoice Data/hasAttributes/Line Invoice Line Amount Amount",
+            "contents": [
+              "Purchase Invoice Data/hasAttributes/Line Invoice Line Amount Amount"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Line Quantity",
+            "parent": "Purchase Invoice Data/attributeContext/Purchase Invoice Data",
+            "definition": "resolvedFrom/Purchase Invoice Data/hasAttributes/Line Quantity",
+            "contents": [
+              "Purchase Invoice Data/hasAttributes/Line Quantity"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Line Tax Information Tax Amount",
+            "parent": "Purchase Invoice Data/attributeContext/Purchase Invoice Data",
+            "definition": "resolvedFrom/Purchase Invoice Data/hasAttributes/Line Tax Information Tax Amount",
+            "contents": [
+              "Purchase Invoice Data/hasAttributes/Line Tax Information Tax Amount"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Line Tax Information Tax Code",
+            "parent": "Purchase Invoice Data/attributeContext/Purchase Invoice Data",
+            "definition": "resolvedFrom/Purchase Invoice Data/hasAttributes/Line Tax Information Tax Code",
+            "contents": [
+              "Purchase Invoice Data/hasAttributes/Line Tax Information Tax Code"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Invoice Type",
+            "parent": "Purchase Invoice Data/attributeContext/Purchase Invoice Data",
+            "definition": "resolvedFrom/Purchase Invoice Data/hasAttributes/Invoice Type",
+            "contents": [
+              "Purchase Invoice Data/hasAttributes/Invoice Type"
+            ]
+          },
+          {
+            "type": "attributeDefinition",
+            "name": "Line Unit Price",
+            "parent": "Purchase Invoice Data/attributeContext/Purchase Invoice Data",
+            "definition": "resolvedFrom/Purchase Invoice Data/hasAttributes/Line Unit Price",
+            "contents": [
+              "Purchase Invoice Data/hasAttributes/Line Unit Price"
+            ]
+          }
+        ]
+      },
+      "hasAttributes": [
+        {
+          "name": "Supplier Info Supplier ID",
+          "appliedTraits": [
+            "is.dataFormat.character",
+            "is.dataFormat.big",
+            "is.dataFormat.array"
+          ],
+          "attributeContext": "Purchase Invoice Data/attributeContext/Purchase Invoice Data/Supplier Info Supplier ID",
+          "dataFormat": "String"
+        },
+        {
+          "name": "Approved By",
+          "appliedTraits": [
+            "is.dataFormat.character",
+            "is.dataFormat.big",
+            "is.dataFormat.array"
+          ],
+          "attributeContext": "Purchase Invoice Data/attributeContext/Purchase Invoice Data/Approved By",
+          "dataFormat": "String"
+        },
+        {
+          "name": "Billing Address Additional Address Detail",
+          "appliedTraits": [
+            "is.dataFormat.character",
+            "is.dataFormat.big",
+            "is.dataFormat.array"
+          ],
+          "attributeContext": "Purchase Invoice Data/attributeContext/Purchase Invoice Data/Billing Address Additional Address Detail",
+          "dataFormat": "String"
+        },
+        {
+          "name": "Billing Address Address Type",
+          "appliedTraits": [
+            "is.dataFormat.character",
+            "is.dataFormat.big",
+            "is.dataFormat.array"
+          ],
+          "attributeContext": "Purchase Invoice Data/attributeContext/Purchase Invoice Data/Billing Address Address Type",
+          "dataFormat": "String"
+        },
+        {
+          "name": "Approved Date Time",
+          "appliedTraits": [
+            "is.dataFormat.date",
+            "means.measurement.date"
+          ],
+          "attributeContext": "Purchase Invoice Data/attributeContext/Purchase Invoice Data/Approved Date Time",
+          "dataFormat": "Date"
+        },
+        {
+          "name": "Batch ID",
+          "appliedTraits": [
+            "is.dataFormat.character",
+            "is.dataFormat.big",
+            "is.dataFormat.array"
+          ],
+          "attributeContext": "Purchase Invoice Data/attributeContext/Purchase Invoice Data/Batch ID",
+          "dataFormat": "String"
+        },
+        {
+          "name": "Billing Address Building",
+          "appliedTraits": [
+            "is.dataFormat.character",
+            "is.dataFormat.big",
+            "is.dataFormat.array"
+          ],
+          "attributeContext": "Purchase Invoice Data/attributeContext/Purchase Invoice Data/Billing Address Building",
+          "dataFormat": "String"
+        },
+        {
+          "name": "Billing Address City",
+          "appliedTraits": [
+            "is.dataFormat.character",
+            "is.dataFormat.big",
+            "is.dataFormat.array"
+          ],
+          "attributeContext": "Purchase Invoice Data/attributeContext/Purchase Invoice Data/Billing Address City",
+          "dataFormat": "String"
+        },
+        {
+          "name": "Billing Address Country",
+          "appliedTraits": [
+            "is.dataFormat.character",
+            "is.dataFormat.big",
+            "is.dataFormat.array"
+          ],
+          "attributeContext": "Purchase Invoice Data/attributeContext/Purchase Invoice Data/Billing Address Country",
+          "dataFormat": "String"
+        },
+        {
+          "name": "Billing Address Region",
+          "appliedTraits": [
+            "is.dataFormat.character",
+            "is.dataFormat.big",
+            "is.dataFormat.array"
+          ],
+          "attributeContext": "Purchase Invoice Data/attributeContext/Purchase Invoice Data/Billing Address Region",
+          "dataFormat": "String"
+        },
+        {
+          "name": "Billing Address Number",
+          "appliedTraits": [
+            {
+              "traitReference": "is.dataFormat.numeric.shaped"
+            }
+          ],
+          "attributeContext": "Purchase Invoice Data/attributeContext/Purchase Invoice Data/Billing Address Number",
+          "dataFormat": "Decimal"
+        },
+        {
+          "name": "Branch Store Number",
+          "appliedTraits": [
+            "is.dataFormat.character",
+            "is.dataFormat.big",
+            "is.dataFormat.array"
+          ],
+          "attributeContext": "Purchase Invoice Data/attributeContext/Purchase Invoice Data/Branch Store Number",
+          "dataFormat": "String"
+        },
+        {
+          "name": "Billing Address Postal Code",
+          "appliedTraits": [
+            "is.dataFormat.character",
+            "is.dataFormat.big",
+            "is.dataFormat.array"
+          ],
+          "attributeContext": "Purchase Invoice Data/attributeContext/Purchase Invoice Data/Billing Address Postal Code",
+          "dataFormat": "String"
+        },
+        {
+          "name": "Billing Address Street Name",
+          "appliedTraits": [
+            "is.dataFormat.character",
+            "is.dataFormat.big",
+            "is.dataFormat.array"
+          ],
+          "attributeContext": "Purchase Invoice Data/attributeContext/Purchase Invoice Data/Billing Address Street Name",
+          "dataFormat": "String"
+        },
+        {
+          "name": "Invoice Document Reference",
+          "appliedTraits": [
+            "is.dataFormat.character",
+            "is.dataFormat.big",
+            "is.dataFormat.array"
+          ],
+          "attributeContext": "Purchase Invoice Data/attributeContext/Purchase Invoice Data/Invoice Document Reference",
+          "dataFormat": "String"
+        },
+        {
+          "name": "GL Posting Date",
+          "appliedTraits": [
+            "is.dataFormat.date",
+            "means.measurement.date"
+          ],
+          "attributeContext": "Purchase Invoice Data/attributeContext/Purchase Invoice Data/GL Posting Date",
+          "dataFormat": "Date"
+        },
+        {
+          "name": "Line Analysis ID",
+          "appliedTraits": [
+            "is.dataFormat.character",
+            "is.dataFormat.big",
+            "is.dataFormat.array"
+          ],
+          "attributeContext": "Purchase Invoice Data/attributeContext/Purchase Invoice Data/Line Analysis ID",
+          "dataFormat": "String"
+        },
+        {
+          "name": "Line Analysis Amount",
+          "appliedTraits": [
+            "is.dataFormat.character",
+            "is.dataFormat.big",
+            "is.dataFormat.array"
+          ],
+          "attributeContext": "Purchase Invoice Data/attributeContext/Purchase Invoice Data/Line Analysis Amount",
+          "dataFormat": "String"
+        },
+        {
+          "name": "Line Analysis Type",
+          "appliedTraits": [
+            "is.dataFormat.character",
+            "is.dataFormat.big",
+            "is.dataFormat.array"
+          ],
+          "attributeContext": "Purchase Invoice Data/attributeContext/Purchase Invoice Data/Line Analysis Type",
+          "dataFormat": "String"
+        },
+        {
+          "name": "Line Invoice Due Date",
+          "appliedTraits": [
+            "is.dataFormat.date",
+            "means.measurement.date"
+          ],
+          "attributeContext": "Purchase Invoice Data/attributeContext/Purchase Invoice Data/Line Invoice Due Date",
+          "dataFormat": "Date"
+        },
+        {
+          "name": "Line Credit Note Reason",
+          "appliedTraits": [
+            "is.dataFormat.character",
+            "is.dataFormat.big",
+            "is.dataFormat.array"
+          ],
+          "attributeContext": "Purchase Invoice Data/attributeContext/Purchase Invoice Data/Line Credit Note Reason",
+          "dataFormat": "String"
+        },
+        {
+          "name": "Line Approved By",
+          "appliedTraits": [
+            "is.dataFormat.character",
+            "is.dataFormat.big",
+            "is.dataFormat.array"
+          ],
+          "attributeContext": "Purchase Invoice Data/attributeContext/Purchase Invoice Data/Line Approved By",
+          "dataFormat": "String"
+        },
+        {
+          "name": "Line Debit Credit Indicator",
+          "appliedTraits": [
+            "is.dataFormat.character",
+            "is.dataFormat.big",
+            "is.dataFormat.array"
+          ],
+          "attributeContext": "Purchase Invoice Data/attributeContext/Purchase Invoice Data/Line Debit Credit Indicator",
+          "dataFormat": "String"
+        },
+        {
+          "name": "Line Approved Date Time",
+          "appliedTraits": [
+            "is.dataFormat.date",
+            "means.measurement.date"
+          ],
+          "attributeContext": "Purchase Invoice Data/attributeContext/Purchase Invoice Data/Line Approved Date Time",
+          "dataFormat": "Date"
+        },
+        {
+          "name": "Line Credit Note Reference",
+          "appliedTraits": [
+            "is.dataFormat.character",
+            "is.dataFormat.big",
+            "is.dataFormat.array"
+          ],
+          "attributeContext": "Purchase Invoice Data/attributeContext/Purchase Invoice Data/Line Credit Note Reference",
+          "dataFormat": "String"
+        },
+        {
+          "name": "Line From Date",
+          "appliedTraits": [
+            "is.dataFormat.date",
+            "means.measurement.date"
+          ],
+          "attributeContext": "Purchase Invoice Data/attributeContext/Purchase Invoice Data/Line From Date",
+          "dataFormat": "Date"
+        },
+        {
+          "name": "Line Delivery Date",
+          "appliedTraits": [
+            "is.dataFormat.date",
+            "means.measurement.date"
+          ],
+          "attributeContext": "Purchase Invoice Data/attributeContext/Purchase Invoice Data/Line Delivery Date",
+          "dataFormat": "Date"
+        },
+        {
+          "name": "Line Goods Services ID",
+          "appliedTraits": [
+            "is.dataFormat.character",
+            "is.dataFormat.big",
+            "is.dataFormat.array"
+          ],
+          "attributeContext": "Purchase Invoice Data/attributeContext/Purchase Invoice Data/Line Goods Services ID",
+          "dataFormat": "String"
+        },
+        {
+          "name": "Line Invoice Line Amount Currency Amount",
+          "appliedTraits": [
+            {
+              "traitReference": "is.dataFormat.numeric.shaped"
+            }
+          ],
+          "attributeContext": "Purchase Invoice Data/attributeContext/Purchase Invoice Data/Line Invoice Line Amount Currency Amount",
+          "dataFormat": "Decimal"
+        },
+        {
+          "name": "Line Invoice Line Amount Exchange Rate",
+          "appliedTraits": [
+            {
+              "traitReference": "is.dataFormat.numeric.shaped"
+            }
+          ],
+          "attributeContext": "Purchase Invoice Data/attributeContext/Purchase Invoice Data/Line Invoice Line Amount Exchange Rate",
+          "dataFormat": "Decimal"
+        },
+        {
+          "name": "Line Invoice UOM",
+          "appliedTraits": [
+            "is.dataFormat.character",
+            "is.dataFormat.big",
+            "is.dataFormat.array"
+          ],
+          "attributeContext": "Purchase Invoice Data/attributeContext/Purchase Invoice Data/Line Invoice UOM",
+          "dataFormat": "String"
+        },
+        {
+          "name": "Line Movement Reference",
+          "appliedTraits": [
+            "is.dataFormat.character",
+            "is.dataFormat.big",
+            "is.dataFormat.array"
+          ],
+          "attributeContext": "Purchase Invoice Data/attributeContext/Purchase Invoice Data/Line Movement Reference",
+          "dataFormat": "String"
+        },
+        {
+          "name": "Line Line Number",
+          "appliedTraits": [
+            "is.dataFormat.character",
+            "is.dataFormat.big",
+            "is.dataFormat.array"
+          ],
+          "attributeContext": "Purchase Invoice Data/attributeContext/Purchase Invoice Data/Line Line Number",
+          "dataFormat": "String"
+        },
+        {
+          "name": "Line Order Date",
+          "appliedTraits": [
+            "is.dataFormat.date",
+            "means.measurement.date"
+          ],
+          "attributeContext": "Purchase Invoice Data/attributeContext/Purchase Invoice Data/Line Order Date",
+          "dataFormat": "Date"
+        },
+        {
+          "name": "Line Originating ON",
+          "appliedTraits": [
+            "is.dataFormat.character",
+            "is.dataFormat.big",
+            "is.dataFormat.array"
+          ],
+          "attributeContext": "Purchase Invoice Data/attributeContext/Purchase Invoice Data/Line Originating ON",
+          "dataFormat": "String"
+        },
+        {
+          "name": "Line Product Description",
+          "appliedTraits": [
+            "is.dataFormat.character",
+            "is.dataFormat.big",
+            "is.dataFormat.array"
+          ],
+          "attributeContext": "Purchase Invoice Data/attributeContext/Purchase Invoice Data/Line Product Description",
+          "dataFormat": "String"
+        },
+        {
+          "name": "Line Ship From Additional Address Detail",
+          "appliedTraits": [
+            "is.dataFormat.character",
+            "is.dataFormat.big",
+            "is.dataFormat.array"
+          ],
+          "attributeContext": "Purchase Invoice Data/attributeContext/Purchase Invoice Data/Line Ship From Additional Address Detail",
+          "dataFormat": "String"
+        },
+        {
+          "name": "Line Ship From Address Type",
+          "appliedTraits": [
+            "is.dataFormat.character",
+            "is.dataFormat.big",
+            "is.dataFormat.array"
+          ],
+          "attributeContext": "Purchase Invoice Data/attributeContext/Purchase Invoice Data/Line Ship From Address Type",
+          "dataFormat": "String"
+        },
+        {
+          "name": "Line Ship From Building",
+          "appliedTraits": [
+            "is.dataFormat.character",
+            "is.dataFormat.big",
+            "is.dataFormat.array"
+          ],
+          "attributeContext": "Purchase Invoice Data/attributeContext/Purchase Invoice Data/Line Ship From Building",
+          "dataFormat": "String"
+        },
+        {
+          "name": "Line Ship From Address",
+          "appliedTraits": [
+            "is.dataFormat.character",
+            "is.dataFormat.big",
+            "is.dataFormat.array"
+          ],
+          "attributeContext": "Purchase Invoice Data/attributeContext/Purchase Invoice Data/Line Ship From Address",
+          "dataFormat": "String"
+        },
+        {
+          "name": "Line Ship From City",
+          "appliedTraits": [
+            "is.dataFormat.character",
+            "is.dataFormat.big",
+            "is.dataFormat.array"
+          ],
+          "attributeContext": "Purchase Invoice Data/attributeContext/Purchase Invoice Data/Line Ship From City",
+          "dataFormat": "String"
+        },
+        {
+          "name": "Line Ship From Country",
+          "appliedTraits": [
+            "is.dataFormat.character",
+            "is.dataFormat.big",
+            "is.dataFormat.array"
+          ],
+          "attributeContext": "Purchase Invoice Data/attributeContext/Purchase Invoice Data/Line Ship From Country",
+          "dataFormat": "String"
+        },
+        {
+          "name": "Line Ship From Delivery ID",
+          "appliedTraits": [
+            "is.dataFormat.date",
+            "means.measurement.date"
+          ],
+          "attributeContext": "Purchase Invoice Data/attributeContext/Purchase Invoice Data/Line Ship From Delivery ID",
+          "dataFormat": "Date"
+        },
+        {
+          "name": "Line Ship From Location ID",
+          "appliedTraits": [
+            "is.dataFormat.character",
+            "is.dataFormat.big",
+            "is.dataFormat.array"
+          ],
+          "attributeContext": "Purchase Invoice Data/attributeContext/Purchase Invoice Data/Line Ship From Location ID",
+          "dataFormat": "String"
+        },
+        {
+          "name": "Line Ship From Delivery Date",
+          "appliedTraits": [
+            "is.dataFormat.character",
+            "is.dataFormat.big",
+            "is.dataFormat.array"
+          ],
+          "attributeContext": "Purchase Invoice Data/attributeContext/Purchase Invoice Data/Line Ship From Delivery Date",
+          "dataFormat": "String"
+        },
+        {
+          "name": "Line Ship From Number",
+          "appliedTraits": [
+            {
+              "traitReference": "is.dataFormat.numeric.shaped"
+            }
+          ],
+          "attributeContext": "Purchase Invoice Data/attributeContext/Purchase Invoice Data/Line Ship From Number",
+          "dataFormat": "Decimal"
+        },
+        {
+          "name": "Line Ship From Region",
+          "appliedTraits": [
+            "is.dataFormat.character",
+            "is.dataFormat.big",
+            "is.dataFormat.array"
+          ],
+          "attributeContext": "Purchase Invoice Data/attributeContext/Purchase Invoice Data/Line Ship From Region",
+          "dataFormat": "String"
+        },
+        {
+          "name": "Line Ship From Postal Code",
+          "appliedTraits": [
+            "is.dataFormat.character",
+            "is.dataFormat.big",
+            "is.dataFormat.array"
+          ],
+          "attributeContext": "Purchase Invoice Data/attributeContext/Purchase Invoice Data/Line Ship From Postal Code",
+          "dataFormat": "String"
+        },
+        {
+          "name": "Line Ship From Street Name",
+          "appliedTraits": [
+            "is.dataFormat.character",
+            "is.dataFormat.big",
+            "is.dataFormat.array"
+          ],
+          "attributeContext": "Purchase Invoice Data/attributeContext/Purchase Invoice Data/Line Ship From Street Name",
+          "dataFormat": "String"
+        },
+        {
+          "name": "Line Ship From Warehouse ID",
+          "appliedTraits": [
+            "is.dataFormat.character",
+            "is.dataFormat.big",
+            "is.dataFormat.array"
+          ],
+          "attributeContext": "Purchase Invoice Data/attributeContext/Purchase Invoice Data/Line Ship From Warehouse ID",
+          "dataFormat": "String"
+        },
+        {
+          "name": "Line Ship From UCR",
+          "appliedTraits": [
+            "is.dataFormat.character",
+            "is.dataFormat.big",
+            "is.dataFormat.array"
+          ],
+          "attributeContext": "Purchase Invoice Data/attributeContext/Purchase Invoice Data/Line Ship From UCR",
+          "dataFormat": "String"
+        },
+        {
+          "name": "Line Shipping Costs Amount Amount",
+          "appliedTraits": [
+            {
+              "traitReference": "is.dataFormat.numeric.shaped"
+            }
+          ],
+          "attributeContext": "Purchase Invoice Data/attributeContext/Purchase Invoice Data/Line Shipping Costs Amount Amount",
+          "dataFormat": "Decimal"
+        },
+        {
+          "name": "Line Shipping Costs Amount Currency Amount",
+          "appliedTraits": [
+            {
+              "traitReference": "is.dataFormat.numeric.shaped"
+            }
+          ],
+          "attributeContext": "Purchase Invoice Data/attributeContext/Purchase Invoice Data/Line Shipping Costs Amount Currency Amount",
+          "dataFormat": "Decimal"
+        },
+        {
+          "name": "Line Shipping Costs Amount Exchange Rate",
+          "appliedTraits": [
+            {
+              "traitReference": "is.dataFormat.numeric.shaped"
+            }
+          ],
+          "attributeContext": "Purchase Invoice Data/attributeContext/Purchase Invoice Data/Line Shipping Costs Amount Exchange Rate",
+          "dataFormat": "Decimal"
+        },
+        {
+          "name": "Line Ship To Additional Address Detail",
+          "appliedTraits": [
+            "is.dataFormat.character",
+            "is.dataFormat.big",
+            "is.dataFormat.array"
+          ],
+          "attributeContext": "Purchase Invoice Data/attributeContext/Purchase Invoice Data/Line Ship To Additional Address Detail",
+          "dataFormat": "String"
+        },
+        {
+          "name": "Line Shipping Costs Amount Currency Code",
+          "appliedTraits": [
+            "is.dataFormat.character",
+            "is.dataFormat.big",
+            "is.dataFormat.array"
+          ],
+          "attributeContext": "Purchase Invoice Data/attributeContext/Purchase Invoice Data/Line Shipping Costs Amount Currency Code",
+          "dataFormat": "String"
+        },
+        {
+          "name": "Line Ship To Address Type",
+          "appliedTraits": [
+            "is.dataFormat.character",
+            "is.dataFormat.big",
+            "is.dataFormat.array"
+          ],
+          "attributeContext": "Purchase Invoice Data/attributeContext/Purchase Invoice Data/Line Ship To Address Type",
+          "dataFormat": "String"
+        },
+        {
+          "name": "Line Ship To Building",
+          "appliedTraits": [
+            "is.dataFormat.character",
+            "is.dataFormat.big",
+            "is.dataFormat.array"
+          ],
+          "attributeContext": "Purchase Invoice Data/attributeContext/Purchase Invoice Data/Line Ship To Building",
+          "dataFormat": "String"
+        },
+        {
+          "name": "Line Ship To Address",
+          "appliedTraits": [
+            "is.dataFormat.character",
+            "is.dataFormat.big",
+            "is.dataFormat.array"
+          ],
+          "attributeContext": "Purchase Invoice Data/attributeContext/Purchase Invoice Data/Line Ship To Address",
+          "dataFormat": "String"
+        },
+        {
+          "name": "Line Ship To City",
+          "appliedTraits": [
+            "is.dataFormat.character",
+            "is.dataFormat.big",
+            "is.dataFormat.array"
+          ],
+          "attributeContext": "Purchase Invoice Data/attributeContext/Purchase Invoice Data/Line Ship To City",
+          "dataFormat": "String"
+        },
+        {
+          "name": "Line Ship To Country",
+          "appliedTraits": [
+            "is.dataFormat.character",
+            "is.dataFormat.big",
+            "is.dataFormat.array"
+          ],
+          "attributeContext": "Purchase Invoice Data/attributeContext/Purchase Invoice Data/Line Ship To Country",
+          "dataFormat": "String"
+        },
+        {
+          "name": "Line Ship To Delivery ID",
+          "appliedTraits": [
+            "is.dataFormat.date",
+            "means.measurement.date"
+          ],
+          "attributeContext": "Purchase Invoice Data/attributeContext/Purchase Invoice Data/Line Ship To Delivery ID",
+          "dataFormat": "Date"
+        },
+        {
+          "name": "Line Ship To Location ID",
+          "appliedTraits": [
+            "is.dataFormat.character",
+            "is.dataFormat.big",
+            "is.dataFormat.array"
+          ],
+          "attributeContext": "Purchase Invoice Data/attributeContext/Purchase Invoice Data/Line Ship To Location ID",
+          "dataFormat": "String"
+        },
+        {
+          "name": "Line Ship To Delivery Date",
+          "appliedTraits": [
+            "is.dataFormat.character",
+            "is.dataFormat.big",
+            "is.dataFormat.array"
+          ],
+          "attributeContext": "Purchase Invoice Data/attributeContext/Purchase Invoice Data/Line Ship To Delivery Date",
+          "dataFormat": "String"
+        },
+        {
+          "name": "Line Ship To Number",
+          "appliedTraits": [
+            {
+              "traitReference": "is.dataFormat.numeric.shaped"
+            }
+          ],
+          "attributeContext": "Purchase Invoice Data/attributeContext/Purchase Invoice Data/Line Ship To Number",
+          "dataFormat": "Decimal"
+        },
+        {
+          "name": "Line Ship To Region",
+          "appliedTraits": [
+            "is.dataFormat.character",
+            "is.dataFormat.big",
+            "is.dataFormat.array"
+          ],
+          "attributeContext": "Purchase Invoice Data/attributeContext/Purchase Invoice Data/Line Ship To Region",
+          "dataFormat": "String"
+        },
+        {
+          "name": "Line Ship To Postal Code",
+          "appliedTraits": [
+            "is.dataFormat.character",
+            "is.dataFormat.big",
+            "is.dataFormat.array"
+          ],
+          "attributeContext": "Purchase Invoice Data/attributeContext/Purchase Invoice Data/Line Ship To Postal Code",
+          "dataFormat": "String"
+        },
+        {
+          "name": "Line Ship To Street Name",
+          "appliedTraits": [
+            "is.dataFormat.character",
+            "is.dataFormat.big",
+            "is.dataFormat.array"
+          ],
+          "attributeContext": "Purchase Invoice Data/attributeContext/Purchase Invoice Data/Line Ship To Street Name",
+          "dataFormat": "String"
+        },
+        {
+          "name": "Line Ship To Warehouse ID",
+          "appliedTraits": [
+            "is.dataFormat.character",
+            "is.dataFormat.big",
+            "is.dataFormat.array"
+          ],
+          "attributeContext": "Purchase Invoice Data/attributeContext/Purchase Invoice Data/Line Ship To Warehouse ID",
+          "dataFormat": "String"
+        },
+        {
+          "name": "Line Ship To UCR",
+          "appliedTraits": [
+            "is.dataFormat.character",
+            "is.dataFormat.big",
+            "is.dataFormat.array"
+          ],
+          "attributeContext": "Purchase Invoice Data/attributeContext/Purchase Invoice Data/Line Ship To UCR",
+          "dataFormat": "String"
+        },
+        {
+          "name": "Line System Entry Date Time",
+          "appliedTraits": [
+            "is.dataFormat.date",
+            "means.measurement.date"
+          ],
+          "attributeContext": "Purchase Invoice Data/attributeContext/Purchase Invoice Data/Line System Entry Date Time",
+          "dataFormat": "Date"
+        },
+        {
+          "name": "Line System Modified Date Time",
+          "appliedTraits": [
+            "is.dataFormat.date",
+            "means.measurement.date"
+          ],
+          "attributeContext": "Purchase Invoice Data/attributeContext/Purchase Invoice Data/Line System Modified Date Time",
+          "dataFormat": "Date"
+        },
+        {
+          "name": "Line System M Odified User",
+          "appliedTraits": [
+            "is.dataFormat.character",
+            "is.dataFormat.big",
+            "is.dataFormat.array"
+          ],
+          "attributeContext": "Purchase Invoice Data/attributeContext/Purchase Invoice Data/Line System M Odified User",
+          "dataFormat": "String"
+        },
+        {
+          "name": "Line System Entry User",
+          "appliedTraits": [
+            "is.dataFormat.character",
+            "is.dataFormat.big",
+            "is.dataFormat.array"
+          ],
+          "attributeContext": "Purchase Invoice Data/attributeContext/Purchase Invoice Data/Line System Entry User",
+          "dataFormat": "String"
+        },
+        {
+          "name": "Line Tax Information Tax Base",
+          "appliedTraits": [
+            "is.dataFormat.character",
+            "is.dataFormat.big",
+            "is.dataFormat.array"
+          ],
+          "attributeContext": "Purchase Invoice Data/attributeContext/Purchase Invoice Data/Line Tax Information Tax Base",
+          "dataFormat": "String"
+        },
+        {
+          "name": "Line Tax Information Tax Base Description",
+          "appliedTraits": [
+            "is.dataFormat.character",
+            "is.dataFormat.big",
+            "is.dataFormat.array"
+          ],
+          "attributeContext": "Purchase Invoice Data/attributeContext/Purchase Invoice Data/Line Tax Information Tax Base Description",
+          "dataFormat": "String"
+        },
+        {
+          "name": "Line Tax Point Date",
+          "appliedTraits": [
+            "is.dataFormat.date",
+            "means.measurement.date"
+          ],
+          "attributeContext": "Purchase Invoice Data/attributeContext/Purchase Invoice Data/Line Tax Point Date",
+          "dataFormat": "Date"
+        },
+        {
+          "name": "Line Tax Information Tax Declaration Period",
+          "appliedTraits": [
+            "is.dataFormat.character",
+            "is.dataFormat.big",
+            "is.dataFormat.array"
+          ],
+          "attributeContext": "Purchase Invoice Data/attributeContext/Purchase Invoice Data/Line Tax Information Tax Declaration Period",
+          "dataFormat": "String"
+        },
+        {
+          "name": "Line Tax Information Tax Exemption Reason",
+          "appliedTraits": [
+            "is.dataFormat.character",
+            "is.dataFormat.big",
+            "is.dataFormat.array"
+          ],
+          "attributeContext": "Purchase Invoice Data/attributeContext/Purchase Invoice Data/Line Tax Information Tax Exemption Reason",
+          "dataFormat": "String"
+        },
+        {
+          "name": "Line Tax Information Tax Percentage",
+          "appliedTraits": [
+            {
+              "traitReference": "is.dataFormat.numeric.shaped"
+            }
+          ],
+          "attributeContext": "Purchase Invoice Data/attributeContext/Purchase Invoice Data/Line Tax Information Tax Percentage",
+          "dataFormat": "Decimal"
+        },
+        {
+          "name": "Line Tax Information Tax Type",
+          "appliedTraits": [
+            "is.dataFormat.character",
+            "is.dataFormat.big",
+            "is.dataFormat.array"
+          ],
+          "attributeContext": "Purchase Invoice Data/attributeContext/Purchase Invoice Data/Line Tax Information Tax Type",
+          "dataFormat": "String"
+        },
+        {
+          "name": "Line To Date",
+          "appliedTraits": [
+            "is.dataFormat.date",
+            "means.measurement.date"
+          ],
+          "attributeContext": "Purchase Invoice Data/attributeContext/Purchase Invoice Data/Line To Date",
+          "dataFormat": "Date"
+        },
+        {
+          "name": "Period",
+          "appliedTraits": [
+            "is.dataFormat.character",
+            "is.dataFormat.big",
+            "is.dataFormat.array"
+          ],
+          "attributeContext": "Purchase Invoice Data/attributeContext/Purchase Invoice Data/Period",
+          "dataFormat": "String"
+        },
+        {
+          "name": "Line UOM To UOM Base Conversion Factor",
+          "appliedTraits": [
+            {
+              "traitReference": "is.dataFormat.numeric.shaped"
+            }
+          ],
+          "attributeContext": "Purchase Invoice Data/attributeContext/Purchase Invoice Data/Line UOM To UOM Base Conversion Factor",
+          "dataFormat": "Decimal"
+        },
+        {
+          "name": "Payment Terms",
+          "appliedTraits": [
+            "is.dataFormat.character",
+            "is.dataFormat.big",
+            "is.dataFormat.array"
+          ],
+          "attributeContext": "Purchase Invoice Data/attributeContext/Purchase Invoice Data/Payment Terms",
+          "dataFormat": "String"
+        },
+        {
+          "name": "Period Year",
+          "appliedTraits": [
+            "is.dataFormat.date",
+            "means.measurement.date"
+          ],
+          "attributeContext": "Purchase Invoice Data/attributeContext/Purchase Invoice Data/Period Year",
+          "dataFormat": "Date"
+        },
+        {
+          "name": "Posting Status",
+          "appliedTraits": [
+            "is.dataFormat.character",
+            "is.dataFormat.big",
+            "is.dataFormat.array"
+          ],
+          "attributeContext": "Purchase Invoice Data/attributeContext/Purchase Invoice Data/Posting Status",
+          "dataFormat": "String"
+        },
+        {
+          "name": "Settlement Amount",
+          "appliedTraits": [
+            {
+              "traitReference": "is.dataFormat.numeric.shaped"
+            }
+          ],
+          "attributeContext": "Purchase Invoice Data/attributeContext/Purchase Invoice Data/Settlement Amount",
+          "dataFormat": "Decimal"
+        },
+        {
+          "name": "Receipt Numbers",
+          "appliedTraits": [
+            "is.dataFormat.character",
+            "is.dataFormat.big",
+            "is.dataFormat.array"
+          ],
+          "attributeContext": "Purchase Invoice Data/attributeContext/Purchase Invoice Data/Receipt Numbers",
+          "dataFormat": "String"
+        },
+        {
+          "name": "Self Billing Indicator",
+          "appliedTraits": [
+            "is.dataFormat.character",
+            "is.dataFormat.big",
+            "is.dataFormat.array"
+          ],
+          "attributeContext": "Purchase Invoice Data/attributeContext/Purchase Invoice Data/Self Billing Indicator",
+          "dataFormat": "String"
+        },
+        {
+          "name": "Settlement Currency Amount",
+          "appliedTraits": [
+            {
+              "traitReference": "is.dataFormat.numeric.shaped"
+            }
+          ],
+          "attributeContext": "Purchase Invoice Data/attributeContext/Purchase Invoice Data/Settlement Currency Amount",
+          "dataFormat": "Decimal"
+        },
+        {
+          "name": "Settlement Currency Code",
+          "appliedTraits": [
+            "is.dataFormat.character",
+            "is.dataFormat.big",
+            "is.dataFormat.array"
+          ],
+          "attributeContext": "Purchase Invoice Data/attributeContext/Purchase Invoice Data/Settlement Currency Code",
+          "dataFormat": "String"
+        },
+        {
+          "name": "Ship From Address",
+          "appliedTraits": [
+            "is.dataFormat.character",
+            "is.dataFormat.big",
+            "is.dataFormat.array"
+          ],
+          "attributeContext": "Purchase Invoice Data/attributeContext/Purchase Invoice Data/Ship From Address",
+          "dataFormat": "String"
+        },
+        {
+          "name": "Settlement Exchange Rate",
+          "appliedTraits": [
+            {
+              "traitReference": "is.dataFormat.numeric.shaped"
+            }
+          ],
+          "attributeContext": "Purchase Invoice Data/attributeContext/Purchase Invoice Data/Settlement Exchange Rate",
+          "dataFormat": "Decimal"
+        },
+        {
+          "name": "Settlement Payment Mechanism",
+          "appliedTraits": [
+            "is.dataFormat.character",
+            "is.dataFormat.big",
+            "is.dataFormat.array"
+          ],
+          "attributeContext": "Purchase Invoice Data/attributeContext/Purchase Invoice Data/Settlement Payment Mechanism",
+          "dataFormat": "String"
+        },
+        {
+          "name": "Settlement Settlement Date",
+          "appliedTraits": [
+            "is.dataFormat.date",
+            "means.measurement.date"
+          ],
+          "attributeContext": "Purchase Invoice Data/attributeContext/Purchase Invoice Data/Settlement Settlement Date",
+          "dataFormat": "Date"
+        },
+        {
+          "name": "Settlement Settlement Discount",
+          "appliedTraits": [
+            {
+              "traitReference": "is.dataFormat.numeric.shaped"
+            }
+          ],
+          "attributeContext": "Purchase Invoice Data/attributeContext/Purchase Invoice Data/Settlement Settlement Discount",
+          "dataFormat": "Decimal"
+        },
+        {
+          "name": "Ship From Additional Address Detail",
+          "appliedTraits": [
+            "is.dataFormat.character",
+            "is.dataFormat.big",
+            "is.dataFormat.array"
+          ],
+          "attributeContext": "Purchase Invoice Data/attributeContext/Purchase Invoice Data/Ship From Additional Address Detail",
+          "dataFormat": "String"
+        },
+        {
+          "name": "Ship From City",
+          "appliedTraits": [
+            "is.dataFormat.character",
+            "is.dataFormat.big",
+            "is.dataFormat.array"
+          ],
+          "attributeContext": "Purchase Invoice Data/attributeContext/Purchase Invoice Data/Ship From City",
+          "dataFormat": "String"
+        },
+        {
+          "name": "Ship From Address Type",
+          "appliedTraits": [
+            "is.dataFormat.character",
+            "is.dataFormat.big",
+            "is.dataFormat.array"
+          ],
+          "attributeContext": "Purchase Invoice Data/attributeContext/Purchase Invoice Data/Ship From Address Type",
+          "dataFormat": "String"
+        },
+        {
+          "name": "Ship From Building",
+          "appliedTraits": [
+            "is.dataFormat.character",
+            "is.dataFormat.big",
+            "is.dataFormat.array"
+          ],
+          "attributeContext": "Purchase Invoice Data/attributeContext/Purchase Invoice Data/Ship From Building",
+          "dataFormat": "String"
+        },
+        {
+          "name": "Ship From Country",
+          "appliedTraits": [
+            "is.dataFormat.character",
+            "is.dataFormat.big",
+            "is.dataFormat.array"
+          ],
+          "attributeContext": "Purchase Invoice Data/attributeContext/Purchase Invoice Data/Ship From Country",
+          "dataFormat": "String"
+        },
+        {
+          "name": "Ship From Delivery ID",
+          "appliedTraits": [
+            "is.dataFormat.date",
+            "means.measurement.date"
+          ],
+          "attributeContext": "Purchase Invoice Data/attributeContext/Purchase Invoice Data/Ship From Delivery ID",
+          "dataFormat": "Date"
+        },
+        {
+          "name": "Ship From Delivery Date",
+          "appliedTraits": [
+            "is.dataFormat.character",
+            "is.dataFormat.big",
+            "is.dataFormat.array"
+          ],
+          "attributeContext": "Purchase Invoice Data/attributeContext/Purchase Invoice Data/Ship From Delivery Date",
+          "dataFormat": "String"
+        },
+        {
+          "name": "Ship From Number",
+          "appliedTraits": [
+            {
+              "traitReference": "is.dataFormat.numeric.shaped"
+            }
+          ],
+          "attributeContext": "Purchase Invoice Data/attributeContext/Purchase Invoice Data/Ship From Number",
+          "dataFormat": "Decimal"
+        },
+        {
+          "name": "Ship From Location ID",
+          "appliedTraits": [
+            "is.dataFormat.character",
+            "is.dataFormat.big",
+            "is.dataFormat.array"
+          ],
+          "attributeContext": "Purchase Invoice Data/attributeContext/Purchase Invoice Data/Ship From Location ID",
+          "dataFormat": "String"
+        },
+        {
+          "name": "Ship From Postal Code",
+          "appliedTraits": [
+            "is.dataFormat.character",
+            "is.dataFormat.big",
+            "is.dataFormat.array"
+          ],
+          "attributeContext": "Purchase Invoice Data/attributeContext/Purchase Invoice Data/Ship From Postal Code",
+          "dataFormat": "String"
+        },
+        {
+          "name": "Ship From Street Name",
+          "appliedTraits": [
+            "is.dataFormat.character",
+            "is.dataFormat.big",
+            "is.dataFormat.array"
+          ],
+          "attributeContext": "Purchase Invoice Data/attributeContext/Purchase Invoice Data/Ship From Street Name",
+          "dataFormat": "String"
+        },
+        {
+          "name": "Ship From Region",
+          "appliedTraits": [
+            "is.dataFormat.character",
+            "is.dataFormat.big",
+            "is.dataFormat.array"
+          ],
+          "attributeContext": "Purchase Invoice Data/attributeContext/Purchase Invoice Data/Ship From Region",
+          "dataFormat": "String"
+        },
+        {
+          "name": "Ship From UCR",
+          "appliedTraits": [
+            "is.dataFormat.character",
+            "is.dataFormat.big",
+            "is.dataFormat.array"
+          ],
+          "attributeContext": "Purchase Invoice Data/attributeContext/Purchase Invoice Data/Ship From UCR",
+          "dataFormat": "String"
+        },
+        {
+          "name": "Ship To Address",
+          "appliedTraits": [
+            "is.dataFormat.character",
+            "is.dataFormat.big",
+            "is.dataFormat.array"
+          ],
+          "attributeContext": "Purchase Invoice Data/attributeContext/Purchase Invoice Data/Ship To Address",
+          "dataFormat": "String"
+        },
+        {
+          "name": "Ship From Warehouse ID",
+          "appliedTraits": [
+            "is.dataFormat.character",
+            "is.dataFormat.big",
+            "is.dataFormat.array"
+          ],
+          "attributeContext": "Purchase Invoice Data/attributeContext/Purchase Invoice Data/Ship From Warehouse ID",
+          "dataFormat": "String"
+        },
+        {
+          "name": "Ship To Additional Address Detail",
+          "appliedTraits": [
+            "is.dataFormat.character",
+            "is.dataFormat.big",
+            "is.dataFormat.array"
+          ],
+          "attributeContext": "Purchase Invoice Data/attributeContext/Purchase Invoice Data/Ship To Additional Address Detail",
+          "dataFormat": "String"
+        },
+        {
+          "name": "Ship To City",
+          "appliedTraits": [
+            "is.dataFormat.character",
+            "is.dataFormat.big",
+            "is.dataFormat.array"
+          ],
+          "attributeContext": "Purchase Invoice Data/attributeContext/Purchase Invoice Data/Ship To City",
+          "dataFormat": "String"
+        },
+        {
+          "name": "Ship To Address Type",
+          "appliedTraits": [
+            "is.dataFormat.character",
+            "is.dataFormat.big",
+            "is.dataFormat.array"
+          ],
+          "attributeContext": "Purchase Invoice Data/attributeContext/Purchase Invoice Data/Ship To Address Type",
+          "dataFormat": "String"
+        },
+        {
+          "name": "Ship To Building",
+          "appliedTraits": [
+            "is.dataFormat.character",
+            "is.dataFormat.big",
+            "is.dataFormat.array"
+          ],
+          "attributeContext": "Purchase Invoice Data/attributeContext/Purchase Invoice Data/Ship To Building",
+          "dataFormat": "String"
+        },
+        {
+          "name": "Ship To Country",
+          "appliedTraits": [
+            "is.dataFormat.character",
+            "is.dataFormat.big",
+            "is.dataFormat.array"
+          ],
+          "attributeContext": "Purchase Invoice Data/attributeContext/Purchase Invoice Data/Ship To Country",
+          "dataFormat": "String"
+        },
+        {
+          "name": "Ship To Delivery ID",
+          "appliedTraits": [
+            "is.dataFormat.date",
+            "means.measurement.date"
+          ],
+          "attributeContext": "Purchase Invoice Data/attributeContext/Purchase Invoice Data/Ship To Delivery ID",
+          "dataFormat": "Date"
+        },
+        {
+          "name": "Ship To Delivery Date",
+          "appliedTraits": [
+            "is.dataFormat.character",
+            "is.dataFormat.big",
+            "is.dataFormat.array"
+          ],
+          "attributeContext": "Purchase Invoice Data/attributeContext/Purchase Invoice Data/Ship To Delivery Date",
+          "dataFormat": "String"
+        },
+        {
+          "name": "Ship To Number",
+          "appliedTraits": [
+            {
+              "traitReference": "is.dataFormat.numeric.shaped"
+            }
+          ],
+          "attributeContext": "Purchase Invoice Data/attributeContext/Purchase Invoice Data/Ship To Number",
+          "dataFormat": "Decimal"
+        },
+        {
+          "name": "Ship To Location ID",
+          "appliedTraits": [
+            "is.dataFormat.character",
+            "is.dataFormat.big",
+            "is.dataFormat.array"
+          ],
+          "attributeContext": "Purchase Invoice Data/attributeContext/Purchase Invoice Data/Ship To Location ID",
+          "dataFormat": "String"
+        },
+        {
+          "name": "Ship To Postal Code",
+          "appliedTraits": [
+            "is.dataFormat.character",
+            "is.dataFormat.big",
+            "is.dataFormat.array"
+          ],
+          "attributeContext": "Purchase Invoice Data/attributeContext/Purchase Invoice Data/Ship To Postal Code",
+          "dataFormat": "String"
+        },
+        {
+          "name": "Ship To Street Name",
+          "appliedTraits": [
+            "is.dataFormat.character",
+            "is.dataFormat.big",
+            "is.dataFormat.array"
+          ],
+          "attributeContext": "Purchase Invoice Data/attributeContext/Purchase Invoice Data/Ship To Street Name",
+          "dataFormat": "String"
+        },
+        {
+          "name": "Ship To Region",
+          "appliedTraits": [
+            "is.dataFormat.character",
+            "is.dataFormat.big",
+            "is.dataFormat.array"
+          ],
+          "attributeContext": "Purchase Invoice Data/attributeContext/Purchase Invoice Data/Ship To Region",
+          "dataFormat": "String"
+        },
+        {
+          "name": "Ship To UCR",
+          "appliedTraits": [
+            "is.dataFormat.character",
+            "is.dataFormat.big",
+            "is.dataFormat.array"
+          ],
+          "attributeContext": "Purchase Invoice Data/attributeContext/Purchase Invoice Data/Ship To UCR",
+          "dataFormat": "String"
+        },
+        {
+          "name": "Ship To Warehouse ID",
+          "appliedTraits": [
+            "is.dataFormat.character",
+            "is.dataFormat.big",
+            "is.dataFormat.array"
+          ],
+          "attributeContext": "Purchase Invoice Data/attributeContext/Purchase Invoice Data/Ship To Warehouse ID",
+          "dataFormat": "String"
+        },
+        {
+          "name": "Source ID",
+          "appliedTraits": [
+            "is.dataFormat.character",
+            "is.dataFormat.big",
+            "is.dataFormat.array"
+          ],
+          "attributeContext": "Purchase Invoice Data/attributeContext/Purchase Invoice Data/Source ID",
+          "dataFormat": "String"
+        },
+        {
+          "name": "System ID",
+          "appliedTraits": [
+            "is.dataFormat.date",
+            "means.measurement.date"
+          ],
+          "attributeContext": "Purchase Invoice Data/attributeContext/Purchase Invoice Data/System ID",
+          "dataFormat": "Date"
+        },
+        {
+          "name": "System Entry Date Time",
+          "appliedTraits": [
+            "is.dataFormat.character",
+            "is.dataFormat.big",
+            "is.dataFormat.array"
+          ],
+          "attributeContext": "Purchase Invoice Data/attributeContext/Purchase Invoice Data/System Entry Date Time",
+          "dataFormat": "String"
+        },
+        {
+          "name": "System Modified User",
+          "appliedTraits": [
+            "is.dataFormat.character",
+            "is.dataFormat.big",
+            "is.dataFormat.array"
+          ],
+          "attributeContext": "Purchase Invoice Data/attributeContext/Purchase Invoice Data/System Modified User",
+          "dataFormat": "String"
+        },
+        {
+          "name": "Transaction ID",
+          "appliedTraits": [
+            "is.dataFormat.character",
+            "is.dataFormat.big",
+            "is.dataFormat.array"
+          ],
+          "attributeContext": "Purchase Invoice Data/attributeContext/Purchase Invoice Data/Transaction ID",
+          "dataFormat": "String"
+        },
+        {
+          "name": "System Entry User",
+          "appliedTraits": [
+            "is.dataFormat.date",
+            "means.measurement.date"
+          ],
+          "attributeContext": "Purchase Invoice Data/attributeContext/Purchase Invoice Data/System Entry User",
+          "dataFormat": "Date"
+        },
+        {
+          "name": "System Modified Date Time",
+          "appliedTraits": [
+            "is.dataFormat.character",
+            "is.dataFormat.big",
+            "is.dataFormat.array"
+          ],
+          "attributeContext": "Purchase Invoice Data/attributeContext/Purchase Invoice Data/System Modified Date Time",
+          "dataFormat": "String"
+        },
+        {
+          "name": "Line Account ID",
+          "appliedTraits": [
+            "is.dataFormat.character",
+            "is.dataFormat.big",
+            "is.dataFormat.array"
+          ],
+          "attributeContext": "Purchase Invoice Data/attributeContext/Purchase Invoice Data/Line Account ID",
+          "dataFormat": "String"
+        },
+        {
+          "name": "Supplier Info Name",
+          "appliedTraits": [
+            "is.dataFormat.character",
+            "is.dataFormat.big",
+            "is.dataFormat.array"
+          ],
+          "attributeContext": "Purchase Invoice Data/attributeContext/Purchase Invoice Data/Supplier Info Name",
+          "dataFormat": "String"
+        },
+        {
+          "name": "Line Invoice Line Amount Currency Code",
+          "appliedTraits": [
+            "is.dataFormat.character",
+            "is.dataFormat.big",
+            "is.dataFormat.array"
+          ],
+          "attributeContext": "Purchase Invoice Data/attributeContext/Purchase Invoice Data/Line Invoice Line Amount Currency Code",
+          "dataFormat": "String"
+        },
+        {
+          "name": "Line Description",
+          "appliedTraits": [
+            "is.dataFormat.character",
+            "is.dataFormat.big",
+            "is.dataFormat.array"
+          ],
+          "attributeContext": "Purchase Invoice Data/attributeContext/Purchase Invoice Data/Line Description",
+          "dataFormat": "String"
+        },
+        {
+          "name": "Invoice Due Date",
+          "appliedTraits": [
+            "is.dataFormat.date",
+            "means.measurement.date"
+          ],
+          "attributeContext": "Purchase Invoice Data/attributeContext/Purchase Invoice Data/Invoice Due Date",
+          "dataFormat": "Date"
+        },
+        {
+          "name": "Line Product Code",
+          "appliedTraits": [
+            "is.dataFormat.character",
+            "is.dataFormat.big",
+            "is.dataFormat.array"
+          ],
+          "attributeContext": "Purchase Invoice Data/attributeContext/Purchase Invoice Data/Line Product Code",
+          "dataFormat": "String"
+        },
+        {
+          "name": "Document Totals Payment Amount Totals Amount",
+          "appliedTraits": [
+            {
+              "traitReference": "is.dataFormat.numeric.shaped"
+            }
+          ],
+          "attributeContext": "Purchase Invoice Data/attributeContext/Purchase Invoice Data/Document Totals Payment Amount Totals Amount",
+          "dataFormat": "Decimal"
+        },
+        {
+          "name": "Invoice Date",
+          "appliedTraits": [
+            "is.dataFormat.date",
+            "means.measurement.date"
+          ],
+          "attributeContext": "Purchase Invoice Data/attributeContext/Purchase Invoice Data/Invoice Date",
+          "dataFormat": "Date"
+        },
+        {
+          "name": "Invoice No",
+          "appliedTraits": [
+            "is.dataFormat.character",
+            "is.dataFormat.big",
+            "is.dataFormat.array"
+          ],
+          "attributeContext": "Purchase Invoice Data/attributeContext/Purchase Invoice Data/Invoice No",
+          "dataFormat": "String"
+        },
+        {
+          "name": "Line Invoice Line Amount Amount",
+          "appliedTraits": [
+            {
+              "traitReference": "is.dataFormat.numeric.shaped"
+            }
+          ],
+          "attributeContext": "Purchase Invoice Data/attributeContext/Purchase Invoice Data/Line Invoice Line Amount Amount",
+          "dataFormat": "Decimal"
+        },
+        {
+          "name": "Line Quantity",
+          "appliedTraits": [
+            {
+              "traitReference": "is.dataFormat.numeric.shaped"
+            }
+          ],
+          "attributeContext": "Purchase Invoice Data/attributeContext/Purchase Invoice Data/Line Quantity",
+          "dataFormat": "Decimal"
+        },
+        {
+          "name": "Line Tax Information Tax Amount",
+          "appliedTraits": [
+            {
+              "traitReference": "is.dataFormat.numeric.shaped"
+            }
+          ],
+          "attributeContext": "Purchase Invoice Data/attributeContext/Purchase Invoice Data/Line Tax Information Tax Amount",
+          "dataFormat": "Decimal"
+        },
+        {
+          "name": "Line Tax Information Tax Code",
+          "appliedTraits": [
+            "is.dataFormat.character",
+            "is.dataFormat.big",
+            "is.dataFormat.array"
+          ],
+          "attributeContext": "Purchase Invoice Data/attributeContext/Purchase Invoice Data/Line Tax Information Tax Code",
+          "dataFormat": "String"
+        },
+        {
+          "name": "Invoice Type",
+          "appliedTraits": [
+            "is.dataFormat.character",
+            "is.dataFormat.big",
+            "is.dataFormat.array"
+          ],
+          "attributeContext": "Purchase Invoice Data/attributeContext/Purchase Invoice Data/Invoice Type",
+          "dataFormat": "String"
+        },
+        {
+          "name": "Line Unit Price",
+          "appliedTraits": [
+            {
+              "traitReference": "is.dataFormat.numeric.shaped"
+            }
+          ],
+          "attributeContext": "Purchase Invoice Data/attributeContext/Purchase Invoice Data/Line Unit Price",
+          "dataFormat": "Decimal"
+        }
+      ]
+    }
+  ]
+}

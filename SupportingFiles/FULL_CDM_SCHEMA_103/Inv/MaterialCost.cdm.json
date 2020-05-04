@@ -1,0 +1,65 @@
+{
+  "jsonSchemaSemanticVersion": "1.0.0",
+  "imports": [
+    {
+      "corpusPath": "cdm:/foundations.cdm.json"
+    }
+  ],
+  "definitions": [
+    {
+      "entityName": "MaterialCost",
+      "hasAttributes": [
+        {
+          "name": "Material Cost Business Unit",
+          "purpose": "hasA",
+          "dataType": "string"
+        },
+        {
+          "name": "Material Cost Costing Type",
+          "purpose": "hasA",
+          "dataType": "string"
+        },
+        {
+          "name": "Material Cost Inventory Product ID",
+          "purpose": "hasA",
+          "dataType": "string"
+        },
+        {
+          "name": "Material Cost Line Item Cost",
+          "purpose": "hasA",
+          "dataType": "decimal"
+        },
+        {
+          "name": "Material Cost Location ID",
+          "purpose": "hasA",
+          "dataType": "string"
+        },
+        {
+          "name": "Material Cost Total Cost",
+          "purpose": "hasA",
+          "dataType": "decimal"
+        },
+        {
+          "name": "Material Cost Unit Of Measure",
+          "purpose": "hasA",
+          "dataType": "string"
+        },
+        {
+          "name": "Material Cost Val ID From Date ",
+          "purpose": "hasA",
+          "dataType": "date"
+        },
+        {
+          "name": "Material Cost Val ID To Date",
+          "purpose": "hasA",
+          "dataType": "date"
+        },
+        {
+          "name": "Material Cost Valuation Date",
+          "purpose": "hasA",
+          "dataType": "date"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "jsonSchemaSemanticVersion": "1.0.0",
+  "imports": [
+    {
+      "corpusPath": "cdm:/foundations.cdm.json"
+    }
+  ],
+  "definitions": [
+    {
+      "entityName": "Segment - Field Description Lookup",
+      "hasAttributes": [
+        {
+          "name": "Segment0 X Description",
+          "purpose": "hasA",
+          "dataType": "string"
+        },
+        {
+          "name": "Segment0 X Value",
+          "purpose": "hasA",
+          "dataType": "string"
+        }
+      ]
+    }
+  ]
+}
