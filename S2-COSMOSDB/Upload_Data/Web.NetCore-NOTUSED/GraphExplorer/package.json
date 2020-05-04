@@ -15,7 +15,7 @@
     "json-formatter": "^0.1.0",
     "json-formatter-js": "^2.2.0",
     "vis": "^4.19.1",
-    "webpack-dev-server": "^2.4.5"
+    "webpack-dev-server": "^3.10.3"
   },
   "devDependencies": {
     "@types/node": "^7.0.12",
