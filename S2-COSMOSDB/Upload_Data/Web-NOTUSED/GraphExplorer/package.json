@@ -24,7 +24,7 @@
     "jquery": "3.0.0",
     "json-formatter-js": "^2.2.0",
     "popper.js": "^1.14.7",
-    "ajv": "6.9.1"
+    "ajv": "6.12.3"
   },
   "devDependencies": {
     "@types/node": "^6.0.45",
